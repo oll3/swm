@@ -1,0 +1,397 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<!-- Level File -->
+<WorldFile>
+	<World name="WARMING UP" health="3" background="Background1" backgroundColor="0x80b0f1">
+	    
+	    <Level creaturesAlive="3" creaturesAliveMinInterval="400" creaturesAliveMaxInterval="4000">
+	        
+	        <!-- Creatures on this level -->
+	        
+	        <!-- Hitable attributes are type, level, copies, chance, mustBeDestroyed.
+	        * type are the type of hitable object eg Bird1. Must be set.
+	        * level is the of level of the hitable object. Only applies to some objects. Default is 1.
+	        * copies are the number of instances to create of this hitable object. Default is 1.
+	        * chance is the chance of this object being created. Default is 1.0 (that is, always create).
+	        * mustBeDestroyed tells us if the object must be destroyed by player to finish level. Default is true. -->
+	        
+	        <Hitable type="Owl1" level="1" copies="5"/>
+            <Hitable type="BirdWithCat" level="1" copies="5" mustBeKilled="false"/>
+            
+	        	        <!--  
+	        <Hitable type="Bird1" level="1" copies="6"/>
+            <Hitable type="Bird1" level="2" copies="6"/>
+            <Hitable type="Bird1" level="3" copies="6"/>
+            <Hitable type="Bird1" level="4" copies="6"/>
+            <Hitable type="Bird1" level="5" copies="6"/>
+            <Hitable type="Hen1" level="1" copies="1"/>
+            <Hitable type="Hen1" level="2" copies="1"/>
+            <Hitable type="Hen1" level="3" copies="1"/>
+            <Hitable type="Hen1" level="4" copies="1"/>
+            <Hitable type="Hen1" level="5" copies="1"/>
+            <Hitable type="Hummingbird1" level="1" copies="1"/>
+            <Hitable type="Hummingbird1" level="2" copies="1"/>
+            <Hitable type="Hummingbird1" level="3" copies="1"/>
+            <Hitable type="Hummingbird1" level="4" copies="1"/>
+            <Hitable type="Hummingbird1" level="5" copies="1"/>
+			-->
+	        <!-- Chance of gaining items on this level -->
+			
+			<Hitable type="BombItem" chance="1.0" mustBeKilled="false"/>
+			<Hitable type="FreezeItem" chance="1.0" mustBeKilled="false"/>
+			<Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+		</Level>
+	    
+		<Level>
+		    
+		    <Hitable type="BirdWithCat" level="1" copies="5" mustBeKilled="false"/>
+	
+		    <!-- Creatures on this level -->
+		    <Hitable type="Owl1" level="1" copies="10"/>
+            <Hitable type="Bird1" level="1" copies="7"/>
+            <Hitable type="Hen1" level="1" copies="1"/>
+            <Hitable type="Hummingbird1" level="1" copies="1"/>
+	
+	        <!-- Chance of gaining items on this level -->
+			
+			<Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+			<Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+			<Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+		</Level>
+		
+		<Level>
+		    
+		    <Hitable type="BirdWithCat" level="1" copies="5" mustBeKilled="false"/>
+	
+		    <!-- Creatures on this level -->
+		    <Hitable type="Owl1" level="1" copies="10"/>
+			<Hitable type="Bird1" level="1" copies="8"/>
+			<Hitable type="Hen1" level="1" copies="1"/>
+			<Hitable type="Hummingbird1" level="1" copies="1"/>
+
+	        <!-- Chance of gaining items on this level -->
+			
+			<Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+			<Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+			<Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+		</Level>
+		
+		<Level>
+		    
+		    <Hitable type="BirdWithCat" level="1" copies="5" mustBeKilled="false"/>
+    
+            <!-- Creatures on this level -->
+            <Hitable type="Owl1" level="1" copies="10"/>
+            <Hitable type="Bird1" level="1" copies="9"/>
+            <Hitable type="Hen1" level="1" copies="1"/>
+            <Hitable type="Hummingbird1" level="1" copies="1"/>
+
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+		<Level>
+		    
+		    <Hitable type="BirdWithCat" level="1" copies="5" mustBeKilled="false"/>
+    
+            <!-- Creatures on this level -->
+            <Hitable type="Owl1" level="1" copies="10"/>
+            <Hitable type="Bird1" level="1" copies="10"/>
+            <Hitable type="Hen1" level="1" copies="1"/>
+            <Hitable type="Hummingbird1" level="1" copies="1"/>
+
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+            
+            <Hitable type="BirdWithCat" level="1" copies="5" mustBeKilled="false"/>
+    
+            <!-- Creatures on this level -->
+            <Hitable type="Owl1" level="1" copies="10"/>
+            <Hitable type="Bird1" level="1" copies="11"/>
+            <Hitable type="Hen1" level="1" copies="1"/>
+            <Hitable type="Hummingbird1" level="1" copies="1"/>
+            
+            
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+		
+	</World>
+	
+	<World name="On the Wings of Love" health="3" background="Background1" backgroundColor="0xc05041">
+        
+        <Level creaturesAlive="5" creaturesAliveMinInterval="300" creaturesAliveMaxInterval="2000">
+            
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="2" copies="8"/>
+            <Hitable type="Hummingbird1" level="1" copies="2"/>
+            
+            <!-- Bonus cat! -->
+            <Hitable type="BirdWithCat" chance="0.2" level="1" copies="2" mustBeKilled="false"/>
+            
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="1" copies="9"/>
+            <Hitable type="Hummingbird1" level="1" copies="3"/>
+            <Hitable type="Owl1" level="1" copies="1"/>
+    
+            <!-- Bonus cat! -->
+            <Hitable type="BirdWithCat" chance="0.2" level="1" copies="2" mustBeKilled="false"/>
+            
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="2" copies="10"/>
+            <Hitable type="Hen1" level="1" copies="1"/>
+            <Hitable type="Hummingbird1" level="1" copies="3"/>
+            <Hitable type="Owl1" level="1" copies="1"/>
+            
+            <!-- Bonus cat! -->
+            <Hitable type="BirdWithCat" chance="0.2" level="1" copies="2" mustBeKilled="false"/>
+
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="2" copies="12"/>
+            <Hitable type="Hen1" level="2" copies="1"/>
+            <Hitable type="Hummingbird1" level="2" copies="3"/>
+            <Hitable type="Owl1" level="1" copies="1"/>
+            
+            <!-- Bonus cat! -->
+            <Hitable type="BirdWithCat" chance="0.2" level="1" copies="2" mustBeKilled="false"/>
+
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="2" copies="14"/>
+            <Hitable type="Hen1" level="2" copies="2"/>
+            <Hitable type="Hummingbird1" level="2" copies="3"/>
+            <Hitable type="Owl1" level="1" copies="2"/>
+            
+            <!-- Bonus cat! -->
+            <Hitable type="BirdWithCat" chance="0.2" level="1" copies="2" mustBeKilled="false"/>
+
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="2" copies="14"/>
+            <Hitable type="Hen1" level="2" copies="4"/>
+            <Hitable type="Hummingbird1" level="2" copies="4"/>
+            <Hitable type="Owl1" level="1" copies="3"/>
+            
+            <!-- Bonus cat! -->
+            <Hitable type="BirdWithCat" chance="0.2" level="1" copies="2" mustBeKilled="false"/>
+            
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="2" copies="15"/>
+            <Hitable type="Hen1" level="2" copies="4"/>
+            <Hitable type="Hummingbird1" level="2" copies="5"/>
+            <Hitable type="Owl1" level="1" copies="4"/>
+            
+            <!-- Bonus cat! -->
+            <Hitable type="BirdWithCat" chance="0.2" level="1" copies="2" mustBeKilled="false"/>
+            
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="2" copies="18"/>
+            <Hitable type="Hen1" level="2" copies="8"/>
+            <Hitable type="Hummingbird1" level="2" copies="8"/>
+            <Hitable type="Owl1" level="1" copies="8"/>
+            
+            <!-- Bonus cat! -->
+            <Hitable type="BirdWithCat" chance="0.2" level="1" copies="2" mustBeKilled="false"/>
+            
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+    </World>
+    
+	
+    <World name="CALL ME MAUD" health="3" background="Background1" backgroundColor="0x4040f1">
+        
+        <Level creaturesAlive="7" creaturesAliveMinInterval="300" creaturesAliveMaxInterval="2000">
+            
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="1" copies="8"/>
+            <Hitable type="Hummingbird1" level="1" copies="4"/>
+            
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="1" copies="9"/>
+            <Hitable type="Hummingbird1" level="1" copies="5"/>
+    
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="1" copies="10"/>
+            <Hitable type="Hen1" level="1" copies="1"/>
+            <Hitable type="Hummingbird1" level="1" copies="6"/>
+
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="1" copies="12"/>
+            <Hitable type="Hen1" level="1" copies="2"/>
+            <Hitable type="Hummingbird1" level="1" copies="6"/>
+
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="1" copies="14"/>
+            <Hitable type="Hen1" level="1" copies="2"/>
+            <Hitable type="Hummingbird1" level="1" copies="7"/>
+
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="1" copies="14"/>
+            <Hitable type="Hen1" level="1" copies="3"/>
+            <Hitable type="Hummingbird1" level="1" copies="5"/>
+            
+            
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+        <Level>
+    
+            <!-- Creatures on this level -->
+            
+            <Hitable type="Bird1" level="1" copies="15"/>
+            <Hitable type="Hen1" level="1" copies="3"/>
+            <Hitable type="Hummingbird1" level="1" copies="7"/>
+            
+            
+            <!-- Chance of gaining items on this level -->
+            
+            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+        </Level>
+        
+    </World>
+	
+</WorldFile>

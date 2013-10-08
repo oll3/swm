@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    
+    <dimen name="ItemBarHeight">42dp</dimen>
+    
+    <dimen name="SmallFontSize">20sp</dimen>
+    <dimen name="NormalFontSize">24sp</dimen>
+    <dimen name="BigFontSize">28sp</dimen>
+    <dimen name="HugeFontSize">48sp</dimen>
+    <dimen name="HeadingFontSize">34sp</dimen>
+
+    <dimen name="SmallFontOutline">2sp</dimen>
+    <dimen name="NormalFontOutline">2sp</dimen>
+    <dimen name="BigFontOutline">2sp</dimen>
+    
+    <color name="LightFontColor">#ffffffff</color>
+    <color name="GreyFontColor">#ff808080</color>
+    
+    <color name="PanelFontColor">#ffeeeeee</color>
+    <color name="SuccessColor">#ff8ac7ff</color>
+    <color name="FailColor">#ffff5353</color>
+    
+    <color name="NormalOutlineColor">#ff000000</color>
+    <color name="InvertedOutlineColor">#ffffffff</color>
+    <color name="NormalBackground">#ff2c99dd</color>
+
+    <color name="HeadingFontColor">#fffedadb</color>
+    
+</resources>

@@ -1,0 +1,1944 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="playfield_layout1.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient9215">
+      <stop
+         style="stop-color:#9ddee6;stop-opacity:1;"
+         offset="0"
+         id="stop9217" />
+      <stop
+         style="stop-color:#2ea7b6;stop-opacity:1;"
+         offset="1"
+         id="stop9219" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective4035"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       id="linearGradient3769">
+      <stop
+         style="stop-color:#ce0000;stop-opacity:1;"
+         offset="0"
+         id="stop3771" />
+      <stop
+         style="stop-color:#8f0000;stop-opacity:1;"
+         offset="1"
+         id="stop3773" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3759">
+      <stop
+         style="stop-color:#ff781e;stop-opacity:1;"
+         offset="0"
+         id="stop3761" />
+      <stop
+         style="stop-color:#923a00;stop-opacity:1;"
+         offset="1"
+         id="stop3763" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3797">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3799" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3801" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4052">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4054" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop4056" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4059">
+      <stop
+         style="stop-color:#ce0000;stop-opacity:1;"
+         offset="0"
+         id="stop4061" />
+      <stop
+         style="stop-color:#8f0000;stop-opacity:1;"
+         offset="1"
+         id="stop4063" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective4406"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       id="linearGradient8305">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1;"
+         offset="0"
+         id="stop8307" />
+      <stop
+         style="stop-color:#ff4300;stop-opacity:1;"
+         offset="1"
+         id="stop8309" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8270">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop8272" />
+      <stop
+         style="stop-color:#242424;stop-opacity:1;"
+         offset="1"
+         id="stop8274" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4419">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1;"
+         offset="0"
+         id="stop4421" />
+      <stop
+         style="stop-color:#ff4300;stop-opacity:1;"
+         offset="1"
+         id="stop4423" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4426">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1;"
+         offset="0"
+         id="stop4428" />
+      <stop
+         style="stop-color:#ff4300;stop-opacity:1;"
+         offset="1"
+         id="stop4430" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8359"
+       id="radialGradient8367"
+       cx="-8.3406944"
+       cy="620.02606"
+       fx="-8.3406944"
+       fy="620.02606"
+       r="200.00018"
+       gradientTransform="matrix(0.59394343,-0.01118984,0.01052476,0.55864161,52.941514,359.10244)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient8359">
+      <stop
+         style="stop-color:#74d792;stop-opacity:1;"
+         offset="0"
+         id="stop8361" />
+      <stop
+         style="stop-color:#50cf79;stop-opacity:1;"
+         offset="1"
+         id="stop8363" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective9531"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       id="linearGradient5506">
+      <stop
+         id="stop5508"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop5510"
+         offset="1"
+         style="stop-color:#db2000;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5452">
+      <stop
+         id="stop5454"
+         offset="0"
+         style="stop-color:#ad1900;stop-opacity:1;" />
+      <stop
+         id="stop5456"
+         offset="1"
+         style="stop-color:#ad1900;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5222">
+      <stop
+         id="stop5224"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop5226"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9548">
+      <stop
+         id="stop9550"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop9552"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3759-6">
+      <stop
+         id="stop3761-1"
+         offset="0"
+         style="stop-color:#ff781e;stop-opacity:1;" />
+      <stop
+         id="stop3763-1"
+         offset="1"
+         style="stop-color:#923a00;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9561">
+      <stop
+         id="stop9563"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop9565"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5117">
+      <stop
+         id="stop5119"
+         offset="0"
+         style="stop-color:#f13f3f;stop-opacity:1;" />
+      <stop
+         id="stop5121"
+         offset="1"
+         style="stop-color:#a60000;stop-opacity:1;" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective10919"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       id="linearGradient3769-8">
+      <stop
+         style="stop-color:#ce0000;stop-opacity:1;"
+         offset="0"
+         id="stop3771-7" />
+      <stop
+         style="stop-color:#8f0000;stop-opacity:1;"
+         offset="1"
+         id="stop3773-5" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3797-6">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3799-3" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3801-6" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10932">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop10934" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop10936" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3759-3">
+      <stop
+         style="stop-color:#ff781e;stop-opacity:1;"
+         offset="0"
+         id="stop3761-12" />
+      <stop
+         style="stop-color:#923a00;stop-opacity:1;"
+         offset="1"
+         id="stop3763-3" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10943">
+      <stop
+         style="stop-color:#ce0000;stop-opacity:1;"
+         offset="0"
+         id="stop10945" />
+      <stop
+         style="stop-color:#8f0000;stop-opacity:1;"
+         offset="1"
+         id="stop10947" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9215"
+       id="linearGradient9221"
+       x1="193.9493"
+       y1="70.724884"
+       x2="193.9493"
+       y2="732.60669"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.44443556,0,0,0.44443556,457.25958,562.19058)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9215"
+       id="linearGradient3221"
+       gradientUnits="userSpaceOnUse"
+       x1="193.9493"
+       y1="70.724884"
+       x2="193.9493"
+       y2="732.60669"
+       gradientTransform="matrix(0.44443556,0,0,0.44443556,-24.741274,563.4604)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9215"
+       id="linearGradient3923"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.44443556,0,0,0.44443555,-24.741274,563.4604)"
+       x1="193.9493"
+       y1="70.724884"
+       x2="193.9493"
+       y2="732.60669" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9215"
+       id="linearGradient3713"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.44443556,0,0,0.44443556,558.25958,188.19058)"
+       x1="193.9493"
+       y1="70.724884"
+       x2="193.9493"
+       y2="732.60669" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="347.11136"
+     inkscape:cy="1257.0393"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="989"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background">
+    <path
+       sodipodi:nodetypes="ssccsssssscsss"
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       inkscape:connector-curvature="0"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -179.99981,-371.90626 c -6.97152,0 -12.59394,5.80321 -12.59394,12.99891 l 0,23.07534 0,66.88196 0,23.07534 c 0,7.19569 5.62242,12.96846 12.59394,12.96846 l 409.84162,0 c 6.97153,0 12.56445,-5.77277 12.56445,-12.96846 l 0,-89.9573 c 0,-7.1957 -5.59292,-12.99891 -12.56445,-12.99891 l -115.69789,0 0,-10.07643 c 0,-7.1957 -5.59292,-12.99891 -12.56444,-12.99891 z"
+       id="path4169" />
+    <rect
+       style="fill:#82a0f1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect2816"
+       width="355.54843"
+       height="195.55165"
+       x="457.25958"
+       y="834.34613" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/health_icon1.png"
+       ry="2.2626014"
+       rx="2.2626014"
+       y="838.15485"
+       x="773.138"
+       height="28.229326"
+       width="28.229326"
+       id="rect18794"
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+    <rect
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       id="rect18796"
+       width="28.227079"
+       height="28.227079"
+       x="463.75687"
+       y="839.45978"
+       rx="2.2626011"
+       ry="2.2626011"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/score_icon1.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/health_icon1.png"
+       sodipodi:nodetypes="cscccsc"
+       d="m 787.25267,864.12695 c 0,0 12.93478,-3.32703 13.10198,-12.57294 0.0535,-3.06207 -1.78996,-6.6472 -6.26803,-8.29854 -5.10528,-1.09531 -6.54227,2.75981 -6.83395,2.75981 -0.2917,0 -2.19547,-3.60018 -6.83396,-2.75981 -5.32675,1.82139 -6.32163,5.04021 -6.26803,8.29854 0.1521,9.24631 13.10199,12.57294 13.10199,12.57294 z"
+       style="fill:#fd7b81;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path18798"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="135"
+       inkscape:export-xdpi="135"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/score_icon1.png"
+       transform="matrix(0.59468793,0,0,0.51501486,472.14959,342.62141)"
+       d="m 40.816263,999.66162 -15.746778,-1.71232 -6.390473,14.4933 -6.390474,-14.4933 -15.7467765,1.71232 9.3563041,-12.78094 -9.356304,-12.78095 15.7467774,1.71232 6.390473,-14.49327 6.390474,14.49327 15.746777,-1.71232 -9.356304,12.78095 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0.52359878"
+       sodipodi:r2="12.780947"
+       sodipodi:r1="25.561895"
+       sodipodi:cy="986.88068"
+       sodipodi:cx="18.679012"
+       sodipodi:sides="6"
+       id="path18800"
+       style="opacity:0.87762236;fill:#fd7b81;fill-opacity:1;stroke:#000000;stroke-width:1.80692947;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="star" />
+    <rect
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       id="rect8357-39"
+       width="28.227079"
+       height="28.227079"
+       x="459.48526"
+       y="1000.7919"
+       rx="2.2626011"
+       ry="2.2626011"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/item_icon1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:#fd7b81;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect5442"
+       width="21.170307"
+       height="21.170307"
+       x="463.01364"
+       y="1004.3203"
+       rx="1.3999859"
+       ry="1.3999859"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/item_icon1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       id="rect8357-3"
+       width="28.227079"
+       height="28.227079"
+       x="459.48526"
+       y="1000.7919"
+       rx="2.2626011"
+       ry="2.2626011"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/item_bomb1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99193549;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m 475.02694,1003.8879 c -0.39231,-0.091 -0.83491,0 -1.23914,0.315 -0.75204,0.5909 -1.09966,1.3442 -1.11312,2.2052 -0.0134,0.8611 0.26383,1.8333 0.60907,3.0663 a 0.33607024,0.33607024 0 1 0 0.63006,-0.168 c -0.34317,-1.2256 -0.57819,-2.1648 -0.56706,-2.8773 0.0111,-0.7125 0.2363,-1.1892 0.8611,-1.6802 0.28419,-0.2232 0.46816,-0.2573 0.67207,-0.21 0.20391,0.047 0.43626,0.2108 0.67207,0.4411 0.47164,0.4604 0.88166,1.1547 1.38615,1.5331 0.86204,0.6465 1.68019,0.6511 1.68019,0.6511 a 0.33607024,0.33607024 0 1 0 0,-0.672 c 0,0 -0.56965,0.01 -1.28114,-0.5251 -0.28227,-0.2117 -0.76216,-0.9226 -1.32315,-1.4702 -0.28049,-0.2738 -0.59479,-0.518 -0.9871,-0.609 z"
+       id="path8301-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/item_bomb1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#8affff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99998999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 470.10723,1009.1758 0,2.9344 c -2.81787,1.3155 -4.76943,4.1758 -4.76943,7.4908 0,4.5624 3.69857,8.261 8.26098,8.261 4.56242,0 8.26098,-3.6986 8.26098,-8.261 0,-3.3143 -1.95247,-6.1728 -4.76942,-7.4887 l 0,-2.9365 -6.98311,0 z"
+       id="path8241-2"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/item_bomb1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/item_icon1.png"
+       ry="2.2626011"
+       rx="2.2626011"
+       y="1000.7919"
+       x="486.78629"
+       height="28.227079"
+       width="28.227079"
+       id="rect8459"
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/item_icon1.png"
+       ry="1.3999859"
+       rx="1.3999859"
+       y="1004.3203"
+       x="490.31467"
+       height="21.170307"
+       width="21.170307"
+       id="rect8461"
+       style="fill:#fd7b81;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/item_bomb1.png"
+       ry="2.2626011"
+       rx="2.2626011"
+       y="1000.7919"
+       x="486.78629"
+       height="28.227079"
+       width="28.227079"
+       id="rect8463"
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/item_bomb1.png"
+       inkscape:connector-curvature="0"
+       id="path8465"
+       d="m 502.32798,1003.8879 c -0.39231,-0.091 -0.83491,0 -1.23914,0.315 -0.75203,0.5909 -1.09966,1.3442 -1.11312,2.2052 -0.0134,0.8611 0.26383,1.8333 0.60907,3.0663 a 0.33607024,0.33607024 0 1 0 0.63007,-0.168 c -0.34318,-1.2256 -0.5782,-2.1648 -0.56707,-2.8773 0.0111,-0.7125 0.23631,-1.1892 0.8611,-1.6802 0.28419,-0.2232 0.46816,-0.2573 0.67207,-0.21 0.20391,0.047 0.43626,0.2108 0.67208,0.4411 0.47163,0.4604 0.88165,1.1547 1.38615,1.5331 0.86203,0.6465 1.68018,0.6511 1.68018,0.6511 a 0.33607024,0.33607024 0 1 0 0,-0.672 c 0,0 -0.56965,0.01 -1.28114,-0.5251 -0.28226,-0.2117 -0.76216,-0.9226 -1.32315,-1.4702 -0.28048,-0.2738 -0.59479,-0.518 -0.9871,-0.609 z"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99193549;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/item_bomb1.png"
+       id="path8467"
+       d="m 497.40827,1009.1758 0,2.9344 c -2.81787,1.3155 -4.76942,4.1758 -4.76942,7.4908 0,4.5624 3.69856,8.261 8.26097,8.261 4.56242,0 8.26099,-3.6986 8.26099,-8.261 0,-3.3143 -1.95248,-6.1728 -4.76943,-7.4887 l 0,-2.9365 -6.98311,0 z"
+       style="fill:#8affff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99998999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="619.1123"
+       x="457.72427"
+       height="195.55165"
+       width="355.54843"
+       id="rect8469"
+       style="fill:url(#linearGradient9221);fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <g
+       transform="translate(532.58996,-55.999998)"
+       id="g6262">
+      <path
+         id="path6264"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+      <path
+         style="fill:#fd7b81;fill-opacity:1;stroke:none"
+         d="m -36.935301,824.72875 c -0.22088,-0.006 -0.48009,0.042 -0.78125,0.125 -4.81847,1.32763 -29.53125,12.98956 -29.53125,21.375 0.0048,0.003 -0.0048,0.0279 0,0.0312 6.55088,4.56925 15.88528,7.40625 26.25,7.40625 17.69461,0 32.3948098,-8.32459 35.3437498,-19.28125 -6.0259998,10e-5 -15.9181198,-0.0196 -24.1249998,-0.0312 -8.8201,-0.0126 -3.84302,-9.52857 -7.15625,-9.625 z"
+         id="path6266"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path6268" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,1,736.35547,-56.585784)"
+       id="g6254">
+      <path
+         id="path6256"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+      <path
+         style="fill:#fd7b81;fill-opacity:1;stroke:none"
+         d="m -36.935301,824.72875 c -0.22088,-0.006 -0.48009,0.042 -0.78125,0.125 -4.81847,1.32763 -29.53125,12.98956 -29.53125,21.375 0.0048,0.003 -0.0048,0.0279 0,0.0312 6.55088,4.56925 15.88528,7.40625 26.25,7.40625 17.69461,0 32.3948098,-8.32459 35.3437498,-19.28125 -6.0259998,10e-5 -15.9181198,-0.0196 -24.1249998,-0.0312 -8.8201,-0.0126 -3.84302,-9.52857 -7.15625,-9.625 z"
+         id="path6258"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path6260" />
+    </g>
+    <rect
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect8498"
+       width="233.65778"
+       height="99.216393"
+       x="518.66962"
+       y="660.39166"
+       ry="13.3332"
+       rx="13.3332" />
+    <path
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="M 532 660.40625 C 524.61341 660.40625 518.65625 666.33216 518.65625 673.71875 L 518.65625 742.84375 C 532.74009 751.83001 551.27968 757.3125 571.6875 757.3125 L 655.8125 757.3125 C 700.03426 757.3125 735.625 731.75748 735.625 700 C 735.625 684.61261 727.24291 670.68307 713.59375 660.40625 L 532 660.40625 z "
+       id="rect4890" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8583"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.11776888;stroke-opacity:1;font-family:Sans"
+       transform="matrix(0.59893864,0,0,0.59391243,697.3073,724.32191)"><flowRegion
+         id="flowRegion8585"
+         style="stroke-width:1.11776888"><rect
+           id="rect8587"
+           width="122.6352"
+           height="46.584484"
+           x="87.85714"
+           y="198.07648"
+           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.11776888;stroke-opacity:1" /></flowRegion><flowPara
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:1.11776888;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="flowPara8589">4</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.45646807,0,0,0.44953474,415.42127,752.73688)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.47169411;stroke-opacity:1;font-family:Sans"
+       id="flowRoot8591"
+       xml:space="preserve"><flowRegion
+         style="stroke-width:1.47169411"
+         id="flowRegion8593"><rect
+           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.47169411;stroke-opacity:1"
+           y="198.07648"
+           x="87.85714"
+           height="46.584484"
+           width="122.6352"
+           id="rect8595" /></flowRegion><flowPara
+         id="flowPara8597"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:1.47169411;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">3211</flowPara></flowRoot>    <g
+       id="g8619"
+       transform="matrix(0.44443556,0,0,0.44443556,613.18476,420.97803)">
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/health_icon1.png"
+         ry="5.0909548"
+         rx="5.0909548"
+         y="463.70248"
+         x="357.14825"
+         height="63.517258"
+         width="63.517258"
+         id="rect8579"
+         style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/health_icon1.png"
+         ry="5.0909548"
+         rx="5.0909548"
+         y="461.10956"
+         x="361.08734"
+         height="63.517258"
+         width="63.517258"
+         id="rect8599"
+         style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/health_icon1.png"
+         sodipodi:nodetypes="cscccsc"
+         d="m 392.84591,519.54795 c 0,0 29.10385,-7.48596 29.48007,-28.28968 0.12053,-6.8898 -4.02751,-14.9565 -14.10336,-18.6721 -11.4871,-2.46447 -14.7204,6.20972 -15.37671,6.20972 -0.65632,0 -4.93989,-8.10057 -15.3767,-6.20972 -11.98543,4.09822 -14.22396,11.3407 -14.10336,18.6721 0.34223,20.80463 29.48006,28.28968 29.48006,28.28968 z"
+         style="fill:#fd7b81;fill-opacity:1;stroke:#000000;stroke-width:2.25002241;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path8601"
+         inkscape:connector-curvature="0" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot8603"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.11776888;stroke-opacity:1;font-family:Sans"
+         transform="matrix(1.3476389,0,0,1.3363297,190.46479,204.98032)"><flowRegion
+           id="flowRegion8605"
+           style="stroke-width:1.11776888"><rect
+             id="rect8607"
+             width="122.6352"
+             height="46.584484"
+             x="87.85714"
+             y="198.07648"
+             style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.11776888;stroke-opacity:1" /></flowRegion><flowPara
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:1.11776888;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+           id="flowPara8609">4</flowPara></flowRoot>    </g>
+    <rect
+       y="13.790762"
+       x="499.51849"
+       height="59.716423"
+       width="366.19574"
+       id="rect8686"
+       style="fill:#fd7b81;fill-opacity:1;stroke:#000000;stroke-width:1.49999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <flowRoot
+       transform="matrix(0.74471069,0,0,0.75419132,450.98569,475.00607)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Sans"
+       id="flowRoot8678"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8680"
+         style="stroke-width:0.88954884"><rect
+           style="font-size:32px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1"
+           y="198.07648"
+           x="87.85714"
+           height="82.298775"
+           width="322.63519"
+           id="rect8682" /></flowRegion><flowPara
+         id="flowPara8684"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">LEVEL 10</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8690"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion8692"><rect
+           id="rect8694"
+           width="144.28572"
+           height="58.57143"
+           x="178.57143"
+           y="290.93359" /></flowRegion><flowPara
+         id="flowPara8696" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8486"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1;font-family:Sans"
+       transform="matrix(0.44265015,0,0,0.44117267,481.6157,590.14657)"><flowRegion
+         id="flowRegion8488"
+         style="stroke-width:1.5085851"><rect
+           id="rect8490"
+           width="518.67371"
+           height="82.115898"
+           x="100.63667"
+           y="194.87091"
+           style="font-size:32px;text-align:start;text-anchor:start;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1" /></flowRegion><flowPara
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="flowPara8517">HIT BONUS                  1397</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.44265015,0,0,0.44117267,483.36103,607.07135)"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1;font-family:Sans"
+       id="flowRoot8698"
+       xml:space="preserve"><flowRegion
+         style="stroke-width:1.5085851"
+         id="flowRegion8700"><rect
+           style="font-size:32px;text-align:start;text-anchor:start;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1"
+           y="198.07648"
+           x="95.844337"
+           height="127.37571"
+           width="515.5575"
+           id="rect8702"
+           ry="0" /></flowRegion><flowPara
+         id="flowPara8710"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">LOST POINTS:            -1000 </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.56673213,0,0,0.56711439,471.952,621.8674)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#82dada;fill-opacity:1;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1;font-family:Sans"
+       id="flowRoot8718"
+       xml:space="preserve"><flowRegion
+         style="stroke-width:1.17592645"
+         id="flowRegion8720"><rect
+           style="font-size:32px;fill:#82dada;fill-opacity:1;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1"
+           y="198.07648"
+           x="87.85714"
+           height="62.695866"
+           width="405.33423"
+           id="rect8722" /></flowRegion><flowPara
+         id="flowPara8730"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#82dada;fill-opacity:1;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">TOTAL SCORE:   5340</flowPara></flowRoot>    <rect
+       style="fill:url(#linearGradient3221);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3147"
+       width="355.54843"
+       height="195.55165"
+       x="-24.27656"
+       y="620.38214" />
+    <g
+       id="g6230"
+       transform="translate(56.660289,-56.932507)">
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path6211" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6217"
+         d="m -36.935301,824.72875 c -0.22088,-0.006 -0.48009,0.042 -0.78125,0.125 -4.81847,1.32763 -29.53125,12.98956 -29.53125,21.375 0.0048,0.003 -0.0048,0.0279 0,0.0312 6.55088,4.56925 15.88528,7.40625 26.25,7.40625 17.69461,0 32.3948098,-8.32459 35.3437498,-19.28125 -6.0259998,10e-5 -15.9181198,-0.0196 -24.1249998,-0.0312 -8.8201,-0.0126 -3.84302,-9.52857 -7.15625,-9.625 z"
+         style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+      <path
+         id="path6224"
+         style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+    </g>
+    <rect
+       ry="13.3332"
+       rx="13.333201"
+       y="656.72375"
+       x="23.703844"
+       height="83"
+       width="119.00001"
+       id="rect4127"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/world_icon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="m 37.263483,656.55454 c -7.386594,0 -13.3125,5.95716 -13.3125,13.34375 l 0,56.3125 c 0,0.17848 0.02437,0.35452 0.03125,0.53125 11.853507,5.4492 26.425341,8.6875 42.1875,8.6875 39.735847,0 71.937497,-20.43618 71.937497,-45.625 0,-13.11676 -8.73512,-24.9297 -22.71875,-33.25 l -78.124997,0 z"
+       id="path4898"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3223"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d4ffff;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0.3106417,0,0,0.30497645,-9.5507745,666.85817)"><flowRegion
+         id="flowRegion3225"><rect
+           id="rect3227"
+           width="414.84024"
+           height="112.56889"
+           x="87.85714"
+           y="198.07648"
+           style="font-size:32px;fill:#d4ffff;fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         style="font-size:21.95040703px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#d4ffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="flowPara3229">Highscore: 9810</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3233"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3235"><rect
+           id="rect3237"
+           width="105.71429"
+           height="52.142857"
+           x="-763.57141"
+           y="268.07648" /></flowRegion><flowPara
+         id="flowPara3239" /></flowRoot>    <path
+       id="path3965"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 112.09412,638.1773 c 0,-3.95415 -45.20601,-1.30887 -39.680001,-3.3338 5.525972,-2.02493 54.124341,-12.41731 89.031171,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="zzzzzzzz" />
+    <rect
+       style="fill:#008080;stroke:none"
+       id="rect3231"
+       width="108.33863"
+       height="42.312767"
+       x="28.132624"
+       y="680.75043" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3241"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:#000000;stroke-width:1.49416757;stroke-opacity:1;font-family:Sans"
+       transform="matrix(0.44689823,0,0,0.4454527,-49.748713,606.90526)"><flowRegion
+         id="flowRegion3243"
+         style="stroke-width:1.49416757"><rect
+           id="rect3245"
+           width="414.84024"
+           height="112.56889"
+           x="87.85714"
+           y="198.07648"
+           style="font-size:32px;fill:#800080;fill-opacity:1;stroke:#000000;stroke-width:1.49416757;stroke-opacity:1" /></flowRegion><flowPara
+         style="font-size:21.95040703px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#800080;stroke:#000000;stroke-width:1.49416757;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="flowPara3247">Screenshot</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.66309546,0,0,0.67499607,-114.97857,525.97641)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:0.74736261;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
+       id="flowRoot3927"
+       xml:space="preserve"><flowRegion
+         style="stroke-width:0.99647355"
+         id="flowRegion3929"><rect
+           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:0.74736261;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           y="198.07648"
+           x="87.85714"
+           height="112.56889"
+           width="414.84024"
+           id="rect3931" /></flowRegion><flowPara
+         id="flowPara3933"
+         style="font-size:21.95040703px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0.74736261;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">World 1</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="zzzzzzzz"
+       inkscape:connector-curvature="0"
+       d="m 110.67992,767.69589 c 0,3.95416 -45.206019,1.30887 -39.68001,3.33379 5.525971,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       id="path4824" />
+    <flowRoot
+       transform="matrix(0.44443556,0,0,0.44443556,-42.884694,692.49894)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.50001502;stroke-opacity:1;font-family:Sans"
+       id="flowRoot3179"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3181"
+         style="stroke-width:1.50001502"><rect
+           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.50001502;stroke-opacity:1"
+           y="198.07648"
+           x="87.85714"
+           height="46.584484"
+           width="122.6352"
+           id="rect3183" /></flowRegion><flowPara
+         id="flowPara3185"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.50001502;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">Exit</flowPara></flowRoot>    <path
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="m 161.42995,622.44503 c -34.90683,0 -83.485985,10.36048 -89.011956,12.38542 -5.526009,2.02492 39.681836,-0.59348 39.681836,3.36067 0,2.88513 -1.4e-4,5.81537 0,8.45834 7.60732,0.607 15.74175,0.94401 24.21456,0.94401 41.87026,0 75.79719,-8.02056 75.79719,-17.9362 0,-0.91005 -0.27315,-1.80457 -0.82593,-2.68099 -15.98023,-2.47033 -34.28611,-4.53125 -49.8557,-4.53125 z"
+       id="path4905"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="m 160.03487,754.46585 c -24.67531,-0.0174 -49.36766,0.5032 -49.36766,1.6237 0,2.24099 0,7.63828 0,11.59245 0,1.4828 -6.34819,2.0446 -14.003145,2.26562 -0.0473,0.008 -0.10246,-0.008 -0.15017,0 -0.41427,0.0668 -0.83083,0.12957 -1.27643,0.1888 l 0,0.30209 c 11.420115,2.8741 26.209145,4.60677 42.347325,4.60677 36.19527,0 65.54823,-8.69185 65.54823,-19.44662 0,-0.10965 0.006,-0.23063 0,-0.33984 -8.82479,-0.52433 -25.85907,-0.78084 -43.09815,-0.79297 z"
+       id="path4912"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/world_icon.png"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4917"
+       width="119.00001"
+       height="83"
+       x="167.20384"
+       y="656.72375"
+       rx="13.333201"
+       ry="13.3332" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4919"
+       d="m 180.94026,656.73131 c -7.38659,0 -13.3125,5.95716 -13.3125,13.34375 l 0,56.3125 c 0,0.17848 0.0244,0.35452 0.0312,0.53125 11.85351,5.4492 26.42534,8.6875 42.1875,8.6875 39.73585,0 71.9375,-20.43618 71.9375,-45.625 0,-13.11676 -8.73512,-24.9297 -22.71875,-33.25 l -78.125,0 z"
+       style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+    <flowRoot
+       transform="matrix(0.3106417,0,0,0.30497645,133.94923,666.85817)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d4ffff;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4921"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4923"><rect
+           style="font-size:32px;fill:#d4ffff;fill-opacity:1;stroke:none"
+           y="198.07648"
+           x="87.85714"
+           height="112.56889"
+           width="414.84024"
+           id="rect4925" /></flowRegion><flowPara
+         id="flowPara4927"
+         style="font-size:21.95040703px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#d4ffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">Highscore: 9810</flowPara></flowRoot>    <rect
+       y="680.75043"
+       x="171.63263"
+       height="42.312767"
+       width="108.33863"
+       id="rect4929"
+       style="fill:#008080;stroke:none" />
+    <flowRoot
+       transform="matrix(0.44689823,0,0,0.4454527,93.751287,606.90526)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:#000000;stroke-width:1.49416757;stroke-opacity:1;font-family:Sans"
+       id="flowRoot4931"
+       xml:space="preserve"><flowRegion
+         style="stroke-width:1.49416757"
+         id="flowRegion4933"><rect
+           style="font-size:32px;fill:#800080;fill-opacity:1;stroke:#000000;stroke-width:1.49416757;stroke-opacity:1"
+           y="198.07648"
+           x="87.85714"
+           height="112.56889"
+           width="414.84024"
+           id="rect4935" /></flowRegion><flowPara
+         id="flowPara4937"
+         style="font-size:21.95040703px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#800080;stroke:#000000;stroke-width:1.49416757;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">Screenshot</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4939"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:0.74736261;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
+       transform="matrix(0.66309546,0,0,0.67499607,28.52143,525.97641)"><flowRegion
+         id="flowRegion4941"
+         style="stroke-width:0.99647355"><rect
+           id="rect4943"
+           width="414.84024"
+           height="112.56889"
+           x="87.85714"
+           y="198.07648"
+           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:0.74736261;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" /></flowRegion><flowPara
+         style="font-size:21.95040703px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0.74736261;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="flowPara4945">World 1</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4960"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.50001502;stroke-opacity:1;font-family:Sans"
+       transform="matrix(0.44443556,0,0,0.44443556,441.48345,692.49894)"><flowRegion
+         style="stroke-width:1.50001502"
+         id="flowRegion4962"><rect
+           id="rect4964"
+           width="122.6352"
+           height="46.584484"
+           x="87.85714"
+           y="198.07648"
+           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.50001502;stroke-opacity:1" /></flowRegion><flowPara
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.50001502;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="flowPara4966">Exit</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.44443556,0,0,0.44443556,695.96077,692.1795)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.50001502;stroke-opacity:1;font-family:Sans"
+       id="flowRoot8552"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8554"
+         style="stroke-width:1.50001502"><rect
+           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.50001502;stroke-opacity:1"
+           y="198.07648"
+           x="87.85714"
+           height="46.584484"
+           width="122.6352"
+           id="rect8556" /></flowRegion><flowPara
+         id="flowPara8566"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:1.50001502;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">Next</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/health_icon1.png"
+       ry="3.3939359"
+       rx="3.3939359"
+       y="872.19025"
+       x="118.65359"
+       height="42"
+       width="42"
+       id="rect18794-0"
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+    <rect
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       id="rect18796-1"
+       width="42"
+       height="42"
+       x="23.901278"
+       y="873.04315"
+       rx="3.3939359"
+       ry="3.3939359"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/score_icon1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/health_icon1.png"
+       sodipodi:nodetypes="cscccsc"
+       d="m 139.65358,910.83202 c 0,0 19.24456,-4.95 19.49333,-18.70622 0.0797,-4.5558 -2.66314,-9.8898 -9.32567,-12.3467 -7.5957,-1.6296 -9.73368,4.1061 -10.16766,4.1061 -0.43398,0 -3.26644,-5.3564 -10.16766,-4.1061 -7.92521,2.7099 -9.40541,7.4989 -9.32566,12.3467 0.22629,13.75682 19.49332,18.70622 19.49332,18.70622 z"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:1.00964773;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path18798-7"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/score_icon1.png"
+       transform="matrix(0.88485578,0,0,0.76630759,28.373042,137.78899)"
+       d="m 40.816263,999.66162 -15.746778,-1.71232 -6.390473,14.4933 -6.390474,-14.4933 -15.7467765,1.71232 9.3563041,-12.78094 -9.356304,-12.78095 15.7467774,1.71232 6.390473,-14.49327 6.390474,14.49327 15.746777,-1.71232 -9.356304,12.78095 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0.52359878"
+       sodipodi:r2="12.780947"
+       sodipodi:r1="25.561895"
+       sodipodi:cy="986.88068"
+       sodipodi:cx="18.679012"
+       sodipodi:sides="6"
+       id="path18800-6"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:1.21440125;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="star" />
+    <path
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="m 147.21883,879.47872 c -5.50368,0.006 -7.18277,4.40625 -7.5625,4.40625 -0.43398,0 -3.25503,-5.34405 -10.15625,-4.09375 -7.92521,2.7099 -9.4235,7.49595 -9.34375,12.34375 0.0155,0.94195 0.13077,1.82695 0.3125,2.68745 3.53461,3.7944 8.8145,6.2188 14.75,6.2188 10.64179,0 19.28125,-7.7447 19.28125,-17.3125 0,-0.44849 -0.0253,-0.90383 -0.0625,-1.34375 -1.26226,-1.03498 -2.79254,-1.918 -4.625,-2.59375 -0.94946,-0.2037 -1.80751,-0.31338 -2.59375,-0.3125 z"
+       id="path3468"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/health_icon1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="m 44.904022,874.45653 -5.65625,11.09375 -13.9375,-1.3125 8.28125,9.8125 -5.6875,6.71875 c 3.46424,1.5118 7.80453,1.93606 12.5,0.96875 9.59683,-1.97703 17.62065,-9.15015 19.90625,-17.09375 l -9.75,0.90625 -5.65625,-11.09375 z"
+       id="path4238"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/score_icon1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4243"
+       style="fill:none;stroke:#000000;stroke-width:1.00964773;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 139.65358,910.83202 c 0,0 19.24456,-4.95 19.49333,-18.70622 0.0797,-4.5558 -2.66314,-9.8898 -9.32567,-12.3467 -7.5957,-1.6296 -9.73368,4.1061 -10.16766,4.1061 -0.43398,0 -3.26644,-5.3564 -10.16766,-4.1061 -7.92521,2.7099 -9.40541,7.4989 -9.32566,12.3467 0.22629,13.75682 19.49332,18.70622 19.49332,18.70622 z"
+       sodipodi:nodetypes="cscccsc"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/health_icon1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000000;stroke-width:1.21440125;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4248"
+       sodipodi:sides="6"
+       sodipodi:cx="18.679012"
+       sodipodi:cy="986.88068"
+       sodipodi:r1="25.561895"
+       sodipodi:r2="12.780947"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 40.816263,999.66162 -15.746778,-1.71232 -6.390473,14.4933 -6.390474,-14.4933 -15.7467765,1.71232 9.3563041,-12.78094 -9.356304,-12.78095 15.7467774,1.71232 6.390473,-14.49327 6.390474,14.49327 15.746777,-1.71232 -9.356304,12.78095 z"
+       transform="matrix(0.88485578,0,0,0.76630759,28.373042,137.78899)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/score_icon1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       id="rect8357"
+       width="42"
+       height="42"
+       x="200.67798"
+       y="874.03094"
+       rx="3.3939359"
+       ry="3.3939359"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <rect
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect5442-0"
+       width="31.5"
+       height="31.5"
+       x="205.92798"
+       y="879.28094"
+       rx="2.0999999"
+       ry="2.0999999"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <rect
+       ry="13.3332"
+       rx="13.333201"
+       y="656.72375"
+       x="167.20384"
+       height="83"
+       width="119.00001"
+       id="rect6198"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99998999000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/world_icon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/world_icon.png"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99998999000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6200"
+       width="119.00001"
+       height="83"
+       x="23.703844"
+       y="656.72375"
+       rx="13.333201"
+       ry="13.3332" />
+    <path
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="m 208.01716,879.27765 c -1.1634,0 -2.09375,0.93035 -2.09375,2.09375 l 0,24.34375 c 2.76914,1.08123 5.89669,1.6875 9.21875,1.6875 11.22757,0 20.3125,-6.97097 20.3125,-15.5625 0,-5.16575 -3.27924,-9.73323 -8.34375,-12.5625 l -19.09375,0 z"
+       id="path6202"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <rect
+       inkscape:export-ydpi="135"
+       inkscape:export-xdpi="135"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
+       ry="2.0999999"
+       rx="2.0999999"
+       y="879.28094"
+       x="205.92798"
+       height="31.5"
+       width="31.5"
+       id="rect6207"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <path
+       transform="matrix(0.63043479,0,0,1,-196.33743,-75.660426)"
+       d="m 273.29676,963.6203 a 56.922096,23.334522 0 1 1 -113.84419,0 56.922096,23.334522 0 1 1 113.84419,0 z"
+       sodipodi:ry="23.334522"
+       sodipodi:rx="56.922096"
+       sodipodi:cy="963.6203"
+       sodipodi:cx="216.37466"
+       id="path6221"
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <rect
+       rx="13.3332"
+       ry="13.3332"
+       y="660.39166"
+       x="518.66962"
+       height="99.216393"
+       width="233.65778"
+       id="rect6238"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99998999000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path6273"
+       style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 110.67992,767.69589 c 0,3.95416 -45.206019,1.30887 -39.68001,3.33379 5.525971,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="zzzzzzzz" />
+    <path
+       sodipodi:nodetypes="zzzzzzzz"
+       inkscape:connector-curvature="0"
+       d="m 112.09412,638.1773 c 0,-3.95415 -45.20601,-1.30887 -39.680001,-3.3338 5.525972,-2.02493 54.124341,-12.41731 89.031171,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
+       style="fill:none;stroke:#000000;stroke-width:0.99999011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       id="path6278" />
+    <g
+       transform="matrix(1.2898545,0,0,1.2790719,89.73586,-56.694362)"
+       id="g5238"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/arrow_left.png"
+       inkscape:export-xdpi="179.99191"
+       inkscape:export-ydpi="179.99191">
+      <path
+         id="path5240"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.77853447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+      <path
+         style="fill:#fd7b81;fill-opacity:1;stroke:none"
+         d="m -36.935301,824.72875 c -0.22088,-0.006 -0.48009,0.042 -0.78125,0.125 -4.81847,1.32763 -29.53125,12.98956 -29.53125,21.375 0.0048,0.003 -0.0048,0.0279 0,0.0312 6.55088,4.56925 15.88528,7.40625 26.25,7.40625 17.69461,0 32.3948098,-8.32459 35.3437498,-19.28125 -6.0259998,10e-5 -15.9181198,-0.0196 -24.1249998,-0.0312 -8.8201,-0.0126 -3.84302,-9.52857 -7.15625,-9.625 z"
+         id="path5242"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         style="fill:none;stroke:#000000;stroke-width:0.77853447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path5244" />
+    </g>
+    <g
+       id="g5263"
+       transform="matrix(1.1117318,0,0,1.1379305,-8.8871402,-39.397813)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/arrow_up.png"
+       inkscape:export-xdpi="179.83246"
+       inkscape:export-ydpi="179.83246">
+      <path
+         id="path5246"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.88907379;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 195.53272,271.89599 c 0,-3.95415 -45.20601,-1.30887 -39.68,-3.3338 5.52597,-2.02493 54.12434,-12.41731 89.03117,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+      <path
+         style="fill:#fd7b81;fill-opacity:1;stroke:none"
+         d="m 244.86855,256.16372 c -34.90683,0 -83.48599,10.36048 -89.01196,12.38542 -5.52601,2.02492 39.68184,-0.59348 39.68184,3.36067 0,2.88513 -1.4e-4,5.81537 0,8.45834 7.60732,0.607 15.74175,0.94401 24.21456,0.94401 41.87026,0 75.79719,-8.02056 75.79719,-17.9362 0,-0.91005 -0.27315,-1.80457 -0.82593,-2.68099 -15.98023,-2.47033 -34.28611,-4.53125 -49.8557,-4.53125 z"
+         id="path5248"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m 195.53272,271.89599 c 0,-3.95415 -45.20601,-1.30887 -39.68,-3.3338 5.52597,-2.02493 54.12434,-12.41731 89.03117,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
+         style="fill:none;stroke:#000000;stroke-width:0.88907379;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path5250" />
+    </g>
+    <g
+       id="g5258"
+       transform="matrix(1.1117318,0,0,1.1379271,-23.037184,-71.066191)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/arrow_down.png"
+       inkscape:export-xdpi="90.010338"
+       inkscape:export-ydpi="90.010338">
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m 208.26066,498.99531 c 0,3.95416 -45.20602,1.30887 -39.68001,3.33379 5.52597,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.8890751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path5252" />
+      <path
+         style="fill:#fd7b81;fill-opacity:1;stroke:none"
+         d="m 257.61561,485.76527 c -24.67531,-0.0174 -49.36766,0.5032 -49.36766,1.6237 0,2.24099 0,7.63828 0,11.59245 0,1.4828 -6.34819,2.0446 -14.00315,2.26562 -0.0473,0.008 -0.10246,-0.008 -0.15017,0 -0.41427,0.0668 -0.83083,0.12957 -1.27643,0.1888 l 0,0.30209 c 11.42012,2.8741 26.20915,4.60677 42.34733,4.60677 36.19527,0 65.54823,-8.69185 65.54823,-19.44662 0,-0.10965 0.006,-0.23063 0,-0.33984 -8.82479,-0.52433 -25.85907,-0.78084 -43.09815,-0.79297 z"
+         id="path5254"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5256"
+         style="fill:none;stroke:#000000;stroke-width:0.8890751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 208.26066,498.99531 c 0,3.95416 -45.20602,1.30887 -39.68001,3.33379 5.52597,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+    </g>
+    <rect
+       inkscape:export-ydpi="135"
+       inkscape:export-xdpi="135"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5206"
+       width="239.00002"
+       height="149"
+       x="11.402308"
+       y="305.86887"
+       rx="13.333201"
+       ry="13.3332" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5208"
+       d="m 38.635548,305.56505 c -14.83527,0 -26.73687,10.69417 -26.73687,23.95444 l 0,101.0911 c 0,0.32039 0.049,0.63641 0.0627,0.95377 23.80663,9.78226 53.07274,15.59567 84.72952,15.59567 79.805612,0 144.479512,-36.68675 144.479512,-81.90522 0,-23.54696 -17.54364,-44.75332 -45.62841,-59.68976 l -156.906512,0 z"
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <rect
+       ry="13.3332"
+       rx="13.333201"
+       y="305.86887"
+       x="11.402308"
+       height="149"
+       width="239.00002"
+       id="rect5236"
+       style="fill:none;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <rect
+       ry="13.3332"
+       rx="13.333201"
+       y="305.86887"
+       x="270.2034"
+       height="149"
+       width="239.00002"
+       id="rect5268"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <path
+       inkscape:export-ydpi="135"
+       inkscape:export-xdpi="135"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="m 297.43663,305.56505 c -14.83527,0 -26.73687,10.69417 -26.73687,23.95444 l 0,101.0911 c 0,0.32039 0.049,0.63641 0.0627,0.95377 23.80663,9.78226 53.07274,15.59567 84.72952,15.59567 79.80561,0 144.47951,-36.68675 144.47951,-81.90522 0,-23.54696 -17.54364,-44.75332 -45.62841,-59.68976 l -156.90651,0 z"
+       id="path5270"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="135"
+       inkscape:export-xdpi="135"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5272"
+       width="239.00002"
+       height="149"
+       x="270.2034"
+       y="305.86887"
+       rx="13.333201"
+       ry="13.3332" />
+    <g
+       inkscape:export-ydpi="179.99191"
+       inkscape:export-xdpi="179.99191"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/arrow_left.png"
+       id="g5292"
+       transform="matrix(1.2898545,0,0,1.2790719,38.824172,-538.94119)">
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.77853447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path5294" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5296"
+         d="m -36.935301,824.72875 c -0.22088,-0.006 -0.48009,0.042 -0.78125,0.125 -4.81847,1.32763 -29.53125,12.98956 -29.53125,21.375 0.0048,0.003 -0.0048,0.0279 0,0.0312 6.55088,4.56925 15.88528,7.40625 26.25,7.40625 17.69461,0 32.3948098,-8.32459 35.3437498,-19.28125 -6.0259998,10e-5 -15.9181198,-0.0196 -24.1249998,-0.0312 -8.8201,-0.0126 -3.84302,-9.52857 -7.15625,-9.625 z"
+         style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+      <path
+         id="path5298"
+         style="fill:none;stroke:#000000;stroke-width:0.77853447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+    </g>
+    <rect
+       rx="13.3332"
+       ry="13.3332"
+       y="303.60803"
+       x="627.66962"
+       height="159.00002"
+       width="359"
+       id="rect3661"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       id="path3663"
+       d="m 648.15088,303.63141 c -11.34901,0 -20.50179,9.49662 -20.50179,21.33406 l 0,110.7768 c 21.6389,14.40101 50.12377,23.18703 81.47906,23.18703 l 129.25264,0 c 67.94389,0 122.6268,-40.95341 122.6268,-91.8466 0,-24.65919 -12.87862,-46.98208 -33.84962,-63.45129 l -279.00709,0 z"
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.99998981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3707"
+       width="359"
+       height="159.00002"
+       x="627.66962"
+       y="303.60803"
+       ry="13.3332"
+       rx="13.3332"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <g
+       id="g4037"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/arrow_right.png"
+       inkscape:export-xdpi="180.01854"
+       inkscape:export-ydpi="180.01854">
+      <path
+         id="path3253"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 113.72687,558.61242 c 12.13517,0 4.01687,13.89016 10.23131,12.19221 6.21444,-1.69793 38.10829,-16.63042 38.10829,-27.356 0,-10.72558 -31.89316,-25.65786 -38.10829,-27.356 -6.21516,-1.69813 1.90398,12.16002 -10.23111,12.1772 -12.13513,0.0171 -29.209803,0.0152 -35.661023,0.0152 -6.45122,0 -6.877517,30.32725 0,30.32725 6.877517,0 23.525653,1.5e-4 35.660823,1.5e-4 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m 113.72687,558.61242 c 12.13517,0 4.01687,13.89016 10.23131,12.19221 6.21444,-1.69793 38.10829,-16.63042 38.10829,-27.356 0,-10.72558 -31.89316,-25.65786 -38.10829,-27.356 -6.21516,-1.69813 1.90398,12.16002 -10.23111,12.1772 -12.13513,0.0171 -29.209803,0.0152 -35.661023,0.0152 -6.45122,0 -6.877517,30.32725 0,30.32725 6.877517,0 23.525653,1.5e-4 35.660823,1.5e-4 z"
+         style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path3257" />
+      <path
+         id="path3262"
+         d="M 122.9375 515.9375 C 118.66392 516.06085 125.0954 528.26514 113.71875 528.28125 C 101.58362 528.29835 84.51372 528.28125 78.0625 528.28125 C 74.355925 528.28125 72.642457 538.29388 73.15625 546.8125 C 80.11925 548.46207 87.748983 549.375 95.75 549.375 C 119.84088 549.375 140.55066 541.09567 149.8125 529.25 C 140.10871 522.65163 127.62084 517.0916 123.96875 516.09375 C 123.5803 515.98762 123.22241 515.92928 122.9375 515.9375 z "
+         style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+      <path
+         id="path4035"
+         style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 113.72687,558.61242 c 12.13517,0 4.01687,13.89016 10.23131,12.19221 6.21444,-1.69793 38.10829,-16.63042 38.10829,-27.356 0,-10.72558 -31.89316,-25.65786 -38.10829,-27.356 -6.21516,-1.69813 1.90398,12.16002 -10.23111,12.1772 -12.13513,0.0171 -29.209803,0.0152 -35.661023,0.0152 -6.45122,0 -6.877517,30.32725 0,30.32725 6.877517,0 23.525653,1.5e-4 35.660823,1.5e-4 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+    </g>
+    <rect
+       style="fill:#fd2b35;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="rect3256"
+       width="297"
+       height="17"
+       x="220.47551"
+       y="430.92709"
+       transform="matrix(0.84584227,-0.53343309,0.53343309,0.84584227,0,0)" />
+    <rect
+       transform="matrix(-0.84584227,-0.53343309,-0.53343309,0.84584227,0,0)"
+       y="-152.11533"
+       x="-704.03015"
+       height="17"
+       width="297"
+       id="rect4036"
+       style="fill:#fd2b35;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4051"
+       d="m 165.87802,656.66066 -4.47196,7.05492 56.15311,35.35132 -56.15311,35.33598 4.47196,7.07027 59.53398,-37.4678 59.53398,37.4678 4.47197,-7.07027 -56.15312,-35.33598 56.15312,-35.35132 -4.47197,-7.05492 -59.53398,37.46779 -59.53398,-37.46779 z"
+       style="fill:#fd2b35;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4055"
+       d="m -333.1528,290.70404 -9.0479,14.05787 113.61176,70.44212 -113.61176,70.41158 9.0479,14.08843 120.4521,-74.6595 120.452101,74.6595 9.047899,-14.08843 -113.61177,-70.41158 113.61177,-70.44212 -9.047899,-14.05787 -120.452101,74.65949 -120.4521,-74.65949 z"
+       style="fill:#fc303a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.16744186;stroke:none"
+       d="M 24.75 305.875 C 17.363406 305.875 11.40625 311.80091 11.40625 319.1875 L 11.40625 340.375 L 250.40625 340.375 L 250.40625 319.1875 C 250.40625 311.80091 244.44909 305.875 237.0625 305.875 L 24.75 305.875 z "
+       id="rect3275"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <rect
+       inkscape:export-ydpi="135"
+       inkscape:export-xdpi="135"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3269"
+       width="487.00003"
+       height="93.5"
+       x="-192.58707"
+       y="-4.631155"
+       rx="13.3332"
+       ry="13.3332" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3271"
+       d="m -137.09505,-4.821786 c -30.2292,0 -54.48057,6.71078 -54.48057,15.03182 l 0,63.436368 c 0,0.20105 0.0998,0.39935 0.12776,0.5985 48.50975,6.13853 108.144021,9.78655 172.649741,9.78655 162.616429,0 294.399629,-23.02155 294.399629,-51.396898 0,-14.77612 -35.74804,-28.08347 -92.97501,-37.45634 l -319.72168,0 z"
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <rect
+       ry="13.3332"
+       rx="13.3332"
+       y="-4.631155"
+       x="-192.58707"
+       height="93.5"
+       width="487.00003"
+       id="rect3273"
+       style="fill:none;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <rect
+       ry="10"
+       rx="10"
+       y="8.3688374"
+       x="123.51063"
+       height="67.5"
+       width="163.5"
+       id="rect4055"
+       style="opacity:0.64628821000000003;fill:#fababc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <rect
+       style="opacity:0.64628821000000003;fill:#fababc;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+       id="rect4076"
+       width="299"
+       height="67.5"
+       x="-184.48936"
+       y="8.3688374"
+       rx="10"
+       ry="10" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:0.16744187;stroke:none"
+       d="m -165.38902,-4.627296 c -15.05136,0 -27.18998,3.71863 -27.18998,8.35382 l 0,13.29552 486.99991,0 0,-13.29552 c 0,-4.63519 -12.13852,-8.35382 -27.18988,-8.35382 l -432.62005,0 z"
+       id="path3275"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135" />
+    <flowRoot
+       transform="matrix(0.56673213,0,0,0.56711439,-299.07633,-117.6729)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1;font-family:Sans"
+       id="flowRoot4057"
+       xml:space="preserve"><flowRegion
+         style="stroke-width:1.17592645"
+         id="flowRegion4059"><rect
+           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1"
+           y="198.07648"
+           x="87.85714"
+           height="112.56889"
+           width="414.84024"
+           id="rect4061" /></flowRegion><flowPara
+         id="flowPara4063"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">Area 1</flowPara></flowRoot>    <rect
+       ry="13.333201"
+       rx="13.3332"
+       y="-144.68246"
+       x="-192.58707"
+       height="119.00002"
+       width="487.00003"
+       id="rect4098"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="m -137.09505,-144.92508 c -30.2292,0 -54.48057,8.54099 -54.48057,19.13141 l 0,80.737201 c 0,0.255882 0.0998,0.508264 0.12776,0.761727 48.50975,7.812676 108.144021,12.455611 172.649741,12.455611 162.616429,0 294.399629,-29.300157 294.399629,-65.414242 0,-18.805977 -35.74804,-35.742597 -92.97501,-47.671707 l -319.72168,0 z"
+       id="path4100"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       style="fill:none;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4102"
+       width="487.00003"
+       height="119.00002"
+       x="-192.23938"
+       y="-144.68246"
+       rx="13.3332"
+       ry="13.333201" />
+    <rect
+       style="opacity:0.64628822;fill:#fababc;fill-opacity:1;stroke:none"
+       id="rect4104"
+       width="163.5"
+       height="85.909096"
+       x="123.51063"
+       y="-128.13701"
+       rx="10"
+       ry="10" />
+    <rect
+       ry="10"
+       rx="10"
+       y="-128.13701"
+       x="-184.48936"
+       height="85.909096"
+       width="299"
+       id="rect4106"
+       style="opacity:0.64628822;fill:#fababc;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       id="path4108"
+       d="m -165.38902,-144.67755 c -15.05136,0 -27.18998,4.7328 -27.18998,10.63214 l 0,16.92157 486.99991,0 0,-16.92157 c 0,-5.89934 -12.13852,-10.63214 -27.18988,-10.63214 l -432.62005,0 z"
+       style="fill:#ffffff;fill-opacity:0.16744187;stroke:none"
+       inkscape:connector-curvature="0" />
+    <g
+       inkscape:export-ydpi="179.83246"
+       inkscape:export-xdpi="179.83246"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/arrow_up.png"
+       transform="matrix(1.1117318,0,0,1.1379305,-221.33288,-494.03088)"
+       id="g4118">
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m 195.53272,271.89599 c 0,-3.95415 -45.20601,-1.30887 -39.68,-3.3338 5.52597,-2.02493 54.12434,-12.41731 89.03117,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.88907379;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path4120" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4122"
+         d="m 244.86855,256.16372 c -34.90683,0 -83.48599,10.36048 -89.01196,12.38542 -5.52601,2.02492 39.68184,-0.59348 39.68184,3.36067 0,2.88513 -1.4e-4,5.81537 0,8.45834 7.60732,0.607 15.74175,0.94401 24.21456,0.94401 41.87026,0 75.79719,-8.02056 75.79719,-17.9362 0,-0.91005 -0.27315,-1.80457 -0.82593,-2.68099 -15.98023,-2.47033 -34.28611,-4.53125 -49.8557,-4.53125 z"
+         style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+      <path
+         id="path4124"
+         style="fill:none;stroke:#000000;stroke-width:0.88907379;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 195.53272,271.89599 c 0,-3.95415 -45.20601,-1.30887 -39.68,-3.3338 5.52597,-2.02493 54.12434,-12.41731 89.03117,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+    </g>
+    <g
+       inkscape:export-ydpi="90.010338"
+       inkscape:export-xdpi="90.010338"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/arrow_down.png"
+       transform="matrix(1.1117318,0,0,1.1379271,-235.48292,-440.13934)"
+       id="g4126">
+      <path
+         id="path4128"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.8890751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 208.26066,498.99531 c 0,3.95416 -45.20602,1.30887 -39.68001,3.33379 5.52597,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzzzz" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4130"
+         d="m 257.61561,485.76527 c -24.67531,-0.0174 -49.36766,0.5032 -49.36766,1.6237 0,2.24099 0,7.63828 0,11.59245 0,1.4828 -6.34819,2.0446 -14.00315,2.26562 -0.0473,0.008 -0.10246,-0.008 -0.15017,0 -0.41427,0.0668 -0.83083,0.12957 -1.27643,0.1888 l 0,0.30209 c 11.42012,2.8741 26.20915,4.60677 42.34733,4.60677 36.19527,0 65.54823,-8.69185 65.54823,-19.44662 0,-0.10965 0.006,-0.23063 0,-0.33984 -8.82479,-0.52433 -25.85907,-0.78084 -43.09815,-0.79297 z"
+         style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="zzzzzzzz"
+         inkscape:connector-curvature="0"
+         d="m 208.26066,498.99531 c 0,3.95416 -45.20602,1.30887 -39.68001,3.33379 5.52597,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
+         style="fill:none;stroke:#000000;stroke-width:0.8890751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         id="path4132" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4178"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Sans"
+       transform="matrix(0.74471069,0,0,0.75419132,21.650565,-139.47833)"><flowRegion
+         style="stroke-width:0.88954884"
+         id="flowRegion4180"><rect
+           id="rect4182"
+           width="322.63519"
+           height="82.298775"
+           x="87.85714"
+           y="198.07648"
+           style="font-size:32px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1" /></flowRegion><flowPara
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="flowPara4184">0/10</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.74471069,0,0,0.75419132,23.150565,-99.97833)"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Sans"
+       id="flowRoot4186"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4188"
+         style="stroke-width:0.88954884"><rect
+           style="font-size:32px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1"
+           y="198.07648"
+           x="87.85714"
+           height="82.298775"
+           width="322.63519"
+           id="rect4190" /></flowRegion><flowPara
+         id="flowPara4192"
+         style="font-size:26.68673515px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">Score 56104</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
+       style="fill:#595961;fill-opacity:1;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3294"
+       width="487.00034"
+       height="119.00002"
+       x="334.41293"
+       y="-146.80379"
+       rx="13.3332"
+       ry="13.333201" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3296"
+       d="m 389.90498,-147.0464 c -30.22921,0 -54.4806,8.54099 -54.4806,19.13141 l 0,80.737201 c 0,0.255882 0.0998,0.508264 0.12776,0.761727 48.50978,7.812676 108.14409,12.455611 172.64984,12.455611 162.61653,0 294.39981,-29.300157 294.39981,-65.414242 0,-18.805977 -35.74806,-35.742597 -92.97506,-47.671707 l -319.72188,0 z"
+       style="fill:#7b7b81;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       ry="13.333201"
+       rx="13.3332"
+       y="-146.80379"
+       x="334.76062"
+       height="119.00002"
+       width="487.00034"
+       id="rect3298"
+       style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       ry="10"
+       rx="10"
+       y="-130.25833"
+       x="650.5108"
+       height="85.909096"
+       width="163.50009"
+       id="rect3302"
+       style="opacity:0.64628822;fill:#bababc;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="opacity:0.64628822;fill:#bababc;fill-opacity:1;stroke:none"
+       id="rect3304"
+       width="299.00018"
+       height="85.909096"
+       x="342.51062"
+       y="-130.25833"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:0.16744187;stroke:none"
+       d="m 361.611,-146.79887 c -15.05137,0 -27.19,4.7328 -27.19,10.63214 l 0,16.92157 487.0002,0 0,-16.92157 c 0,-5.89934 -12.13852,-10.63214 -27.18989,-10.63214 l -432.62031,0 z"
+       id="path3306"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3300"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1;font-family:Sans"
+       transform="matrix(0.56673213,0,0,0.56711439,472.85574,600.68033)"><flowRegion
+         id="flowRegion3302"
+         style="stroke-width:1.17592645"><rect
+           id="rect3305"
+           width="405.33423"
+           height="146.60919"
+           x="87.85714"
+           y="198.07648"
+           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1" /></flowRegion><flowPara
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="flowPara3307">LEVEL SCORE:    2000 </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.44265015,0,0,0.44117267,481.61569,573.176)"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1;font-family:Sans"
+       id="flowRoot3309"
+       xml:space="preserve"><flowRegion
+         style="stroke-width:1.5085851"
+         id="flowRegion3311"><rect
+           style="font-size:32px;text-align:start;text-anchor:start;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1"
+           y="194.8709"
+           x="100.63666"
+           height="110.96611"
+           width="517.07635"
+           id="rect3313" /></flowRegion><flowPara
+         id="flowPara3315"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">HIT POINTS                   100</flowPara></flowRoot>    <path
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       d="m -96.561264,-371.90626 c -37.420726,4.2738 -70.270196,10.87812 -96.032486,19.17871 l 0,16.89554 0,66.88196 0,4.90122 c 46.65879,15.03344 116.582735,24.59746 194.7489264,24.59746 140.4771136,0 227.8341036,-30.85725 227.8341036,-68.9216 0,-15.11258 -17.96033,-29.09759 -48.39967,-40.45795 l -67.44569,0 0,-10.07643 c 0,-5.96797 -3.85302,-10.97591 -9.14314,-12.51183 -1.37926,-0.16547 -2.73715,-0.3281 -4.12917,-0.48708 z"
+       id="path4115"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       sodipodi:nodetypes="cccccssccsccc" />
+    <path
+       style="fill:#fea0a4;fill-opacity:1;stroke:none;opacity:0.75"
+       d="m 125.75312,-334.24609 99.96713,0 c 5.54119,0 10.00215,4.46 10.00215,10 l 0,66.77855 c 0,5.54 -4.46096,10 -10.00215,10 l -99.96713,0 c -5.54119,0 -10.00215,-4.46 -10.00215,-10 l 0,-66.77855 c 0,-5.54 4.46096,-10 10.00215,-10 z"
+       id="rect3312"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssssss"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       style="fill:#fea0a9;fill-opacity:1;stroke:none"
+       d="m -177.62332,-493.96875 c -5.22242,0 -9.42675,4.46 -9.42675,10 l 0,78 c 0,5.54 4.20433,10 9.42675,10 l 277.146502,0 c 5.222428,0 9.426748,-4.46 9.426748,-10 l 0,-78 c 0,-5.54 -4.20432,-10 -9.426748,-10 l -277.146502,0 z m 6.62818,7.5 263.919596,0 c 4.972942,0 8.955414,3.77671 8.955414,8.46875 l 0,66.0625 c 0,4.69204 -3.982472,8.46875 -8.955414,8.46875 l -263.919596,0 c -4.97293,0 -8.98486,-3.77671 -8.98486,-8.46875 l 0,-66.0625 c 0,-4.69204 4.01193,-8.46875 8.98486,-8.46875 z"
+       id="rect4099"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_tnframe.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       id="path4151"
+       d="m -179.99981,-371.90626 c -6.97152,0 -12.59394,5.80321 -12.59394,12.99891 l 0,23.07534 0,66.88196 0,23.07534 c 0,7.19569 5.62242,12.96846 12.59394,12.96846 l 409.84162,0 c 6.97153,0 12.56445,-5.77277 12.56445,-12.96846 l 0,-89.9573 c 0,-7.1957 -5.59292,-12.99891 -12.56445,-12.99891 l -115.69789,0 0,-10.07643 c 0,-7.1957 -5.59292,-12.99891 -12.56444,-12.99891 z"
+       style="fill:none;stroke:#000000;stroke-width:0.99999011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       sodipodi:nodetypes="ssccsssssscsss" />
+    <path
+       id="path4171"
+       d="m 354.00018,-371.90626 c -6.97152,0 -12.59394,5.80321 -12.59394,12.99891 l 0,23.07534 0,66.88196 0,23.07534 c 0,7.19569 5.62242,12.96846 12.59394,12.96846 l 409.84162,0 c 6.97153,0 12.56445,-5.77277 12.56445,-12.96846 l 0,-89.9573 c 0,-7.1957 -5.59292,-12.99891 -12.56445,-12.99891 l -115.69789,0 0,-10.07643 c 0,-7.1957 -5.59292,-12.99891 -12.56444,-12.99891 z"
+       style="fill:#595961;fill-opacity:1;stroke:#000000;stroke-width:0.99999011000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       sodipodi:nodetypes="ssccsssssscsss" />
+    <path
+       sodipodi:nodetypes="cccccssccsccc"
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       inkscape:connector-curvature="0"
+       id="path4173"
+       d="m 437.43872,-371.90626 c -37.42072,4.2738 -70.27019,10.87812 -96.03248,19.17871 l 0,16.89554 0,66.88196 0,4.90122 c 46.65879,15.03344 116.58273,24.59746 194.74892,24.59746 140.47712,0 227.83411,-30.85725 227.83411,-68.9216 0,-15.11258 -17.96033,-29.09759 -48.39967,-40.45795 l -67.44569,0 0,-10.07643 c 0,-5.96797 -3.85302,-10.97591 -9.14314,-12.51183 -1.37926,-0.16547 -2.73715,-0.3281 -4.12917,-0.48708 z"
+       style="fill:#7b7b81;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       sodipodi:nodetypes="sssssssss"
+       inkscape:connector-curvature="0"
+       id="path4175"
+       d="m 659.75311,-334.24609 99.96713,0 c 5.54119,0 10.00215,4.46 10.00215,10 l 0,66.77855 c 0,5.54 -4.46096,10 -10.00215,10 l -99.96713,0 c -5.54119,0 -10.00215,-4.46 -10.00215,-10 l 0,-66.77855 c 0,-5.54 4.46096,-10 10.00215,-10 z"
+       style="opacity:0.75000000000000000;fill:#bababc;fill-opacity:1;stroke:none" />
+    <path
+       sodipodi:nodetypes="ssccsssssscsss"
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.99999011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 354.00018,-371.90626 c -6.97152,0 -12.59394,5.80321 -12.59394,12.99891 l 0,23.07534 0,66.88196 0,23.07534 c 0,7.19569 5.62242,12.96846 12.59394,12.96846 l 409.84162,0 c 6.97153,0 12.56445,-5.77277 12.56445,-12.96846 l 0,-89.9573 c 0,-7.1957 -5.59292,-12.99891 -12.56445,-12.99891 l -115.69789,0 0,-10.07643 c 0,-7.1957 -5.59292,-12.99891 -12.56444,-12.99891 z"
+       id="path4177" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#fd545c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3914"
+       width="30"
+       height="50"
+       x="599.62189"
+       y="-532.49994" />
+    <rect
+       y="-582.49994"
+       x="599.62189"
+       height="50"
+       width="30"
+       id="rect4426"
+       style="fill:#50cf79;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#f35f1e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4428"
+       width="30"
+       height="50"
+       x="599.62189"
+       y="-632.49994" />
+    <rect
+       y="-632.49994"
+       x="569.62189"
+       height="50"
+       width="30"
+       id="rect4430"
+       style="fill:#f57943;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#dc4b0c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4432"
+       width="30"
+       height="50"
+       x="629.62189"
+       y="-632.49994" />
+    <rect
+       style="fill:#70d892;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4434"
+       width="30"
+       height="50"
+       x="569.62189"
+       y="-582.49994" />
+    <rect
+       y="-582.49994"
+       x="629.62189"
+       height="50"
+       width="30"
+       id="rect4436"
+       style="fill:#36c263;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       y="-532.49994"
+       x="629.62189"
+       height="50"
+       width="30"
+       id="rect4440"
+       style="fill:#fd2b35;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#fd7b81;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4442"
+       width="30"
+       height="50"
+       x="569.62189"
+       y="-532.49994" />
+    <rect
+       y="-632.49994"
+       x="659.62189"
+       height="50"
+       width="30"
+       id="rect4444"
+       style="fill:#b63e0a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#2da353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4446"
+       width="30"
+       height="50"
+       x="659.62189"
+       y="-582.49994" />
+    <rect
+       style="fill:#fd030f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4448"
+       width="30"
+       height="50"
+       x="659.62189"
+       y="-532.49994" />
+    <rect
+       style="fill:#903108;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4450"
+       width="30"
+       height="50"
+       x="689.62195"
+       y="-632.49994" />
+    <rect
+       y="-582.49994"
+       x="689.62195"
+       height="50"
+       width="30"
+       id="rect4452"
+       style="fill:#248443;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       y="-532.49994"
+       x="689.62195"
+       height="50"
+       width="30"
+       id="rect4454"
+       style="fill:#d6020c;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="86246__jeseid77__various-shotgun-pumps_data" version="1.3.0" audacityversion="2.0.2" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="228.9937759336" rate="48000.0">
+	<tags/>
+	<wavetrack name="86246__jeseid77__various-shotgun-pumps" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="370176">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004be.au" len="262144" min="-0.851667" max="0.841427" rms="0.071893"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000c9a.au" len="108032" min="-0.561008" max="0.529104" rms="0.038219"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="86246__jeseid77__various-shotgun-pumps" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="370176">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c47.au" len="262144" min="-0.851682" max="0.841427" rms="0.071907"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000f9e.au" len="108032" min="-0.561007" max="0.528461" rms="0.038237"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

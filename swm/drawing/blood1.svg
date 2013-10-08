@@ -1,0 +1,2984 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="blood1.svg"
+   inkscape:version="0.48.4 r9939"
+   version="1.1"
+   id="svg2"
+   height="1052.3622047"
+   width="744.09448819">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8107549"
+     inkscape:cx="55.36195"
+     inkscape:cy="97.044034"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-nodes="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4144">
+      <stop
+         style="stop-color:#fa474c;stop-opacity:0.27976191;"
+         offset="0"
+         id="stop4146" />
+      <stop
+         id="stop4148"
+         offset="0.29195887"
+         style="stop-color:#ff0000;stop-opacity:0.84523809;" />
+      <stop
+         style="stop-color:#660000;stop-opacity:0.38095239;"
+         offset="1"
+         id="stop4150" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4042">
+      <stop
+         id="stop4044"
+         offset="0"
+         style="stop-color:#c84761;stop-opacity:0.70833331;" />
+      <stop
+         style="stop-color:#520000;stop-opacity:0.85119045;"
+         offset="0.37254903"
+         id="stop4142" />
+      <stop
+         id="stop4046"
+         offset="1"
+         style="stop-color:#370000;stop-opacity:0.63690478;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4037">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop4039" />
+      <stop
+         style="stop-color:#b30000;stop-opacity:1;"
+         offset="1"
+         id="stop4041" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4031">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop4033" />
+      <stop
+         style="stop-color:#b30000;stop-opacity:1;"
+         offset="1"
+         id="stop4035" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3621">
+      <stop
+         id="stop3623"
+         offset="0"
+         style="stop-color:#ff0000;stop-opacity:1;" />
+      <stop
+         id="stop3625"
+         offset="1"
+         style="stop-color:#b30000;stop-opacity:1;" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective10"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3641" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="116.83148"
+       fy="309.09521"
+       fx="236.435"
+       cy="309.09521"
+       cx="236.435"
+       id="radialGradient3629-0"
+       xlink:href="#linearGradient3621-0"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient3621-0">
+      <stop
+         id="stop3623-9"
+         offset="0"
+         style="stop-color:#ff0000;stop-opacity:1;" />
+      <stop
+         id="stop3625-5"
+         offset="1"
+         style="stop-color:#b30000;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       r="116.83148"
+       fy="309.09521"
+       fx="236.435"
+       cy="309.09521"
+       cx="236.435"
+       gradientTransform="matrix(0.76442306,0,0,0.76442306,48.39909,22.123944)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3687"
+       xlink:href="#linearGradient3621"
+       inkscape:collect="always" />
+    <radialGradient
+       r="116.83148"
+       fy="309.09521"
+       fx="236.435"
+       cy="309.09521"
+       cx="236.435"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4164"
+       xlink:href="#linearGradient3621"
+       inkscape:collect="always" />
+    <radialGradient
+       r="116.83148"
+       fy="400.10703"
+       fx="189.26848"
+       cy="400.10703"
+       cx="189.26848"
+       gradientTransform="matrix(0.26493632,0,0,0.26493632,2928.7823,-217.62361)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4178"
+       xlink:href="#linearGradient3621"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient4349"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0859354,-0.01354704,0.01330873,1.0668316,-64.0669,370.87462)"
+       cx="235.83298"
+       cy="358.21423"
+       fx="235.83298"
+       fy="358.21423"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient4351"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.83962927,-0.02671508,0.01890777,0.59425307,-45.540496,550.27517)"
+       cx="738.55042"
+       cy="320.5242"
+       fx="738.55042"
+       fy="320.5242"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient4353"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.57477752,-0.02945949,0.02511339,0.48998159,248.53853,606.996)"
+       cx="1268.6229"
+       cy="394.84177"
+       fx="1268.6229"
+       fy="394.84177"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient4355"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.51862263,1.5927809e-8,-1.4185716e-8,0.46189863,459.87878,587.86885)"
+       cx="1805.592"
+       cy="369.78085"
+       fx="1805.592"
+       fy="369.78085"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient4357"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.45205075,-0.01889141,0.01890789,0.45244474,740.16955,649.15239)"
+       cx="2343.0933"
+       cy="413.12772"
+       fx="2343.0933"
+       fy="413.12772"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient4359"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.43283292,0.0264573,-0.01666531,0.27263918,975.1077,594.21909)"
+       cx="2872.4099"
+       cy="394.91766"
+       fx="2872.4099"
+       fy="394.91766"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient4361"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.76442306,0,0,0.76442306,-1.191877,-418.96058)"
+       cx="236.435"
+       cy="309.09521"
+       fx="236.435"
+       fy="309.09521"
+       r="116.83148" />
+    <filter
+       inkscape:collect="always"
+       id="filter4060"
+       x="-0.14436488"
+       width="1.2887298"
+       y="-0.1829401"
+       height="1.3658802">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2925214"
+         id="feGaussianBlur4062" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4175"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4201"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4231"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4233"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4235"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4237"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4239"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4241"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4281"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4305"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,413.68945,272.59102)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4308"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,336.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4311"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,336.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4314"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,336.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4317"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,336.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4320"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,336.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4347"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,368.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4350"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,368.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4352"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,368.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4354"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,368.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4414"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,400.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4416"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,400.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4418"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,400.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4420"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,400.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4448"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,432.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4450"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,432.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4452"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,432.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4454"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,432.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4482"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,464.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4484"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,464.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4486"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,464.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4488"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,464.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4516"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,496.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4518"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,496.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4520"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,496.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4522"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,496.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4550"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,528.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4552"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,528.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4554"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,528.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4556"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,528.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4582"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4584"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4586"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4588"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient4590"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5615"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5617"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5619"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5621"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5623"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5625"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5634"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5636"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5638"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5640"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5642"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="927.71765"
+       fx="86.478195"
+       cy="927.71765"
+       cx="86.478195"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5644"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="1082.8744"
+       fx="2.261524"
+       cy="1082.8744"
+       cx="2.261524"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5647"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="1056.6377"
+       fx="15.352101"
+       cy="1056.6377"
+       cx="15.352101"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5650"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="1032.7003"
+       fx="29.456722"
+       cy="1032.7003"
+       cx="29.456722"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5653"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="1005.9795"
+       fx="43.595287"
+       cy="1005.9795"
+       cx="43.595287"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5656"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="980.83661"
+       fx="58.899723"
+       cy="980.83661"
+       cx="58.899723"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5659"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <radialGradient
+       r="14.3961"
+       fy="954.51434"
+       fx="73.585121"
+       cy="954.51434"
+       cx="73.585121"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,560.67035,273.10522)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5662"
+       xlink:href="#linearGradient4144"
+       inkscape:collect="always" />
+    <filter
+       inkscape:collect="always"
+       id="filter6269"
+       x="-0.29883285"
+       width="1.5976657"
+       y="-0.34053311"
+       height="1.6810662">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.6107534"
+         id="feGaussianBlur6271" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter6273"
+       x="-0.31008496"
+       width="1.6201699"
+       y="-0.33939261"
+       height="1.6787852">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3225158"
+         id="feGaussianBlur6275" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter6277"
+       x="-0.31638812"
+       width="1.6327762"
+       y="-0.34305099"
+       height="1.686102">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3225158"
+         id="feGaussianBlur6279" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter6281"
+       x="-0.32294674"
+       width="1.6458935"
+       y="-0.34675915"
+       height="1.6935183">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3225158"
+         id="feGaussianBlur6283" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter6285"
+       x="-0.32977708"
+       width="1.6595542"
+       y="-0.35051459"
+       height="1.7010292">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3225158"
+         id="feGaussianBlur6287" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter6289"
+       x="-0.33689616"
+       width="1.6737923"
+       y="-0.35431481"
+       height="1.7086296">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3225158"
+         id="feGaussianBlur6291" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter6293"
+       x="-0.34432304"
+       width="1.6886461"
+       y="-0.35815596"
+       height="1.7163119">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3225158"
+         id="feGaussianBlur6295" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter6297"
+       x="-0.3390821"
+       width="1.6781642"
+       y="-0.36715234"
+       height="1.7343047">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.6107534"
+         id="feGaussianBlur6299" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6301"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.6825447,0.40631159,-0.18180363,0.75285255,32.293165,201.99648)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6303"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4311368,0.49417645,-0.22036599,0.64254755,123.50608,294.00073)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6305"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3715483,0.47415797,-0.21119057,0.61651875,153.1417,317.59705)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6307"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.97415165,0.41848785,-0.18540484,0.4402253,197.31393,484.25796)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6309"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.6603845,0.64883389,-0.2990254,0.28688573,363.54855,603.84455)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6311"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.68513055,0.5252474,-0.24162491,0.29818249,340.32944,604.36422)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6313"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,332.80456,274.76199)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6315"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2234743,0.96431724,-0.43148256,0.54744206,334.4333,339.54448)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6317"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2234743,0.96431724,-0.43148256,0.54744206,367.81394,339.26835)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6319"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1011269,0.86788552,-0.3883343,0.49269785,372.94923,398.45621)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6321"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99101421,0.78109697,-0.34950087,0.44342807,381.4199,450.77264)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6323"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.89191279,0.70298727,-0.31455078,0.39908526,392.80955,497.49845)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6325"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.72244936,0.56941969,-0.25478613,0.32325906,384.0516,580.53089)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6327"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,339.98389,270.75813)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6329"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2234743,0.96431724,-0.43148256,0.54744206,337.88813,338.05061)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6333"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2234743,0.96431724,-0.43148256,0.54744206,368.92168,338.60286)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6335"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1011269,0.86788552,-0.3883343,0.49269785,370.84299,398.94519)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6337"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99101421,0.78109697,-0.34950087,0.44342807,375.62029,453.14284)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6339"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.72244936,0.56941969,-0.25478613,0.32325906,341.34536,585.5464)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6341"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,335.30358,269.59068)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6343"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2234743,0.96431724,-0.43148256,0.54744206,336.24986,337.32162)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6345"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2234743,0.96431724,-0.43148256,0.54744206,369.32375,338.39551)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6347"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99101421,0.78109697,-0.34950087,0.44342807,348.09888,453.21377)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6349"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.95608815,0.82347866,-0.3684645,0.42780045,400.49588,465.66612)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6351"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.57290248,0.71969064,-0.32202468,0.2563445,425.64745,635.69123)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6353"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.58518398,0.46122995,-0.20637677,0.26183983,350.6209,658.25257)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6355"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.38393921,0.30261297,-0.13540379,0.17179311,335.09904,758.43374)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6377"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.72244936,0.56941969,-0.25478613,0.32325906,448.0516,580.53089)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6379"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.58518398,0.46122995,-0.20637677,0.26183983,414.6209,658.25257)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6381"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,624.67035,273.10522)"
+       cx="73.585121"
+       cy="954.51434"
+       fx="73.585121"
+       fy="954.51434"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6407"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.89191279,0.70298727,-0.31455078,0.39908526,520.80955,497.49845)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6409"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.57290248,0.71969064,-0.32202468,0.2563445,553.64745,635.69123)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6411"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.72244936,0.56941969,-0.25478613,0.32325906,469.34536,585.5464)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6413"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.68513055,0.5252474,-0.24162491,0.29818249,468.32944,604.36422)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6415"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,688.67035,273.10522)"
+       cx="58.899723"
+       cy="980.83661"
+       fx="58.899723"
+       fy="980.83661"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6441"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99101421,0.78109697,-0.34950087,0.44342807,573.4199,450.77264)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6443"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.95608815,0.82347866,-0.3684645,0.42780045,592.49588,465.66612)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6445"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99101421,0.78109697,-0.34950087,0.44342807,567.62029,453.14284)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6447"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.6603845,0.64883389,-0.2990254,0.28688573,555.54855,603.84455)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient6449"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,752.67035,273.10522)"
+       cx="43.595287"
+       cy="1005.9795"
+       fx="43.595287"
+       fy="1005.9795"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient8185"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2234743,0.96431724,-0.43148256,0.54744206,655.81394,339.26835)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient8187"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2234743,0.96431724,-0.43148256,0.54744206,656.92168,338.60286)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient8189"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3715483,0.47415797,-0.21119057,0.61651875,441.1417,317.59705)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient8191"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3594159,1.0714636,-0.47942507,0.60826896,848.67035,273.10522)"
+       cx="15.352101"
+       cy="1056.6377"
+       fx="15.352101"
+       fy="1056.6377"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4144"
+       id="radialGradient8193"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2234743,0.96431724,-0.43148256,0.54744206,657.32375,338.39551)"
+       cx="86.478195"
+       cy="927.71765"
+       fx="86.478195"
+       fy="927.71765"
+       r="14.3961" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient28541"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01150439,-0.00111332,0.00111505,0.01146871,195.08179,1004.0592)"
+       cx="3906.4707"
+       cy="390.0094"
+       fx="3906.4707"
+       fy="390.0094"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient28543"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01150439,-0.00111332,0.00111505,0.01146871,195.08179,1004.0592)"
+       cx="3906.4707"
+       cy="390.0094"
+       fx="3906.4707"
+       fy="390.0094"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient28545"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01150439,-0.00111332,0.00111505,0.01146871,195.08179,1004.0592)"
+       cx="3906.4707"
+       cy="390.0094"
+       fx="3906.4707"
+       fy="390.0094"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient28547"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01150439,-0.00111332,0.00111505,0.01146871,195.08179,1004.0592)"
+       cx="3906.4707"
+       cy="390.0094"
+       fx="3906.4707"
+       fy="390.0094"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient28549"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01150439,-0.00111332,0.00111505,0.01146871,195.08179,1004.0592)"
+       cx="3906.4707"
+       cy="390.0094"
+       fx="3906.4707"
+       fy="390.0094"
+       r="116.83148" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="radialGradient28551"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01150439,-0.00111332,0.00111505,0.01146871,195.08179,1004.0592)"
+       cx="3906.4707"
+       cy="390.0094"
+       fx="3906.4707"
+       fy="390.0094"
+       r="116.83148" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4064"
+       width="32.000069"
+       height="32.000011"
+       x="0"
+       y="920.36218"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood1.png"
+       style="opacity:0;fill:#357fd0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 0,1020.3622 256,0 0,32 -256,0 0,-32 z"
+       id="path5994" />
+    <rect
+       y="129.46379"
+       x="51.0798"
+       height="397.02234"
+       width="397.02234"
+       id="rect2816"
+       style="fill:#357fd0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.97766733000000006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3592"
+       d="m 261.16907,202.61559 c -25.81928,0 -49.02717,11.16623 -65.09375,28.90625 -44.89031,3.89888 -80.125,41.56717 -80.125,87.46875 0,16.27895 4.43564,31.52324 12.15625,44.59375 -0.0142,0.65055 -0.0312,1.31479 -0.0312,1.96875 0,48.49539 39.31711,87.78125 87.8125,87.78125 21.19197,0 40.61047,-7.49986 55.78125,-20 7.56692,2.12264 15.53944,3.28125 23.78125,3.28125 48.49539,0 87.78125,-39.31711 87.78125,-87.8125 0,-28.70588 -13.76247,-54.19659 -35.0625,-70.21875 -5.78252,-42.895 -42.52063,-75.96875 -87,-75.96875 z"
+       style="fill:url(#radialGradient3687);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4164);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.92452836;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3671"
+       sodipodi:cx="278.33698"
+       sodipodi:cy="350.99719"
+       sodipodi:rx="114.86922"
+       sodipodi:ry="114.86922"
+       d="m 393.20619,350.99719 a 114.86922,114.86922 0 1 1 -229.73843,0 114.86922,114.86922 0 1 1 229.73843,0 z"
+       transform="matrix(0.76442306,0,0,0.76442306,364.87723,100.54598)" />
+    <path
+       id="rect3689"
+       d="m 0,-313.10956 400,0 0,400.000002 -400,0 0,-400.000002 z"
+       style="fill:#357fd0;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <path
+       style="fill:url(#radialGradient4361);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 211.5781,-238.46893 c -25.81928,0 -49.02717,11.16623 -65.09375,28.90625 -44.89031,3.89888 -80.125001,41.56717 -80.125001,87.46875 0,16.27895 4.43564,31.523235 12.15625,44.593745 -0.0142,0.65055 -0.0312,1.31479 -0.0312,1.96875 0,48.49539 39.317111,87.78125 87.812501,87.78125 21.19197,0 40.61047,-7.49986 55.78125,-20 7.56692,2.12264 15.53944,3.28125 23.78125,3.28125 48.49539,0 87.78125,-39.31711 87.78125,-87.8125 0,-28.705875 -13.76247,-54.196585 -35.0625,-70.218745 -5.78252,-42.895 -42.52063,-75.96875 -87,-75.96875 z"
+       id="path3691" />
+    <path
+       id="path3696"
+       d="m 3002.5248,-155.0682 c -8.9485,0 -17.5777,17.34242 -23.1461,23.49081 -15.5583,1.35129 -14.1024,4.2534 -17.6169,9.81375 -3.0145,4.76921 -4.7165,13.60549 -2.0407,18.13551 4.9582,6.412632 1.9443,8.905001 1.3585,14.793953 -1.6636,16.725163 13.6267,12.655595 18.3288,10.312572 6.5739,-3.275725 8.022,-6.894868 13.28,-11.227209 2.6226,0.735672 5.5479,12.581755 22.4957,9.533059 5.7851,-1.040649 23.0039,-7.378594 23.0039,-24.186285 0,-9.94899 -12.9704,-9.41155 -20.3526,-14.96456 -2.0041,-14.8667 0.1021,-35.7016 -15.3136,-35.7016 l 0,0 0,0 0,0 0,0 z"
+       style="fill:url(#radialGradient4178);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0397501;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:nodetypes="ccscsscsscccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5899"
+       d="m 16.231009,1026.325 c -2.034162,0.3587 -3.707466,1.5608 -4.726825,3.1817 -1.7412606,0.4653 -3.1750446,1.5623 -4.0938122,2.995 -0.9187851,1.4326 -1.3225375,3.201 -1.0037021,5.0092 0.226142,1.2825 0.7873835,2.422 1.5772154,3.3445 0.00791,0.051 0.015806,0.104 0.024888,0.1555 0.3368427,1.9103 1.4160955,3.5027 2.8887319,4.5334 1.472638,1.0306 3.338641,1.4994 5.248986,1.1625 1.669602,-0.2944 3.095292,-1.155 4.116868,-2.3506 0.625643,0.062 1.269851,0.043 1.919179,-0.072 1.910346,-0.3369 3.502742,-1.4162 4.533367,-2.8887 1.030607,-1.4726 1.49941,-3.3387 1.162567,-5.249 -0.398783,-2.2616 -1.837157,-4.0787 -3.737854,-5.0451 -0.525733,-1.6496 -1.627067,-2.9982 -3.034994,-3.8572 -1.40793,-0.859 -3.12247,-1.2283 -4.874615,-0.9194 0,0 -4e-6,0 -4e-6,0"
+       style="fill:#ff0808;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5901"
+       d="m 46.719543,1027.5345 c -1.759794,0.6406 -3.018222,2.1243 -3.673215,3.732 -1.562362,0.7273 -2.582382,1.8923 -3.160726,3.3118 -0.576059,1.409 -0.637407,3.0634 -0.05268,4.5805 0.460087,1.0984 1.080818,2.0152 1.90155,2.7418 0.06187,0.2285 0.224643,0.1682 0.281334,0.1668 0.626457,1.5016 1.775906,2.6406 3.211912,3.2243 1.427534,0.6484 3.150147,0.8822 4.882667,0.2145 1.423558,-0.5309 2.659095,-1.6049 3.277795,-2.9466 0.498455,-0.1478 0.902103,-0.2037 1.332266,-0.4274 1.482788,-0.7206 2.607525,-2.1005 3.09273,-3.4368 0.650777,-1.3964 0.768787,-3.0413 0.2001,-4.6038 -0.673234,-1.8497 -2.157872,-3.1694 -3.906108,-3.7022 -0.689305,-1.3142 -1.819694,-2.2887 -3.136025,-2.8043 -1.316297,-0.5154 -2.818554,-0.572 -4.251594,-0.051 0,0 3e-5,0 3e-5,0"
+       style="fill:#ff0808;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5903"
+       d="m 77.605591,1028.8353 c -1.454851,0.84 -2.25697,2.4975 -2.58512,4.0199 -1.347576,0.9423 -1.979989,2.0696 -2.25272,3.4059 -0.271828,1.315 -0.04353,2.7949 0.716956,3.9898 0.636519,0.8758 1.260443,1.5874 2.07166,2.1368 0.176071,0.3827 0.450396,0.1608 0.535373,0.093 0.785487,1.06 1.886215,1.777 3.18102,1.9631 1.300502,0.3165 2.860803,0.3764 4.361382,-0.5705 1.151252,-0.6923 2.166458,-1.9404 2.368038,-3.325 0.321354,-0.3082 0.49825,-0.32 0.696665,-0.5808 0.990384,-0.9641 1.599159,-2.514 1.625976,-3.5781 0.33204,-1.2401 0.190822,-2.6071 -0.501997,-3.8072 -0.820157,-1.4205 -2.229521,-2.2888 -3.741376,-2.4731 -0.755887,-0.9788 -1.82454,-1.6149 -2.979413,-1.8475 -1.154898,-0.2326 -2.395916,-0.062 -3.496466,0.5739 0,0 4.4e-5,-10e-5 4.4e-5,-10e-5"
+       style="fill:#ff0808;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5905"
+       d="m 108.91544,1030.1065 c -1.13922,0.9558 -1.4683,2.6745 -1.52038,4.0521 -1.10757,1.1061 -1.40149,2.1028 -1.41662,3.2978 -0.0194,1.1632 0.43641,2.4231 1.28057,3.287 0.74988,0.6292 1.32895,1.1646 2.09776,1.563 0.34353,0.4992 0.67434,0.079 0.7655,-0.063 0.81299,0.6182 1.76033,0.971 2.82622,0.8307 1.10828,0.051 2.50353,0 3.73061,-1.1699 0.87094,-0.7778 1.64336,-2.1566 1.43694,-3.4816 0.10808,-0.4093 0.0925,-0.3031 0.0649,-0.5284 0.46884,-1.0588 0.54469,-2.6415 0.229,-3.3251 0.0893,-1.0232 -0.21181,-2.0805 -0.92437,-2.9297 -0.84348,-1.0053 -2.07444,-1.4935 -3.29121,-1.4287 -0.73141,-0.666 -1.66177,-1.0188 -2.60393,-1.0416 -0.94219,-0.023 -1.89613,0.2845 -2.6751,0.9374 0,0 0,0 0,0"
+       style="fill:#ff0808;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5907"
+       d="m 139.87533,1032.1257 c -0.64722,1.1208 -0.22417,2.7394 0.14333,3.8816 -0.62895,1.3467 -0.51575,2.1282 -0.15856,3.0909 0.33707,0.9246 1.11728,1.8136 2.03939,2.2047 0.85045,0.2293 1.40896,0.5353 2.14909,0.6878 0.64332,0.4598 0.85113,-0.2263 0.88501,-0.4554 0.74059,0.081 1.45056,0.025 2.14328,-0.4818 0.83318,-0.2863 2.03687,-0.6152 2.71924,-2.0758 0.45392,-0.8823 0.70718,-2.4137 -0.0694,-3.4627 -0.20111,-0.4157 -0.30514,-0.1067 -0.55249,-0.1861 -0.21877,-0.9804 -0.91103,-2.3601 -1.46312,-2.494 -0.19952,-0.744 -0.683,-1.412 -1.40291,-1.8277 -0.85231,-0.4919 -1.84522,-0.5205 -2.68594,-0.1624 -0.68655,-0.2821 -1.43271,-0.292 -2.1025,-0.066 -0.66983,0.2256 -1.26344,0.6867 -1.64456,1.3471 0,0 0,0 0,0"
+       style="fill:#ff0808;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5909"
+       d="m 173.3258,1032.1854 c -0.70813,0.8435 -0.41142,2.4287 -0.27222,3.4403 -0.80791,1.1524 -0.73973,1.6987 -0.56336,2.5391 0.16001,0.7894 0.72072,1.6497 1.41908,2.036 0.74793,0.2577 1.07837,0.6276 1.65703,0.9264 0.68215,0.6969 1.077,-0.1117 1.15866,-0.3939 0.52268,-0.052 0.94607,-0.098 1.46113,-0.5321 0.63999,-0.1332 1.76059,-0.066 2.60591,-1.3442 0.47789,-0.6628 0.9873,-2.0992 0.25564,-3.1658 -0.28724,-0.4667 -0.6026,0 -0.99577,-0.027 -0.36818,-0.8828 -1.05248,-2.269 -1.66361,-2.1058 -0.0449,-0.5115 -0.28499,-1.0061 -0.70954,-1.3624 -0.50266,-0.4218 -1.15113,-0.5552 -1.7447,-0.4177 -0.418,-0.2645 -0.90667,-0.3573 -1.37264,-0.2868 -0.46579,0.071 -0.90911,0.3042 -1.23582,0.6938 0,0 0,0 0,0"
+       style="fill:#ff0808;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5911"
+       d="m 205.94371,1033.2801 c -0.58408,0.6961 -0.12621,2.199 -0.0114,3.0335 -0.76261,1.0876 -0.60218,1.3908 -0.43401,2.0616 0.14862,0.6096 0.65598,1.3192 1.21281,1.547 0.69789,0.1417 0.86204,0.4831 1.31663,0.8017 0.81083,0.8296 1.27675,-0.1479 1.36542,-0.4969 0.3304,-0.3112 0.46783,-0.4722 0.72828,-0.9614 0.40986,-0.1281 1.40848,0.1207 2.1734,-1.1164 0.35623,-0.5351 0.85903,-1.9442 -0.0218,-2.9096 -0.44854,-0.4893 -0.92354,0.1527 -1.47979,0.2254 -0.69102,-0.7622 -1.6175,-2.0556 -2.31944,-1.5015 -0.0224,-0.2558 -0.14242,-0.5032 -0.35481,-0.6812 -0.2513,-0.2108 -0.57556,-0.2777 -0.87234,-0.2089 -0.20899,-0.1322 -0.45338,-0.1788 -0.68631,-0.1435 -0.23363,0.031 -0.45441,0.1522 -0.61869,0.3457 0,0 0,0 0,0"
+       style="fill:#ff0808;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5913"
+       d="m 237.58716,1035.3386 c -0.24483,0.6727 0.82276,1.7959 1.13255,2.3827 -0.32408,1.2066 -0.0661,1.1766 0.25567,1.5928 0.27609,0.3572 0.89381,0.727 1.30759,0.6498 0.61774,-0.1973 0.72269,0.097 1.14933,0.3026 1.21176,0.5827 1.32429,-0.678 1.27656,-1.0959 -0.0663,-0.5837 -0.29878,-0.7917 -0.48045,-1.3055 0.12777,-0.1764 1.0975,-0.073 1.33226,-1.4301 0.0803,-0.4634 0.0746,-1.9314 -1.18891,-2.3913 -0.74804,-0.2723 -1.06254,0.7174 -1.68194,1.1205 -1.17241,-0.2561 -2.68109,-0.9844 -3.10286,0.1743 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0"
+       style="fill:#ff0808;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3039"
+       d="m 0,988.36218 256,0 0,32.00002 -256,0 0,-32.00002 z"
+       style="opacity:0;fill:#357fd0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood2.png"
+       inkscape:export-xdpi="179.99991"
+       inkscape:export-ydpi="179.99991" />
+    <path
+       inkscape:export-ydpi="179.99991"
+       inkscape:export-xdpi="179.99991"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood2.png"
+       style="fill:#e82222;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 17.484174,999.7889 c -0.945239,0 -1.794877,0.4074 -2.383072,1.0546 -0.821714,0.071 -1.555055,0.4502 -2.082968,1.0208 -0.527912,0.5707 -0.850397,1.3329 -0.850397,2.1702 0,0.5939 0.162389,1.15 0.445039,1.6268 -5.22e-4,0.024 -0.0011,0.048 -0.0011,0.072 0,0.8846 0.359848,1.6851 0.941623,2.2646 0.581775,0.5795 1.385475,0.9378 2.27318,0.9378 0.775835,0 1.486743,-0.2736 2.042143,-0.7297 0.277024,0.077 0.568896,0.1197 0.870628,0.1197 0.887705,0 1.691119,-0.3586 2.272608,-0.9383 0.581488,-0.5797 0.94105,-1.3806 0.94105,-2.2652 0,-1.0473 -0.503842,-1.9772 -1.283632,-2.5617 -0.105849,-0.7825 -0.495018,-1.4753 -1.061272,-1.9726 -0.566254,-0.4972 -1.309594,-0.7989 -2.123786,-0.7989 0,0 -10e-7,0 -10e-7,0"
+       id="path3043"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="179.99991"
+       inkscape:export-xdpi="179.99991"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood2.png"
+       style="fill:#e82222;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 241.07172,1002.9868 c -0.31334,0 -0.6155,0.6058 -0.81049,0.8206 -0.54479,0.047 -0.49381,0.1486 -0.61687,0.3428 -0.10556,0.1667 -0.16516,0.4754 -0.0715,0.6336 0.17362,0.224 0.0681,0.3111 0.0476,0.5168 -0.0583,0.5843 0.47715,0.4421 0.6418,0.3603 0.2302,-0.1145 0.28091,-0.2409 0.46502,-0.3922 0.0918,0.026 0.19427,0.4395 0.78771,0.333 0.20258,-0.036 0.80551,-0.2578 0.80551,-0.8449 0,-0.3476 -0.45417,-0.3288 -0.71267,-0.5228 -0.0702,-0.5194 0.004,-1.2472 -0.53622,-1.2472 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0"
+       id="path3057"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 209.13064,1002.53 c -0.40361,0 -0.78398,0.5774 -1.03514,0.854 -0.58435,0.05 -0.64542,0.1917 -0.82632,0.4396 -0.16589,0.2245 -0.26305,0.5979 -0.18277,0.8532 0.14882,0.2768 0.0816,0.4309 0.10438,0.6753 -0.05,0.5043 0.40883,0.3858 0.54996,0.3191 0.19731,0.028 0.29218,0.034 0.5331,-0.013 0.1618,0.1051 0.36445,0.5107 0.99992,0.4194 0.28448,-0.031 0.90283,-0.2601 0.98218,-0.8285 0.0396,-0.2869 -0.30802,-0.2647 -0.48649,-0.431 0.0666,-0.4452 0.24502,-1.1202 -0.13496,-1.203 0.0831,-0.083 0.13444,-0.1973 0.13444,-0.3236 0,-0.1497 -0.072,-0.2825 -0.18338,-0.366 -0.0151,-0.1118 -0.0707,-0.2108 -0.15161,-0.2818 -0.0809,-0.071 -0.18708,-0.1141 -0.3034,-0.1141 0,0 0,0 0,0"
+       style="fill:#e82222;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3950"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood2.png"
+       inkscape:export-xdpi="179.99991"
+       inkscape:export-ydpi="179.99991" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 177.18956,1002.0731 c -0.49388,0 -0.95246,0.5491 -1.2598,0.8875 -0.62391,0.054 -0.79702,0.2347 -1.03575,0.5365 -0.22623,0.2821 -0.36094,0.7204 -0.29404,1.0726 0.12401,0.3297 0.095,0.5508 0.16115,0.834 -0.0418,0.4242 0.34051,0.3295 0.45812,0.2779 0.16442,0.1709 0.30346,0.3094 0.60119,0.3669 0.23179,0.1841 0.53461,0.5818 1.21213,0.5058 0.36637,-0.026 1.00015,-0.2623 1.15883,-0.812 0.0791,-0.2263 -0.16186,-0.2007 -0.2603,-0.3392 0.20349,-0.371 0.48604,-0.9934 0.26631,-1.159 0.16613,-0.1656 0.26887,-0.3944 0.26887,-0.6472 0,-0.2992 -0.14396,-0.5649 -0.36676,-0.7319 -0.0302,-0.2236 -0.14143,-0.4215 -0.30322,-0.5636 -0.16178,-0.1421 -0.37417,-0.2283 -0.60679,-0.2283 0,0 0,0 0,0"
+       style="fill:#e82222;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3952"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood2.png"
+       inkscape:export-xdpi="179.99991"
+       inkscape:export-ydpi="179.99991" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 145.24849,1001.6163 c -0.58416,0 -1.12095,0.5207 -1.48446,0.9209 -0.66347,0.057 -0.94863,0.2778 -1.2452,0.6333 -0.28656,0.3399 -0.45883,0.8429 -0.40531,1.2922 0.0992,0.3825 0.10851,0.6706 0.21793,0.9925 -0.0335,0.3442 0.27219,0.2732 0.36627,0.2367 0.13155,0.3137 0.31474,0.5846 0.66928,0.7465 0.30179,0.2632 0.70479,0.653 1.42434,0.5922 0.44826,-0.021 1.09747,-0.2646 1.3355,-0.7956 0.11872,-0.1656 -0.0157,-0.1366 -0.0341,-0.2474 0.34033,-0.2968 0.72706,-0.8664 0.66757,-1.1148 0.24921,-0.2485 0.4033,-0.5917 0.4033,-0.9708 0,-0.4489 -0.21593,-0.8474 -0.55012,-1.0979 -0.0454,-0.3354 -0.21215,-0.6323 -0.45483,-0.8454 -0.24268,-0.2131 -0.56126,-0.3424 -0.9102,-0.3424 0,0 0,0 0,0"
+       style="fill:#e82222;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3954"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood2.png"
+       inkscape:export-xdpi="179.99991"
+       inkscape:export-ydpi="179.99991" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 113.30741,1001.1594 c -0.67443,0 -1.28943,0.4925 -1.70911,0.9543 -0.70303,0.061 -1.10024,0.321 -1.45464,0.7303 -0.3469,0.3975 -0.55672,0.9654 -0.51658,1.5116 0.0744,0.4354 0.12197,0.7905 0.2747,1.1511 -0.0253,0.2641 0.20387,0.2169 0.27443,0.1956 0.0987,0.4564 0.32602,0.8596 0.73737,1.1259 0.37178,0.3423 0.87496,0.7243 1.63655,0.6786 0.53015,-0.015 1.19478,-0.2668 1.51215,-0.779 0.1583,-0.105 0.13044,-0.072 0.19208,-0.1557 0.47717,-0.2226 0.96806,-0.7394 1.06882,-1.0707 0.33228,-0.3312 0.53774,-0.7889 0.53774,-1.2944 0,-0.5984 -0.28791,-1.1298 -0.7335,-1.4638 -0.0605,-0.4471 -0.28287,-0.843 -0.60644,-1.1272 -0.32358,-0.2841 -0.74834,-0.4565 -1.21359,-0.4565 0,0 0,0 0,0"
+       style="fill:#e82222;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3956"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood2.png"
+       inkscape:export-xdpi="179.99991"
+       inkscape:export-ydpi="179.99991" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 81.36633,1000.7026 c -0.764696,0 -1.457912,0.4641 -1.933763,0.9877 -0.742593,0.064 -1.251842,0.3641 -1.664083,0.8271 -0.40724,0.4553 -0.654615,1.0879 -0.627855,1.7312 0.04961,0.4882 0.13545,0.9103 0.331485,1.3096 -0.01703,0.1841 0.135543,0.1606 0.182586,0.1544 0.06577,0.5992 0.337294,1.1348 0.805451,1.5055 0.441782,0.4214 1.04513,0.7955 1.84876,0.765 0.612048,-0.01 1.292105,-0.2691 1.688819,-0.7626 0.197874,-0.044 0.276591,-0.01 0.418257,-0.064 0.614018,-0.1484 1.209085,-0.6124 1.470086,-1.0265 0.415348,-0.4141 0.672178,-0.9862 0.672178,-1.618 0,-0.7481 -0.359887,-1.4123 -0.91688,-1.8298 -0.07561,-0.5589 -0.353584,-1.0538 -0.758051,-1.409 -0.404467,-0.3551 -0.935424,-0.5706 -1.51699,-0.5706 0,0 -1e-6,0 -1e-6,0"
+       style="fill:#e82222;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3958"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood2.png"
+       inkscape:export-xdpi="179.99991"
+       inkscape:export-ydpi="179.99991" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 49.425252,1000.2457 c -0.854968,0 -1.626395,0.4358 -2.158417,1.0212 -0.782154,0.068 -1.403449,0.4071 -1.873526,0.924 -0.467576,0.5129 -0.752506,1.2104 -0.739126,1.9506 0.0248,0.5411 0.148919,1.0302 0.388262,1.4683 -0.0088,0.104 0.06722,0.1043 0.09074,0.1132 0.03289,0.7418 0.348571,1.4099 0.873537,1.885 0.511778,0.5004 1.215303,0.8666 2.06097,0.8514 0.693941,-0.01 1.389424,-0.2713 1.865481,-0.7461 0.237449,0.016 0.422744,0.056 0.644443,0.028 0.750861,-0.074 1.450102,-0.4856 1.871346,-0.9825 0.498419,-0.4968 0.806615,-1.1833 0.806615,-1.9416 0,-0.8976 -0.431865,-1.6947 -1.100256,-2.1957 -0.09073,-0.6707 -0.424301,-1.2645 -0.909662,-1.6908 -0.485361,-0.4262 -1.122509,-0.6848 -1.820388,-0.6848 0,0 -1e-6,0 -1e-6,0"
+       style="fill:#e82222;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3960"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/blood2.png"
+       inkscape:export-xdpi="179.99991"
+       inkscape:export-ydpi="179.99991" />
+    <path
+       style="fill:url(#radialGradient4320);fill-opacity:1.0;stroke:#000000;stroke-width:0.75000000000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 13.517633,937.44877 c -1.207851,-1.15327 -3.5328672,0.6412 -4.6486162,0.48814 -3.702086,-0.50793 2.6009972,-2.1291 2.2601642,-2.68573 -1.5111685,-2.46797 -2.3676119,-4.68435 0.141892,-2.7972 0.523441,0.39363 1.492795,0.7528 3.876701,0.62312 2.689833,-2.36884 5.580322,-2.67932 5.670299,-0.59393 0.09,2.08541 -3.548358,0.28116 -1.525709,3.85293 1.323449,2.33705 3.554198,5.60179 -0.714044,3.49735 -3.475561,-1.71362 -1.134047,1.89081 -3.637149,1.89081 -2.503099,0 -0.215689,-3.12224 -1.423538,-4.27549 z"
+       id="path4032"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="zsssczsssz"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4076"
+       d="m 20.983596,931.71885 c 0.21278,-0.40509 2.36898,-1.9708 2.97892,-1.90669 0.60994,0.0641 1.94002,-0.51242 2.17045,-0.16889 0.23046,0.34352 -1.3684,2.51713 -2.53349,2.36722 -1.1651,-0.14993 -2.51621,0.70178 -2.61588,-0.29164 z"
+       style="fill:url(#radialGradient6313);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6327);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 5.4920721,939.62821 c -0.527293,-0.14271 0.144601,-1.09737 0.25339,-1.43488 0.108798,-0.33747 1.668055,-1.38743 2.131376,-1.49629 0.46332,-0.10886 2.4983269,1.75272 0.761278,1.82786 -1.737048,0.0751 -1.82847,1.10559 -3.146044,1.10331 z"
+       id="path4092"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4096"
+       d="m 13.006193,934.34149 c -0.778758,0.0913 -0.590925,-1.77668 -0.689987,-2.36105 -0.09905,-0.58438 1.161876,-3.12307 1.680339,-3.56435 0.518463,-0.44128 4.451841,1.22657 2.272345,2.36776 -2.179491,1.14119 -1.56757,2.78337 -3.262697,3.55764 z"
+       style="fill:url(#radialGradient6301);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:transform-center-x="-1.5620154"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="zsssczsssz"
+       inkscape:connector-curvature="0"
+       id="path4048"
+       d="m 89.942358,929.48992 c -1.615085,-1.30654 -7.65569,1.12361 -9.14762,0.95019 -4.95027,-0.57543 3.172525,-0.4936 2.694377,-2.99136 -0.478148,-2.49776 0.157665,-1.74158 1.102488,-3.30936 1.593827,-2.64468 3.041463,1.54624 6.229117,1.39931 3.596731,-2.68365 6.294567,-5.81049 6.414887,-3.44794 0.12032,2.36256 -5.140721,2.64266 -2.436124,6.68913 1.769657,2.64768 6.262467,0.35547 -1.70668,3.29401 -4.500732,1.65959 1.712485,6.24745 -1.634552,6.24745 -3.347037,0 0.09919,-7.52489 -1.515893,-8.83143 z"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6297);opacity:0.94139194"
+       transform="matrix(0.49950282,0,0,0.51372667,-30.272834,459.19122)"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 6.527239,934.59801 c -0.529306,0.19374 -1.356962,0.35652 -1.067332,0.17389 1.058617,-0.66751 0.63401,-1.26149 0.855211,-1.17139 0.616654,0.2512 0.592361,0.54026 0.845631,0.29413 0.05224,-0.52039 0.63758,-0.75133 0.803443,-0.73305 0.165861,0.0183 0.362922,0.21032 0.128541,0.57383 -1.14725,0.45304 0.398113,1.16699 -1.565494,0.86259 z"
+       id="path4114"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssczcc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4118"
+       d="m 21.296936,928.48052 c -0.256418,-0.008 -0.322202,0.84425 -0.547675,0.25379 -0.19349,-0.50671 -0.06587,-1.03242 -0.402661,-1.11412 -0.187245,-0.0454 -0.431373,-0.35253 -0.497679,-0.57239 -0.111861,-0.3709 -0.09373,-0.89109 0.159533,-1.1372 0.05223,-0.52039 0.640988,-0.52118 0.959379,0.62791 0.31839,1.14909 -0.06813,0.20041 0.622967,0.28643 0.412096,0.0513 0.685123,-0.17934 0.290438,0.68379 -0.22291,0.48747 0.421335,0.33598 0.141088,0.57953 -0.280245,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 7.679417,929.04811 c -0.256416,-0.008 -0.533364,-0.35981 -0.674369,-0.26797 -0.467857,0.30476 -0.0043,-0.38638 -0.275964,-0.59236 -0.27171,-0.20595 -0.05128,-0.67361 -0.117587,-0.89347 -0.111859,-0.37089 0.05408,-0.91113 0.307348,-1.15726 0.05223,-0.5204 0.434539,0.40897 0.663749,0.62792 0.22921,0.21896 -0.211092,0.43433 0.390689,0.62756 0.39375,0.12643 0.685124,-0.17934 0.290437,0.6838 -0.222909,0.48747 0.421336,0.33598 0.141091,0.57954 -0.280247,0.24355 -0.469061,0.40055 -0.725394,0.39222 z"
+       id="path4120"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4122"
+       d="m 22.905485,936.82954 c -0.125201,-0.004 -0.260431,-0.17568 -0.329279,-0.13084 -0.228441,0.14882 -0.677557,0.29296 -0.810467,0.19239 -0.132665,-0.10055 0.465095,-0.65375 0.432714,-0.7611 -0.05463,-0.1811 -0.468088,-1.15752 -0.344428,-1.2777 0.02552,-0.25409 1.00568,0.60857 1.117596,0.71546 0.111926,0.10692 0.459236,0.038 0.753066,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 10.767663,941.88391 c -0.174423,-0.006 -0.765004,-0.11339 -0.860921,-0.048 -0.318253,0.21716 -0.204007,-0.24673 -0.388813,-0.39351 -0.184828,-0.14675 0.309851,-0.42277 0.264744,-0.57945 -0.07609,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.03554,-0.37082 0.06576,-0.82395 0.221681,-0.66792 0.155916,0.15602 0.416604,-0.24819 0.825955,-0.11051 0.267841,0.0901 0.113251,0.56446 -0.491908,0.85903 -0.456696,0.22232 -0.296405,-0.19808 0.440709,0.35578 0.206188,0.15493 -1.094725,0.37121 -1.269089,0.36527 z"
+       id="path4124"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       y="847.74054"
+       x="25.46859"
+       height="32.000011"
+       width="32.000069"
+       id="rect4203"
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none" />
+    <g
+       transform="translate(-51.550513,-72.107447)"
+       id="g4205">
+      <g
+         id="g4207"
+         style="fill:url(#radialGradient4241);fill-opacity:1">
+        <path
+           sodipodi:nodetypes="zsssczsssz"
+           inkscape:connector-curvature="0"
+           id="path4209"
+           d="m 89.902167,938.39896 c -1.207851,-1.15327 -3.532867,0.15307 -4.648616,10e-6 -3.702086,-0.50793 1.771177,-3.59349 1.430344,-4.15012 -1.511169,-2.46797 -3.343872,-6.68568 -0.834368,-4.79853 0.523441,0.39363 3.933444,3.24226 6.31735,3.11258 2.689833,-2.36884 7.776906,-4.29015 7.866883,-2.20476 0.09,2.08541 -5.598503,1.74555 -3.575854,5.31732 1.323449,2.33705 4.171834,2.07505 -1.78793,4.66886 -3.365895,1.4649 0.476782,3.50164 -2.02632,3.50164 -2.503099,0 -1.53364,-4.29375 -2.741489,-5.447 z"
+           style="fill:url(#radialGradient4231);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           style="fill:url(#radialGradient4233);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 101.86849,929.54788 c 0.21278,-0.40509 2.36898,-1.9708 2.97892,-1.90669 0.60994,0.0641 1.94002,-0.51242 2.17045,-0.16889 0.23046,0.34352 -1.3684,2.51713 -2.53349,2.36722 -1.1651,-0.14993 -2.51621,0.70178 -2.61588,-0.29164 z"
+           id="path4211"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="czzzc" />
+        <path
+           sodipodi:nodetypes="czzzc"
+           inkscape:connector-curvature="0"
+           id="path4213"
+           d="m 98.303016,946.62144 c -0.473569,0.0494 -2.107981,-1.40349 -2.381514,-1.92554 -0.273528,-0.52203 -0.159907,-2.80506 0.01921,-3.17519 0.179123,-0.37011 1.922548,1.12101 2.420771,2.13306 0.498213,1.01206 0.766418,2.35016 -0.05849,2.96767 z"
+           style="fill:url(#radialGradient4235);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           sodipodi:nodetypes="czzzc"
+           inkscape:connector-curvature="0"
+           id="path4215"
+           d="m 79.19764,941.4611 c -0.527293,-0.14271 0.144601,-1.09737 0.25339,-1.43488 0.108798,-0.33747 1.668055,-1.38743 2.131376,-1.49629 0.46332,-0.10886 2.498327,1.75272 0.761278,1.82786 -1.737048,0.0751 -1.82847,1.10559 -3.146044,1.10331 z"
+           style="fill:url(#radialGradient4237);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           style="fill:url(#radialGradient4239);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 90.508834,930.05241 c -0.745806,-0.24203 0.204524,-1.86117 0.358394,-2.43355 0.153884,-0.57239 2.3593,-2.35314 3.014622,-2.53776 0.655321,-0.18462 3.533638,2.97267 1.076755,3.10007 -2.456883,0.12741 -2.586193,1.87512 -4.449771,1.87124 z"
+           id="path4217"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="czzzc" />
+      </g>
+      <path
+         sodipodi:nodetypes="zsssczsssz"
+         inkscape:connector-curvature="0"
+         id="path4219"
+         d="m 87.792449,932.15041 c -1.615085,-1.30654 -4.723996,0.17343 -6.215926,1e-5 -4.95027,-0.57543 2.39074,-2.20391 1.912592,-4.70167 -0.478148,-2.49776 -4.50358,-5.00873 -3.558757,-6.57651 1.593827,-2.64468 7.702708,4.81339 10.890362,4.66646 3.596731,-2.68365 9.8126,-7.33077 9.93292,-4.96822 0.12032,2.36256 -8.658754,4.16294 -5.954157,8.20941 1.769657,2.64768 6.653357,2.63589 -1.315787,5.57443 -4.500732,1.65959 1.321592,3.96703 -2.025445,3.96703 -3.347037,0 -2.050717,-4.8644 -3.665802,-6.17094 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4060)"
+         transform="matrix(0.49950282,0,0,0.51372667,46.746269,458.67702)" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m 83.546342,934.08381 c -0.529306,0.19374 -1.356962,0.35652 -1.067332,0.17389 1.058617,-0.66751 0.63401,-1.26149 0.855211,-1.17139 0.616654,0.2512 0.592361,0.54026 0.845631,0.29413 0.05224,-0.52039 0.63758,-0.75133 0.803443,-0.73305 0.165861,0.0183 0.362922,0.21032 0.128541,0.57383 -1.14725,0.45304 0.398113,1.16699 -1.565494,0.86259 z"
+         id="path4221"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cssczcc" />
+      <path
+         sodipodi:nodetypes="csssczssszc"
+         inkscape:connector-curvature="0"
+         id="path4223"
+         d="m 98.316039,927.96632 c -0.256418,-0.008 -0.322202,0.84425 -0.547675,0.25379 -0.19349,-0.50671 -0.06587,-1.03242 -0.402661,-1.11412 -0.187245,-0.0454 -0.431373,-0.35253 -0.497679,-0.57239 -0.111861,-0.3709 -0.09373,-0.89109 0.159533,-1.1372 0.05223,-0.52039 0.640988,-0.52118 0.959379,0.62791 0.31839,1.14909 -0.06813,0.20041 0.622967,0.28643 0.412096,0.0513 0.685123,-0.17934 0.290438,0.68379 -0.22291,0.48747 0.421335,0.33598 0.141088,0.57953 -0.280245,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m 84.69852,928.53391 c -0.256416,-0.008 -0.533364,-0.35981 -0.674369,-0.26797 -0.467857,0.30476 -0.0043,-0.38638 -0.275964,-0.59236 -0.27171,-0.20595 -0.05128,-0.67361 -0.117587,-0.89347 -0.111859,-0.37089 0.05408,-0.91113 0.307348,-1.15726 0.05223,-0.5204 0.434539,0.40897 0.663749,0.62792 0.22921,0.21896 -0.211092,0.43433 0.390689,0.62756 0.39375,0.12643 0.685124,-0.17934 0.290437,0.6838 -0.222909,0.48747 0.421336,0.33598 0.141091,0.57954 -0.280247,0.24355 -0.469061,0.40055 -0.725394,0.39222 z"
+         id="path4225"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssczssszc" />
+      <path
+         sodipodi:nodetypes="csssczssszc"
+         inkscape:connector-curvature="0"
+         id="path4227"
+         d="m 99.924588,936.31534 c -0.125201,-0.004 -0.260431,-0.17568 -0.329279,-0.13084 -0.228441,0.14882 -0.677557,0.29296 -0.810467,0.19239 -0.132665,-0.10055 0.465095,-0.65375 0.432714,-0.7611 -0.05463,-0.1811 -0.468088,-1.15752 -0.344428,-1.2777 0.02552,-0.25409 1.00568,0.60857 1.117596,0.71546 0.111926,0.10692 0.459236,0.038 0.753066,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m 87.786766,941.36971 c -0.174423,-0.006 -0.765004,-0.11339 -0.860921,-0.048 -0.318253,0.21716 -0.204007,-0.24673 -0.388813,-0.39351 -0.184828,-0.14675 0.309851,-0.42277 0.264744,-0.57945 -0.07609,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.03554,-0.37082 0.06576,-0.82395 0.221681,-0.66792 0.155916,0.15602 0.416604,-0.24819 0.825955,-0.11051 0.267841,0.0901 0.113251,0.56446 -0.491908,0.85903 -0.456696,0.22232 -0.296405,-0.19808 0.440709,0.35578 0.206188,0.15493 -1.094725,0.37121 -1.269089,0.36527 z"
+         id="path4229"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssczssszc" />
+    </g>
+    <rect
+       inkscape:export-ydpi="89.999985"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       y="920.36218"
+       x="32"
+       height="32.000011"
+       width="32.000069"
+       id="rect4243"
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:url(#radialGradient6315);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 53.794439,930.80565 c 0.191502,-0.36458 2.132082,-1.77372 2.681028,-1.71602 0.548946,0.0577 1.746018,-0.46118 1.953405,-0.152 0.207414,0.30917 -1.23156,2.26541 -2.280141,2.1305 -1.04859,-0.13494 -2.264589,0.6316 -2.354292,-0.26248 z"
+       id="path4325"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4329"
+       d="m 36.845504,940.03368 c -0.474564,-0.12844 0.130141,-0.98763 0.228051,-1.29139 0.09792,-0.30372 1.501249,-1.24869 1.918238,-1.34666 0.416988,-0.098 2.248494,1.57745 0.68515,1.64507 -1.563343,0.0676 -1.645623,0.99503 -2.831439,0.99298 z"
+       style="fill:url(#radialGradient6329);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6303);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 46.302602,932.08797 c -0.685442,0.0152 -0.367833,-1.60079 -0.405861,-2.11943 -0.03802,-0.51864 1.269049,-2.63175 1.756774,-2.97428 0.487725,-0.34252 3.774143,1.43989 1.78275,2.25627 -1.991389,0.8164 -1.594182,2.30145 -3.133663,2.83744 z"
+       id="path4331"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="cssczcc"
+       inkscape:connector-curvature="0"
+       id="path4335"
+       d="m 38.527239,934.59801 c -0.529306,0.19374 -1.356962,0.35652 -1.067332,0.17389 1.058617,-0.66751 0.63401,-1.26149 0.855211,-1.17139 0.616654,0.2512 0.592361,0.54026 0.845631,0.29413 0.05224,-0.52039 0.63758,-0.75133 0.803443,-0.73305 0.165861,0.0183 0.362922,0.21032 0.128541,0.57383 -1.14725,0.45304 0.398113,1.16699 -1.565494,0.86259 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 53.296936,928.48052 c -0.256418,-0.008 -0.322202,0.84425 -0.547675,0.25379 -0.19349,-0.50671 -0.06587,-1.03242 -0.402661,-1.11412 -0.187245,-0.0454 -0.431373,-0.35253 -0.497679,-0.57239 -0.111861,-0.3709 -0.09373,-0.89109 0.159533,-1.1372 0.05223,-0.52039 0.640988,-0.52118 0.959379,0.62791 0.31839,1.14909 -0.06813,0.20041 0.622967,0.28643 0.412096,0.0513 0.685123,-0.17934 0.290438,0.68379 -0.22291,0.48747 0.421335,0.33598 0.141088,0.57953 -0.280245,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       id="path4337"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4339"
+       d="m 39.679417,929.04811 c -0.256416,-0.008 -0.533364,-0.35981 -0.674369,-0.26797 -0.467857,0.30476 -0.0043,-0.38638 -0.275964,-0.59236 -0.27171,-0.20595 -0.05128,-0.67361 -0.117587,-0.89347 -0.111859,-0.37089 0.05408,-0.91113 0.307348,-1.15726 0.05223,-0.5204 0.434539,0.40897 0.663749,0.62792 0.22921,0.21896 -0.211092,0.43433 0.390689,0.62756 0.39375,0.12643 0.685124,-0.17934 0.290437,0.6838 -0.222909,0.48747 0.421336,0.33598 0.141091,0.57954 -0.280247,0.24355 -0.469061,0.40055 -0.725394,0.39222 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 54.905485,936.82954 c -0.125201,-0.004 -0.260431,-0.17568 -0.329279,-0.13084 -0.228441,0.14882 -0.677557,0.29296 -0.810467,0.19239 -0.132665,-0.10055 0.465095,-0.65375 0.432714,-0.7611 -0.05463,-0.1811 -0.468088,-1.15752 -0.344428,-1.2777 0.02552,-0.25409 1.00568,0.60857 1.117596,0.71546 0.111926,0.10692 0.459236,0.038 0.753066,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       id="path4341"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4343"
+       d="m 42.767663,941.88391 c -0.174423,-0.006 -0.765004,-0.11339 -0.860921,-0.048 -0.318253,0.21716 -0.204007,-0.24673 -0.388813,-0.39351 -0.184828,-0.14675 0.309851,-0.42277 0.264744,-0.57945 -0.07609,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.03554,-0.37082 0.06576,-0.82395 0.221681,-0.66792 0.155916,0.15602 0.416604,-0.24819 0.825955,-0.11051 0.267841,0.0901 0.113251,0.56446 -0.491908,0.85903 -0.456696,0.22232 -0.296405,-0.19808 0.440709,0.35578 0.206188,0.15493 -1.094725,0.37121 -1.269089,0.36527 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4388"
+       width="32.000069"
+       height="32.000011"
+       x="64"
+       y="920.36218"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4392"
+       d="m 87.175079,930.52952 c 0.191502,-0.36458 2.132082,-1.77372 2.681028,-1.71602 0.548946,0.0577 1.746018,-0.46118 1.953405,-0.152 0.207414,0.30917 -1.23156,2.26541 -2.280141,2.1305 -1.04859,-0.13494 -2.264589,0.6316 -2.354292,-0.26248 z"
+       style="fill:url(#radialGradient6317);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6333);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 67.879057,940.58593 c -0.474564,-0.12844 0.130141,-0.98763 0.228051,-1.29139 0.09792,-0.30372 1.501249,-1.24869 1.918238,-1.34666 0.416988,-0.098 2.248494,1.57745 0.68515,1.64507 -1.563343,0.0676 -1.645623,0.99503 -2.831439,0.99298 z"
+       id="path4396"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4398"
+       d="m 79.152761,929.83615 c -0.656904,0.0146 -0.352519,-1.53594 -0.388964,-2.03357 -0.03644,-0.49763 1.21621,-2.52514 1.683627,-2.85379 0.467418,-0.32865 3.616999,1.38155 1.708523,2.16487 -1.908475,0.78332 -1.527806,2.20823 -3.003186,2.72249 z"
+       style="fill:url(#radialGradient6305);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 70.527239,934.59801 c -0.529306,0.19374 -1.356962,0.35652 -1.067332,0.17389 1.058617,-0.66751 0.63401,-1.26149 0.855211,-1.17139 0.616654,0.2512 0.592361,0.54026 0.845631,0.29413 0.05224,-0.52039 0.63758,-0.75133 0.803443,-0.73305 0.165861,0.0183 0.362922,0.21032 0.128541,0.57383 -1.14725,0.45304 0.398113,1.16699 -1.565494,0.86259 z"
+       id="path4402"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssczcc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4404"
+       d="m 85.296936,928.48052 c -0.256418,-0.008 -0.322202,0.84425 -0.547675,0.25379 -0.19349,-0.50671 -0.06587,-1.03242 -0.402661,-1.11412 -0.187245,-0.0454 -0.431373,-0.35253 -0.497679,-0.57239 -0.111861,-0.3709 -0.09373,-0.89109 0.159533,-1.1372 0.05223,-0.52039 0.640988,-0.52118 0.959379,0.62791 0.31839,1.14909 -0.06813,0.20041 0.622967,0.28643 0.412096,0.0513 0.685123,-0.17934 0.290438,0.68379 -0.22291,0.48747 0.421335,0.33598 0.141088,0.57953 -0.280245,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 71.679417,929.04811 c -0.256416,-0.008 -0.533364,-0.35981 -0.674369,-0.26797 -0.467857,0.30476 -0.0043,-0.38638 -0.275964,-0.59236 -0.27171,-0.20595 -0.05128,-0.67361 -0.117587,-0.89347 -0.111859,-0.37089 0.05408,-0.91113 0.307348,-1.15726 0.05223,-0.5204 0.434539,0.40897 0.663749,0.62792 0.22921,0.21896 -0.211092,0.43433 0.390689,0.62756 0.39375,0.12643 0.685124,-0.17934 0.290437,0.6838 -0.222909,0.48747 0.421336,0.33598 0.141091,0.57954 -0.280247,0.24355 -0.469061,0.40055 -0.725394,0.39222 z"
+       id="path4406"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4408"
+       d="m 86.905485,936.82954 c -0.125201,-0.004 -0.260431,-0.17568 -0.329279,-0.13084 -0.228441,0.14882 -0.677557,0.29296 -0.810467,0.19239 -0.132665,-0.10055 0.465095,-0.65375 0.432714,-0.7611 -0.05463,-0.1811 -0.468088,-1.15752 -0.344428,-1.2777 0.02552,-0.25409 1.00568,0.60857 1.117596,0.71546 0.111926,0.10692 0.459236,0.038 0.753066,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 74.767663,941.88391 c -0.174423,-0.006 -0.765004,-0.11339 -0.860921,-0.048 -0.318253,0.21716 -0.204007,-0.24673 -0.388813,-0.39351 -0.184828,-0.14675 0.309851,-0.42277 0.264744,-0.57945 -0.07609,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.03554,-0.37082 0.06576,-0.82395 0.221681,-0.66792 0.155916,0.15602 0.416604,-0.24819 0.825955,-0.11051 0.267841,0.0901 0.113251,0.56446 -0.491908,0.85903 -0.456696,0.22232 -0.296405,-0.19808 0.440709,0.35578 0.206188,0.15493 -1.094725,0.37121 -1.269089,0.36527 z"
+       id="path4410"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       inkscape:export-ydpi="89.999985"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       y="920.36218"
+       x="96"
+       height="32.000011"
+       width="32.000069"
+       id="rect4422"
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:url(#radialGradient6319);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 120.37426,930.59126 c 0.17235,-0.32812 1.91887,-1.59635 2.41293,-1.54442 0.49404,0.0519 1.5714,-0.41506 1.75806,-0.1368 0.18666,0.27826 -1.10841,2.03887 -2.05213,1.91745 -0.94373,-0.12144 -2.03813,0.56844 -2.11886,-0.23623 z"
+       id="path4426"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4430"
+       d="m 99.904626,940.72995 c -0.427107,-0.11559 0.117124,-0.88887 0.205244,-1.16225 0.0881,-0.27335 1.35112,-1.12382 1.72642,-1.21199 0.37529,-0.0882 2.02365,1.4197 0.61663,1.48056 -1.40701,0.0608 -1.48106,0.89553 -2.548294,0.89368 z"
+       style="fill:url(#radialGradient6335);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6307);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 112.01273,928.49879 c -0.47899,-0.0235 -0.17777,-1.14253 -0.17875,-1.50863 -10e-4,-0.36611 1.01507,-1.78478 1.37222,-2.00096 0.35716,-0.2162 2.56227,1.19958 1.13266,1.67347 -1.42961,0.47388 -1.22564,1.53658 -2.32613,1.83612 z"
+       id="path4432"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="cssczcc"
+       inkscape:connector-curvature="0"
+       id="path4436"
+       d="m 102.52724,934.59801 c -0.52931,0.19374 -1.35696,0.35652 -1.06733,0.17389 1.05861,-0.66751 0.63401,-1.26149 0.85521,-1.17139 0.61665,0.2512 0.59236,0.54026 0.84563,0.29413 0.0522,-0.52039 0.63758,-0.75133 0.80344,-0.73305 0.16586,0.0183 0.36292,0.21032 0.12854,0.57383 -1.14725,0.45304 0.39812,1.16699 -1.56549,0.86259 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 117.29694,928.48052 c -0.25642,-0.008 -0.32221,0.84425 -0.54768,0.25379 -0.19349,-0.50671 -0.0659,-1.03242 -0.40266,-1.11412 -0.18724,-0.0454 -0.43137,-0.35253 -0.49768,-0.57239 -0.11186,-0.3709 -0.0937,-0.89109 0.15953,-1.1372 0.0522,-0.52039 0.64099,-0.52118 0.95938,0.62791 0.31839,1.14909 -0.0681,0.20041 0.62297,0.28643 0.4121,0.0513 0.68512,-0.17934 0.29044,0.68379 -0.22291,0.48747 0.42133,0.33598 0.14109,0.57953 -0.28025,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       id="path4438"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4440"
+       d="m 103.67942,929.04811 c -0.25642,-0.008 -0.53337,-0.35981 -0.67437,-0.26797 -0.46786,0.30476 -0.004,-0.38638 -0.27597,-0.59236 -0.27171,-0.20595 -0.0513,-0.67361 -0.11758,-0.89347 -0.11186,-0.37089 0.0541,-0.91113 0.30735,-1.15726 0.0522,-0.5204 0.43453,0.40897 0.66374,0.62792 0.22921,0.21896 -0.21109,0.43433 0.39069,0.62756 0.39375,0.12643 0.68513,-0.17934 0.29044,0.6838 -0.22291,0.48747 0.42134,0.33598 0.14109,0.57954 -0.28025,0.24355 -0.46906,0.40055 -0.72539,0.39222 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 118.90549,936.82954 c -0.12521,-0.004 -0.26044,-0.17568 -0.32928,-0.13084 -0.22845,0.14882 -0.67756,0.29296 -0.81047,0.19239 -0.13267,-0.10055 0.46509,-0.65375 0.43271,-0.7611 -0.0546,-0.1811 -0.46808,-1.15752 -0.34442,-1.2777 0.0255,-0.25409 1.00568,0.60857 1.11759,0.71546 0.11193,0.10692 0.45924,0.038 0.75307,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       id="path4442"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4444"
+       d="m 106.76766,941.88391 c -0.17442,-0.006 -0.765,-0.11339 -0.86092,-0.048 -0.31825,0.21716 -0.20401,-0.24673 -0.38881,-0.39351 -0.18483,-0.14675 0.30985,-0.42277 0.26474,-0.57945 -0.0761,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.0355,-0.37082 0.0658,-0.82395 0.22168,-0.66792 0.15592,0.15602 0.41661,-0.24819 0.82596,-0.11051 0.26784,0.0901 0.11325,0.56446 -0.49191,0.85903 -0.45669,0.22232 -0.2964,-0.19808 0.44071,0.35578 0.20619,0.15493 -1.09473,0.37121 -1.26909,0.36527 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4456"
+       width="32.000069"
+       height="32.000011"
+       x="128"
+       y="920.36218"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4460"
+       d="m 154.10242,929.69418 c 0.15512,-0.2953 1.72699,-1.43671 2.17163,-1.38997 0.44465,0.0467 1.41427,-0.37356 1.58226,-0.12312 0.168,0.25043 -0.99756,1.83498 -1.84691,1.7257 -0.84936,-0.10929 -1.83432,0.5116 -1.90698,-0.21261 z"
+       style="fill:url(#radialGradient6321);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6349);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 149.41629,946.56467 c -0.34647,0.0209 -1.49075,-1.08904 -1.6734,-1.47794 -0.18266,-0.38887 -0.0275,-2.04801 0.11471,-2.31191 0.14218,-0.26387 1.36465,0.87743 1.6954,1.63032 0.33076,0.7529 0.48366,1.73596 -0.13669,2.15953 z"
+       id="path4462"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6337);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 131.77576,940.74912 c -0.3844,-0.10403 0.10543,-0.79998 0.18473,-1.04602 0.0793,-0.24602 1.216,-1.01144 1.55377,-1.09079 0.33777,-0.0794 1.82128,1.27773 0.55497,1.3325 -1.26631,0.0547 -1.33295,0.80598 -2.29347,0.80431 z"
+       id="path4464"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4466"
+       d="m 145.38371,926.62806 c -0.38549,-0.17512 0.23497,-0.95999 0.35624,-1.24931 0.12126,-0.28931 1.4286,-1.07698 1.79396,-1.13087 0.36536,-0.0539 1.70402,1.78464 0.3721,1.6913 -1.33191,-0.0933 -1.51876,0.81224 -2.5223,0.68888 z"
+       style="fill:url(#radialGradient6309);fill-opacity:1;stroke:#000000;stroke-width:0.75000006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 134.52724,934.59801 c -0.52931,0.19374 -1.35696,0.35652 -1.06733,0.17389 1.05861,-0.66751 0.63401,-1.26149 0.85521,-1.17139 0.61665,0.2512 0.59236,0.54026 0.84563,0.29413 0.0522,-0.52039 0.63758,-0.75133 0.80344,-0.73305 0.16586,0.0183 0.36292,0.21032 0.12854,0.57383 -1.14725,0.45304 0.39812,1.16699 -1.56549,0.86259 z"
+       id="path4470"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssczcc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4472"
+       d="m 149.29694,928.48052 c -0.25642,-0.008 -0.32221,0.84425 -0.54768,0.25379 -0.19349,-0.50671 -0.0659,-1.03242 -0.40266,-1.11412 -0.18724,-0.0454 -0.43137,-0.35253 -0.49768,-0.57239 -0.11186,-0.3709 -0.0937,-0.89109 0.15953,-1.1372 0.0522,-0.52039 0.64099,-0.52118 0.95938,0.62791 0.31839,1.14909 -0.0681,0.20041 0.62297,0.28643 0.4121,0.0513 0.68512,-0.17934 0.29044,0.68379 -0.22291,0.48747 0.42133,0.33598 0.14109,0.57953 -0.28025,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 135.67942,929.04811 c -0.25642,-0.008 -0.53337,-0.35981 -0.67437,-0.26797 -0.46786,0.30476 -0.004,-0.38638 -0.27597,-0.59236 -0.27171,-0.20595 -0.0513,-0.67361 -0.11758,-0.89347 -0.11186,-0.37089 0.0541,-0.91113 0.30735,-1.15726 0.0522,-0.5204 0.43453,0.40897 0.66374,0.62792 0.22921,0.21896 -0.21109,0.43433 0.39069,0.62756 0.39375,0.12643 0.68513,-0.17934 0.29044,0.6838 -0.22291,0.48747 0.42134,0.33598 0.14109,0.57954 -0.28025,0.24355 -0.46906,0.40055 -0.72539,0.39222 z"
+       id="path4474"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4476"
+       d="m 150.90549,936.82954 c -0.12521,-0.004 -0.26044,-0.17568 -0.32928,-0.13084 -0.22845,0.14882 -0.67756,0.29296 -0.81047,0.19239 -0.13267,-0.10055 0.46509,-0.65375 0.43271,-0.7611 -0.0546,-0.1811 -0.46808,-1.15752 -0.34442,-1.2777 0.0255,-0.25409 1.00568,0.60857 1.11759,0.71546 0.11193,0.10692 0.45924,0.038 0.75307,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 138.76766,941.88391 c -0.17442,-0.006 -0.765,-0.11339 -0.86092,-0.048 -0.31825,0.21716 -0.20401,-0.24673 -0.38881,-0.39351 -0.18483,-0.14675 0.30985,-0.42277 0.26474,-0.57945 -0.0761,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.0355,-0.37082 0.0658,-0.82395 0.22168,-0.66792 0.15592,0.15602 0.41661,-0.24819 0.82596,-0.11051 0.26784,0.0901 0.11325,0.56446 -0.49191,0.85903 -0.45669,0.22232 -0.2964,-0.19808 0.44071,0.35578 0.20619,0.15493 -1.09473,0.37121 -1.26909,0.36527 z"
+       id="path4478"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       inkscape:export-ydpi="89.999985"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       y="920.36218"
+       x="160"
+       height="32.000011"
+       width="32.000069"
+       id="rect4490"
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:url(#radialGradient6323);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 188.22383,928.52783 c 0.1396,-0.26577 1.55428,-1.29304 1.95446,-1.25097 0.40018,0.042 1.27284,-0.3362 1.42403,-0.11081 0.1512,0.22539 -0.8978,1.65148 -1.66222,1.55313 -0.76442,-0.0984 -1.65089,0.46044 -1.71627,-0.19135 z"
+       id="path4494"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4496"
+       d="m 180.48348,946.01369 c -0.25103,-0.032 -0.91977,-0.98253 -0.99777,-1.28588 -0.078,-0.30333 0.25853,-1.47059 0.39624,-1.64028 0.1377,-0.16967 0.85821,0.81384 0.99283,1.39801 0.13461,0.58419 0.11055,1.30906 -0.39124,1.52817 z"
+       style="fill:url(#radialGradient6351);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:transform-center-y="-0.87863369"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4498"
+       d="m 163.5827,941.01137 c -0.28022,-0.0758 0.0769,-0.58318 0.13468,-0.76255 0.0579,-0.17933 0.88645,-0.73733 1.13269,-0.79517 0.24623,-0.0579 1.32772,0.93146 0.40458,0.97138 -0.92314,0.0399 -0.97173,0.58757 -1.67195,0.58634 z"
+       style="fill:url(#radialGradient6339);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6311);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 177.44999,926.66157 c -0.37587,-0.11865 0.10308,-0.91237 0.18063,-1.19296 0.0776,-0.2806 1.18906,-1.15355 1.51934,-1.24405 0.33027,-0.0905 1.78091,1.45725 0.54267,1.5197 -1.23824,0.0624 -1.30341,0.91921 -2.24264,0.91731 z"
+       id="path4500"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:transform-center-x="2.4601186"
+       inkscape:transform-center-y="1.4042462"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="cssczcc"
+       inkscape:connector-curvature="0"
+       id="path4504"
+       d="m 166.52724,934.59801 c -0.52931,0.19374 -1.35696,0.35652 -1.06733,0.17389 1.05861,-0.66751 0.63401,-1.26149 0.85521,-1.17139 0.61665,0.2512 0.59236,0.54026 0.84563,0.29413 0.0522,-0.52039 0.63758,-0.75133 0.80344,-0.73305 0.16586,0.0183 0.36292,0.21032 0.12854,0.57383 -1.14725,0.45304 0.39812,1.16699 -1.56549,0.86259 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 181.29694,928.48052 c -0.25642,-0.008 -0.32221,0.84425 -0.54768,0.25379 -0.19349,-0.50671 -0.0659,-1.03242 -0.40266,-1.11412 -0.18724,-0.0454 -0.43137,-0.35253 -0.49768,-0.57239 -0.11186,-0.3709 -0.0937,-0.89109 0.15953,-1.1372 0.0522,-0.52039 0.64099,-0.52118 0.95938,0.62791 0.31839,1.14909 -0.0681,0.20041 0.62297,0.28643 0.4121,0.0513 0.68512,-0.17934 0.29044,0.68379 -0.22291,0.48747 0.42133,0.33598 0.14109,0.57953 -0.28025,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       id="path4506"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4508"
+       d="m 167.67942,929.04811 c -0.25642,-0.008 -0.53337,-0.35981 -0.67437,-0.26797 -0.46786,0.30476 -0.004,-0.38638 -0.27597,-0.59236 -0.27171,-0.20595 -0.0513,-0.67361 -0.11758,-0.89347 -0.11186,-0.37089 0.0541,-0.91113 0.30735,-1.15726 0.0522,-0.5204 0.43453,0.40897 0.66374,0.62792 0.22921,0.21896 -0.21109,0.43433 0.39069,0.62756 0.39375,0.12643 0.68513,-0.17934 0.29044,0.6838 -0.22291,0.48747 0.42134,0.33598 0.14109,0.57954 -0.28025,0.24355 -0.46906,0.40055 -0.72539,0.39222 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 182.90549,936.82954 c -0.12521,-0.004 -0.26044,-0.17568 -0.32928,-0.13084 -0.22845,0.14882 -0.67756,0.29296 -0.81047,0.19239 -0.13267,-0.10055 0.46509,-0.65375 0.43271,-0.7611 -0.0546,-0.1811 -0.46808,-1.15752 -0.34442,-1.2777 0.0255,-0.25409 1.00568,0.60857 1.11759,0.71546 0.11193,0.10692 0.45924,0.038 0.75307,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       id="path4510"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4512"
+       d="m 170.76766,941.88391 c -0.17442,-0.006 -0.765,-0.11339 -0.86092,-0.048 -0.31825,0.21716 -0.20401,-0.24673 -0.38881,-0.39351 -0.18483,-0.14675 0.30985,-0.42277 0.26474,-0.57945 -0.0761,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.0355,-0.37082 0.0658,-0.82395 0.22168,-0.66792 0.15592,0.15602 0.41661,-0.24819 0.82596,-0.11051 0.26784,0.0901 0.11325,0.56446 -0.49191,0.85903 -0.45669,0.22232 -0.2964,-0.19808 0.44071,0.35578 0.20619,0.15493 -1.09473,0.37121 -1.26909,0.36527 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4524"
+       width="32.000069"
+       height="32.000011"
+       x="192"
+       y="920.36218"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4528"
+       d="m 218.33715,929.66469 c 0.11309,-0.21528 1.25898,-1.04736 1.58312,-1.01329 0.32414,0.034 1.031,-0.27232 1.15347,-0.0897 0.12247,0.18256 -0.72722,1.33771 -1.3464,1.25804 -0.61918,-0.0797 -1.33722,0.37296 -1.39019,-0.15499 z"
+       style="fill:url(#radialGradient6325);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6353);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 214.85738,948.40055 c -0.20387,0.0213 -0.90742,-0.60415 -1.02517,-0.82888 -0.11775,-0.22471 -0.0688,-1.20748 0.008,-1.36681 0.0771,-0.15933 0.82759,0.48255 1.04207,0.91821 0.21447,0.43566 0.32991,1.01167 -0.0251,1.27748 z"
+       id="path4530"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 198.52724,934.59801 c -0.52931,0.19374 -1.35696,0.35652 -1.06733,0.17389 1.05861,-0.66751 0.63401,-1.26149 0.85521,-1.17139 0.61665,0.2512 0.59236,0.54026 0.84563,0.29413 0.0522,-0.52039 0.63758,-0.75133 0.80344,-0.73305 0.16586,0.0183 0.36292,0.21032 0.12854,0.57383 -1.14725,0.45304 0.39812,1.16699 -1.56549,0.86259 z"
+       id="path4538"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssczcc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4540"
+       d="m 213.29694,928.48052 c -0.25642,-0.008 -0.32221,0.84425 -0.54768,0.25379 -0.19349,-0.50671 -0.0659,-1.03242 -0.40266,-1.11412 -0.18724,-0.0454 -0.43137,-0.35253 -0.49768,-0.57239 -0.11186,-0.3709 -0.0937,-0.89109 0.15953,-1.1372 0.0522,-0.52039 0.64099,-0.52118 0.95938,0.62791 0.31839,1.14909 -0.0681,0.20041 0.62297,0.28643 0.4121,0.0513 0.68512,-0.17934 0.29044,0.68379 -0.22291,0.48747 0.42133,0.33598 0.14109,0.57953 -0.28025,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 199.67942,929.04811 c -0.25642,-0.008 -0.53337,-0.35981 -0.67437,-0.26797 -0.46786,0.30476 -0.004,-0.38638 -0.27597,-0.59236 -0.27171,-0.20595 -0.0513,-0.67361 -0.11758,-0.89347 -0.11186,-0.37089 0.0541,-0.91113 0.30735,-1.15726 0.0522,-0.5204 0.43453,0.40897 0.66374,0.62792 0.22921,0.21896 -0.21109,0.43433 0.39069,0.62756 0.39375,0.12643 0.68513,-0.17934 0.29044,0.6838 -0.22291,0.48747 0.42134,0.33598 0.14109,0.57954 -0.28025,0.24355 -0.46906,0.40055 -0.72539,0.39222 z"
+       id="path4542"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4544"
+       d="m 214.90549,936.82954 c -0.12521,-0.004 -0.26044,-0.17568 -0.32928,-0.13084 -0.22845,0.14882 -0.67756,0.29296 -0.81047,0.19239 -0.13267,-0.10055 0.46509,-0.65375 0.43271,-0.7611 -0.0546,-0.1811 -0.46808,-1.15752 -0.34442,-1.2777 0.0255,-0.25409 1.00568,0.60857 1.11759,0.71546 0.11193,0.10692 0.45924,0.038 0.75307,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 202.76766,941.88391 c -0.17442,-0.006 -0.765,-0.11339 -0.86092,-0.048 -0.31825,0.21716 -0.20401,-0.24673 -0.38881,-0.39351 -0.18483,-0.14675 0.30985,-0.42277 0.26474,-0.57945 -0.0761,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.0355,-0.37082 0.0658,-0.82395 0.22168,-0.66792 0.15592,0.15602 0.41661,-0.24819 0.82596,-0.11051 0.26784,0.0901 0.11325,0.56446 -0.49191,0.85903 -0.45669,0.22232 -0.2964,-0.19808 0.44071,0.35578 0.20619,0.15493 -1.09473,0.37121 -1.26909,0.36527 z"
+       id="path4546"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       inkscape:export-ydpi="89.999985"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       y="920.36218"
+       x="224"
+       height="32.000011"
+       width="32.000069"
+       id="rect4558"
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       sodipodi:nodetypes="zsssczsssz"
+       inkscape:connector-curvature="0"
+       id="path4560"
+       d="m 236.88306,938.91316 c -1.20785,-1.15327 -3.53286,0.15307 -4.64861,1e-5 -3.70209,-0.50793 1.77117,-3.59349 1.43034,-4.15012 -1.51117,-2.46797 -3.34387,-6.68568 -0.83437,-4.79853 0.52345,0.39363 3.93345,3.24226 6.31735,3.11258 2.68984,-2.36884 7.77691,-4.29015 7.86689,-2.20476 0.09,2.08541 -5.59851,1.74555 -3.57586,5.31732 1.32345,2.33705 4.17184,2.07505 -1.78793,4.66886 -3.36589,1.4649 0.47679,3.50164 -2.02632,3.50164 -2.5031,0 -1.53364,-4.29375 -2.74149,-5.447 z"
+       style="fill:url(#radialGradient4582);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4564"
+       d="m 246.02459,948.79983 c -0.13374,0.014 -0.59536,-0.39639 -0.6726,-0.54382 -0.0773,-0.14744 -0.0451,-0.79224 0.005,-0.89677 0.0506,-0.10454 0.54298,0.31659 0.6837,0.60244 0.1407,0.28583 0.21645,0.66375 -0.0165,0.83815 z"
+       style="fill:url(#radialGradient6355);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       transform="matrix(0.49950282,0,0,0.51372667,193.72717,459.19122)"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6269);opacity:0.94139194"
+       d="m 87.792449,932.15041 c -1.615085,-1.30654 -4.723996,0.17343 -6.215926,1e-5 -4.95027,-0.57543 2.39074,-2.20391 1.912592,-4.70167 -0.478148,-2.49776 -4.50358,-5.00873 -3.558757,-6.57651 1.593827,-2.64468 7.702708,4.81339 10.890362,4.66646 3.596731,-2.68365 9.8126,-7.33077 9.93292,-4.96822 0.12032,2.36256 -8.658754,4.16294 -5.954157,8.20941 1.769657,2.64768 6.653357,2.63589 -1.315787,5.57443 -4.500732,1.65959 1.321592,3.96703 -2.025445,3.96703 -3.347037,0 -2.050717,-4.8644 -3.665802,-6.17094 z"
+       id="path4570"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="zsssczsssz"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="cssczcc"
+       inkscape:connector-curvature="0"
+       id="path4572"
+       d="m 230.52724,934.59801 c -0.52931,0.19374 -1.35696,0.35652 -1.06733,0.17389 1.05861,-0.66751 0.63401,-1.26149 0.85521,-1.17139 0.61665,0.2512 0.59236,0.54026 0.84563,0.29413 0.0522,-0.52039 0.63758,-0.75133 0.80344,-0.73305 0.16586,0.0183 0.36292,0.21032 0.12854,0.57383 -1.14725,0.45304 0.39812,1.16699 -1.56549,0.86259 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 245.29694,928.48052 c -0.25642,-0.008 -0.32221,0.84425 -0.54768,0.25379 -0.19349,-0.50671 -0.0659,-1.03242 -0.40266,-1.11412 -0.18724,-0.0454 -0.43137,-0.35253 -0.49768,-0.57239 -0.11186,-0.3709 -0.0937,-0.89109 0.15953,-1.1372 0.0522,-0.52039 0.64099,-0.52118 0.95938,0.62791 0.31839,1.14909 -0.0681,0.20041 0.62297,0.28643 0.4121,0.0513 0.68512,-0.17934 0.29044,0.68379 -0.22291,0.48747 0.42133,0.33598 0.14109,0.57953 -0.28025,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       id="path4574"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4576"
+       d="m 231.67942,929.04811 c -0.25642,-0.008 -0.53337,-0.35981 -0.67437,-0.26797 -0.46786,0.30476 -0.004,-0.38638 -0.27597,-0.59236 -0.27171,-0.20595 -0.0513,-0.67361 -0.11758,-0.89347 -0.11186,-0.37089 0.0541,-0.91113 0.30735,-1.15726 0.0522,-0.5204 0.43453,0.40897 0.66374,0.62792 0.22921,0.21896 -0.21109,0.43433 0.39069,0.62756 0.39375,0.12643 0.68513,-0.17934 0.29044,0.6838 -0.22291,0.48747 0.42134,0.33598 0.14109,0.57954 -0.28025,0.24355 -0.46906,0.40055 -0.72539,0.39222 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 246.90549,936.82954 c -0.12521,-0.004 -0.26044,-0.17568 -0.32928,-0.13084 -0.22845,0.14882 -0.67756,0.29296 -0.81047,0.19239 -0.13267,-0.10055 0.46509,-0.65375 0.43271,-0.7611 -0.0546,-0.1811 -0.46808,-1.15752 -0.34442,-1.2777 0.0255,-0.25409 1.00568,0.60857 1.11759,0.71546 0.11193,0.10692 0.45924,0.038 0.75307,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       id="path4578"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path4580"
+       d="m 234.76766,941.88391 c -0.17442,-0.006 -0.765,-0.11339 -0.86092,-0.048 -0.31825,0.21716 -0.20401,-0.24673 -0.38881,-0.39351 -0.18483,-0.14675 0.30985,-0.42277 0.26474,-0.57945 -0.0761,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.0355,-0.37082 0.0658,-0.82395 0.22168,-0.66792 0.15592,0.15602 0.41661,-0.24819 0.82596,-0.11051 0.26784,0.0901 0.11325,0.56446 -0.49191,0.85903 -0.45669,0.22232 -0.2964,-0.19808 0.44071,0.35578 0.20619,0.15493 -1.09473,0.37121 -1.26909,0.36527 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5345"
+       style="fill:url(#radialGradient5662);fill-opacity:1;stroke:#000000;stroke-width:0.75000000000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 204.97371,938.70396 c -1.20785,-1.15327 -3.53286,0.2228 -4.64861,0.0697 -3.70209,-0.50793 1.88972,-3.38429 1.54889,-3.94092 -1.51117,-2.46797 -3.20441,-6.39977 -0.69491,-4.51262 0.52345,0.39363 3.58479,2.88662 5.96869,2.75694 2.68984,-2.36884 7.46311,-4.06003 7.55309,-1.97464 0.09,2.08541 -5.30563,1.53635 -3.28298,5.10812 1.32345,2.33705 4.08361,2.57887 -1.63452,4.5015 -3.38155,1.01083 0.24667,3.27152 -2.25644,3.27152 -2.5031,0 -1.34536,-4.12639 -2.55321,-5.27964 0,0 0,0 0,0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5347"
+       style="fill:url(#radialGradient5659);fill-opacity:1;stroke:#000000;stroke-width:0.75000000000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 173.06437,938.49476 c -1.20785,-1.15327 -3.53287,0.29254 -4.64862,0.13948 -3.70208,-0.50793 2.00827,-3.17509 1.66744,-3.73172 -1.51117,-2.46797 -3.06494,-6.11388 -0.55544,-4.22673 0.52345,0.39363 3.23612,2.53099 5.62002,2.40131 2.68984,-2.36884 7.14931,-3.82991 7.23929,-1.74452 0.09,2.08541 -5.01275,1.32715 -2.9901,4.89892 1.32345,2.33705 3.99537,3.08269 -1.4811,4.33414 -3.39723,0.55675 0.0165,3.04141 -2.48656,3.04141 -2.5031,0 -1.15708,-3.95904 -2.36493,-5.11229 0,0 0,0 0,0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5349"
+       style="fill:url(#radialGradient5656);fill-opacity:1;stroke:#000000;stroke-width:0.75000000000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 141.15502,938.28556 c -1.20785,-1.15327 -3.53286,0.36227 -4.64861,0.20921 -3.70209,-0.50793 2.12681,-2.96589 1.78598,-3.52252 -1.51117,-2.46797 -2.92548,-5.82797 -0.41598,-3.94082 0.52345,0.39363 2.88746,2.17535 5.27136,2.04567 2.68984,-2.36884 6.83552,-3.59979 6.9255,-1.5144 0.09,2.08541 -4.71988,1.11795 -2.69723,4.68972 1.32345,2.33705 3.90714,3.58651 -1.32769,4.16678 -3.41289,0.10268 -0.21357,2.81129 -2.71668,2.81129 -2.5031,0 -0.9688,-3.79168 -2.17665,-4.94493 0,0 0,0 0,0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5351"
+       style="fill:url(#radialGradient5653);fill-opacity:1;stroke:#000000;stroke-width:0.75000000000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 109.24567,938.07637 c -1.20785,-1.15327 -3.53286,0.432 -4.64861,0.27894 -3.70209,-0.50793 2.24536,-2.7567 1.90452,-3.31333 -1.51116,-2.46797 -2.786,-5.54206 -0.2765,-3.65491 0.52344,0.39363 2.53879,1.81971 4.92269,1.69003 2.68984,-2.36884 6.52172,-3.36968 6.6117,-1.28429 0.09,2.08541 -4.427,0.90876 -2.40435,4.48053 1.32345,2.33705 3.8189,4.09033 -1.17428,3.99943 -3.42856,-0.3514 -0.44369,2.58116 -2.94679,2.58116 -2.5031,0 -0.78053,-3.62431 -1.98838,-4.77756 0,0 0,0 0,0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5353"
+       style="fill:url(#radialGradient5650);fill-opacity:1;stroke:#000000;stroke-width:0.75000000000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 77.336326,937.86717 c -1.20785,-1.15327 -3.532865,0.50173 -4.648614,0.34867 -3.702087,-0.50793 2.363904,-2.5475 2.023072,-3.10413 -1.511169,-2.46797 -2.646543,-5.25615 -0.13704,-3.369 0.523443,0.39363 2.190125,1.46407 4.574029,1.33439 2.689835,-2.36884 6.207918,-3.13956 6.297896,-1.05417 0.09,2.08541 -4.134115,0.69956 -2.111466,4.27133 1.323449,2.33705 3.730667,4.59415 -1.020869,3.83207 -3.444226,-0.80547 -0.673808,2.35104 -3.176912,2.35104 -2.503099,0 -0.592246,-3.45695 -1.800096,-4.6102 0,0 0,0 0,0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5355"
+       style="fill:url(#radialGradient5647);fill-opacity:1;stroke:#000000;stroke-width:0.75000000000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 45.42698,937.65797 c -1.207851,-1.15327 -3.532866,0.57147 -4.648616,0.41841 -3.702086,-0.50793 2.482451,-2.3383 2.141618,-2.89493 -1.511168,-2.46797 -2.507077,-4.97026 0.0024,-3.08311 0.523443,0.39363 1.84146,1.10844 4.225365,0.97876 2.689834,-2.36884 5.894121,-2.90944 5.984098,-0.82405 0.09,2.08541 -3.841237,0.49036 -1.818588,4.06213 1.32345,2.33705 3.642433,5.09797 -0.867456,3.66471 -3.459894,-1.25955 -0.903927,2.12093 -3.40703,2.12093 -2.5031,0 -0.403968,-3.2896 -1.611817,-4.44285 0,0 0,0 0,0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 46.500216,936.89023 c -0.80674,-0.6712 -3.61484,0.5075 -4.360064,0.41841 -2.472674,-0.29562 1.528899,-0.3791 1.290063,-1.66226 -0.238836,-1.28317 -0.253861,-1.13447 0.218081,-1.93988 0.796121,-1.35865 1.851834,1.03412 3.444076,0.95863 1.796578,-1.37866 3.395192,-3.09657 3.455293,-1.88287 0.0601,1.21371 -2.818843,1.46918 -1.467889,3.54796 0.883948,1.36018 3.156013,0.34997 -0.824599,1.85958 -2.248128,0.85258 0.827498,3.04212 -0.844356,3.04212 -1.671855,0 -0.103867,-3.67048 -0.910605,-4.34169 0,0 0,0 0,0"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6293);opacity:0.94139194"
+       id="path5908"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 78.346804,937.08549 c -0.806739,-0.67121 -3.405642,0.43776 -4.150865,0.34867 -2.472674,-0.29562 1.473113,-0.50462 1.234277,-1.78778 -0.238837,-1.28317 -0.586476,-1.37425 -0.114535,-2.17966 0.796121,-1.35864 2.18445,1.2739 3.776692,1.19841 1.796577,-1.37866 3.64623,-3.20814 3.70633,-1.99444 0.0601,1.21371 -3.069881,1.58075 -1.718927,3.65953 0.883949,1.36018 3.183906,0.51733 -0.796705,2.02694 -2.248128,0.85257 0.799605,2.87476 -0.87225,2.87476 -1.671854,0 -0.257278,-3.47523 -1.064017,-4.14643 0,0 0,0 0,0"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6289);opacity:0.94139194"
+       id="path5910"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 110.19339,937.28074 c -0.80674,-0.67121 -3.19644,0.36803 -3.94166,0.27894 -2.47268,-0.29562 1.41732,-0.63014 1.17849,-1.9133 -0.23884,-1.28317 -0.91909,-1.61402 -0.44715,-2.41943 0.79612,-1.35864 2.51706,1.51367 4.1093,1.43818 1.79658,-1.37866 3.89727,-3.31972 3.95737,-2.10601 0.0601,1.21371 -3.32092,1.69232 -1.96996,3.7711 0.88395,1.36018 3.2118,0.68469 -0.76882,2.1943 -2.24812,0.85257 0.77172,2.7074 -0.90014,2.7074 -1.67185,0 -0.41069,-3.27998 -1.21743,-3.95118 0,0 0,0 0,0"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6285);opacity:0.94139194"
+       id="path5912"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 142.03998,937.47599 c -0.80674,-0.6712 -2.98724,0.2983 -3.73247,0.2092 -2.47267,-0.29561 1.36154,-0.75565 1.12271,-2.03881 -0.23884,-1.28317 -1.25171,-1.8538 -0.77977,-2.65921 0.79612,-1.35864 2.84968,1.75345 4.44192,1.67796 1.79658,-1.37866 4.14831,-3.43129 4.20841,-2.21758 0.0601,1.21371 -3.57196,1.80389 -2.221,3.88267 0.88395,1.36018 3.23969,0.85205 -0.74092,2.36166 -2.24813,0.85257 0.74382,2.54004 -0.92804,2.54004 -1.67185,0 -0.5641,-3.08473 -1.37084,-3.75593 0,0 0,0 0,0"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6281);opacity:0.94139194"
+       id="path5914"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 173.88657,937.67124 c -0.80674,-0.6712 -2.77805,0.22856 -3.52327,0.13947 -2.47267,-0.29561 1.30575,-0.88117 1.06692,-2.16433 -0.23884,-1.28317 -1.58432,-2.09357 -1.11238,-2.89898 0.79612,-1.35864 3.18229,1.99322 4.77453,1.91773 1.79658,-1.37866 4.39935,-3.54286 4.45945,-2.32916 0.0601,1.21371 -3.823,1.91547 -2.47204,3.99425 0.88395,1.36018 3.26758,1.01941 -0.71303,2.52902 -2.24813,0.85257 0.71593,2.37268 -0.95593,2.37268 -1.67185,0 -0.71751,-2.88947 -1.52425,-3.56068 0,0 0,0 0,0"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6277);opacity:0.94139194"
+       id="path5916"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 205.73316,937.86649 c -0.80674,-0.6712 -2.56885,0.15883 -3.31407,0.0697 -2.47268,-0.29561 1.24996,-1.00669 1.01113,-2.28985 -0.23884,-1.28317 -1.91694,-2.33335 -1.445,-3.13876 0.79612,-1.35864 3.51491,2.233 5.10716,2.15751 1.79657,-1.37866 4.65038,-3.65444 4.71048,-2.44073 0.0601,1.21371 -4.07404,2.02704 -2.72308,4.10582 0.88395,1.36018 3.29548,1.18677 -0.68513,2.69637 -2.24813,0.85258 0.68803,2.20533 -0.98383,2.20533 -1.67185,0 -0.87092,-2.69422 -1.67766,-3.36543 0,0 0,0 0,0"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6273);opacity:0.94139194"
+       id="path5918"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4327"
+       d="m 52.402068,943.949 c -0.426212,0.0445 -1.897182,-1.26314 -2.143362,-1.73299 -0.246175,-0.46982 -0.143916,-2.52455 0.01729,-2.85767 0.161211,-0.3331 1.730293,1.00891 2.178694,1.91975 0.448392,0.91086 0.689776,2.11515 -0.05264,2.67091 z"
+       style="fill:url(#radialGradient6343);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6345);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 85.475954,945.02289 c -0.426212,0.0445 -1.897182,-1.26314 -2.143362,-1.73299 -0.246175,-0.46982 -0.143916,-2.52455 0.01729,-2.85767 0.161211,-0.3331 1.730293,1.00891 2.178694,1.91976 0.448392,0.91085 0.689776,2.11514 -0.05264,2.6709 z"
+       id="path4394"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="czzzc"
+       inkscape:connector-curvature="0"
+       id="path4428"
+       d="m 118.18217,944.58194 c -0.34524,0.0361 -1.53672,-1.02314 -1.73612,-1.40372 -0.19941,-0.38055 -0.11657,-2.04488 0.014,-2.31471 0.13057,-0.26981 1.40154,0.81722 1.76475,1.555 0.36319,0.7378 0.55871,1.71327 -0.0426,2.16343 z"
+       style="fill:url(#radialGradient6347);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:url(#radialGradient6341);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 19.917149,943.6211 c -0.473569,0.0494 -2.107981,-1.40349 -2.381514,-1.92554 -0.273528,-0.52203 -0.159907,-2.80506 0.01921,-3.17519 0.179123,-0.37011 1.922548,1.12101 2.420771,2.13306 0.498213,1.01206 0.766418,2.35016 -0.05849,2.96767 z"
+       id="path4088"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       inkscape:export-ydpi="89.999985"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       y="920.36218"
+       x="256"
+       height="32.000011"
+       width="32.000069"
+       id="rect6357"
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       sodipodi:nodetypes="cssczcc"
+       inkscape:connector-curvature="0"
+       id="path6363"
+       d="m 262.52724,934.59801 c -0.52931,0.19374 -1.35696,0.35652 -1.06733,0.17389 1.05861,-0.66751 0.63401,-1.26149 0.85521,-1.17139 0.61665,0.2512 0.59236,0.54026 0.84563,0.29413 0.0522,-0.52039 0.63758,-0.75133 0.80344,-0.73305 0.16586,0.0183 0.36292,0.21032 0.12854,0.57383 -1.14725,0.45304 0.39812,1.16699 -1.56549,0.86259 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 277.29694,928.48052 c -0.25642,-0.008 -0.32221,0.84425 -0.54768,0.25379 -0.19349,-0.50671 -0.0659,-1.03242 -0.40266,-1.11412 -0.18724,-0.0454 -0.43137,-0.35253 -0.49768,-0.57239 -0.11186,-0.3709 -0.0937,-0.89109 0.15953,-1.1372 0.0522,-0.52039 0.64099,-0.52118 0.95938,0.62791 0.31839,1.14909 -0.0681,0.20041 0.62297,0.28643 0.4121,0.0513 0.68512,-0.17934 0.29044,0.68379 -0.22291,0.48747 0.42133,0.33598 0.14109,0.57953 -0.28025,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       id="path6365"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path6367"
+       d="m 263.67942,929.04811 c -0.25642,-0.008 -0.53337,-0.35981 -0.67437,-0.26797 -0.46786,0.30476 -0.004,-0.38638 -0.27597,-0.59236 -0.27171,-0.20595 -0.0513,-0.67361 -0.11758,-0.89347 -0.11186,-0.37089 0.0541,-0.91113 0.30735,-1.15726 0.0522,-0.5204 0.43453,0.40897 0.66374,0.62792 0.22921,0.21896 -0.21109,0.43433 0.39069,0.62756 0.39375,0.12643 0.68513,-0.17934 0.29044,0.6838 -0.22291,0.48747 0.42134,0.33598 0.14109,0.57954 -0.28025,0.24355 -0.46906,0.40055 -0.72539,0.39222 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 278.90549,936.82954 c -0.12521,-0.004 -0.26044,-0.17568 -0.32928,-0.13084 -0.22845,0.14882 -0.67756,0.29296 -0.81047,0.19239 -0.13267,-0.10055 0.46509,-0.65375 0.43271,-0.7611 -0.0546,-0.1811 -0.46808,-1.15752 -0.34442,-1.2777 0.0255,-0.25409 1.00568,0.60857 1.11759,0.71546 0.11193,0.10692 0.45924,0.038 0.75307,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       id="path6369"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path6371"
+       d="m 266.76766,941.88391 c -0.17442,-0.006 -0.765,-0.11339 -0.86092,-0.048 -0.31825,0.21716 -0.20401,-0.24673 -0.38881,-0.39351 -0.18483,-0.14675 0.30985,-0.42277 0.26474,-0.57945 -0.0761,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.0355,-0.37082 0.0658,-0.82395 0.22168,-0.66792 0.15592,0.15602 0.41661,-0.24819 0.82596,-0.11051 0.26784,0.0901 0.11325,0.56446 -0.49191,0.85903 -0.45669,0.22232 -0.2964,-0.19808 0.44071,0.35578 0.20619,0.15493 -1.09473,0.37121 -1.26909,0.36527 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       d="m 268.97371,938.70396 c -1.20785,-1.15327 -3.53286,0.2228 -4.64861,0.0697 -3.70209,-0.50793 1.88972,-3.38429 1.54889,-3.94092 -1.51117,-2.46797 -3.20441,-6.39977 -0.69491,-4.51262 0.52345,0.39363 3.58479,2.88662 5.96869,2.75694 2.68984,-2.36884 7.46311,-4.06003 7.55309,-1.97464 0.09,2.08541 -5.30563,1.53635 -3.28298,5.10812 1.32345,2.33705 4.08361,2.57887 -1.63452,4.5015 -3.38155,1.01083 0.24667,3.27152 -2.25644,3.27152 -2.5031,0 -1.34536,-4.12639 -2.55321,-5.27964 0,0 0,0 0,0"
+       style="fill:url(#radialGradient6381);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path6373"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       id="path6375"
+       style="opacity:0.94139195;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6273)"
+       d="m 269.73316,937.86649 c -0.80674,-0.6712 -2.56885,0.15883 -3.31407,0.0697 -2.47268,-0.29561 1.24996,-1.00669 1.01113,-2.28985 -0.23884,-1.28317 -1.91694,-2.33335 -1.445,-3.13876 0.79612,-1.35864 3.51491,2.233 5.10716,2.15751 1.79657,-1.37866 4.65038,-3.65444 4.71048,-2.44073 0.0601,1.21371 -4.07404,2.02704 -2.72308,4.10582 0.88395,1.36018 3.29548,1.18677 -0.68513,2.69637 -2.24813,0.85258 0.68803,2.20533 -0.98383,2.20533 -1.67185,0 -0.87092,-2.69422 -1.67766,-3.36543 0,0 0,0 0,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none"
+       id="rect6383"
+       width="32.000069"
+       height="32.000011"
+       x="288"
+       y="920.36218"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 294.52724,934.59801 c -0.52931,0.19374 -1.35696,0.35652 -1.06733,0.17389 1.05861,-0.66751 0.63401,-1.26149 0.85521,-1.17139 0.61665,0.2512 0.59236,0.54026 0.84563,0.29413 0.0522,-0.52039 0.63758,-0.75133 0.80344,-0.73305 0.16586,0.0183 0.36292,0.21032 0.12854,0.57383 -1.14725,0.45304 0.39812,1.16699 -1.56549,0.86259 z"
+       id="path6393"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssczcc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path6395"
+       d="m 309.29694,928.48052 c -0.25642,-0.008 -0.32221,0.84425 -0.54768,0.25379 -0.19349,-0.50671 -0.0659,-1.03242 -0.40266,-1.11412 -0.18724,-0.0454 -0.43137,-0.35253 -0.49768,-0.57239 -0.11186,-0.3709 -0.0937,-0.89109 0.15953,-1.1372 0.0522,-0.52039 0.64099,-0.52118 0.95938,0.62791 0.31839,1.14909 -0.0681,0.20041 0.62297,0.28643 0.4121,0.0513 0.68512,-0.17934 0.29044,0.68379 -0.22291,0.48747 0.42133,0.33598 0.14109,0.57953 -0.28025,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 295.67942,929.04811 c -0.25642,-0.008 -0.53337,-0.35981 -0.67437,-0.26797 -0.46786,0.30476 -0.004,-0.38638 -0.27597,-0.59236 -0.27171,-0.20595 -0.0513,-0.67361 -0.11758,-0.89347 -0.11186,-0.37089 0.0541,-0.91113 0.30735,-1.15726 0.0522,-0.5204 0.43453,0.40897 0.66374,0.62792 0.22921,0.21896 -0.21109,0.43433 0.39069,0.62756 0.39375,0.12643 0.68513,-0.17934 0.29044,0.6838 -0.22291,0.48747 0.42134,0.33598 0.14109,0.57954 -0.28025,0.24355 -0.46906,0.40055 -0.72539,0.39222 z"
+       id="path6397"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path6399"
+       d="m 310.90549,936.82954 c -0.12521,-0.004 -0.26044,-0.17568 -0.32928,-0.13084 -0.22845,0.14882 -0.67756,0.29296 -0.81047,0.19239 -0.13267,-0.10055 0.46509,-0.65375 0.43271,-0.7611 -0.0546,-0.1811 -0.46808,-1.15752 -0.34442,-1.2777 0.0255,-0.25409 1.00568,0.60857 1.11759,0.71546 0.11193,0.10692 0.45924,0.038 0.75307,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 298.76766,941.88391 c -0.17442,-0.006 -0.765,-0.11339 -0.86092,-0.048 -0.31825,0.21716 -0.20401,-0.24673 -0.38881,-0.39351 -0.18483,-0.14675 0.30985,-0.42277 0.26474,-0.57945 -0.0761,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.0355,-0.37082 0.0658,-0.82395 0.22168,-0.66792 0.15592,0.15602 0.41661,-0.24819 0.82596,-0.11051 0.26784,0.0901 0.11325,0.56446 -0.49191,0.85903 -0.45669,0.22232 -0.2964,-0.19808 0.44071,0.35578 0.20619,0.15493 -1.09473,0.37121 -1.26909,0.36527 z"
+       id="path6401"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       d="m 301.06437,938.49476 c -1.20785,-1.15327 -3.53287,0.29254 -4.64862,0.13948 -3.70208,-0.50793 2.00827,-3.17509 1.66744,-3.73172 -1.51117,-2.46797 -3.06494,-6.11388 -0.55544,-4.22673 0.52345,0.39363 3.23612,2.53099 5.62002,2.40131 2.68984,-2.36884 7.14931,-3.82991 7.23929,-1.74452 0.09,2.08541 -5.01275,1.32715 -2.9901,4.89892 1.32345,2.33705 3.99537,3.08269 -1.4811,4.33414 -3.39723,0.55675 0.0165,3.04141 -2.48656,3.04141 -2.5031,0 -1.15708,-3.95904 -2.36493,-5.11229 0,0 0,0 0,0"
+       style="fill:url(#radialGradient6415);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path6403"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       id="path6405"
+       style="opacity:0.94139195;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6277)"
+       d="m 301.88657,937.67124 c -0.80674,-0.6712 -2.77805,0.22856 -3.52327,0.13947 -2.47267,-0.29561 1.30575,-0.88117 1.06692,-2.16433 -0.23884,-1.28317 -1.58432,-2.09357 -1.11238,-2.89898 0.79612,-1.35864 3.18229,1.99322 4.77453,1.91773 1.79658,-1.37866 4.39935,-3.54286 4.45945,-2.32916 0.0601,1.21371 -3.823,1.91547 -2.47204,3.99425 0.88395,1.36018 3.26758,1.01941 -0.71303,2.52902 -2.24813,0.85257 0.71593,2.37268 -0.95593,2.37268 -1.67185,0 -0.71751,-2.88947 -1.52425,-3.56068 0,0 0,0 0,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       inkscape:export-ydpi="89.999985"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       y="920.36218"
+       x="320"
+       height="32.000011"
+       width="32.000069"
+       id="rect6417"
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       sodipodi:nodetypes="cssczcc"
+       inkscape:connector-curvature="0"
+       id="path6427"
+       d="m 326.52724,934.59801 c -0.52931,0.19374 -1.35696,0.35652 -1.06733,0.17389 1.05861,-0.66751 0.63401,-1.26149 0.85521,-1.17139 0.61665,0.2512 0.59236,0.54026 0.84563,0.29413 0.0522,-0.52039 0.63758,-0.75133 0.80344,-0.73305 0.16586,0.0183 0.36292,0.21032 0.12854,0.57383 -1.14725,0.45304 0.39812,1.16699 -1.56549,0.86259 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 341.29694,928.48052 c -0.25642,-0.008 -0.32221,0.84425 -0.54768,0.25379 -0.19349,-0.50671 -0.0659,-1.03242 -0.40266,-1.11412 -0.18724,-0.0454 -0.43137,-0.35253 -0.49768,-0.57239 -0.11186,-0.3709 -0.0937,-0.89109 0.15953,-1.1372 0.0522,-0.52039 0.64099,-0.52118 0.95938,0.62791 0.31839,1.14909 -0.0681,0.20041 0.62297,0.28643 0.4121,0.0513 0.68512,-0.17934 0.29044,0.68379 -0.22291,0.48747 0.42133,0.33598 0.14109,0.57953 -0.28025,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       id="path6429"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path6431"
+       d="m 327.67942,929.04811 c -0.25642,-0.008 -0.53337,-0.35981 -0.67437,-0.26797 -0.46786,0.30476 -0.004,-0.38638 -0.27597,-0.59236 -0.27171,-0.20595 -0.0513,-0.67361 -0.11758,-0.89347 -0.11186,-0.37089 0.0541,-0.91113 0.30735,-1.15726 0.0522,-0.5204 0.43453,0.40897 0.66374,0.62792 0.22921,0.21896 -0.21109,0.43433 0.39069,0.62756 0.39375,0.12643 0.68513,-0.17934 0.29044,0.6838 -0.22291,0.48747 0.42134,0.33598 0.14109,0.57954 -0.28025,0.24355 -0.46906,0.40055 -0.72539,0.39222 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 342.90549,936.82954 c -0.12521,-0.004 -0.26044,-0.17568 -0.32928,-0.13084 -0.22845,0.14882 -0.67756,0.29296 -0.81047,0.19239 -0.13267,-0.10055 0.46509,-0.65375 0.43271,-0.7611 -0.0546,-0.1811 -0.46808,-1.15752 -0.34442,-1.2777 0.0255,-0.25409 1.00568,0.60857 1.11759,0.71546 0.11193,0.10692 0.45924,0.038 0.75307,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       id="path6433"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path6435"
+       d="m 330.76766,941.88391 c -0.17442,-0.006 -0.765,-0.11339 -0.86092,-0.048 -0.31825,0.21716 -0.20401,-0.24673 -0.38881,-0.39351 -0.18483,-0.14675 0.30985,-0.42277 0.26474,-0.57945 -0.0761,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.0355,-0.37082 0.0658,-0.82395 0.22168,-0.66792 0.15592,0.15602 0.41661,-0.24819 0.82596,-0.11051 0.26784,0.0901 0.11325,0.56446 -0.49191,0.85903 -0.45669,0.22232 -0.2964,-0.19808 0.44071,0.35578 0.20619,0.15493 -1.09473,0.37121 -1.26909,0.36527 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       d="m 333.15502,938.28556 c -1.20785,-1.15327 -3.53286,0.36227 -4.64861,0.20921 -3.70209,-0.50793 2.12681,-2.96589 1.78598,-3.52252 -1.51117,-2.46797 -2.92548,-5.82797 -0.41598,-3.94082 0.52345,0.39363 2.88746,2.17535 5.27136,2.04567 2.68984,-2.36884 6.83552,-3.59979 6.9255,-1.5144 0.09,2.08541 -4.71988,1.11795 -2.69723,4.68972 1.32345,2.33705 3.90714,3.58651 -1.32769,4.16678 -3.41289,0.10268 -0.21357,2.81129 -2.71668,2.81129 -2.5031,0 -0.9688,-3.79168 -2.17665,-4.94493 0,0 0,0 0,0"
+       style="fill:url(#radialGradient6449);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path6437"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       id="path6439"
+       style="opacity:0.94139195;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6281)"
+       d="m 334.03998,937.47599 c -0.80674,-0.6712 -2.98724,0.2983 -3.73247,0.2092 -2.47267,-0.29561 1.36154,-0.75565 1.12271,-2.03881 -0.23884,-1.28317 -1.25171,-1.8538 -0.77977,-2.65921 0.79612,-1.35864 2.84968,1.75345 4.44192,1.67796 1.79658,-1.37866 4.14831,-3.43129 4.20841,-2.21758 0.0601,1.21371 -3.57196,1.80389 -2.221,3.88267 0.88395,1.36018 3.23969,0.85205 -0.74092,2.36166 -2.24813,0.85257 0.74382,2.54004 -0.92804,2.54004 -1.67185,0 -0.5641,-3.08473 -1.37084,-3.75593 0,0 0,0 0,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <rect
+       inkscape:export-ydpi="89.999985"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       y="920.36218"
+       x="352"
+       height="32.000011"
+       width="32.000069"
+       id="rect8161"
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       sodipodi:nodetypes="cssczcc"
+       inkscape:connector-curvature="0"
+       id="path8169"
+       d="m 358.52724,934.59801 c -0.52931,0.19374 -1.35696,0.35652 -1.06733,0.17389 1.05861,-0.66751 0.63401,-1.26149 0.85521,-1.17139 0.61665,0.2512 0.59236,0.54026 0.84563,0.29413 0.0522,-0.52039 0.63758,-0.75133 0.80344,-0.73305 0.16586,0.0183 0.36292,0.21032 0.12854,0.57383 -1.14725,0.45304 0.39812,1.16699 -1.56549,0.86259 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 373.29694,928.48052 c -0.25642,-0.008 -0.32221,0.84425 -0.54768,0.25379 -0.19349,-0.50671 -0.0659,-1.03242 -0.40266,-1.11412 -0.18724,-0.0454 -0.43137,-0.35253 -0.49768,-0.57239 -0.11186,-0.3709 -0.0937,-0.89109 0.15953,-1.1372 0.0522,-0.52039 0.64099,-0.52118 0.95938,0.62791 0.31839,1.14909 -0.0681,0.20041 0.62297,0.28643 0.4121,0.0513 0.68512,-0.17934 0.29044,0.68379 -0.22291,0.48747 0.42133,0.33598 0.14109,0.57953 -0.28025,0.24357 -0.46906,0.40057 -0.72539,0.39224 z"
+       id="path8171"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path8173"
+       d="m 359.67942,929.04811 c -0.25642,-0.008 -0.53337,-0.35981 -0.67437,-0.26797 -0.46786,0.30476 -0.004,-0.38638 -0.27597,-0.59236 -0.27171,-0.20595 -0.0513,-0.67361 -0.11758,-0.89347 -0.11186,-0.37089 0.0541,-0.91113 0.30735,-1.15726 0.0522,-0.5204 0.43453,0.40897 0.66374,0.62792 0.22921,0.21896 -0.21109,0.43433 0.39069,0.62756 0.39375,0.12643 0.68513,-0.17934 0.29044,0.6838 -0.22291,0.48747 0.42134,0.33598 0.14109,0.57954 -0.28025,0.24355 -0.46906,0.40055 -0.72539,0.39222 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 374.90549,936.82954 c -0.12521,-0.004 -0.26044,-0.17568 -0.32928,-0.13084 -0.22845,0.14882 -0.67756,0.29296 -0.81047,0.19239 -0.13267,-0.10055 0.46509,-0.65375 0.43271,-0.7611 -0.0546,-0.1811 -0.46808,-1.15752 -0.34442,-1.2777 0.0255,-0.25409 1.00568,0.60857 1.11759,0.71546 0.11193,0.10692 0.45924,0.038 0.75307,0.13232 0.19226,0.0617 -0.34119,0.23352 -0.5339,0.65496 -0.10884,0.23803 0.20572,0.16406 0.0689,0.28297 -0.13684,0.11892 -0.22903,0.19558 -0.35419,0.19151 z"
+       id="path8175"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       sodipodi:nodetypes="csssczssszc"
+       inkscape:connector-curvature="0"
+       id="path8177"
+       d="m 362.76766,941.88391 c -0.17442,-0.006 -0.765,-0.11339 -0.86092,-0.048 -0.31825,0.21716 -0.20401,-0.24673 -0.38881,-0.39351 -0.18483,-0.14675 0.30985,-0.42277 0.26474,-0.57945 -0.0761,-0.26429 0.68317,0.0228 0.85545,-0.15255 0.0355,-0.37082 0.0658,-0.82395 0.22168,-0.66792 0.15592,0.15602 0.41661,-0.24819 0.82596,-0.11051 0.26784,0.0901 0.11325,0.56446 -0.49191,0.85903 -0.45669,0.22232 -0.2964,-0.19808 0.44071,0.35578 0.20619,0.15493 -1.09473,0.37121 -1.26909,0.36527 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       d="m 365.33633,937.86717 c -1.20785,-1.15327 -3.53287,0.50173 -4.64862,0.34867 -3.70208,-0.50793 2.36391,-2.5475 2.02307,-3.10413 -1.51116,-2.46797 -2.64654,-5.25615 -0.13704,-3.369 0.52345,0.39363 2.19013,1.46407 4.57403,1.33439 2.68984,-2.36884 6.20792,-3.13956 6.2979,-1.05417 0.09,2.08541 -4.13412,0.69956 -2.11147,4.27133 1.32345,2.33705 3.73067,4.59415 -1.02087,3.83207 -3.44422,-0.80547 -0.6738,2.35104 -3.17691,2.35104 -2.5031,0 -0.59224,-3.45695 -1.80009,-4.6102 0,0 0,0 0,0"
+       style="fill:url(#radialGradient8191);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path8179"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+    <path
+       id="path8181"
+       style="opacity:0.94139195;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6289)"
+       d="m 366.3468,937.08549 c -0.80673,-0.67121 -3.40564,0.43776 -4.15086,0.34867 -2.47267,-0.29562 1.47311,-0.50462 1.23428,-1.78778 -0.23884,-1.28317 -0.58648,-1.37425 -0.11454,-2.17966 0.79612,-1.35864 2.18445,1.2739 3.77669,1.19841 1.79658,-1.37866 3.64623,-3.20814 3.70633,-1.99444 0.0601,1.21371 -3.06988,1.58075 -1.71892,3.65953 0.88395,1.36018 3.1839,0.51733 -0.79671,2.02694 -2.24813,0.85257 0.79961,2.87476 -0.87225,2.87476 -1.67185,0 -0.25728,-3.47523 -1.06402,-4.14643 0,0 0,0 0,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-mdpi/blood_stain1.png"
+       inkscape:export-xdpi="89.999985"
+       inkscape:export-ydpi="89.999985" />
+  </g>
+</svg>

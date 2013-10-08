@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="fire1.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="150.89851"
+     inkscape:cy="76.861546"
+     inkscape:document-units="px"
+     inkscape:current-layer="g8036"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="989"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer">
+    <rect
+       style="opacity:0;fill:#ff712a;fill-opacity:1;stroke:none"
+       id="rect3808"
+       width="50"
+       height="50"
+       x="0"
+       y="1002.3622"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       y="1002.3622"
+       x="50"
+       height="50"
+       width="50"
+       id="rect6894"
+       style="opacity:0;fill:#ff712a;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="opacity:0;fill:#ff712a;fill-opacity:1;stroke:none"
+       id="rect6922"
+       width="50"
+       height="50"
+       x="99.999985"
+       y="1002.3622"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       y="1002.3622"
+       x="150"
+       height="50"
+       width="50"
+       id="rect6950"
+       style="opacity:0;fill:#ff712a;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="opacity:0;fill:#ff712a;fill-opacity:1;stroke:none"
+       id="rect6978"
+       width="50"
+       height="50"
+       x="200.00002"
+       y="1002.3622"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       y="1002.3622"
+       x="250"
+       height="50"
+       width="50"
+       id="rect8020"
+       style="opacity:0;fill:#ff712a;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3786"
+       transform="matrix(0.29225943,0,0,0.29186877,-38.608964,755.29049)"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         id="g3804"
+         transform="matrix(0.99998079,0.00619801,-0.00619801,0.99998079,-10.134334,3.915663)"
+         style="stroke:#000000;stroke-width:1.6416831;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:3.4239068;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 238.28255,982.70748 c -8.83196,1.76398 -21.22218,1.10701 -26.34632,-8.94252 -5.12412,-10.04958 14.0643,-16.24188 5.87206,-28.9747 -9.00597,-13.99759 -29.40197,-24.70575 -25.27883,-65.981 0,0 15.59062,31.33121 34.44702,45.71339 10.73487,8.18773 21.87754,17.65324 31.9753,33.36081 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+           id="path3761"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zzscszz" />
+        <path
+           sodipodi:nodetypes="zzscszz"
+           inkscape:connector-curvature="0"
+           id="path3765"
+           d="m 241.17009,978.02295 c -5.56744,1.11507 -13.73506,1.05692 -16.96519,-5.29569 -3.23011,-6.35265 10.65149,-13.48127 -0.22697,-28.31579 -6.21691,-8.47775 -11.03424,0.097 -15.93512,-29.20859 0,0 13.39935,14.44827 25.28594,23.53968 6.76698,5.17571 13.79103,11.15915 20.1564,21.08838 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+           style="fill:#ff712a;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       id="g3800"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       transform="matrix(0.29225943,0,0,0.29186877,-49.679961,754.55342)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:nodetypes="zsscszz"
+         inkscape:connector-curvature="0"
+         id="path2985"
+         d="m 271.58667,1010.2811 c -14.47699,-1.2153 -40.54189,-15.27766 -36.44804,-36.64518 4.13328,-21.57335 27.9936,-12.2643 47.90851,-26.59729 19.91491,-14.33298 47.15701,-54.2289 47.15701,-54.2289 0,0 1.44642,54.03942 -21.23005,72.847 -10.3332,8.57024 -8.45444,21.13006 -8.26656,28.81372 0.18788,7.68365 -14.64386,17.02585 -29.12087,15.81065 z"
+         style="fill:#ffbb2a;fill-opacity:1;stroke:#000000;stroke-width:3.4239068;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#ff6e2a;fill-opacity:1;stroke:none"
+         d="m 265.87261,1002.7904 c -8.53572,-0.7273 -21.76086,-14.50049 -19.3471,-27.28848 2.437,-12.91116 26.14803,-10.19705 37.88996,-18.77502 11.74193,-8.57797 33.5183,-30.66907 33.5183,-30.66907 0,0 -9.50432,30.55567 -22.87449,41.81159 -6.0925,5.12909 -3.91336,23.7173 -3.80258,28.31579 0.11078,4.59849 -16.84838,7.33249 -25.38409,6.60519 z"
+         id="path3755"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zsscszz" />
+    </g>
+    <g
+       id="g3796"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       transform="matrix(0.29225943,0,0,0.29186877,-48.427418,754.97036)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         style="fill:#ffc42a;fill-opacity:1;stroke:#000000;stroke-width:3.4239068;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 268.12209,933.64551 c 7.67052,-0.19264 16.20549,-3.59971 19.29273,-13.47706 0.97765,-11.75842 0.48183,-15.21666 -28.64092,-43.03111 0,0 -4.45981,17.74935 0.6886,30.6266 2.34602,5.86791 -5.16441,10.01968 -6.95916,13.20744 -1.79479,3.18775 7.94823,12.86677 15.61875,12.67413 z"
+         id="path3757"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zccszz" />
+      <path
+         sodipodi:nodetypes="zccszz"
+         inkscape:connector-curvature="0"
+         id="path3763"
+         d="m 270.97605,928.99011 c 4.72796,-0.1195 9.98875,-2.23299 11.89167,-8.36015 0.60261,-7.29404 0.29699,-9.43928 -17.65372,-26.69327 0,0 -2.74895,11.01036 0.42444,18.99844 1.44604,3.64001 -3.18325,6.21546 -4.2895,8.19291 -1.10627,1.97744 4.89914,7.98157 9.62711,7.86207 z"
+         style="fill:#ff7e2a;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       transform="matrix(0.28006754,-0.08342124,0.0835329,0.27969318,-124.72043,794.36261)"
+       id="g3790"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:3.4239068;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 238.28255,982.70748 c -8.83196,1.76398 -21.22218,1.10701 -26.34632,-8.94252 -5.12412,-10.04958 14.0643,-16.24188 5.87206,-28.9747 -9.00597,-13.99759 -29.40197,-24.70575 -25.27883,-65.981 0,0 15.59062,31.33121 34.44702,45.71339 10.73487,8.18773 21.87754,17.65324 31.9753,33.36081 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+         id="path3792"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzscszz" />
+      <path
+         sodipodi:nodetypes="zzscszz"
+         inkscape:connector-curvature="0"
+         id="path3794"
+         d="m 241.17009,978.02295 c -5.56744,1.11507 -13.73506,1.05692 -16.96519,-5.29569 -3.23011,-6.35265 10.65149,-13.48127 -0.22697,-28.31579 -6.21691,-8.47775 -11.03424,0.097 -15.93512,-29.20859 0,0 13.39935,14.44827 25.28594,23.53968 6.76698,5.17571 13.79103,11.15915 20.1564,21.08838 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+         style="fill:#ff712a;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g6898"
+       transform="matrix(0.20981063,0.0019225,-0.00130044,0.31017357,29.592707,738.37495)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:3.91990519;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 238.28255,982.70748 c -8.83196,1.76398 -21.22218,1.10701 -26.34632,-8.94252 -5.12412,-10.04958 14.0643,-16.24188 5.87206,-28.9747 -9.00597,-13.99759 -29.40197,-24.70575 -25.27883,-65.981 0,0 15.59062,31.33121 34.44702,45.71339 10.73487,8.18773 21.87754,17.65324 31.9753,33.36081 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+         id="path6900"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzscszz" />
+      <path
+         sodipodi:nodetypes="zzscszz"
+         inkscape:connector-curvature="0"
+         id="path6902"
+         d="m 241.17009,978.02295 c -5.56744,1.11507 -13.73506,1.05692 -16.96519,-5.29569 -3.23011,-6.35265 10.65149,-13.48127 -0.22697,-28.31579 -6.21691,-8.47775 -11.03424,0.097 -15.93512,-29.20859 0,0 13.39935,14.44827 25.28594,23.53968 6.76698,5.17571 13.79103,11.15915 20.1564,21.08838 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+         style="fill:#ff712a;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g7033"
+       transform="matrix(0.72865043,0,0,0.51016882,6.3934422,508.22196)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       style="opacity:0.68339766">
+      <path
+         style="opacity:0.90347493;fill:#ffbb2a;fill-opacity:1;stroke:#000000;stroke-width:1.64014947;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 109.26263,1045.0556 c -3.93433,1.385 -12.169101,0.4662 -13.161553,-6.1646 -1.002014,-6.6947 6.190723,-6.8779 10.051133,-13.3824 3.86041,-6.5045 7.17398,-21.2329 7.17398,-21.2329 0,0 5.62072,15.3562 1.46613,23.4774 -1.89316,3.7007 -0.18013,7.0849 0.61437,9.2705 0.7945,2.1856 -2.20974,6.647 -6.14406,8.032 z"
+         id="path6906"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zsscszz" />
+      <path
+         sodipodi:nodetypes="zsscszz"
+         inkscape:connector-curvature="0"
+         id="path6908"
+         d="m 106.67286,1043.9446 c -2.32075,0.8135 -7.142607,-1.5603 -7.746142,-5.5243 -0.609351,-4.0023 5.904612,-6.0627 8.168402,-9.9344 2.26379,-3.8716 5.86273,-12.8286 5.86273,-12.8286 0,0 0.45696,9.9194 -1.97643,14.7556 -1.10884,2.2038 1.26786,7.2845 1.74291,8.5927 0.47505,1.3082 -3.73073,4.1255 -6.05147,4.939 z"
+         style="opacity:0.90347493;fill:#ff6e2a;fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       style="opacity:0.68339766;fill:#ffc42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 79.397304,1022.3925 c 1.128501,-0.028 2.384177,-0.5289 2.838378,-1.9802 0.143835,-1.7276 0.07091,-2.2357 -4.2137,-6.3223 0,0 -0.656135,2.6078 0.101308,4.4998 0.345151,0.8622 -0.759797,1.4722 -1.023843,1.9405 -0.264053,0.4684 1.169357,1.8905 2.297857,1.8622 z"
+       id="path6912"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="zccszz"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       sodipodi:nodetypes="zccszz"
+       inkscape:connector-curvature="0"
+       id="path6914"
+       d="m 79.817181,1021.7084 c 0.695589,-0.018 1.469566,-0.328 1.749528,-1.2283 0.08865,-1.0716 0.04366,-1.3868 -2.597247,-3.9219 0,0 -0.404436,1.6177 0.0624,2.7914 0.212749,0.5348 -0.468321,0.9132 -0.63108,1.2037 -0.16275,0.2906 0.720776,1.1727 1.416358,1.1551 z"
+       style="opacity:0.68339766;fill:#ff7e2a;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <g
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g6916"
+       transform="matrix(0.15278203,-0.08732885,0.0830897,0.18938361,-38.496627,880.58772)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         id="g7012"
+         transform="matrix(1.5203609,-0.03843809,-0.04533372,1.5828144,-84.071003,-570.94467)"
+         style="stroke-width:0.82625407">
+        <path
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:3.38977957;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 239.75027,987.92389 c -8.83196,1.76398 -31.63348,-15.72727 -34.78826,-21.91451 -3.15478,-6.18725 15.25255,-10.67419 12.58683,-20.77511 -1.66405,-6.30541 -16.047,-13.60077 -19.19551,-18.49435 -9.00598,-13.99758 -8.03099,-18.09371 -3.90785,-59.36896 0,0 7.08652,17.68201 18.54571,25.08635 5.84922,3.77947 6.07166,33.3975 12.36556,42.22528 6.07129,8.51556 15.06166,4.04044 20.01965,11.75283 4.95799,7.7124 3.20586,39.72462 -5.62613,41.48847 z"
+           id="path6918"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zzsscsszz" />
+      </g>
+    </g>
+    <g
+       id="g6924"
+       transform="matrix(0.26890047,0.06156009,-0.06861137,0.24126523,134.8644,792.80733)"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         id="g6926"
+         transform="matrix(0.99998079,0.00619801,-0.00619801,0.99998079,-10.134334,3.915663)"
+         style="stroke:#000000;stroke-width:1.6416831;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:3.804178;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 238.28255,982.70748 c -8.83196,1.76398 -21.22218,1.10701 -26.34632,-8.94252 -5.12412,-10.04958 14.0643,-16.24188 5.87206,-28.9747 -9.00597,-13.99759 -29.40197,-24.70575 -25.27883,-65.981 0,0 15.59062,31.33121 34.44702,45.71339 10.73487,8.18773 21.87754,17.65324 31.9753,33.36081 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+           id="path6928"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zzscszz" />
+        <path
+           sodipodi:nodetypes="zzscszz"
+           inkscape:connector-curvature="0"
+           id="path6930"
+           d="m 241.17009,978.02295 c -5.56744,1.11507 -13.73506,1.05692 -16.96519,-5.29569 -3.23011,-6.35265 10.65149,-13.48127 -0.22697,-28.31579 -6.21691,-8.47775 -11.03424,0.097 -15.93512,-29.20859 0,0 13.39935,14.44827 25.28594,23.53968 6.76698,5.17571 13.79103,11.15915 20.1564,21.08838 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+           style="fill:#ff712a;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       id="g6932"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.73291421;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       transform="matrix(0.17636816,-0.0539465,0.07101955,0.13396939,15.456198,916.56836)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:nodetypes="zsscszz"
+         inkscape:connector-curvature="0"
+         id="path6934"
+         d="m 271.58667,1010.2811 c -14.47699,-1.2153 -40.54189,-15.27766 -36.44804,-36.64518 4.13328,-21.57335 27.9936,-12.2643 47.90851,-26.59729 19.91491,-14.33298 47.15701,-54.2289 47.15701,-54.2289 0,0 1.44642,54.03942 -21.23005,72.847 -10.3332,8.57024 -8.45444,21.13006 -8.26656,28.81372 0.18788,7.68365 -14.64386,17.02585 -29.12087,15.81065 z"
+         style="fill:#ffbb2a;fill-opacity:1;stroke:#000000;stroke-width:6.03470659;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#ff6e2a;fill-opacity:1;stroke:none"
+         d="m 265.87261,1002.7904 c -8.53572,-0.7273 -21.76086,-14.50049 -19.3471,-27.28848 2.437,-12.91116 26.14803,-10.19705 37.88996,-18.77502 11.74193,-8.57797 33.5183,-30.66907 33.5183,-30.66907 0,0 -9.50432,30.55567 -22.87449,41.81159 -6.0925,5.12909 -3.91336,23.7173 -3.80258,28.31579 0.11078,4.59849 -16.84838,7.33249 -25.38409,6.60519 z"
+         id="path6936"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zsscszz" />
+    </g>
+    <g
+       id="g6938"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       transform="matrix(0.05002316,0,0,0.0499563,113.78161,969.66293)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         style="fill:#ffc42a;fill-opacity:1;stroke:#000000;stroke-width:20.00411224;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 268.12209,933.64551 c 7.67052,-0.19264 16.20549,-3.59971 19.29273,-13.47706 0.97765,-11.75842 0.48183,-15.21666 -28.64092,-43.03111 0,0 -4.45981,17.74935 0.6886,30.6266 2.34602,5.86791 -5.16441,10.01968 -6.95916,13.20744 -1.79479,3.18775 7.94823,12.86677 15.61875,12.67413 z"
+         id="path6940"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zccszz" />
+      <path
+         sodipodi:nodetypes="zccszz"
+         inkscape:connector-curvature="0"
+         id="path6942"
+         d="m 270.97605,928.99011 c 4.72796,-0.1195 9.98875,-2.23299 11.89167,-8.36015 0.60261,-7.29404 0.29699,-9.43928 -17.65372,-26.69327 0,0 -2.74895,11.01036 0.42444,18.99844 1.44604,3.64001 -3.18325,6.21546 -4.2895,8.19291 -1.10627,1.97744 4.89914,7.98157 9.62711,7.86207 z"
+         style="fill:#ff7e2a;fill-opacity:1;stroke:#000000;stroke-width:1.6416831;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(0.21137118,-0.06934115,0.06756257,0.21693549,12.8078,851.70805)"
+       id="g6944"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:4.44823408;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 238.28255,982.70748 c -8.83196,1.76398 -27.26171,-6.27115 -32.38585,-16.32068 -5.12412,-10.04958 20.10383,-8.86372 11.91159,-21.59654 -9.00597,-13.99759 -10.88749,13.42987 -6.76435,-27.84538 0,0 -2.92386,-6.80441 15.93254,7.57777 10.73487,8.18773 21.87754,17.65324 31.9753,33.36081 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+         id="path6946"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzscszz" />
+      <path
+         sodipodi:nodetypes="zzcczz"
+         inkscape:connector-curvature="0"
+         id="path6948"
+         d="m 241.17009,978.02295 c -5.56744,1.11507 -13.73506,1.05692 -16.96519,-5.29569 -3.23011,-6.35265 10.65149,-13.48127 -0.22697,-28.31579 0.63222,-4.25469 -6.0283,-13.78948 9.35082,-5.66891 6.76698,5.17571 13.79103,11.15915 20.1564,21.08838 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+         style="fill:#ff712a;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g7006"
+       transform="matrix(0.21137118,-0.06934115,0.06756257,0.21693549,1.9601555,841.66277)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path7008"
+         d="m 216.20749,923.08535 c -9.00597,-13.99759 -10.20264,-14.7101 -6.0795,-55.98535 0,0 1.2533,18.53128 20.1097,32.91346 36.10086,24.20558 -8.05671,61.92477 -14.0302,23.07189 z"
+         style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:4.44823408;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0.09468249,-0.05415793,0.05149257,0.11744827,1.5357533,937.90173)"
+       id="g7016"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:2.06677794;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         style="stroke-width:1.33279335"
+         transform="matrix(1.5203609,-0.03843809,-0.04533372,1.5828144,-84.071003,-570.94467)"
+         id="g7018">
+        <path
+           sodipodi:nodetypes="zzsscsszz"
+           inkscape:connector-curvature="0"
+           id="path7020"
+           d="m 250.81453,1008.4503 c -8.83196,1.764 -31.63348,-15.72729 -34.78826,-21.91453 -3.15478,-6.18725 11.7973,-22.20185 9.13158,-32.30277 -1.66405,-6.30541 -23.65601,-22.5995 -26.80452,-27.49308 -9.00598,-13.99758 -10.71831,-22.73149 -6.59517,-64.00674 0,0 4.12583,40.36842 15.58502,47.77276 5.84922,3.77947 9.62151,24.31574 15.91541,33.14352 6.07129,8.51556 28.22408,15.59996 33.18207,23.31235 4.95799,7.7124 3.20586,39.72459 -5.62613,41.48849 z"
+           style="fill:#ff792a;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.09005106,-0.02971302,0.02878388,0.09295791,64.862941,945.98149)"
+       id="g7029"
+       style="opacity:0.68339766;fill:#ff6a2a;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         style="fill:#ff6a2a;fill-opacity:1;stroke:none"
+         d="m 223.82907,940.35364 c -9.00597,-13.99759 -10.20264,-14.7101 -6.0795,-55.98535 0,0 1.2533,18.53128 20.1097,32.91346 36.10086,24.20558 -8.05671,61.92477 -14.0302,23.07189 z"
+         id="path7031"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       transform="matrix(0.2226369,0.16269347,-0.15851683,0.1945338,279.86987,817.00435)"
+       id="g7037"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         style="stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         transform="matrix(0.99998079,0.00619801,-0.00619801,0.99998079,-10.134334,3.915663)"
+         id="g7039">
+        <path
+           sodipodi:nodetypes="zzscszz"
+           inkscape:connector-curvature="0"
+           id="path7041"
+           d="m 238.28255,982.70748 c -8.83196,1.76398 -21.22218,1.10701 -26.34632,-8.94252 -5.12412,-10.04958 -2.86721,-0.46298 -11.05945,-13.1958 -9.00597,-13.99759 -12.47046,-40.48465 -8.34732,-81.7599 0,0 10.50447,52.19168 29.36087,66.57386 10.73487,8.18773 26.96369,-3.20723 37.06145,12.50034 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:3.804178;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           style="fill:#ff712a;fill-opacity:1;stroke:none"
+           d="m 241.17009,978.02295 c -5.56744,1.11507 -20.34606,0.17862 -23.57619,-6.17399 -3.23011,-6.35265 -2.74249,-8.00977 -11.29017,-19.66591 -8.54769,-11.65613 -5.39637,-20.87087 -6.87289,-25.36842 0,0 12.75011,24.31035 26.42883,29.04899 17.88456,6.19563 21.26011,-5.96191 27.62548,3.96732 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+           id="path7043"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zzzcszz" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.19872788,-0.04410931,0.08002331,0.10953996,52.842681,930.37563)"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.80540347;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g7045"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         id="g7077"
+         style="stroke-width:1.80540347">
+        <path
+           sodipodi:nodetypes="zsscszz"
+           inkscape:connector-curvature="0"
+           id="path7047"
+           d="m 271.58667,1010.2811 c -14.47699,-1.2153 -40.54189,-15.27766 -36.44804,-36.64518 4.13328,-21.57335 27.9936,-12.2643 47.90851,-26.59729 19.91491,-14.33298 34.46529,-25.17525 34.46529,-25.17525 0,0 14.13814,24.98577 -8.53833,43.79335 -10.3332,8.57024 -8.45444,21.13006 -8.26656,28.81372 0.18788,7.68365 -14.64386,17.02585 -29.12087,15.81065 z"
+           style="fill:#ffbb2a;fill-opacity:1;stroke:#000000;stroke-width:6.28714371;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           style="fill:#ff6e2a;fill-opacity:1;stroke:none"
+           d="m 265.87261,1002.7904 c -8.53572,-0.7273 -21.76086,-14.50049 -19.3471,-27.28848 2.437,-12.91116 26.14803,-10.19705 37.88996,-18.77502 11.74193,-8.57797 25.57994,-15.88445 25.57994,-15.88445 0,0 -1.56596,15.77105 -14.93613,27.02697 -6.0925,5.12909 -3.91336,23.7173 -3.80258,28.31579 0.11078,4.59849 -16.84838,7.33249 -25.38409,6.60519 z"
+           id="path7049"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zsscszz" />
+      </g>
+      <g
+         id="g7081"
+         transform="matrix(-0.72094908,-0.69298805,-0.69298803,0.72094908,1071.2248,589.59329)"
+         style="stroke-width:1.80540347">
+        <path
+           style="fill:#ffbb2a;fill-opacity:1;stroke:#000000;stroke-width:6.28714323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 269.37614,1019.1323 c -14.78709,-0.4452 -40.61229,-15.1028 -34.97163,-40.31164 5.69499,-25.45167 43.167,-78.9999 55.39139,-84.61459 12.2244,-5.61469 -23.07543,59.26582 -8.93422,96.22363 14.14121,36.9578 3.30159,29.1477 -11.48554,28.7026 z"
+           id="path7083"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zszzz" />
+        <path
+           sodipodi:nodetypes="zszzz"
+           inkscape:connector-curvature="0"
+           id="path7087"
+           d="m 265.20419,1009.1768 c -9.93009,-1.1434 -28.11901,-10.67457 -25.87861,-24.01464 2.26198,-13.46859 24.09182,-40.25106 31.93613,-42.55346 7.84432,-2.3024 -11.83979,30.76399 -0.11585,51.68796 11.72395,20.92394 3.98841,16.02344 -5.94167,14.88014 z"
+           style="fill:#ff692a;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       id="g7071"
+       transform="matrix(0.53715618,0.13074071,-0.1537428,0.45679005,205.0491,524.78051)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       style="opacity:0.68339766">
+      <g
+         style="opacity:0.89961392;stroke:#000000;stroke-width:1.94085848;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g7063"
+         transform="matrix(0.27064498,-0.08890499,0.08650882,0.27814146,66.509833,782.21612)">
+        <path
+           sodipodi:nodetypes="cccc"
+           inkscape:connector-curvature="0"
+           id="path7065"
+           d="m 216.20749,923.08535 c -9.00597,-13.99759 -10.20264,-14.7101 -6.0795,-55.98535 0,0 1.2533,18.53128 20.1097,32.91346 36.10086,24.20558 -8.05671,61.92477 -14.0302,23.07189 z"
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:6.73809099;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <g
+         transform="matrix(0.11530365,-0.03809622,0.0368556,0.11918496,147.05214,915.96721)"
+         id="g7067"
+         style="opacity:0.89961392;fill:#ff6a2a;fill-opacity:1;stroke:none">
+        <path
+           style="fill:#ff6a2a;fill-opacity:1;stroke:none"
+           d="m 223.82907,940.35364 c -9.00597,-13.99759 -10.20264,-14.7101 -6.0795,-55.98535 0,0 1.2533,18.53128 20.1097,32.91346 36.10086,24.20558 -8.05671,61.92477 -14.0302,23.07189 z"
+           id="path7069"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+    </g>
+    <g
+       id="g7093"
+       transform="matrix(0.71539522,-0.31287969,0.43886324,1.0007741,-442.3753,70.512085)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       style="opacity:0.68339766">
+      <g
+         transform="matrix(0.27064498,-0.03970189,0.08650882,0.12420835,69.287752,929.64746)"
+         id="g7057"
+         style="opacity:0.89961392;stroke:#000000;stroke-width:1.6200062;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:5.62418556;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 226.52311,1001.9515 c -8.83196,1.764 -25.16648,-5.60141 -30.29062,-15.65094 -14.31472,-22.3807 -13.06479,-32.9639 18.39758,-51.67613 32.01548,-37.85287 33.65509,-4.94586 44.59909,49.22587 10.09777,15.70761 -23.87406,16.3374 -32.70605,18.1012 z"
+           id="path7059"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zcccz" />
+      </g>
+      <g
+         style="opacity:0.89961392;fill:#ff7d2a;fill-opacity:1;stroke:none"
+         id="g7089"
+         transform="matrix(0.15627839,-0.02292504,0.04995274,0.07172156,130.25279,977.66751)">
+        <path
+           sodipodi:nodetypes="zcccz"
+           inkscape:connector-curvature="0"
+           id="path7091"
+           d="m 226.52311,1001.9515 c -8.83196,1.764 -25.16648,-5.60141 -30.29062,-15.65094 -14.31472,-22.3807 -13.06479,-32.9639 18.39758,-51.67613 9.99673,-4.80029 21.28296,13.62608 44.59909,49.22587 10.09777,15.70761 -23.87406,16.3374 -32.70605,18.1012 z"
+           style="fill:#ff7d2a;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       id="g7099"
+       transform="matrix(0.2226369,0.16269347,-0.15851683,0.1945338,330.63426,817.00435)"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         id="g7101"
+         transform="matrix(0.99998079,0.00619801,-0.00619801,0.99998079,-10.134334,3.915663)"
+         style="stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:3.804178;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 238.28255,982.70748 c -8.83196,1.76398 -21.22218,1.10701 -26.34632,-8.94252 -5.12412,-10.04958 -7.5418,1.7039 -11.05945,-13.1958 -5.03746,-21.33713 -27.37943,-75.30771 -29.58367,-104.88081 17.07197,43.9086 50.29034,80.20787 64.02006,82.24167 12.71312,1.8832 13.54085,4.24587 23.63861,19.95344 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+           id="path7103"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zzscszz" />
+        <path
+           sodipodi:nodetypes="zzzcszz"
+           inkscape:connector-curvature="0"
+           id="path7105"
+           d="m 241.17009,978.02295 c -5.56744,1.11507 -20.34606,0.17862 -23.57619,-6.17399 -3.23011,-6.35265 -2.74249,-8.00977 -11.29017,-19.66591 -8.54769,-11.65613 -14.45511,-48.43283 -15.93163,-52.93038 0,0 21.80885,51.87231 35.48757,56.61095 17.88456,6.19563 21.26011,-5.96191 27.62548,3.96732 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+           style="fill:#ff712a;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.80540347;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g7150"
+       transform="matrix(0.19872788,-0.04410931,0.08002331,0.10953996,103.60707,930.37563)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:nodetypes="zsscszz"
+         inkscape:connector-curvature="0"
+         id="path7111"
+         d="m 317.99671,957.84223 c -7.99619,1.39437 -20.3223,-7.13568 -14.27535,-27.71673 6.1052,-20.7793 18.0102,-16.28439 31.8007,-33.08355 13.7905,-16.79914 23.93077,-29.41727 23.93077,-29.41727 0,0 3.65923,20.76615 -12.47724,42.20724 -7.35306,9.77028 -8.4779,21.12061 -9.71117,28.23201 -1.23327,7.11138 -11.27149,18.38382 -19.26771,19.7783 z"
+         style="fill:#ffbb2a;fill-opacity:1;stroke:#000000;stroke-width:6.28714371;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#ff6e2a;fill-opacity:1;stroke:none"
+         d="m 316.06313,951.87384 c -4.71273,0.81214 -9.80944,-9.68791 -6.21106,-21.99889 3.63303,-12.42954 16.60334,-14.04048 24.75647,-24.06358 8.15312,-10.02311 17.27296,-19.22949 17.27296,-19.22949 0,0 -3.63785,14.93675 -13.1811,27.73368 -4.34865,5.8313 -6.35435,22.73437 -7.09337,26.99066 -0.73903,4.2563 -10.83118,9.75549 -15.5439,10.56762 z"
+         id="path7113"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zsscszz" />
+    </g>
+    <path
+       sodipodi:nodetypes="zsszzz"
+       inkscape:connector-curvature="0"
+       id="path7117"
+       d="m 228.21712,1044.4975 c 1.08781,4.5345 5.23536,5.9528 8.14749,2.1936 1.18766,-1.533 -0.38975,-5.5058 1.02699,-9.8289 1.57719,-4.8128 6.09343,-9.9769 6.14875,-10.9665 0.0553,-0.9896 -6.56077,3.1875 -8.82167,6.6644 -2.26092,3.4769 -7.58937,7.403 -6.50156,11.9374 z"
+       style="opacity:0.68339766;fill:#ffbb2a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <g
+       transform="matrix(0.25861551,0.06294552,-0.07401995,0.21992299,227.63036,772.39009)"
+       id="g7127"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       style="opacity:0.68339766">
+      <g
+         transform="matrix(0.27064498,-0.08890499,0.08650882,0.27814146,66.509833,782.21612)"
+         id="g7129"
+         style="opacity:0.89961392;stroke:#000000;stroke-width:4.03125143;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:13.99532223;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 216.20749,923.08535 c -9.00597,-13.99759 -10.20264,-14.7101 -6.0795,-55.98535 0,0 1.2533,18.53128 20.1097,32.91346 36.10086,24.20558 -8.05671,61.92477 -14.0302,23.07189 z"
+           id="path7131"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+      <g
+         style="opacity:0.89961392;fill:#ff6a2a;fill-opacity:1;stroke:none"
+         id="g7133"
+         transform="matrix(0.11530365,-0.03809622,0.0368556,0.11918496,147.05214,915.96721)">
+        <path
+           sodipodi:nodetypes="cccc"
+           inkscape:connector-curvature="0"
+           id="path7135"
+           d="m 223.82907,940.35364 c -9.00597,-13.99759 -10.20264,-14.7101 -6.0795,-55.98535 0,0 1.2533,18.53128 20.1097,32.91346 36.10086,24.20558 -8.05671,61.92477 -14.0302,23.07189 z"
+           style="fill:#ff6a2a;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.05151632,0.82254006,-1.4809034,-1.362425,1749.4031,2281.1469)"
+       id="g7137"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       style="opacity:0.68339766">
+      <g
+         style="opacity:0.89961392;stroke:#000000;stroke-width:1.396698;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g7139"
+         transform="matrix(0.27064498,-0.03970189,0.08650882,0.12420835,71.141142,929.33524)">
+        <path
+           sodipodi:nodetypes="zcczz"
+           inkscape:connector-curvature="0"
+           id="path7141"
+           d="m 226.52311,1001.9515 c -15.09107,9.1209 -92.91845,-33.05777 -98.04259,-43.1073 -0.70928,0.15263 64.15249,-4.10066 88.59316,-34.44222 14.76849,-6.30954 59.54486,71.8181 52.80007,88.16632 -6.74479,16.3482 -28.25957,-19.73766 -43.35064,-10.6168 z"
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:4.84892559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <g
+         transform="matrix(0.15627839,-0.02292504,0.04995274,0.07172156,132.2316,976.77707)"
+         id="g7143"
+         style="opacity:0.89961392;fill:#ff7d2a;fill-opacity:1;stroke:none">
+        <path
+           style="fill:#ff7d2a;fill-opacity:1;stroke:none"
+           d="m 226.52311,1001.9515 c -8.83196,1.764 -57.71126,-1.6566 -62.8354,-11.7061 -14.31472,-22.3807 19.47999,-36.90874 50.94236,-55.62097 9.99673,-4.80029 45.82973,37.28095 52.16439,72.85237 10.09777,15.7076 -31.43936,-7.2891 -40.27135,-5.5253 z"
+           id="path7145"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zcccz" />
+      </g>
+    </g>
+    <path
+       style="opacity:0.68339766;fill:#ff7d2a;fill-opacity:1;stroke:none"
+       d="m 230.37205,1045.3101 c 0.8181,2.5086 3.03369,3.0579 4.31857,0.7426 0.52403,-0.9442 -0.0882,-2.7918 0.39487,-5.335 0.53778,-2.8314 2.14243,-6.3558 2.11456,-6.9213 -0.0279,-0.5656 -3.19546,2.2162 -4.16122,4.3309 -0.96577,2.1148 -3.48488,4.6742 -2.66678,7.1828 z"
+       id="path7158"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="zsszzz"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <g
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       transform="matrix(0.26890047,0.06156009,-0.06861137,0.24126523,284.8644,792.80733)"
+       id="g8022">
+      <g
+         style="stroke:#000000;stroke-width:1.6416831;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         transform="matrix(0.99998079,0.00619801,-0.00619801,0.99998079,-10.134334,3.915663)"
+         id="g8024">
+        <path
+           sodipodi:nodetypes="zzscszz"
+           inkscape:connector-curvature="0"
+           id="path8026"
+           d="m 238.28255,982.70748 c -8.83196,1.76398 -21.22218,1.10701 -26.34632,-8.94252 -5.12412,-10.04958 14.0643,-16.24188 5.87206,-28.9747 -9.00597,-13.99759 -29.40197,-24.70575 -25.27883,-65.981 0,0 15.59062,31.33121 34.44702,45.71339 10.73487,8.18773 21.87754,17.65324 31.9753,33.36081 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:3.804178;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           style="fill:#ff712a;fill-opacity:1;stroke:none"
+           d="m 241.17009,978.02295 c -5.56744,1.11507 -13.73506,1.05692 -16.96519,-5.29569 -3.23011,-6.35265 10.65149,-13.48127 -0.22697,-28.31579 -6.21691,-8.47775 -11.03424,0.097 -15.93512,-29.20859 0,0 13.39935,14.44827 25.28594,23.53968 6.76698,5.17571 13.79103,11.15915 20.1564,21.08838 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+           id="path8028"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zzscszz" />
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       transform="matrix(0.06632182,-0.02109852,0.02670633,0.05239555,252.41122,965.18085)"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:4.51871061;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g8030">
+      <path
+         style="fill:#ffbb2a;fill-opacity:1;stroke:#000000;stroke-width:15.73597527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 271.58667,1010.2811 c -14.47699,-1.2153 -40.54189,-15.27766 -36.44804,-36.64518 4.13328,-21.57335 27.9936,-12.2643 47.90851,-26.59729 19.91491,-14.33298 47.15701,-54.2289 47.15701,-54.2289 0,0 1.44642,54.03942 -21.23005,72.847 -10.3332,8.57024 -8.45444,21.13006 -8.26656,28.81372 0.18788,7.68365 -14.64386,17.02585 -29.12087,15.81065 z"
+         id="path8032"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zsscszz" />
+      <path
+         sodipodi:nodetypes="zsscszz"
+         inkscape:connector-curvature="0"
+         id="path8034"
+         d="m 265.87261,1002.7904 c -8.53572,-0.7273 -21.76086,-14.50049 -19.3471,-27.28848 2.437,-12.91116 26.14803,-10.19705 37.88996,-18.77502 11.74193,-8.57797 33.5183,-30.66907 33.5183,-30.66907 0,0 -9.50432,30.55567 -22.87449,41.81159 -6.0925,5.12909 -3.91336,23.7173 -3.80258,28.31579 0.11078,4.59849 -16.84838,7.33249 -25.38409,6.60519 z"
+         style="fill:#ff6e2a;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       transform="matrix(0.12838515,0,0,0.16521509,248.07221,875.80235)"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:0.43978772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g8036">
+      <path
+         sodipodi:nodetypes="zccszz"
+         inkscape:connector-curvature="0"
+         id="path8038"
+         d="m 268.12205,933.89857 c 7.67052,-0.19264 16.20549,-3.59971 19.29273,-13.47706 0.97765,-11.75842 0.48183,-15.21666 -28.64092,-43.03111 0,0 -4.45981,17.74935 0.6886,30.6266 2.34602,5.86791 -5.16441,10.01968 -6.95916,13.20744 -1.79479,3.18775 7.94823,12.86677 15.61875,12.67413 z"
+         style="fill:#ffc42a;fill-opacity:1;stroke:#000000;stroke-width:6.86622;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#ff7e2a;fill-opacity:1;stroke:none"
+         d="m 270.97601,929.24317 c 4.72796,-0.1195 9.98875,-2.23299 11.89167,-8.36015 0.60261,-7.29404 0.29699,-9.43928 -17.65372,-26.69327 0,0 -2.74895,11.01036 0.42444,18.99844 1.44604,3.64001 -3.18325,6.21546 -4.2895,8.19291 -1.10627,1.97744 4.89914,7.98157 9.62711,7.86207 z"
+         id="path8040"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zccszz" />
+    </g>
+    <g
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g8042"
+       transform="matrix(0.21137118,-0.06934115,0.06756257,0.21693549,158.91512,849.44572)">
+      <path
+         sodipodi:nodetypes="zzsccz"
+         inkscape:connector-curvature="0"
+         id="path8044"
+         d="m 238.28255,982.70748 c -8.83196,1.76398 -27.26171,-6.27115 -32.38585,-16.32068 -5.12412,-10.04958 20.70064,-10.73084 12.5084,-23.46366 -9.00597,-13.99759 0.26345,-18.81307 4.38659,-60.08832 -2.02568,26.49683 19.17724,49.11871 36.16009,75.04864 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+         style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:4.44823408;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#ff712a;fill-opacity:1;stroke:none"
+         d="m 241.17009,978.02295 c -5.56744,1.11507 -13.73506,1.05692 -16.96519,-5.29569 -3.23011,-6.35265 10.65149,-13.48127 -0.22697,-28.31579 0.63222,-4.25469 -6.0283,-13.78948 9.35082,-5.66891 6.76698,5.17571 13.79103,11.15915 20.1564,21.08838 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+         id="path8046"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzcczz" />
+    </g>
+    <g
+       id="g8064"
+       transform="matrix(0.51443945,0.11516672,-0.13394548,0.44231657,271.42355,531.39667)">
+      <g
+         style="opacity:0.68339766;stroke:#000000;stroke-width:2.59936523;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g8048"
+         transform="matrix(0.21137118,-0.06934115,0.06756257,0.21693549,151.96017,841.62096)"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180">
+        <path
+           sodipodi:nodetypes="cccc"
+           inkscape:connector-curvature="0"
+           id="path8050"
+           d="m 216.20749,923.08535 c -9.00597,-13.99759 -10.20264,-14.7101 -6.0795,-55.98535 0,0 1.2533,18.53128 20.1097,32.91346 36.10086,24.20558 -8.05671,61.92477 -14.0302,23.07189 z"
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:9.02423286;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <g
+         transform="matrix(0.06291417,-0.02971302,0.02010986,0.09295791,229.87161,945.93968)"
+         id="g8052"
+         style="opacity:0.68339766;fill:#ff6a2a;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180">
+        <path
+           style="fill:#ff6a2a;fill-opacity:1;stroke:none"
+           d="m 223.82907,940.35364 c -9.00597,-13.99759 -10.20264,-14.7101 -6.0795,-55.98535 0,0 1.2533,18.53128 20.1097,32.91346 36.10086,24.20558 -8.05671,61.92477 -14.0302,23.07189 z"
+           id="path8054"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+    </g>
+    <g
+       id="g8056"
+       transform="matrix(-0.27328824,-0.03755857,-0.02118601,0.24993517,364.17814,807.52741)"
+       style="opacity:0.68339766;stroke:#000000;stroke-width:1.28128183;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/fire1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         id="g8058"
+         transform="matrix(0.99998079,0.00619801,-0.00619801,0.99998079,-10.134334,3.915663)"
+         style="stroke:#000000;stroke-width:1.6416831;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           style="fill:#ffb72a;fill-opacity:1;stroke:#000000;stroke-width:3.804178;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 238.28255,982.70748 c -8.83196,1.76398 -21.22218,1.10701 -26.34632,-8.94252 -5.12412,-10.04958 14.0643,-16.24188 5.87206,-28.9747 -9.00597,-13.99759 -29.40197,-24.70575 -25.27883,-65.981 0,0 15.59062,31.33121 34.44702,45.71339 10.73487,8.18773 21.87754,17.65324 31.9753,33.36081 10.09777,15.70761 -11.83724,23.06017 -20.66923,24.82402 z"
+           id="path8060"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zzscszz" />
+        <path
+           sodipodi:nodetypes="zzscszz"
+           inkscape:connector-curvature="0"
+           id="path8062"
+           d="m 241.17009,978.02295 c -5.56744,1.11507 -13.73506,1.05692 -16.96519,-5.29569 -3.23011,-6.35265 10.65149,-13.48127 -0.22697,-28.31579 -6.21691,-8.47775 -11.03424,0.097 -15.93512,-29.20859 0,0 13.39935,14.44827 25.28594,23.53968 6.76698,5.17571 13.79103,11.15915 20.1564,21.08838 6.36537,9.92926 -6.7476,17.07703 -12.31506,18.19201 z"
+           style="fill:#ff712a;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+  </g>
+</svg>
