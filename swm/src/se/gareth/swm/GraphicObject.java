@@ -27,7 +27,6 @@ public class GraphicObject {
 	protected Paint mPaint;
 	
 	private int mDrawOrder;
-	private LinkedList<Effect> mEffects;
 	
 	/* Game object reference */
 	protected GameBase game;
@@ -50,7 +49,6 @@ public class GraphicObject {
 		
 		mDoDrawArea = false;
 		mCurrentAnimation = null;
-		mEffects = new LinkedList<Effect>();
 		
 		mToBeDeleted = false;
 		mPositionOffsetScaleWidth = 0.5;
@@ -201,13 +199,9 @@ public class GraphicObject {
 		return mAlpha;
 	}
 	
-	public void applyEffect(Effect effect) {
-		mEffects.add(effect);
-	}
 	
 	/* Tell game stage to stop using this object */
 	protected void deleteMe() {
-		mEffects.clear();
 		mToBeDeleted = true;
 	}
 	
@@ -257,11 +251,6 @@ public class GraphicObject {
 	}
 	
 	public void update(double frameTime) {
-		
-		for (Effect effect: mEffects) {
-			effect.update(this, frameTime);
-		}
-		
 		if (mCurrentAnimation != null) {
 			mCurrentAnimation.update();		
 		}

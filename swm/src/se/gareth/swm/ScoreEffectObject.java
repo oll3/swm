@@ -5,6 +5,7 @@ import android.graphics.Canvas;
 public class ScoreEffectObject extends ActiveObject {
 		
     private final TextDrawable mText;
+	private float mAlpha;
 
 	public ScoreEffectObject(GameBase gameBase,
 				double x, double y, double size, int color, int score) {
@@ -20,9 +21,10 @@ public class ScoreEffectObject extends ActiveObject {
 
         setPosition(x, y);
         setVelocity(Vector2D.DIRECTION_UP - 1.0, 20.0);
-		applyEffect(new FadeDestroyEffect(1.0));
 
        	setDrawOrder(30);
+
+		mAlpha = 1.0f;
 	}
 
 	public void changeScoreValue(int score) {
@@ -38,7 +40,14 @@ public class ScoreEffectObject extends ActiveObject {
 	@Override
 	public void update(double frameTime) {
 		super.update(frameTime);
-		mText.setPosition(getX(), getY());		
+		mText.setPosition(getX(), getY());
+		mAlpha -= frameTime / 1.0;
+		if (mAlpha > 0.0) {
+			setAlpha((int)((double)255 * mAlpha));
+		}
+		else {
+			deleteMe();
+		}
 	}
 	
 	@Override
