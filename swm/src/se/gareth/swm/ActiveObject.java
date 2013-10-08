@@ -1,20 +1,22 @@
 package se.gareth.swm;
 
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.Random;
 
 import android.graphics.Canvas;
+import android.util.Log;
 
 public class ActiveObject extends GraphicObject {
-		
+	
+	private static final String TAG = ActiveObject.class.getName();
+	
 	/* ID value for active object */
 	public final int id;
 	
 	private static int mIdCnt;
 	
 	/* Random object shared for all active objects */
-	protected static Random mRandom = new Random();
+	protected static final Random mRandom = new Random();
 	
 	protected double mCollisionRadius; /* The calculated collision radius of the object */
 	
@@ -27,11 +29,11 @@ public class ActiveObject extends GraphicObject {
 	private boolean mMovementDisabled;
 	
 	/* List of forces which operate on our velocity */
-	private LinkedList<Vector2D> mForces;
+	private final ArrayList<Vector2D> mForces;
 
-	private Vector2D mTmpForce;
+	private final Vector2D mTmpForce;
 
-	private LinkedList<Behavior> mBehaviorList;
+	private ArrayList<Behavior> mBehaviorList;
 		
 	public ActiveObject(GameBase gameBase) {
 		super(gameBase);
@@ -44,8 +46,8 @@ public class ActiveObject extends GraphicObject {
 		mSpeedLimit = false;
 		mSpeed = 0.0;
 		mDirection = 0.0;
-		mForces = new LinkedList<Vector2D>();
-		mBehaviorList = new LinkedList<Behavior>();
+		mForces = new ArrayList<Vector2D>();
+		mBehaviorList = new ArrayList<Behavior>();
 		mMovementDisabled = false;
 	}
 	
@@ -179,8 +181,8 @@ public class ActiveObject extends GraphicObject {
 		super.draw(canvas);
 		
 		/* Apply behaviors upon object */
-		for (Behavior behavior: mBehaviorList) {
-			behavior.draw(this, canvas);
+		for (int i = 0; i < mBehaviorList.size(); i ++) {
+			mBehaviorList.get(i).draw(this, canvas);
 		}
 		
 		if (false) {
@@ -215,27 +217,14 @@ public class ActiveObject extends GraphicObject {
 		/* 
 		 * Apply behaviors upon object 
 		 */
-		if (mBehaviorList.size() > 0) {
-
-			/* Only run if there are behaviors in list */
-
-			Iterator<Behavior> bitr = mBehaviorList.iterator();
-			Behavior behavior = null;
-			if (bitr.hasNext())
-				behavior = bitr.next();
-			while (behavior != null) {
-				Behavior next = null;
-				if (bitr.hasNext())
-					/* fetch next before running update, in case this behavior 
-					 * wants to remove it self */
-					next = bitr.next();
-				behavior.update(this, frameTime);
-				if (behavior.isDone()) {
-					/* Remove behavior if done */
-					behaviorFinished(behavior);
-					bitr.remove();
-				}
-				behavior = next;
+		/* Only run if there are behaviors in list */
+		for (int i = 0; i < mBehaviorList.size(); i ++) {
+			Behavior behavior = mBehaviorList.get(i);
+			behavior.update(this, frameTime);
+			if (behavior.isDone()) {
+				behaviorFinished(behavior);
+				mBehaviorList.remove(i);
+				i --;
 			}
 		}
 		

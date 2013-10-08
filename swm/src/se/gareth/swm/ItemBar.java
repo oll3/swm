@@ -1,22 +1,22 @@
 package se.gareth.swm;
 
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 import android.graphics.Canvas;
-
 
 /* Object representing the bar with items */
 public class ItemBar extends GraphicObject {
 	
-	LinkedList<ItemBaseObject> mItemList;
+	private static final String TAG = ItemBar.class.getName();
+	
+	ArrayList<ItemBaseObject> mItemList;
 	
 	private final int mMaxItems;
 	
 	public ItemBar(GameBase gameBase, int maxItems) {
 		super(gameBase);
 		
-		mItemList = new LinkedList<ItemBaseObject>();
+		mItemList = new ArrayList<ItemBaseObject>();
 		mMaxItems = maxItems;
 	}
 	
@@ -28,7 +28,7 @@ public class ItemBar extends GraphicObject {
 		return mMaxItems;
 	}
 	
-	public final LinkedList<ItemBaseObject> getItemList() {
+	public final ArrayList<ItemBaseObject> getItemList() {
 		return mItemList;
 	}
 	
@@ -55,26 +55,24 @@ public class ItemBar extends GraphicObject {
 	
 	public boolean testIfSelected(double x, double y) {
 		boolean wasSelected = false;
-		int itemIndex = 0;
 		
-		Iterator<ItemBaseObject> itemitr = mItemList.iterator();
-	    while (itemitr.hasNext()) {
-	    	ItemBaseObject item = itemitr.next();
+		for (int i = 0; i < mItemList.size(); i ++) {
+			final ItemBaseObject item = mItemList.get(i);
 		
 			if (wasSelected) {
 				/* Move items to the left */
 				item.removeAllBehaviors();
-				double newX = getX() + item.getWidth() * (itemIndex - 1) + item.getWidth() / 2;
-				double newy = getY() - item.getHeight() / 2;
-				item.addBehavior(new MoveToBehavior(game, newX, newy, 500.0));
+				double newX = getX() + (item.getWidth() * i) + item.getWidth() / 2;
+				double newY = getY() - item.getHeight() / 2;
+				item.addBehavior(new MoveToBehavior(game, newX, newY, 500.0));
 			}
 			else if (item.containsPos(x, y)) {
-				itemitr.remove();
+				mItemList.remove(i);
+				i --;
 				wasSelected = true;
 				item.useItem();
 				game.sounds.play(Sounds.Sound.Click1);
 			}
-			itemIndex ++;
 		}
 		return wasSelected;
 	}
@@ -82,8 +80,8 @@ public class ItemBar extends GraphicObject {
 	
 	@Override
 	public void update(double frameTime) {
-		int i = 0;
-		for (ItemBaseObject item: mItemList) {
+		for (int i = 0; i < mItemList.size(); i ++) {
+			final ItemBaseObject item = mItemList.get(i);
 			double x = getX() + item.getWidth() * i + item.getWidth() / 2;
 			double y = getY() - item.getHeight() / 2;
 			
@@ -91,15 +89,14 @@ public class ItemBar extends GraphicObject {
 				item.setPosition(x, y);
 			}
 			item.update(frameTime);
-			i ++;
 		}
 	}
 	
 	@Override
 	public void draw(Canvas canvas) {
 		
-		for (ItemBaseObject item: mItemList) {
-			item.draw(canvas);
+		for (int i = 0; i < mItemList.size(); i ++) {
+			mItemList.get(i).draw(canvas);
 		}
 		
 	}

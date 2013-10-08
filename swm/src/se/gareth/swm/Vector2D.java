@@ -1,5 +1,6 @@
 package se.gareth.swm;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Vector2D {
@@ -101,15 +102,16 @@ public class Vector2D {
 		mDirection = direction;
 	}
 		
-	public void add(Vector2D vector) {
+	public void add(final Vector2D vector) {
 		mX += vector.mX;
 		mY += vector.mY;
 		mMagnitudeValid = false;
 		mDirectionValid = false;
 	}
 	
-	public void add(LinkedList<Vector2D> vectorList) {
-		for (Vector2D vector: vectorList) {
+	public void add(final ArrayList<Vector2D> vectorList) {
+		for (int i = 0; i < vectorList.size(); i ++) {
+			final Vector2D vector = vectorList.get(i);
 			mX += vector.mX;
 			mY += vector.mY;
 		}

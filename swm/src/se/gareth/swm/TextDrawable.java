@@ -24,11 +24,13 @@ public class TextDrawable extends Drawable {
 	}
 		
     private String text;
-    private Paint mPaint, mFilling, mOutline;
-    private FontMetrics mFontMetrics;
+    private final Paint mPaint;
+    private final Paint mFilling;
+    private Paint mOutline;
+    private final FontMetrics mFontMetrics;
     
     private double mX, mY;
-    private Rect mSize;
+    private final Rect mSize;
     
     private Align mAlign;
     
@@ -37,7 +39,7 @@ public class TextDrawable extends Drawable {
     private boolean mBold;
     
     private Bitmap mBitmap;
-    private Canvas mCanvas;
+    private final Canvas mCanvas;
     
     private float mOutlineWidth;
     
@@ -50,6 +52,9 @@ public class TextDrawable extends Drawable {
     		mPaint.setTypeface(font);
     		mFilling.setTypeface(font);
     	}
+    	mSize = new Rect();
+    	mCanvas = new Canvas();
+    	mFontMetrics = new FontMetrics();
         init();
     }
 
@@ -59,6 +64,9 @@ public class TextDrawable extends Drawable {
     	if (font != null)
     		mPaint.setTypeface(font);
         mFilling = mPaint;
+        mSize = new Rect();
+        mCanvas = new Canvas();
+        mFontMetrics = new FontMetrics();
         init();
     }
     
@@ -68,20 +76,18 @@ public class TextDrawable extends Drawable {
         mY = 0;
         mAlign = Align.LEFT;
         mBold = true;
-        mOutlineWidth = 0;
-                
+        mOutlineWidth = 0;    
         mFilling.setColor(Color.WHITE);
         mFilling.setTextSize(22f);
         mFilling.setAntiAlias(true);
         mFilling.setFakeBoldText(mBold);
         mFilling.setStyle(Paint.Style.FILL);
         mFilling.setTextAlign(Paint.Align.LEFT);
-        mFontMetrics = mFilling.getFontMetrics();
-        mSize = new Rect();
+        mFilling.getFontMetrics(mFontMetrics);
         mOutline = null;
         mDoUpdateBitmap = true;
         mResizeBitmap = true;
-        mCanvas = new Canvas();
+        
     }
         
     public void setTextSize(double size, boolean bold) {
@@ -103,10 +109,10 @@ public class TextDrawable extends Drawable {
 		if (mOutline != null && mOutlineWidth > 0) {
 			mSize.left -= (mOutlineWidth + 1.0)/2;
 			mSize.right += (mOutlineWidth + 1.0)/2;
-        	mFontMetrics = mOutline.getFontMetrics();
+        	mOutline.getFontMetrics(mFontMetrics);
     	}
     	else {
-    		mFontMetrics = mFilling.getFontMetrics();
+    		mFilling.getFontMetrics(mFontMetrics);
 		}
 		mSize.bottom = (int)(mFontMetrics.bottom + 0.5f);
 		mSize.top = (int)(mFontMetrics.top - 4.5f);
