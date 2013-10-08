@@ -62,7 +62,6 @@ public class Hen1 extends Creature {
 		setMaxSpeed(speed);
 		mChangeForce = false;
 		applyForce(mAcceleration);
-		applyForce(game.forces.getWind());
 		applyForce(game.forces.getGravity());
 		mAcceleration.set(-100.0, -1250);
 		

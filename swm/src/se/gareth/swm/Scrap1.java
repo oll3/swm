@@ -25,7 +25,6 @@ public class Scrap1 extends ActiveObject {
     	
     	setAnimation(mFlyingAnimation);
        	
-		applyForce(game.forces.getWind());
 		applyForce(game.forces.getGravity());
        	
        	setDrawOrder(20);

@@ -16,18 +16,12 @@ public class GameBase {
 
 	class Forces {
 		
-		private Vector2D mWindForce;
 		private Vector2D mGravityForce;
 		
-		public Forces(Vector2D wind, Vector2D gravity) {
-			mWindForce = wind;
+		public Forces(Vector2D gravity) {
 			mGravityForce = gravity;
 		}
 		
-		public Vector2D getWind() {
-			return mWindForce;
-		}
-	
 		public Vector2D getGravity() {
 			return mGravityForce;
 		}
@@ -70,7 +64,7 @@ public class GameBase {
 		
 		mWorldBackground = Sprite.loadFitBitmap(res, R.drawable.world_background1, view.mWidth, view.mHeight);
 		
-		forces = new Forces(new Vector2D(5.0, 0.0), new Vector2D(0.0, 1000.0));
+		forces = new Forces(new Vector2D(0.0, 1000.0));
 			
 		itemBar = new ItemBar(this, 10);		
 		health = new HealthObject(this);

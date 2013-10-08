@@ -44,7 +44,6 @@ public class Bird1 extends Creature {
 		
 		mAcceleration = new Vector2D(-speed, -1000.0);
 		applyForce(mAcceleration);
-		applyForce(game.forces.getWind());
 		applyForce(game.forces.getGravity());
 		
 		/* How big is our hit area */

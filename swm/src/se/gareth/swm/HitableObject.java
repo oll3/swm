@@ -27,8 +27,6 @@ public class HitableObject extends ActiveObject {
 
 	    	setAnimation(mFlyingAnimation);
 	    	
-	       	
-			applyForce(game.forces.getWind());
 			applyForce(game.forces.getGravity());
 			
 			this.setMaxSpeed(600);

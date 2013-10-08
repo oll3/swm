@@ -27,7 +27,6 @@ public class Blood1 extends ActiveObject {
     	
        	mState = STATE_FLYING;
        	
-		applyForce(game.forces.getWind());
 		applyForce(game.forces.getGravity());
 		
 		this.setMaxSpeed(600);
@@ -47,7 +46,6 @@ public class Blood1 extends ActiveObject {
 			else if(getX() < 0) {
 				mState = STATE_SLIDING;
 				setVelocity(Vector2D.DIRECTION_DOWN, 0.0);
-				removeForce(game.forces.getWind());
 			}
 		}
 		
