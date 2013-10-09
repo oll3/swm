@@ -35,8 +35,8 @@ public class Blood2 extends ActiveObject {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		
 		if (mState == STATE_FLYING) {
 			if (getX() > game.getScreenWidth()) {

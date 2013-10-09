@@ -118,6 +118,14 @@ public class Vector2D {
 		mMagnitudeValid = false;
 		mDirectionValid = false;
 	}
+
+	public void mulAdd(final Vector2D vector, double multiplier) {
+		mX += vector.mX * multiplier;
+		mY += vector.mY * multiplier;
+
+		mMagnitudeValid = false;
+		mDirectionValid = false;		
+	}
 	
 	public void invert() {
 		mX = -mX;

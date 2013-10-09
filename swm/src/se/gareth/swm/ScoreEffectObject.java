@@ -38,10 +38,10 @@ public class ScoreEffectObject extends ActiveObject {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		mText.setPosition(getX(), getY());
-		mAlpha -= frameTime / 1.0;
+		mAlpha -= timeStep.get() / 1.0;
 		if (mAlpha > 0.0) {
 			setAlpha((int)((double)255 * mAlpha));
 		}

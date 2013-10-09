@@ -178,7 +178,7 @@ public class GameStage extends Stage {
     }
 	
 	@Override
-	public void update(double frameTime) {
+	public void update(final TimeStep timeStep) {
         
     	if (mLevelFinishedTS == 0) {
     		
@@ -231,7 +231,7 @@ public class GameStage extends Stage {
        	Iterator<GraphicObject> goitr = mGraphicObjects.iterator();
     	while (goitr.hasNext()) {
     		GraphicObject graphicObject = goitr.next();
-    		graphicObject.update(frameTime);
+    		graphicObject.update(timeStep);
     	}
 
     	
@@ -256,14 +256,14 @@ public class GameStage extends Stage {
     	}
     	
     	if (mBackground != null) {
-    		mBackground.update(frameTime);
+    		mBackground.update(timeStep);
     	}
     	
-    	game.itemBar.update(frameTime);
-    	game.health.update(frameTime);
-    	game.score.update(frameTime);
+    	game.itemBar.update(timeStep);
+    	game.health.update(timeStep);
+    	game.score.update(timeStep);
     	
-    	mBonusBar.update(frameTime);
+    	mBonusBar.update(timeStep);
 
     	if (mLevelFinishedTS == 0) {
     		if (mCurrentLevel.hasFailed() || mCurrentLevel.hasFinished()) {

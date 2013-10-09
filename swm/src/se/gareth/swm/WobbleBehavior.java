@@ -25,7 +25,7 @@ public class WobbleBehavior extends Behavior {
 	}
 	
 	@Override
-	public void update(ActiveObject activeObject, double frameTime) {
+	public void update(ActiveObject activeObject, final TimeStep timeStep) {
 		activeObject.addPosition(mForce.getX() * 0.016,
 				mForce.getY() * 0.016);
 		mFrameCnt ++;

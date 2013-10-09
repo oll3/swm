@@ -29,7 +29,7 @@ public class Background {
 		return null;
 	}
 	
-	public void update(double frameTime) {
+	public void update(final TimeStep timeStep) {
 		
 	}
 	

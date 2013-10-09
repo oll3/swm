@@ -41,8 +41,8 @@ public class HealthObject extends GraphicObject {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		mLifeCounterText.setPosition(posLeft + width / 2, posTop + height / 2 + 4);
 	}
 	

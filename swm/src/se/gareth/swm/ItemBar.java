@@ -79,7 +79,7 @@ public class ItemBar extends GraphicObject {
 	
 	
 	@Override
-	public void update(double frameTime) {
+	public void update(final TimeStep timeStep) {
 		for (int i = 0; i < mItemList.size(); i ++) {
 			final ItemBaseObject item = mItemList.get(i);
 			double x = getX() + item.getWidth() * i + item.getWidth() / 2;
@@ -88,7 +88,7 @@ public class ItemBar extends GraphicObject {
 			if (item.iconIsDisplayed()) {
 				item.setPosition(x, y);
 			}
-			item.update(frameTime);
+			item.update(timeStep);
 		}
 	}
 	

@@ -80,8 +80,8 @@ public class Hummingbird1 extends Creature {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		
 		if (System.currentTimeMillis() > (mPauseTime)) {
 			

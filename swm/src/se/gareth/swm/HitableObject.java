@@ -35,10 +35,10 @@ public class HitableObject extends ActiveObject {
 		}
 		
 		@Override
-		public void update(double frameTime) {
-			super.update(frameTime);
+		public void update(final TimeStep timeStep) {
+			super.update(timeStep);
 			
-			addRotation(mRotationSpeed * (float)frameTime);
+			addRotation(mRotationSpeed * (float)timeStep.get());
 			
 			if (getX() > game.getScreenWidth() || getX() < 0 || getY() > game.getScreenHeight()) {
 				/* Delete when outside screen */

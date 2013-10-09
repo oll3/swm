@@ -36,9 +36,9 @@ public class Background1 extends Background {
 		return mThumbnail;
 	}
 	
-	public void update(double frameTime) {
-		mBottomX += 20.0 * frameTime;
-		mBelowX += 10.0 * frameTime;
+	public void update(final TimeStep timeStep) {
+		mBottomX += 20.0 * timeStep.get();
+		mBelowX += 10.0 * timeStep.get();
 		
 		while (mBelowX > mBelowBitmap.getWidth()) {
 			mBelowX -= mBelowBitmap.getWidth();

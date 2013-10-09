@@ -44,8 +44,8 @@ public class Fire1 extends HitableObject {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		
 		setPosition(mAttachedTo.getCenterX(), mAttachedTo.getCenterY() - mAttachedTo.height / 3.0);
 		

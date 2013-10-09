@@ -33,10 +33,10 @@ public class ScoreIcon extends GraphicObject {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		mScoreCounter.setPosition(posLeft + width/2, posTop + height / 2);
-		mScoreCounter.update(frameTime);
+		mScoreCounter.update(timeStep);
 	}
 	
 	@Override

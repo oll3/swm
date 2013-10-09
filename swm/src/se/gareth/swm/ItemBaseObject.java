@@ -37,11 +37,11 @@ public class ItemBaseObject extends ActiveObject {
 	}
 	
 	@Override
-	public void update(double frameTime) {
+	public void update(final TimeStep timeStep) {
 		if (mDisplayIcon) {
 			mItemIconAnimation.update();
 		}
-		super.update(frameTime);
+		super.update(timeStep);
 	}
 	
 	@Override

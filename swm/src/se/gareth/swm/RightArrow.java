@@ -31,8 +31,8 @@ public class RightArrow extends Button {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		mText.setPosition(posLeft + width/10.0, posTop + height / 2.0);
 	}
 	

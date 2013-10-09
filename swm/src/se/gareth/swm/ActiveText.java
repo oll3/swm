@@ -48,8 +48,8 @@ public class ActiveText extends ActiveObject {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		mText.setPosition(getX(), getY());		
 	}
 	

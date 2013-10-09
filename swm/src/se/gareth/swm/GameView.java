@@ -41,9 +41,8 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
     public int mWidth, mHeight;
     public double mSpeedUp;
     
-    private final AverageValue mFrameTimeCounter;
+	private final TimeStep mTimeStep;
     
-    private long mLastUpdate;
     private GameThread mGameThread;
     
     private SurfaceHolder mSurfaceHolder;
@@ -63,7 +62,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
     public GameView(Context context, AttributeSet attrs) {
         super(context, attrs);
         
-        mFrameTimeCounter = new AverageValue(60);
+		mTimeStep = new TimeStep();
         
         font = Typeface.createFromAsset(context.getAssets(), "Laffayette_Comic_Pro.ttf"); 
         
@@ -109,10 +108,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
     @Override
     public void update() {
 
-		long ticks = System.currentTimeMillis();
-		mFrameTimeCounter.addValue(ticks - mLastUpdate);
-		double frameTime = mFrameTimeCounter.getAvarageDouble()/1000.0;
-		mLastUpdate = ticks;
+		mTimeStep.update();
 		
 		synchronized(mTouchList) {
 			if (mTouchList.size() > 0) {
@@ -124,7 +120,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
 		}
 		
 		if (mCurrentStage != null) {
-			mCurrentStage.update(frameTime);
+			mCurrentStage.update(mTimeStep);
 		}
 		
 		Canvas canvas = null;
@@ -179,7 +175,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
 			
 			/* As activated() call might be slow we reset the last update time, 
 			 * 	so first frame will be seen as fast rather then too slow */
-			mLastUpdate = System.currentTimeMillis();
+			mTimeStep.reset();
 		}
     }
     
@@ -308,7 +304,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
     public void resume() {
     	synchronized (this) {
         	/* Update the last update time at resume */
-    		mLastUpdate = System.currentTimeMillis();
+			mTimeStep.reset();
 	        startThread();
     	}
     }

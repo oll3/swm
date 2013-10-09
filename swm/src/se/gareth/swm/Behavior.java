@@ -32,7 +32,7 @@ public class Behavior {
 	/* 
 	 * Can be overridden
 	 */
-	public void update(ActiveObject activeObject, double frameTime) {
+	public void update(ActiveObject activeObject, final TimeStep timeStep) {
 		
 	}
 	

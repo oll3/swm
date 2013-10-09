@@ -127,8 +127,8 @@ public class LevelScoreTable extends GraphicObject {
 
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		double x = posLeft + width * 0.05;
 		double vdiv = height / 5;
 		mHitScoreText.setPosition(x, posTop + vdiv * 0.5);
@@ -144,11 +144,11 @@ public class LevelScoreTable extends GraphicObject {
 		mLevelScoreCounter.setPosition(x, posTop + vdiv * 3.5);
 		mTotalScoreCounter.setPosition(x, posTop + vdiv * 4.5);
 		
-		mHitScoreCounter.update(frameTime);
-		mBonusScoreCounter.update(frameTime);
-		mLostScoreCounter.update(frameTime);
-		mLevelScoreCounter.update(frameTime);
-		mTotalScoreCounter.update(frameTime);		
+		mHitScoreCounter.update(timeStep);
+		mBonusScoreCounter.update(timeStep);
+		mLostScoreCounter.update(timeStep);
+		mLevelScoreCounter.update(timeStep);
+		mTotalScoreCounter.update(timeStep);		
 	}
 	
 	@Override

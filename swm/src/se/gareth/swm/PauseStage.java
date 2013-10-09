@@ -37,7 +37,7 @@ public class PauseStage extends Stage {
     }
 
     @Override
-    public void update(double frameTime) {
+    public void update(final TimeStep timeStep) {
 
     }
 

@@ -83,12 +83,12 @@ public class ItemBox extends HitableObject {
 	
 	
 	@Override
-	public void update(double frameTime) {
+	public void update(final TimeStep timeStep) {
 		double randX = (mRandom.nextDouble() - 0.5) * 500.0;
 		if (Math.abs(mAccelerationForce.getX() + randX) < 1000.0)
 			mAccelerationForce.addX(randX);
 		
-		super.update(frameTime);
+		super.update(timeStep);
 		
 		if (getY() > (game.getScreenHeight() + getHeight()/2)) {
 			/* Outside playfield, remove! */

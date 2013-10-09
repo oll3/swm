@@ -77,8 +77,8 @@ public class BirdWithCat extends Creature {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		mCat.setPosition(getX() + (getWidth() * 0.07), getY() + getHeight()*1.00);
 
 		if ((this.posBottom + this.height) < 0) {

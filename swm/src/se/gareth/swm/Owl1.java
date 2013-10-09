@@ -83,8 +83,8 @@ public class Owl1 extends Creature {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		
 		if (mState == State.ShowUp && (getX() - getWidth()/4) < game.getScreenWidth()) {
 			mAcceleration.set(200, 0);

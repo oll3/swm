@@ -83,7 +83,7 @@ public class BonusBar {
 	}
 	
 	
-	public void update(double frameTime) {
+	public void update(final TimeStep timeStep) {
 		
 		mFrameRect.left = game.convertPixelToDp(80);
 		mFrameRect.right = game.getScreenWidth() - mFrameRect.left;
@@ -98,7 +98,7 @@ public class BonusBar {
 				mBonusLevel = 0.0f;
 			}
 			
-			mLevelDownSpeed += frameTime * DECREASE_BONUS_SPEED;
+			mLevelDownSpeed += timeStep.get() * DECREASE_BONUS_SPEED;
 		}
 		
 		float barRatio = (mBonusLevel / (float)BONUS_LEVELS);

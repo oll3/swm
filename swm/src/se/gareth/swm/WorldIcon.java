@@ -109,8 +109,8 @@ public class WorldIcon extends Button {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		mWorldNameText.setPosition(posLeft + width / 14, posTop + mWorldNameText.getHeight() / 1.6);
 		mLevelsText.setPosition(posLeft + width / 3, posTop + height * 0.57);
 		mHighScoreText.setPosition(posRight - width * 0.15, posTop + height * 0.57);

@@ -190,11 +190,11 @@ public class ActiveObject extends GraphicObject {
 		}
 	}
 		
-	public void update(double frameTime) {
+	public void update(final TimeStep timeStep) {
 		
 		if (!mMovementDisabled) {
 			/* Move the object according to our velocity */
-			final double speedScaler = frameTime * game.gameView.getSpeedUp();
+			final double speedScaler = timeStep.get() * game.gameView.getSpeedUp();
 			addPosition(mVelocity.getX() * speedScaler, mVelocity.getY() * speedScaler);
 		}
 
@@ -202,7 +202,7 @@ public class ActiveObject extends GraphicObject {
 		if (mForces.size() > 0) {
 			mTmpForce.set(0, 0);
 			mTmpForce.add(mForces);
-			mTmpForce.multiplyMagnitude(frameTime);
+			mTmpForce.multiplyMagnitude(timeStep.get());
 			mVelocity.add(mTmpForce);
 			
 			if (mSpeedLimit) {
@@ -220,7 +220,7 @@ public class ActiveObject extends GraphicObject {
 		/* Only run if there are behaviors in list */
 		for (int i = 0; i < mBehaviorList.size(); i ++) {
 			Behavior behavior = mBehaviorList.get(i);
-			behavior.update(this, frameTime);
+			behavior.update(this, timeStep);
 			if (behavior.isDone()) {
 				behaviorFinished(behavior);
 				mBehaviorList.remove(i);
@@ -228,7 +228,7 @@ public class ActiveObject extends GraphicObject {
 			}
 		}
 		
-		super.update(frameTime);
+		super.update(timeStep);
 	}
 
 

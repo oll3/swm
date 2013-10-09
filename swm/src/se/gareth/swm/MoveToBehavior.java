@@ -22,7 +22,7 @@ public class MoveToBehavior extends Behavior {
 	}
 	
 	@Override
-	public void update(ActiveObject activeObject, double frameTime) {
+	public void update(ActiveObject activeObject, final TimeStep timeStep) {
 		/* Test if object has moved into position */
 		boolean reachedX = false;
 		boolean reachedY = false;

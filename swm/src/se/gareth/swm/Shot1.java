@@ -20,8 +20,8 @@ public class Shot1 extends ActiveObject {
 	}
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		
 		if (getCurrentAnimation().isAnimationRunning() == false) {
 			deleteMe();

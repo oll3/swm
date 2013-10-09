@@ -28,7 +28,7 @@ class Stage {
 		/* Called when activity get onStop call */
 	}
 	
-	public void update(double frameTime) {
+	public void update(final TimeStep timeStep) {
 		
 		
 	}

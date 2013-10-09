@@ -147,13 +147,13 @@ public class LevelStage extends Stage {
 	}
 	
 	@Override
-	public void update(double frameTime) {
+	public void update(final TimeStep timeStep) {
 		
-		mScoreTable.update(frameTime);
-		game.health.update(frameTime);
+		mScoreTable.update(timeStep);
+		game.health.update(timeStep);
 		
-	    mExitArrow.update(frameTime);
-	    mNextArrow.update(frameTime);
+	    mExitArrow.update(timeStep);
+	    mNextArrow.update(timeStep);
 	    
 	    if (mLevelState == LevelState.Loading) {
 			

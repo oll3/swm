@@ -63,8 +63,8 @@ public class Creature extends HitableObject {
 	
 	
 	@Override
-	public void update(double frameTime) {
-		super.update(frameTime);
+	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		
 		/* If we've been hit but still alive - drip some blood */
 		if (getHitCount() > 0) {

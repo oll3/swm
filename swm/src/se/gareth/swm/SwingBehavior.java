@@ -26,14 +26,14 @@ public class SwingBehavior extends Behavior {
 	}
 	
 	@Override
-	public void update(ActiveObject activeObject, double frameTime) {
+	public void update(ActiveObject activeObject, final TimeStep timeStep) {
 
 		
 		if (mLimitRotation) {
 			mRotationSpeed = 7 * (mRotationLimit - Math.abs(mRotation)) + 20;
 			
 			if (mDirectionLeft) {
-				mRotation += mRotationSpeed * frameTime;
+				mRotation += mRotationSpeed * timeStep.get();
 				
 				if (mRotation > mRotationLimit) {
 					mDirectionLeft = false;
@@ -41,7 +41,7 @@ public class SwingBehavior extends Behavior {
 				}
 			}
 			else {
-				mRotation -= mRotationSpeed * frameTime;
+				mRotation -= mRotationSpeed * timeStep.get();
 				
 				if (mRotation < -mRotationLimit) {
 					mDirectionLeft = true;
@@ -51,10 +51,10 @@ public class SwingBehavior extends Behavior {
 		}
 		else {
 			if (mDirectionLeft) {
-				mRotation += mRotationSpeed * frameTime;
+				mRotation += mRotationSpeed * timeStep.get();
 			}
 			else {
-				mRotation -= mRotationSpeed * frameTime;
+				mRotation -= mRotationSpeed * timeStep.get();
 			}
 		}
 		

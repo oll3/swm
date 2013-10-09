@@ -79,7 +79,7 @@ public class WorldSelectStage extends Stage {
 	
     
     @Override
-    public void update(double frameTime) { 
+    public void update(final TimeStep timeStep) {
     	
     	/* Limit scroll position */
 		if (mScrollPosition <= 0) {
@@ -108,7 +108,7 @@ public class WorldSelectStage extends Stage {
 	    	if (firstIcon.posY != shouldBeAtPosY) {
 	    		/* Move the list until is has been positioned as expected according to the current scroll position */
 	    		double diff = firstIcon.posY - shouldBeAtPosY;
-	    		double moveY = 10.0 * frameTime * (Math.abs(diff) + 1.0);
+	    		double moveY = 10.0 * timeStep.get() * (Math.abs(diff) + 1.0);
 	    		if (diff > 1.0) {
 	    			firstIcon.addPosition(0.0, -moveY);
 	    			if ((firstIcon.posY - shouldBeAtPosY) < 0) {
@@ -146,12 +146,12 @@ public class WorldSelectStage extends Stage {
     			worldIcon.setAlpha(255);
     		}
     		
-    		worldIcon.update(frameTime);
+    		worldIcon.update(timeStep);
     	}
     	
-    	mExitArrow.update(frameTime);
-    	mScrollUpArrow.update(frameTime);
-    	mScrollDownArrow.update(frameTime);
+    	mExitArrow.update(timeStep);
+    	mScrollUpArrow.update(timeStep);
+    	mScrollDownArrow.update(timeStep);
     }
 
     
