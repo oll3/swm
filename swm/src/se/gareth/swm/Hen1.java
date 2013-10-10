@@ -71,8 +71,8 @@ public class Hen1 extends Creature {
 		setHitableRadius((double)(Math.min(getWidth(), getHeight()))/2.0);
 		
 		/* Set default start position */
-		setPosition(game.getScreenWidth() + width / 2, 
-				height / 2 + mRandom.nextInt((game.getPlayfieldHeight() - (int)height)));
+		setPosition(game.getScreenWidth() + getWidth() / 2, 
+					getHeight() / 2 + mRandom.nextInt((game.getPlayfieldHeight() - (int)getHeight())));
 	}
 
 	@Override

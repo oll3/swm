@@ -35,7 +35,7 @@ public class ScoreIcon extends GraphicObject {
 	@Override
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
-		mScoreCounter.setPosition(posLeft + width/2, posTop + height / 2);
+		mScoreCounter.setPosition(getX(0.5), getY(0.5));
 		mScoreCounter.update(timeStep);
 	}
 	

@@ -54,7 +54,7 @@ public class BirdWithCat extends Creature {
 		
 		/* Set default start position */
 		setPosition(game.getScreenWidth() / 4 + mRandom.nextFloat() * (game.getScreenWidth() / 2), 
-				game.getPlayfieldHeight() + height);
+					game.getPlayfieldHeight() + getHeight());
 		
 		mCat = new Cat1(game, level);
 		
@@ -79,9 +79,9 @@ public class BirdWithCat extends Creature {
 	@Override
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
-		mCat.setPosition(getX() + (getWidth() * 0.07), getY() + getHeight()*1.00);
+		mCat.setPosition(getX(0.57), getY(1.5));
 
-		if ((this.posBottom + this.height) < 0) {
+		if ((getBottom() + getHeight()) < 0) {
     		deleteMe();
     		
     		if (!mCat.isDead()) {

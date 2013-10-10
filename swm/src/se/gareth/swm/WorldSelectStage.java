@@ -136,10 +136,10 @@ public class WorldSelectStage extends Stage {
     			worldIcon.setPosition(mWorldIconList.get(i-1).getX(), mWorldIconList.get(i-1).getY() + iconOffset);
     		}
     		
-    		if (worldIcon.getBottom() > mScrollDownArrow.posTop) {
+    		if (worldIcon.getBottom() > mScrollDownArrow.getTop()) {
     			worldIcon.setAlpha(128);
     		}
-    		else if (worldIcon.getTop() < mScrollUpArrow.posBottom) {
+    		else if (worldIcon.getTop() < mScrollUpArrow.getBottom()) {
     			worldIcon.setAlpha(128);
     		}
     		else {
@@ -249,8 +249,8 @@ public class WorldSelectStage extends Stage {
     	//mScrollUpArrow.setY(iconTop - mScrollDownArrow.height);
     	//mScrollDownArrow.setY(iconBottom + mScrollDownArrow.height);
     	mVersionText.setPosition(width * 0.98, height - mVersionText.getHeight() / 1.75);
-    	mExitArrow.setPosition(mExitArrow.width / 1.75, height - mExitArrow.height / 1.5);
-    	mScrollUpArrow.setPosition(width/2, mExitArrow.height / 1.5);
-    	mScrollDownArrow.setPosition(width/2, height - mExitArrow.height / 1.5);
+    	mExitArrow.setPosition(mExitArrow.getWidth() / 1.75, height - mExitArrow.getHeight() / 1.5);
+    	mScrollUpArrow.setPosition(width/2, mExitArrow.getHeight() / 1.5);
+    	mScrollDownArrow.setPosition(width/2, height - mExitArrow.getHeight() / 1.5);
     }
 }

@@ -58,8 +58,8 @@ public class Owl1 extends Creature {
 		setHitableRadius((double)(Math.min(getWidth(), getHeight()))/2.0);
 		
 		/* Set default start position */
-		setPosition(game.getScreenWidth() + width / 2, 
-				height / 2 + mRandom.nextInt((game.getPlayfieldHeight()/2 - (int)height)));
+		setPosition(game.getScreenWidth() + getWidth() / 2, 
+					getHeight() / 2 + mRandom.nextInt((game.getPlayfieldHeight()/2 - (int)getHeight())));
 	}
 
 	@Override
@@ -90,9 +90,9 @@ public class Owl1 extends Creature {
 			mAcceleration.set(200, 0);
 			mState = State.GoBack;
 		}
-		else if (mState == State.GoBack && (getX() - width / 2) > game.getScreenWidth()) {
+		else if (mState == State.GoBack && (getX() - getWidth() / 2) > game.getScreenWidth()) {
 			mState = State.Go;
-			lookAt(0, height / 2 + mRandom.nextInt((game.getPlayfieldHeight()/2 - (int)height)) + game.getPlayfieldHeight()/2);
+			lookAt(0, getHeight() / 2 + mRandom.nextInt((game.getPlayfieldHeight()/2 - (int)getHeight())) + game.getPlayfieldHeight()/2);
 			mAcceleration.set(-mSpeed, 0);
 			mAcceleration.setDirection(this.mVelocity.getDirection());
 		}

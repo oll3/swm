@@ -48,7 +48,7 @@ public class Creature extends HitableObject {
     		itr.remove();
 			double direction = mRandom.nextDouble() * 2 * Math.PI;
 			double speed = mRandom.nextDouble() * 200 + 100.0 + damage/100.0;
-			blood.setPosition(posX, posY);
+			blood.setPosition(getX(), getY());
 			blood.setVelocity(direction, speed);
 			blood.addVelocity(mVelocity);
 			game.gameStage.addActiveObject(blood);
@@ -70,8 +70,8 @@ public class Creature extends HitableObject {
 		if (getHitCount() > 0) {
 			if (System.currentTimeMillis() > mLastDrip) {
 				Blood2 blood = new Blood2(game);
-				double x = posLeft + mBloodStainScaleX * width + mRandom.nextInt(20) - 10;
-				double y = posTop + mBloodStainScaleY * height + mRandom.nextInt(20) - 10;
+				double x = getLeft() + mBloodStainScaleX * getWidth() + mRandom.nextInt(20) - 10;
+				double y = getTop() + mBloodStainScaleY * getHeight() + mRandom.nextInt(20) - 10;
 				blood.setPosition(x, y);
 				blood.setVelocity(mRandom.nextDouble() * Math.PI * 2, 50);
 				blood.addVelocity(this.mVelocity);

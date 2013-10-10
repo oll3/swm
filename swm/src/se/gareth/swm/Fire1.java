@@ -47,7 +47,7 @@ public class Fire1 extends HitableObject {
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
 		
-		setPosition(mAttachedTo.getCenterX(), mAttachedTo.getCenterY() - mAttachedTo.height / 3.0);
+		setPosition(mAttachedTo.getCenterX(), mAttachedTo.getCenterY() - mAttachedTo.getHeight() / 3.0);
 		
 		if (mAttachedTo.hasBeenDestroyed() || mAttachedTo.isToBeDeleted()) {
 			/* If our parent object has been destroyed, then destroy our selves */

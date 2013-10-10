@@ -47,7 +47,7 @@ public class ItemBaseObject extends ActiveObject {
 	@Override
 	public void draw(Canvas canvas) {
 		if (mDisplayIcon) {
-			mItemIconAnimation.draw(canvas, posLeft, posTop, mIconPaint);
+			mItemIconAnimation.draw(canvas, getLeft(), getTop(), mIconPaint);
 		}
 		super.draw(canvas);
 	}

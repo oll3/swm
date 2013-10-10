@@ -10,12 +10,12 @@ public class GraphicObject {
 
 	/* The position of the object */
 	protected double posX, posY;
-    protected double posLeft, posRight, posTop, posBottom;
+    private double posLeft, posRight, posTop, posBottom;
 	
 	protected double mPositionOffsetX, mPositionOffsetY;
 	private double mPositionOffsetScaleWidth, mPositionOffsetScaleHeight;
 	
-	protected double width, height;
+	private double width, height;
 	
 	private boolean mDoDrawArea;
 	protected boolean mVisible;
@@ -108,6 +108,14 @@ public class GraphicObject {
 		posRight = posLeft + width;
 		posTop = posY - mPositionOffsetY;
 		posBottom = posTop + height;
+	}
+
+	public double getX(double scalar) {
+		return posLeft + width * scalar;
+	}
+
+	public double getY(double scalar) {
+		return posTop + height * scalar;
 	}
 
 	public double getX() {

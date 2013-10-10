@@ -111,9 +111,9 @@ public class WorldIcon extends Button {
 	@Override
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
-		mWorldNameText.setPosition(posLeft + width / 14, posTop + mWorldNameText.getHeight() / 1.6);
-		mLevelsText.setPosition(posLeft + width / 3, posTop + height * 0.57);
-		mHighScoreText.setPosition(posRight - width * 0.15, posTop + height * 0.57);
+		mWorldNameText.setPosition(getX(0.0714), getTop() + mWorldNameText.getHeight() / 1.6);
+		mLevelsText.setPosition(getX(0.33), getY(0.57));
+		mHighScoreText.setPosition(getX(0.85), getY(0.57));
 	}
 	
 	@Override
@@ -124,8 +124,8 @@ public class WorldIcon extends Button {
 			if (this.isEnable()) {
 				if (mMapThumbnail != null) {
 					
-					mThumbnailRect.set((float)(posLeft + height * 0.1), (float)(posTop + height * 0.1), 
-							(float)(posLeft + width * 0.67), (float)(posBottom - height * 0.1));
+					mThumbnailRect.set((float)(getLeft() + getHeight() * 0.1), (float)(getY(0.1)), 
+									   (float)getX(0.67), (float)getY(0.9));
 					canvas.drawBitmap(mMapThumbnail, null, mThumbnailRect, mMapPaint);
 				}
 				mHighScoreText.draw(canvas);

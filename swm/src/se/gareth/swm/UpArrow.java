@@ -41,8 +41,7 @@ public class UpArrow extends Button {
 	@Override
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
-		mText.setPosition(posRight - width/10, posTop + height / 2);
-	
+		mText.setPosition(getX(0.9), getY(0.5));	
 	}
 	
 	@Override

@@ -49,9 +49,9 @@ public class Cat1 extends Creature  {
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
 		
-		if (this.posRight < 0 || 
-			this.posTop > (game.getScreenHeight() * 2) || 
-			this.posBottom < 0) {
+		if (getRight() < 0 || 
+			getTop() > (game.getScreenHeight() * 2) || 
+			getBottom() < 0) {
     		deleteMe();
 		}
 	}
