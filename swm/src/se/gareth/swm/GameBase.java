@@ -69,9 +69,9 @@ public class GameBase {
 		itemBar = new ItemBar(this, 10);		
 		health = new HealthObject(this);
 		score = new ScoreIcon(this);
-    	itemBar.setPositionOffset(1.0, 1.0);
-    	health.setPositionOffset(1.35, 0.0);
-    	score.setPositionOffset(-0.35, 0.0);
+    	//itemBar.setPositionOffset(1.0, 1.0);
+    	//health.setPositionOffset(1.35, 0.0);
+    	//score.setPositionOffset(-0.35, 0.0);
 		
     	settings = view.getContext().getSharedPreferences(STORAGE_FILE_NAME, 0);
     	settingsEditor = settings.edit();

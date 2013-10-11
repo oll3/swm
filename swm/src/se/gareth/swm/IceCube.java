@@ -54,7 +54,7 @@ public class IceCube extends HitableObject {
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
 		
-		setPosition(mAttachedTo.getCenterX(), mAttachedTo.getCenterY());
+		setPosition(mAttachedTo.getX(), mAttachedTo.getY());
 		
 		if (mAttachedTo.hasBeenDestroyed()) {
 			/* If our parent object has been destroyed, then destroy our selves */

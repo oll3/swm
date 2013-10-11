@@ -28,8 +28,8 @@ public class ExtraLifeItem extends ItemBaseObject {
 	
 	@Override
 	public void picked() {
-		double x = game.health.getCenterX();
-		double y = game.health.getCenterY();
+		double x = game.health.getX();
+		double y = game.health.getY();
 		addBehavior(new MoveToBehavior(game, x, y, 1000.0));
 		game.gameStage.addActiveObject(this);
 	}

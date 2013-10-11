@@ -53,12 +53,12 @@ public class Sprite {
 		return mFramesList.get(frameIndex);
 	}
 	
-	public double getFrameWidth() {
-		return (double)mFrameWidth;
+	public int getFrameWidth() {
+		return mFrameWidth;
 	}
 
-	public double getFrameHeight() {
-		return (double)mFrameHeight;
+	public int getFrameHeight() {
+		return mFrameHeight;
 	}
 	
 	public int getFrames() {

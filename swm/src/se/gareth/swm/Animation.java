@@ -128,11 +128,11 @@ public class Animation {
 		return mRunning;
 	}
 	
-	public double getWidth() {
+	public int getWidth() {
 		return mSprite.getFrameWidth();
 	}
 	
-	public double getHeight() {
+	public int getHeight() {
 		return mSprite.getFrameHeight();
 	}
 }

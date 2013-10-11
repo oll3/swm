@@ -10,12 +10,7 @@ public class GraphicObject {
 
 	/* The position of the object */
 	protected double posX, posY;
-    private double posLeft, posRight, posTop, posBottom;
-	
-	protected double mPositionOffsetX, mPositionOffsetY;
-	private double mPositionOffsetScaleWidth, mPositionOffsetScaleHeight;
-	
-	private double width, height;
+	private int mWidth, mHeight;
 	
 	private boolean mDoDrawArea;
 	protected boolean mVisible;
@@ -42,8 +37,8 @@ public class GraphicObject {
 		mDrawOrder = 0;
 	    posX = 0;
 		posY = 0;
-		width = 0;
-		height = 0;
+		mWidth = 0;
+		mHeight = 0;
 		mRotation = 0;
 		mVisible = true;
 		
@@ -51,8 +46,6 @@ public class GraphicObject {
 		mCurrentAnimation = null;
 		
 		mToBeDeleted = false;
-		mPositionOffsetScaleWidth = 0.5;
-		mPositionOffsetScaleHeight = 0.5;
 		mRotationOffsetX = 0.5f;
 		mRotationOffsetY = 0.5f;
 		
@@ -82,40 +75,39 @@ public class GraphicObject {
 	public void setPosition(double x, double y) {
 		posX = x;
 		posY = y;
-		posLeft = posX - mPositionOffsetX;
-		posRight = posLeft + width;
-		posTop = posY - mPositionOffsetY;
-		posBottom = posTop + height;
+	}
+
+	public void setPosition(double x, double widthScale, double y, double heightScale) {
+		setPosition(x + mWidth * widthScale, y + mHeight * heightScale);
 	}
 	
 	public void setX(double x) {
 		posX = x;
-		posLeft = posX - mPositionOffsetX;
-		posRight = posLeft + width;
 	}
 
 	public void setY(double y) {
 		posY = y;
-		posTop = posY - mPositionOffsetY;
-		posBottom = posTop + height;
+	}
+
+	public void setX(double x, double scale) {
+		setX(x + mWidth * scale);
+	}
+
+	public void setY(double y, double scale) {
+		setY(y + mHeight * scale);
 	}
 
 	public void addPosition(double relX, double relY) {
 		posX += relX;
 		posY += relY;
-
-		posLeft = posX - mPositionOffsetX;
-		posRight = posLeft + width;
-		posTop = posY - mPositionOffsetY;
-		posBottom = posTop + height;
 	}
 
-	public double getX(double scalar) {
-		return posLeft + width * scalar;
+	public double getX(double scale) {
+		return posX + mWidth * scale;
 	}
 
-	public double getY(double scalar) {
-		return posTop + height * scalar;
+	public double getY(double scale) {
+		return posY + mHeight * scale;
 	}
 
 	public double getX() {
@@ -127,68 +119,44 @@ public class GraphicObject {
 	}
 	
 	public double getLeft() {
-		return posLeft;
+		return posX - mWidth / 2;
 	}
 	
 	public double getTop() {
-		return posTop;
+		return posY - mHeight / 2;
 	}
 	
 	public double getRight() {
-		return posRight;
+		return posX + mWidth / 2;
 	}
 	
 	public double getBottom() {
-		return posBottom;
+		return posY + mHeight / 2;
 	}
 	
-	public double getCenterX() {
-		return posLeft + width / 2.0;
+	public int getWidth() {
+		return mWidth;
 	}
 	
-	public double getCenterY() {
-		return posTop + height / 2.0;
-	}
-
-	public double getWidth() {
-		return width;
-	}
-	
-	public double getHeight() {
-		return height;
+	public int getHeight() {
+		return mHeight;
 	}
 	
 	public void setAnimation(Animation animation) {
 		mCurrentAnimation = animation;
 		if (animation != null) {
-			width = animation.getWidth();
-			height = animation.getHeight();
+			mWidth = animation.getWidth();
+			mHeight = animation.getHeight();
 		}
 		else {
-			width = 0;
-			height = 0;
+			mWidth = 0;
+			mHeight = 0;
 		}
-		setPositionOffset(mPositionOffsetScaleWidth, mPositionOffsetScaleHeight);
-	}
-	
-
-	/* Set where the object should be centered around. 
-	 * A setting of 0.0, 0.0 is top left, and 1.0, 1.0 is bottom right */
-	public void setPositionOffset(double widthScale, double heightScale) {
-		mPositionOffsetScaleWidth = widthScale;
-		mPositionOffsetScaleHeight = heightScale;
-		mPositionOffsetX = width * mPositionOffsetScaleWidth;
-		mPositionOffsetY = height * mPositionOffsetScaleHeight;
-
-		posLeft = posX - mPositionOffsetX;
-		posRight = posLeft + width;
-		posTop = posY - mPositionOffsetY;
-		posBottom = posTop + height;
 	}
 	
 	public boolean containsPos(double x, double y) {
 		if (mVisible)
-			return (x >= posLeft && x < posRight && y >= posTop && y < posBottom);
+			return (x >= getLeft() && x < getRight() && y >= getTop() && y < getBottom());
 		return false;
 	}
 
@@ -242,17 +210,17 @@ public class GraphicObject {
 			if (mDoDrawArea) {
 				/* Enable to draw the object area */
 				Rect areaRect = new Rect();
-				areaRect.left = (int)(posLeft + 0.5);
-				areaRect.top = (int)(posTop + 0.5);
-				areaRect.right = (int)(posRight + 0.5);
-				areaRect.bottom = (int)(posBottom + 0.5);
+				areaRect.left = (int)(getLeft() + 0.5);
+				areaRect.top = (int)(getTop() + 0.5);
+				areaRect.right = (int)(getRight() + 0.5);
+				areaRect.bottom = (int)(getBottom() + 0.5);
 				canvas.drawRect(areaRect, mPaint);
 			}
 			
 			if (mCurrentAnimation != null) {
 				mCurrentAnimation.draw(canvas, 
-						posX - mPositionOffsetX, posY - mPositionOffsetY, 
-						mRotation, (float)width * mRotationOffsetX, (float)height * mRotationOffsetY, 
+						posX - mWidth / 2, posY - mHeight / 2, 
+						mRotation, (float)mWidth * mRotationOffsetX, (float)mHeight * mRotationOffsetY, 
 						mPaint);
 			}
 		}
