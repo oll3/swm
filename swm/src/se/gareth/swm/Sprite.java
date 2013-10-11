@@ -21,7 +21,8 @@ public class Sprite {
 		BLUE
 	}
 	
-	double mFrameWidth, mFrameHeight;
+	private int mFrameWidth, mFrameHeight;
+	private double mFrameOffset;
 	private ArrayList<Bitmap> mFramesList;
 	private int mFrames;
 	
@@ -30,18 +31,18 @@ public class Sprite {
 		mFrames = frames;
 		mFramesList = new ArrayList<Bitmap>();
 		
-		mFrameWidth = (double)bitmap.getWidth() / (double)frames;
+		mFrameOffset = (double)bitmap.getWidth() / (double)frames;
+		mFrameWidth = (int)(mFrameOffset + 0.5);
 		mFrameHeight = bitmap.getHeight();
 		
 		Rect src = new Rect();
-		Rect dest = new Rect(0, 0, (int)mFrameWidth, (int)mFrameHeight);
-		int frameWidth = (int)(mFrameWidth + 0.5);
+		Rect dest = new Rect(0, 0, mFrameWidth, mFrameHeight);
 		
 		for (int i = 0; i < frames; i ++) {
-			int frameXPos = (int)((double)i * mFrameWidth + 0.5);
+			int frameXPos = (int)((double)i * mFrameOffset + 0.5);
 			
-			src.set(frameXPos, 0, frameXPos + frameWidth, (int)(mFrameHeight + 0.5));
-			Bitmap frame = Bitmap.createBitmap(frameWidth, (int)(mFrameHeight + 0.5), bitmap.getConfig());
+			src.set(frameXPos, 0, frameXPos + mFrameWidth, mFrameHeight);
+			Bitmap frame = Bitmap.createBitmap(mFrameWidth, mFrameHeight, bitmap.getConfig());
 			Canvas frameCanvas = new Canvas(frame);
 			frameCanvas.drawBitmap(bitmap, src, dest, null);
 			mFramesList.add(frame);
@@ -53,11 +54,11 @@ public class Sprite {
 	}
 	
 	public double getFrameWidth() {
-		return mFrameWidth;
+		return (double)mFrameWidth;
 	}
 
 	public double getFrameHeight() {
-		return mFrameHeight;
+		return (double)mFrameHeight;
 	}
 	
 	public int getFrames() {
