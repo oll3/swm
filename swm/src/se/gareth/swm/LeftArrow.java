@@ -33,7 +33,7 @@ public class LeftArrow extends Button {
 	@Override
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
-		mText.setPosition(getX(0.1), getY(0.5));
+		mText.setPosition(getX(0.9), getY(0.5));
 	}
 	
 	@Override
