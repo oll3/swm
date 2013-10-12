@@ -43,7 +43,7 @@ public class HealthObject extends GraphicObject {
 	@Override
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
-		mLifeCounterText.setPosition(getX(0.5), getY(0.52));
+		mLifeCounterText.setPosition(getX(), getY(0.02));
 	}
 	
 	@Override

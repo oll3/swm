@@ -79,7 +79,7 @@ public class BirdWithCat extends Creature {
 	@Override
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
-		mCat.setPosition(getX(0.57), getY(1.5));
+		mCat.setPosition(getX(0.07), getY(1.0));
 
 		if ((getBottom() + getHeight()) < 0) {
     		deleteMe();

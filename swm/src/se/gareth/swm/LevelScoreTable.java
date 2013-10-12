@@ -129,20 +129,21 @@ public class LevelScoreTable extends GraphicObject {
 	@Override
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
-		double x = getX(0.05);
+		double x = getX(-0.45);
+		double y = getY(-0.49);
 		double vdiv = getHeight() / 5;
-		mHitScoreText.setPosition(x, getY(0.2 * 0.5));
-		mBonusScoreText.setPosition(x, getY(0.2 * 1.5));
-		mLostScoreText.setPosition(x, getY(0.2 * 2.5));
-		mLevelScoreText.setPosition(x, getY(0.2 * 3.5));
-		mTotalScoreText.setPosition(x, getY(0.2 * 4.5));
+		mHitScoreText.setPosition(x, y + vdiv * 0.5);
+		mBonusScoreText.setPosition(x, y + vdiv * 1.5);
+		mLostScoreText.setPosition(x, y + vdiv * 2.5);
+		mLevelScoreText.setPosition(x, y + vdiv * 3.5);
+		mTotalScoreText.setPosition(x, y + vdiv * 4.5);
 		
-		x = getX(0.95);
-		mHitScoreCounter.setPosition(x, getY(0.2 * 0.5));
-		mBonusScoreCounter.setPosition(x, getY(0.2 * 1.5));
-		mLostScoreCounter.setPosition(x, getY(0.2 * 2.5));
-		mLevelScoreCounter.setPosition(x, getY(0.2 * 3.5));
-		mTotalScoreCounter.setPosition(x, getY(0.2 * 4.5));
+		x = getX(0.45);
+		mHitScoreCounter.setPosition(x, y + vdiv * 0.5);
+		mBonusScoreCounter.setPosition(x, y + vdiv * 1.5);
+		mLostScoreCounter.setPosition(x, y + vdiv * 2.5);
+		mLevelScoreCounter.setPosition(x, y + vdiv * 3.5);
+		mTotalScoreCounter.setPosition(x, y + vdiv * 4.5);
 		
 		mHitScoreCounter.update(timeStep);
 		mBonusScoreCounter.update(timeStep);
@@ -167,8 +168,8 @@ public class LevelScoreTable extends GraphicObject {
 			mLostScoreCounter.draw(canvas);
 			mTotalScoreCounter.draw(canvas);
 			
-			canvas.drawLine((float)getLeft(), (float)(getY(0.8)), 
-							(float)getRight(), (float)(getY(0.8)), new Paint());
+			canvas.drawLine((float)getLeft(), (float)(getY(0.31)), 
+							(float)getRight(), (float)(getY(0.31)), new Paint());
 		}
 	}
 }

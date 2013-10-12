@@ -10,7 +10,7 @@ public class Blood2 extends ActiveObject {
 
 	private static Sprite mFlyingSprite;
 
-	private Animation mFlyingAnimation;
+	private final Animation mFlyingAnimation;
 	
 	public Blood2(GameBase gameBase) {
     	super(gameBase);

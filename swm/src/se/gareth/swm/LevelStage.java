@@ -410,7 +410,7 @@ public class LevelStage extends Stage {
     	mWorldNameText.setPosition(width/2, height - mWorldNameText.getHeight());
     	mLoadingText.setPosition(width/2, height/2);
     	mScoreTable.setPosition(width/2, height/2);
-    	game.health.setPosition(width, 0);
+    	game.health.setPosition(width, -0.7, 0, 0.5);
     	mExitArrow.setPosition(mExitArrow.getWidth() / 1.5, height - mExitArrow.getHeight() / 1.5);
     	mNextArrow.setPosition(width - mNextArrow.getWidth() / 1.5, height - mNextArrow.getHeight() / 1.5);
     }

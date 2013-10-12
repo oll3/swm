@@ -69,7 +69,7 @@ public class ItemBox extends HitableObject {
     		itr.remove();
 			double direction = mRandom.nextDouble() * 2 * Math.PI;
 			double speed = mRandom.nextDouble() * 200 + 200.0 + damage/100.0;
-			scrap.setPosition(posX, posY);
+			scrap.setPosition(getX(), getY());
 			scrap.setVelocity(direction, speed);
 			game.gameStage.addActiveObject(scrap);
     	}

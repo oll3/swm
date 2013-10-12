@@ -105,19 +105,19 @@ public class WorldSelectStage extends Stage {
     	if (mTouchScrollId < 0) {
     		/* User is NOT trying to scroll the screen */
     		double shouldBeAtPosY = (game.getScreenHeight()/2.0) - (mScrollPosition * iconOffset);
-	    	if (firstIcon.posY != shouldBeAtPosY) {
+	    	if (firstIcon.getY() != shouldBeAtPosY) {
 	    		/* Move the list until is has been positioned as expected according to the current scroll position */
-	    		double diff = firstIcon.posY - shouldBeAtPosY;
+	    		double diff = firstIcon.getY() - shouldBeAtPosY;
 	    		double moveY = 10.0 * timeStep.get() * (Math.abs(diff) + 1.0);
 	    		if (diff > 1.0) {
 	    			firstIcon.addPosition(0.0, -moveY);
-	    			if ((firstIcon.posY - shouldBeAtPosY) < 0) {
+	    			if ((firstIcon.getY() - shouldBeAtPosY) < 0) {
 	    				firstIcon.setY(shouldBeAtPosY);
 	    			}
 	    		}
 	    		else if (diff < 0.1){
 	    			firstIcon.addPosition(0.0, moveY);
-	    			if ((firstIcon.posY - shouldBeAtPosY) > 0) {
+	    			if ((firstIcon.getY() - shouldBeAtPosY) > 0) {
 	    				firstIcon.setY(shouldBeAtPosY);
 	    			}
 	    		}
@@ -232,7 +232,7 @@ public class WorldSelectStage extends Stage {
     		
     		if (touchEvent.type == TouchEvent.TouchType.Down) {
     			mTouchScrollId = touchEvent.id;
-    			mTouchScrollStart = mWorldIconList.get(0).posY - touchEvent.y;
+    			mTouchScrollStart = mWorldIconList.get(0).getY() - touchEvent.y;
     			mTouchScrollY = touchEvent.y;
     		}
     		else if (touchEvent.type == TouchEvent.TouchType.Move) {
@@ -246,9 +246,7 @@ public class WorldSelectStage extends Stage {
 
     @Override
     public void playfieldSizeChanged(int width, int height) {
-    	//mScrollUpArrow.setY(iconTop - mScrollDownArrow.height);
-    	//mScrollDownArrow.setY(iconBottom + mScrollDownArrow.height);
-    	mVersionText.setPosition(width * 0.98, height - mVersionText.getHeight() / 1.75);
+    	mVersionText.setPosition(width * 0.98, mVersionText.getHeight() / 1.75);
     	mExitArrow.setPosition(mExitArrow.getWidth() / 1.75, height - mExitArrow.getHeight() / 1.5);
     	mScrollUpArrow.setPosition(width/2, mExitArrow.getHeight() / 1.5);
     	mScrollDownArrow.setPosition(width/2, height - mExitArrow.getHeight() / 1.5);

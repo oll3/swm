@@ -47,7 +47,7 @@ public class ScoreCounter extends GraphicObject {
 	@Override
 	public void update(final TimeStep timeStep) {
 		super.update(timeStep);
-		text.setPosition(posX, posY);
+		text.setPosition(getX(), getY());
 		
 		if (mCurrentDisplayedScore != mScoreCounter) {
 		

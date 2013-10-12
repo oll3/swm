@@ -168,8 +168,8 @@ public class HitableObject extends ActiveObject {
 	public double isHit(ActiveObject object) {
 		if (mHitPoints > 0 || mHitsLeft > 0) {
 			double r = mHitableRadius + object.mCollisionRadius;
-			double dx = posX - object.posX;
-			double dy = posY - object.posY;
+			double dx = getX() - object.getX();
+			double dy = getY() - object.getY();
 			double rSquared = r * r;
 			double distanceSquared = dx * dx + dy * dy;
 			return (rSquared - distanceSquared) / rSquared;
@@ -215,7 +215,7 @@ public class HitableObject extends ActiveObject {
 				Split split = itr.next();
 				double direction = mRandom.nextDouble() * 2 * Math.PI;
 				double speed = mRandom.nextDouble() * 200 + 100.0 + damage/100.0;
-				split.setPosition(posX, posY);
+				split.setPosition(getX(), getY());
 				split.setVelocity(direction, speed);
 				split.addVelocity(mVelocity);
 				game.gameStage.addActiveObject(split);
@@ -278,7 +278,7 @@ public class HitableObject extends ActiveObject {
 		if (mDrawHitArea) {
 			final Paint circlePaint = new Paint();
 			circlePaint.setARGB(0x80, 0xff, 0, 0);
-			canvas.drawCircle((float)posX, (float)posY, (float)mHitableRadius, circlePaint);
+			canvas.drawCircle((float)getX(), (float)getY(), (float)mHitableRadius, circlePaint);
 		}
 	}
 	

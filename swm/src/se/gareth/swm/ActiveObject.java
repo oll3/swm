@@ -126,7 +126,7 @@ public class ActiveObject extends GraphicObject {
 	 * make object look in the direction of given position
 	 */
 	public void lookAt(double x, double y) {
-		mVelocity.set(x - posX, y - posY);
+		mVelocity.set(x - getX(), y - getY());
 		mDirection = mVelocity.getDirection();
 		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
 	}
@@ -157,8 +157,8 @@ public class ActiveObject extends GraphicObject {
 	}
 	
 	public static boolean testCollision(ActiveObject object1, ActiveObject object2) {
-		return circleIntersect(object1.posX, object1.posY, object1.mCollisionRadius, 
-				object2.posX, object2.posY, object2.mCollisionRadius);
+		return circleIntersect(object1.getX(), object1.getY(), object1.mCollisionRadius, 
+				object2.getX(), object2.getY(), object2.mCollisionRadius);
 	}
 	
 	
@@ -186,7 +186,7 @@ public class ActiveObject extends GraphicObject {
 		}
 		
 		if (false) {
-			canvas.drawCircle((float)posX, (float)posY, (float)mCollisionRadius, mPaint);
+			canvas.drawCircle((float)getX(), (float)getY(), (float)mCollisionRadius, mPaint);
 		}
 	}
 		
