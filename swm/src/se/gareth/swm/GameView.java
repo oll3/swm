@@ -39,8 +39,6 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
 	private static final String TAG = GameView.class.getName();
 	
     public int mWidth, mHeight;
-    public double mSpeedUp;
-    
 	private final TimeStep mTimeStep;
     
     private GameThread mGameThread;
@@ -74,8 +72,6 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
         /* register our interest in hearing about changes to our surface */
         mSurfaceHolder = getHolder();
         mSurfaceHolder.addCallback(this);
-        
-        mSpeedUp = 1.0;
         
         setFocusable(true); // make sure we get key events
 
@@ -179,11 +175,6 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
 		}
     }
     
-    public double getSpeedUp() {
-    	return mSpeedUp;
-    }
-
-
     
     @Override
     public boolean onTouchEvent(MotionEvent event) {
@@ -229,10 +220,6 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
     	mWidth = width;
     	mHeight = height;
     	
-    	/* Calculate the speed up factor if running on a bigger display 
-    	 * than "normal" (800 pixels width) */
-    	mSpeedUp = (double)mWidth / 800.0;
-
 		mLoadingText.setPosition(width/2, height - mLoadingText.getHeight());
 	
 		if (game != null) {

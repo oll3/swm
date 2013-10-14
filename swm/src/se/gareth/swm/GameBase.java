@@ -9,6 +9,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.RectF;
 import android.util.Log;
+import android.util.DisplayMetrics;
 
 public class GameBase {
 
@@ -50,7 +51,9 @@ public class GameBase {
 	
     public final Sounds sounds;
 	
+	private final DisplayMetrics mDisplayMetrics;
     private int mScreenWidth, mScreenHeight;
+	private double mSpeedUpX, mSpeedUpY;
     
     private final Bitmap mWorldBackground;
     
@@ -61,17 +64,19 @@ public class GameBase {
     public GameBase(GameView view) {
 		gameView = view;
 		res = gameView.getResources();
+		mDisplayMetrics = res.getDisplayMetrics();
 		
 		mWorldBackground = Sprite.loadFitBitmap(res, R.drawable.world_background1, view.mWidth, view.mHeight);
 		
+		/* Calculate the speed up factor to use in horizontal and vertical movement */
+		mSpeedUpX = ((double)view.mWidth / 800.0) / mDisplayMetrics.density;
+		mSpeedUpY = ((double)view.mHeight / 480.0) / mDisplayMetrics.density;
+
 		forces = new Forces(new Vector2D(0.0, 1000.0));
 			
 		itemBar = new ItemBar(this, 10);		
 		health = new HealthObject(this);
 		score = new ScoreIcon(this);
-    	//itemBar.setPositionOffset(1.0, 1.0);
-    	//health.setPositionOffset(1.35, 0.0);
-    	//score.setPositionOffset(-0.35, 0.0);
 		
     	settings = view.getContext().getSharedPreferences(STORAGE_FILE_NAME, 0);
     	settingsEditor = settings.edit();
@@ -126,6 +131,18 @@ public class GameBase {
 		mScreenWidth = width;
 		mScreenHeight = height;
 	}
+
+
+	/* Helper function for calculating horizontal speed */
+	public double calcHorizonalSpeed(double speed) {
+		return speed * mSpeedUpX;
+	}
+
+	/* Helper function for calculating vertical speed */
+	public double calcVerticalSpeed(double speed) {
+		return speed * mSpeedUpY;
+	}
+
 	
 	public int getScreenWidth() {
 		return mScreenWidth;

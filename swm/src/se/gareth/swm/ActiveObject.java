@@ -50,8 +50,7 @@ public class ActiveObject extends GraphicObject {
 		mBehaviorList = new ArrayList<Behavior>();
 		mMovementDisabled = false;
 	}
-	
-	
+		
 	/*
 	 * Apply a force to act upon the objects velocity
 	 */
@@ -194,8 +193,7 @@ public class ActiveObject extends GraphicObject {
 		
 		if (!mMovementDisabled) {
 			/* Move the object according to our velocity */
-			final double speedScaler = timeStep.get() * game.gameView.getSpeedUp();
-			addPosition(mVelocity.getX() * speedScaler, mVelocity.getY() * speedScaler);
+			addPosition(mVelocity.getX() * timeStep.get(), mVelocity.getY());
 		}
 
 		/* Calculate the total force acting upon our object */
