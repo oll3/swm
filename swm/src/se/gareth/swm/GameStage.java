@@ -325,8 +325,8 @@ public class GameStage extends Stage {
 	@Override
 	public void playfieldSizeChanged(int width, int height) {
     	game.itemBar.setPosition(0, 0.5, height, 0.5);
-    	game.health.setPosition(width, -0.7, 0, 0.5);
-    	game.score.setPosition(0, 0.7, 0, 0.5);
+    	game.health.setPosition(width, -0.9, 0, 0.5);
+    	game.score.setPosition(0, 0.9, 0, 0.5);
 	}
 	
 	@Override
