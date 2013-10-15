@@ -23,6 +23,9 @@ public class ActiveObject extends GraphicObject {
 	/* Velocity of object */
 	protected Vector2D mVelocity;
 	private double mSpeed, mDirection;
+
+	/* Acceleration of object */
+	protected final Vector2D acceleration;
 	
 	private double mMaxSpeed;
 	private boolean mSpeedLimit;
@@ -31,7 +34,6 @@ public class ActiveObject extends GraphicObject {
 	/* List of forces which operate on our velocity */
 	private final ArrayList<Vector2D> mForces;
 
-	private final Vector2D mTmpForce;
 
 	private ArrayList<Behavior> mBehaviorList;
 		
@@ -41,7 +43,7 @@ public class ActiveObject extends GraphicObject {
 		mIdCnt ++;
 		mCollisionRadius = 0.0;
 		mVelocity = new Vector2D();
-		mTmpForce = new Vector2D();
+		acceleration = new Vector2D();
 		mMaxSpeed = 0.0;
 		mSpeedLimit = false;
 		mSpeed = 0.0;
@@ -102,6 +104,7 @@ public class ActiveObject extends GraphicObject {
 	 */
 	public void setSpeed(double speed) {
 		mSpeed = speed;
+		mDirection = mVelocity.getDirection();
 		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
 	}
 	
@@ -118,6 +121,7 @@ public class ActiveObject extends GraphicObject {
 	 */
 	public void setDirection(double direction) {
 		mDirection = direction;
+		mSpeed = mVelocity.getMagnitude();
 		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
 	}
 	
@@ -127,6 +131,7 @@ public class ActiveObject extends GraphicObject {
 	public void lookAt(double x, double y) {
 		mVelocity.set(x - getX(), y - getY());
 		mDirection = mVelocity.getDirection();
+		mSpeed = mVelocity.getMagnitude();
 		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
 	}
 	
@@ -191,26 +196,26 @@ public class ActiveObject extends GraphicObject {
 		
 	public void update(final TimeStep timeStep) {
 		
-		if (!mMovementDisabled) {
-			/* Move the object according to our velocity */
-			addPosition(mVelocity.getX() * timeStep.get(), mVelocity.getY());
-		}
 
-		/* Calculate the total force acting upon our object */
-		if (mForces.size() > 0) {
-			mTmpForce.set(0, 0);
-			mTmpForce.add(mForces);
-			mTmpForce.multiplyMagnitude(timeStep.get());
-			mVelocity.add(mTmpForce);
+		if (!mMovementDisabled) {
 			
+			/* Calculate the total acceleration acting upon our object */
+			if (mForces.size() > 0) {
+				acceleration.set(0, 0);
+				acceleration.add(mForces);
+			}
+			
+			/* Move the object according to our velocity */
+			mVelocity.mulAdd(acceleration, timeStep.get());
+			location.mulAdd(mVelocity, timeStep.get());
+			location.mulAdd(acceleration, -timeStep.getSquared()/2.0);
+
 			if (mSpeedLimit) {
 				/* Limit speed */
 				mVelocity.truncate(mMaxSpeed);
 			}
 		}
-		
-		mDirection = mVelocity.getDirection();
-		mSpeed = mVelocity.getMagnitude();
+
 
 		/* 
 		 * Apply behaviors upon object 
