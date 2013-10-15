@@ -72,7 +72,7 @@ public class GameBase {
 		mSpeedUpX = ((double)view.mWidth / 800.0) / mDisplayMetrics.density;
 		mSpeedUpY = ((double)view.mHeight / 480.0) / mDisplayMetrics.density;
 
-		forces = new Forces(new Vector2D(0.0, 1000.0));
+		forces = new Forces(new Vector2D(0.0, 1500.0));
 			
 		itemBar = new ItemBar(this, 10);		
 		health = new HealthObject(this);

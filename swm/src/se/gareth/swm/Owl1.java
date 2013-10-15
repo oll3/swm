@@ -13,7 +13,7 @@ public class Owl1 extends Creature {
 	private static ArrayList<Sprite> mFlyingSprite;
 	private static ArrayList<LinkedList<Sprite>> mSplittedSpriteList;
 	private Vector2D mAcceleration;
-	private float mSpeed;
+	private double mSpeed;
 	enum State {
 		ShowUp,
 		GoBack,
@@ -30,7 +30,7 @@ public class Owl1 extends Creature {
 	public Owl1(GameBase gameBase, int level) {
 		/* Can take 100.0 damage, gives 10 points */
     	super(gameBase, 100 + 100 * level, 25 + level * 5);
-    	mSpeed = 300 + level * 70;
+		mSpeed = game.calcHorizonalSpeed(500 + level * 100);
     	
     	if (mFlyingSprite == null) {
     		mFlyingSprite = new ArrayList<Sprite>();
@@ -49,7 +49,7 @@ public class Owl1 extends Creature {
 		
 		setMaxSpeed(mSpeed);
 		
-		mAcceleration = new Vector2D(-200, 0);
+		mAcceleration = new Vector2D(game.calcHorizonalSpeed(-400.0), 0);
 		applyForce(mAcceleration);
 		
 		mState = State.ShowUp;
@@ -87,7 +87,7 @@ public class Owl1 extends Creature {
 		super.update(timeStep);
 		
 		if (mState == State.ShowUp && (getX() - getWidth()/4) < game.getScreenWidth()) {
-			mAcceleration.set(200, 0);
+			mAcceleration.set(game.calcHorizonalSpeed(400.0), 0);
 			mState = State.GoBack;
 		}
 		else if (mState == State.GoBack && (getX() - getWidth() / 2) > game.getScreenWidth()) {

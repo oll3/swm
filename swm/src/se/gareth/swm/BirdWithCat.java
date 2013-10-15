@@ -16,7 +16,7 @@ public class BirdWithCat extends Creature {
 	private Vector2D mAcceleration;
 	
 	private Cat1 mCat;
-	private float mSpeed;
+	private double mSpeed;
 	
 	/* The number of levels supported for this creature */
 	protected static final int numLevels = 5;
@@ -26,7 +26,7 @@ public class BirdWithCat extends Creature {
 	public BirdWithCat(GameBase gameBase, int level) {
 		/* Can take 100.0 damage, gives 10 points */
     	super(gameBase, 50 + 10 * level, 5 + level * 5);
-    	mSpeed = 50 + level * 80;
+    	mSpeed = game.calcVerticalSpeed(100 + level * 150);
     	
     	if (mFlyingSprite == null) {
     		mFlyingSprite = new ArrayList<Sprite>();
@@ -45,7 +45,7 @@ public class BirdWithCat extends Creature {
     	
 		setMaxSpeed(mSpeed);
 		
-		mAcceleration = new Vector2D(0, -3000.0);
+		mAcceleration = new Vector2D(0, -4000.0);
 		applyForce(mAcceleration);
 		applyForce(game.forces.getGravity());
 		

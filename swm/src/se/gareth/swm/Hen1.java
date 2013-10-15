@@ -28,7 +28,7 @@ public class Hen1 extends Creature {
 	public Hen1(GameBase gameBase, int level) {
 		/* Can take 100.0 damage, gives 10 points */
     	super(gameBase, 200 + 50 * level, 20 + 10 * level);
-    	float speed = 150 + 50 * level;
+    	mSpeed = game.calcHorizonalSpeed(270 + 90 * level);
     	
     	
     	if (mFlyingSprite == null) {
@@ -54,16 +54,14 @@ public class Hen1 extends Creature {
     	mFlyingAnimation = new Animation(mFlyingSprite.get(level), 16, 0);
     	mFallingAnimation = new Animation(mFallingSprite.get(level), 16, 0);
     	
-    	mSpeed = speed;
-    	
     	setAnimation(mFlyingAnimation);
     	mAcceleration = new Vector2D();
-		setVelocity(Vector2D.DIRECTION_LEFT, speed);
-		setMaxSpeed(speed);
+		setVelocity(Vector2D.DIRECTION_LEFT, mSpeed);
+		setMaxSpeed(mSpeed);
 		mChangeForce = false;
 		applyForce(mAcceleration);
 		applyForce(game.forces.getGravity());
-		mAcceleration.set(-100.0, -1250);
+		mAcceleration.set(-mSpeed / 3, -(1450 + mSpeed*2));
 		
 		setBloodStainOffset(0.5, 0.60);
 		
@@ -94,14 +92,14 @@ public class Hen1 extends Creature {
 		if (getY() > (game.getPlayfieldHeight() - getHeight())) {
 			if (!mChangeForce) {
 				setAnimation(mFlyingAnimation);
-				mAcceleration.set(-100.0, -(1250 + mSpeed*2));
+				mAcceleration.set(-mSpeed / 3, -(1450 + mSpeed*2));
 				mChangeForce = true;
 			}
 		}
 		else if (getY() < getHeight()) {
 			if (!mChangeForce) {
 				setAnimation(mFallingAnimation);
-				mAcceleration.set(-200.0, 0.0);
+				mAcceleration.set(-mSpeed / 2, 0.0);
 				mChangeForce = true;
 			}
 		}

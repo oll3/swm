@@ -22,7 +22,7 @@ public class Bird1 extends Creature {
 	public Bird1(GameBase gameBase, int level) {
 		/* Can take 100.0 damage, gives 10 points */
     	super(gameBase, 50 + 10 * level, 5 + level * 5);
-    	float speed = 100 + level * 80;
+    	double speed = game.calcHorizonalSpeed(200 + level * 100);
     	
     	if (mFlyingSprite == null) {
     		mFlyingSprite = new ArrayList<Sprite>();
@@ -42,7 +42,7 @@ public class Bird1 extends Creature {
 		setVelocity(Vector2D.DIRECTION_LEFT, speed);
 		setMaxSpeed(speed);
 		
-		mAcceleration = new Vector2D(-speed, -1000.0);
+		mAcceleration = new Vector2D(-speed, -1500.0);
 		applyForce(mAcceleration);
 		applyForce(game.forces.getGravity());
 		
