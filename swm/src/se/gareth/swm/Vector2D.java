@@ -48,13 +48,36 @@ public class Vector2D {
 		mMagnitudeValid = false;
 		mDirectionValid = false;
 	}
+
+	public void setX(double x) {
+		mX = x;
+		mMagnitudeValid = false;
+		mDirectionValid = false;
+	}
+	
+	public void setY(double y) {
+		mY = y;
+		mMagnitudeValid = false;
+		mDirectionValid = false;
+	}
+	
+	public void add(double x, double y) {
+		mX += x;
+		mY += y;
+		mMagnitudeValid = false;
+		mDirectionValid = false;		
+	}
 	
 	public void addX(double x) {
-		set(mX + x, mY);
+		mX += x;
+		mMagnitudeValid = false;
+		mDirectionValid = false;		
 	}
 	
 	public void addY(double y) {
-		set(mX, mY + y);
+		mY += y;
+		mMagnitudeValid = false;
+		mDirectionValid = false;		
 	}
 	
 	public void lookAt(double fromX, double fromY, double toX, double toY) {
