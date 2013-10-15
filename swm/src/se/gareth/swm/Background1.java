@@ -27,6 +27,8 @@ public class Background1 extends Background {
 	
 	@Override
 	protected void unload() {
+		mBottomBitmap.recycle();
+		mBelowBitmap.recycle();
 		mBottomBitmap = null;
 		mBelowBitmap = null;
 	}
