@@ -8,7 +8,7 @@ import android.graphics.Rect;
 public class GraphicObject {
 
 	/* The position of the object */
-	private double mX, mY;
+	protected final Vector2D location;
 	private int mWidth, mHeight;
 	
 	private boolean mDoDrawArea;
@@ -33,9 +33,8 @@ public class GraphicObject {
 	
 	public GraphicObject(GameBase gameBase) {
 		game = gameBase;
+		location = new Vector2D();
 		mDrawOrder = 0;
-	    mX = 0;
-		mY = 0;
 		mWidth = 0;
 		mHeight = 0;
 		mRotation = 0;
@@ -72,8 +71,7 @@ public class GraphicObject {
 	}
 	
 	public void setPosition(double x, double y) {
-		mX = x;
-		mY = y;
+		location.set(x, y);
 	}
 
 	public void setPosition(double x, double widthScale, double y, double heightScale) {
@@ -81,11 +79,11 @@ public class GraphicObject {
 	}
 	
 	public void setX(double x) {
-		mX = x;
+		location.setX(x);
 	}
 
 	public void setY(double y) {
-		mY = y;
+		location.setY(y);
 	}
 
 	public void setX(double x, double scale) {
@@ -97,40 +95,39 @@ public class GraphicObject {
 	}
 
 	public void addPosition(double relX, double relY) {
-		mX += relX;
-		mY += relY;
+		location.add(relX, relY);
 	}
 
 	public double getX(double scale) {
-		return mX + mWidth * scale;
+		return location.getX() + mWidth * scale;
 	}
 
 	public double getY(double scale) {
-		return mY + mHeight * scale;
+		return location.getY() + mHeight * scale;
 	}
 
 	public double getX() {
-		return mX;
+		return location.getX();
 	}
 	
 	public double getY() {
-		return mY;
+		return location.getY();
 	}
 	
 	public double getLeft() {
-		return mX - mWidth / 2;
+		return location.getX() - mWidth / 2;
 	}
 	
 	public double getTop() {
-		return mY - mHeight / 2;
+		return location.getY() - mHeight / 2;
 	}
 	
 	public double getRight() {
-		return mX + mWidth / 2;
+		return location.getX() + mWidth / 2;
 	}
 	
 	public double getBottom() {
-		return mY + mHeight / 2;
+		return location.getY() + mHeight / 2;
 	}
 	
 	public int getWidth() {
@@ -218,7 +215,7 @@ public class GraphicObject {
 			
 			if (mCurrentAnimation != null) {
 				mCurrentAnimation.draw(canvas, 
-						mX - mWidth / 2, mY - mHeight / 2, 
+						location.getX() - mWidth / 2, location.getY() - mHeight / 2, 
 						mRotation, (float)mWidth * mRotationOffsetX, (float)mHeight * mRotationOffsetY, 
 						mPaint);
 			}
