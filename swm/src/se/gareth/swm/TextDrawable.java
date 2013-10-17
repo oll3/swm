@@ -30,7 +30,6 @@ public class TextDrawable extends Drawable {
     private final FontMetrics mFontMetrics;
     
     private double mX, mY;
-	private final Rect mSizeTmp;
     private final Rect mSize;
     
     private Align mAlign;
@@ -54,7 +53,6 @@ public class TextDrawable extends Drawable {
     		mFilling.setTypeface(font);
     	}
     	mSize = new Rect();
-		mSizeTmp = new Rect();
     	mCanvas = new Canvas();
     	mFontMetrics = new FontMetrics();
         init();
@@ -67,7 +65,6 @@ public class TextDrawable extends Drawable {
     		mPaint.setTypeface(font);
         mFilling = mPaint;
         mSize = new Rect();
-		mSizeTmp = new Rect();
         mCanvas = new Canvas();
         mFontMetrics = new FontMetrics();
         init();
@@ -128,25 +125,24 @@ public class TextDrawable extends Drawable {
 		//mSize.bottom = (int)(mFontMetrics.bottom + 0.5f);
 		//mSize.top = (int)(mFontMetrics.top - 0.5f);
 
-		if (mSizeTmp.contains(mSize) == false) {
+		if (mSize.width() > 0 && mSize.height() > 0) {
 
-			/* Only resize bitmap if the new size is bigger then before */
-
-			if (mSize.width() > 0 && mSize.height() > 0) {
-				if (mBitmap != null) {
-					mBitmap.recycle();
-				}
+			if (mBitmap == null) {
+				/* Create bitmap */
 				mBitmap = Bitmap.createBitmap(mSize.width(), mSize.height(), Bitmap.Config.ARGB_8888);
-				mCanvas.setBitmap(mBitmap);
 			}
+			else if (mSize.width() > mBitmap.getWidth() || mSize.height() > mBitmap.getHeight()) {
 
-			mSizeTmp.set(mSize);
+				/* Only resize bitmap if the new size is bigger then before */
+				mBitmap.recycle();
+				mBitmap = Bitmap.createBitmap(mSize.width(), mSize.height(), Bitmap.Config.ARGB_8888);
+			}
+			else if (mBitmap != null) {
+				mBitmap.eraseColor(Color.TRANSPARENT);
+			}
+			mCanvas.setBitmap(mBitmap);
+			mDoUpdateBitmap = true;
 		}
-		else {
-			mBitmap.eraseColor(Color.TRANSPARENT);
-		}
-
-		mDoUpdateBitmap = true;
 	}
 
     public void setText(final String text) {
