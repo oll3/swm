@@ -30,6 +30,7 @@ public class TextDrawable extends Drawable {
     private final FontMetrics mFontMetrics;
     
     private double mX, mY;
+	private final Rect mSizeTmp;
     private final Rect mSize;
     
     private Align mAlign;
@@ -53,6 +54,7 @@ public class TextDrawable extends Drawable {
     		mFilling.setTypeface(font);
     	}
     	mSize = new Rect();
+		mSizeTmp = new Rect();
     	mCanvas = new Canvas();
     	mFontMetrics = new FontMetrics();
         init();
@@ -65,6 +67,7 @@ public class TextDrawable extends Drawable {
     		mPaint.setTypeface(font);
         mFilling = mPaint;
         mSize = new Rect();
+		mSizeTmp = new Rect();
         mCanvas = new Canvas();
         mFontMetrics = new FontMetrics();
         init();
@@ -100,11 +103,15 @@ public class TextDrawable extends Drawable {
     	}
     	
     	/* Force update of size */
-    	setText(text);
+		updateBitmap();
     }
-    
-    public void setText(String text) {
-    	this.text = text;
+
+
+	/*
+	  Update size of bitmap
+	*/
+	private void updateBitmap() {
+
     	mFilling.getTextBounds(text, 0, text.length(), mSize);
 		if (mOutline != null && mOutlineWidth > 0) {
 			mSize.left -= (mOutlineWidth + 1.0)/2;
@@ -116,10 +123,35 @@ public class TextDrawable extends Drawable {
 		}
 		mSize.bottom = (int)(mFontMetrics.bottom + 0.5f);
 		mSize.top = (int)(mFontMetrics.top - 4.5f);
+
 		//Log.d(TAG, "Text top=" + mFontMetrics.top + ", bottom=" + mFontMetrics.bottom + ", ascent=" + mFontMetrics.ascent + ", bottom=" + mFontMetrics.descent);
 		//mSize.bottom = (int)(mFontMetrics.bottom + 0.5f);
 		//mSize.top = (int)(mFontMetrics.top - 0.5f);
-    	mResizeBitmap = true;
+
+		if (mSizeTmp.contains(mSize) == false) {
+
+			/* Only resize bitmap if the new size is bigger then before */
+
+			if (mSize.width() > 0 && mSize.height() > 0) {
+				if (mBitmap != null) {
+					mBitmap.recycle();
+				}
+				mBitmap = Bitmap.createBitmap(mSize.width(), mSize.height(), Bitmap.Config.ARGB_8888);
+				mCanvas.setBitmap(mBitmap);
+			}
+
+			mSizeTmp.set(mSize);
+		}
+		else {
+			mBitmap.eraseColor(Color.TRANSPARENT);
+		}
+
+		mDoUpdateBitmap = true;
+	}
+
+    public void setText(final String text) {
+    	this.text = text;
+		updateBitmap();
     }
     
     public int getWidth() {
@@ -165,22 +197,13 @@ public class TextDrawable extends Drawable {
     
     @Override
     public void draw(Canvas canvas) {
-        
-
-    	if (mResizeBitmap) {
-    		if (mSize.width() > 0 && mSize.height() > 0) {
-    			mBitmap = Bitmap.createBitmap(mSize.width(), mSize.height(), Bitmap.Config.ARGB_8888);
-    			mCanvas.setBitmap(mBitmap);
-    		}
-    		mResizeBitmap = false;
-    		mDoUpdateBitmap = true;
-    	}
-    		
+            		
 		
 		if (mDoUpdateBitmap) {
 			
 			/* Enable to fill background */
 			//mCanvas.drawColor(0xffff50a0);
+
     		if (mSize.width() > 0 && mSize.height() > 0) {
 	
 				if (mOutline != null && mOutlineWidth > 0) {
@@ -233,14 +256,14 @@ public class TextDrawable extends Drawable {
 		mOutline.setColor(color);
 		
 		/* force size update */
-		setText(text);
+		updateBitmap();
     }
     
     public void disableOutline() {
     	mOutline = null;
     	
 		/* force size update */
-		setText(text);
+		updateBitmap();
     }
     
     @Override
