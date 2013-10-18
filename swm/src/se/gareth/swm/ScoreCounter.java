@@ -5,7 +5,7 @@ import android.graphics.Canvas;
 
 public class ScoreCounter extends GraphicObject {
 	
-	protected TextDrawable text;
+	protected final TextDrawable text;
 	private int mScoreCounter;
 	private int mIncreaseStep;
 	private int mCurrentDisplayedScore;
