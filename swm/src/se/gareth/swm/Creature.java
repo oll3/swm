@@ -1,12 +1,11 @@
 package se.gareth.swm;
 
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 
 public class Creature extends HitableObject {
 
-	private LinkedList<ActiveObject> mBloodList;
+	private final ArrayList<ActiveObject> mBloodList;
 	private long mLastDrip;
 	private double mBloodStainScaleX, mBloodStainScaleY;
 	
@@ -20,7 +19,7 @@ public class Creature extends HitableObject {
 		setHealthAttributes(hitPoints, 0);
 		setHitScore(hitScore);
 		mLastDrip = 0;
-		mBloodList = new LinkedList<ActiveObject>();
+		mBloodList = new ArrayList<ActiveObject>();
 		
 		mBloodStainScaleX = 0.5;
 		mBloodStainScaleY = 0.5;
@@ -41,11 +40,9 @@ public class Creature extends HitableObject {
 		double killPercentage = (double)damage / (double)getHitPoints();
 		
 		int useCnt = (int)((double)mBloodList.size() * killPercentage);
-		Iterator<ActiveObject> itr = mBloodList.iterator();
-				
-    	while (itr.hasNext() && useCnt > 0) {
-    		ActiveObject blood = itr.next();
-    		itr.remove();
+
+		while (useCnt > 0 && mBloodList.size() > 0) {
+			final ActiveObject blood = mBloodList.remove(mBloodList.size() - 1);
 			double direction = mRandom.nextDouble() * 2 * Math.PI;
 			double speed = mRandom.nextDouble() * 300 + 300.0 + damage/100.0;
 			blood.setPosition(getX(), getY());

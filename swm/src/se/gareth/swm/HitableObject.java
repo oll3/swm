@@ -1,7 +1,7 @@
 package se.gareth.swm;
 
-import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ArrayList;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -56,7 +56,7 @@ public class HitableObject extends ActiveObject {
 	private boolean mWasDestroyed;
 	private boolean mMustBeKilled;
 	private boolean mDrawHitArea;
-	private LinkedList<Split> mSplitList;
+	private final ArrayList<Split> mSplitList;
 	
 	public HitableObject(GameBase gameBase) {
 		super(gameBase);
@@ -68,6 +68,7 @@ public class HitableObject extends ActiveObject {
 		mDrawHitArea = false;
 		mMustBeKilled = false;
 		mFreeStanding = true;
+		mSplitList = new ArrayList<Split>();
 	}
 
 
@@ -114,7 +115,6 @@ public class HitableObject extends ActiveObject {
 	}
 	
 	protected void setSplittedSprite(LinkedList<Sprite> spriteList) {
-		mSplitList = new LinkedList<Split>();
 		for (Sprite sprite: spriteList) {
 			mSplitList.add(new Split(game, sprite));
 		}
@@ -205,20 +205,16 @@ public class HitableObject extends ActiveObject {
 	}
 	
 	protected void destroyMe(int damage) {
-
 		mHitScore = 0;
 		mWasDestroyed = true;
-		if (mSplitList != null) {
-			Iterator<Split> itr = mSplitList.iterator();
-			while (itr.hasNext()) {
-				Split split = itr.next();
-				double direction = mRandom.nextDouble() * 2 * Math.PI;
-				double speed = mRandom.nextDouble() * 300 + 300.0 + damage/100.0;
-				split.setPosition(getX(), getY());
-				split.setVelocity(direction, speed);
-				split.addVelocity(mVelocity);
-				game.gameStage.addActiveObject(split);
-			}
+		while (mSplitList.size() > 0) {
+			final Split split = mSplitList.remove(mSplitList.size() - 1);
+			double direction = mRandom.nextDouble() * 2 * Math.PI;
+			double speed = mRandom.nextDouble() * 300 + 300.0 + damage/100.0;
+			split.setPosition(getX(), getY());
+			split.setVelocity(direction, speed);
+			split.addVelocity(mVelocity);
+			game.gameStage.addActiveObject(split);
 		}
 		wasDestroyed(damage);
 	}
