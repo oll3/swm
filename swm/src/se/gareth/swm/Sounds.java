@@ -70,6 +70,14 @@ public class Sounds {
 			mStreamList.set(sound.ordinal(), 0);
 		}
 	}
+
+	public void stopAll() {
+	    for (int i = 0; i < Sound.LastValue.ordinal(); i ++) {
+			int streamId = mStreamList.get(i);
+			soundPool.stop(streamId);
+			mStreamList.set(i, 0);			
+	    }		
+	}
 	          
 	public void play(Sound sound) {
 		loop(sound, 0);

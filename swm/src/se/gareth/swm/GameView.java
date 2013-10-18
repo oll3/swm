@@ -270,6 +270,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
     	synchronized (this) {
 	    	if (game != null) {
 	    		getStage().onPause();
+				game.sounds.stopAll();
 		    	endThread(2);
 	    	}
 	    	else {
