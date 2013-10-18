@@ -29,8 +29,6 @@ public class Blood2 extends ActiveObject {
        	
 		applyForce(game.forces.getGravity());
        	
-		this.setMaxSpeed(600);
-		
        	setDrawOrder(20);
 	}
 	

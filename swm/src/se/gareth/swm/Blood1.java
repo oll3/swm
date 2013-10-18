@@ -29,9 +29,8 @@ public class Blood1 extends ActiveObject {
        	
 		applyForce(game.forces.getGravity());
 		
-		this.setMaxSpeed(600);
-       	
        	setDrawOrder(20);
+		setDensity(400);
 	}
 	
 	@Override

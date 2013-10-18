@@ -24,8 +24,6 @@ public class ItemBox extends HitableObject {
        	setHitScore(10);
        	
        	setPosition(x, y);
-		setVelocity(Vector2D.DIRECTION_DOWN, 1.0);
-		setMaxSpeed(170.0);
 		
     	if (mItemSprite == null) {
     		mItemSprite = new Sprite(BitmapFactory.decodeResource(game.res,

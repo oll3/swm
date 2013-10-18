@@ -12,7 +12,7 @@ public class Bird1 extends Creature {
 	
 	private static ArrayList<Sprite> mFlyingSprite;
 	private static ArrayList<LinkedList<Sprite>> mSplittedSpriteList;
-	private Vector2D mAcceleration;
+	private final Vector2D mAcceleration;
 	
 	/* The number of levels supported for this creature */
 	protected static final int numLevels = 5;
@@ -40,7 +40,6 @@ public class Bird1 extends Creature {
     	setAnimation(new Animation(mFlyingSprite.get(level), 16, 0));
 		
 		setVelocity(Vector2D.DIRECTION_LEFT, speed);
-		setMaxSpeed(speed);
 		
 		mAcceleration = new Vector2D(-speed, -1500.0);
 		applyForce(mAcceleration);

@@ -22,9 +22,8 @@ public class IceCube extends HitableObject {
        	setHitScore(0);
    
        	mFreezeTime = freezeTime + System.currentTimeMillis();
-       	
-		setVelocity(0.0, 0.0);
-		setMaxSpeed(0.0);
+
+		disableMovement(true);
 		
 		if (mIceCubeSprite == null) {
 			mIceCubeSprite = new Sprite(BitmapFactory.decodeResource(game.res,

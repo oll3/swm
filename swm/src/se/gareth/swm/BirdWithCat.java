@@ -13,7 +13,7 @@ public class BirdWithCat extends Creature {
 	
 	private static ArrayList<Sprite> mFlyingSprite;
 	private static ArrayList<LinkedList<Sprite>> mSplittedSpriteList;
-	private Vector2D mAcceleration;
+	private final Vector2D mAcceleration;
 	
 	private Cat1 mCat;
 	private double mSpeed;
@@ -26,7 +26,7 @@ public class BirdWithCat extends Creature {
 	public BirdWithCat(GameBase gameBase, int level) {
 		/* Can take 100.0 damage, gives 10 points */
     	super(gameBase, 50 + 10 * level, 5 + level * 5);
-    	mSpeed = game.calcVerticalSpeed(100 + level * 150);
+    	mSpeed = game.calcVerticalSpeed(200 + level * 150);
     	
     	if (mFlyingSprite == null) {
     		mFlyingSprite = new ArrayList<Sprite>();
@@ -43,9 +43,7 @@ public class BirdWithCat extends Creature {
     	setSplittedSprite(mSplittedSpriteList.get(level));
     	setAnimation(new Animation(mFlyingSprite.get(level), 16, 0));    	
     	
-		setMaxSpeed(mSpeed);
-		
-		mAcceleration = new Vector2D(0, -4000.0);
+		mAcceleration = new Vector2D(0, -(1500 + mSpeed));
 		applyForce(mAcceleration);
 		applyForce(game.forces.getGravity());
 		
@@ -61,6 +59,8 @@ public class BirdWithCat extends Creature {
 		/* place cat behind the bird */
 		mCat.setDrawOrder(getDrawOrder() - 1);
 		mCat.setMustBeKilled(false);
+
+		setDensity(400);
 	}
 	
 	@Override
@@ -90,7 +90,7 @@ public class BirdWithCat extends Creature {
 		}
 		else {
 			if (mCat.isDead()) {
-				setMaxSpeed(mSpeed * 3);
+				mAcceleration.set(0, -(1500 + mSpeed * 6));
 			}
 		}
 	}

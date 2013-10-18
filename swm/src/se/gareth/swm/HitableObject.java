@@ -29,7 +29,6 @@ public class HitableObject extends ActiveObject {
 	    	
 			applyForce(game.forces.getGravity());
 			
-			this.setMaxSpeed(600);
 			mRotationSpeed = ((mRandom.nextInt(60) + 20) * 5) * (1 - (mRandom.nextInt(2) * 2));
 	       	setDrawOrder(20);
 		}
@@ -214,7 +213,7 @@ public class HitableObject extends ActiveObject {
 			while (itr.hasNext()) {
 				Split split = itr.next();
 				double direction = mRandom.nextDouble() * 2 * Math.PI;
-				double speed = mRandom.nextDouble() * 200 + 100.0 + damage/100.0;
+				double speed = mRandom.nextDouble() * 300 + 300.0 + damage/100.0;
 				split.setPosition(getX(), getY());
 				split.setVelocity(direction, speed);
 				split.addVelocity(mVelocity);

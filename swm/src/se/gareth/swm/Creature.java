@@ -47,7 +47,7 @@ public class Creature extends HitableObject {
     		ActiveObject blood = itr.next();
     		itr.remove();
 			double direction = mRandom.nextDouble() * 2 * Math.PI;
-			double speed = mRandom.nextDouble() * 200 + 100.0 + damage/100.0;
+			double speed = mRandom.nextDouble() * 300 + 300.0 + damage/100.0;
 			blood.setPosition(getX(), getY());
 			blood.setVelocity(direction, speed);
 			blood.addVelocity(mVelocity);

@@ -24,11 +24,13 @@ public class ActiveObject extends GraphicObject {
 	protected Vector2D mVelocity;
 	private double mSpeed, mDirection;
 
-	/* Acceleration of object */
-	protected final Vector2D acceleration;
+	/* Used for calculate sum of all forces acting on the object */
+	private final Vector2D mForcesSum;
+
+	/* Decides how much impact the drag has on the object */
+	private double mDensityInverted;
 	
-	private double mMaxSpeed;
-	private boolean mSpeedLimit;
+	/* Is movement enabled/disabled */
 	private boolean mMovementDisabled;
 	
 	/* List of forces which operate on our velocity */
@@ -43,14 +45,13 @@ public class ActiveObject extends GraphicObject {
 		mIdCnt ++;
 		mCollisionRadius = 0.0;
 		mVelocity = new Vector2D();
-		acceleration = new Vector2D();
-		mMaxSpeed = 0.0;
-		mSpeedLimit = false;
+		mForcesSum = new Vector2D();
 		mSpeed = 0.0;
 		mDirection = 0.0;
 		mForces = new ArrayList<Vector2D>();
 		mBehaviorList = new ArrayList<Behavior>();
 		mMovementDisabled = false;
+		setDensity(200);
 	}
 		
 	/*
@@ -125,28 +126,27 @@ public class ActiveObject extends GraphicObject {
 		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
 	}
 	
+
+	/*
+	 * Set object density (used for drag calculation).
+	 * The higher the density the lesser the impact of drag is.
+	 */
+	public void setDensity(double density) {
+		if (density > 0) {
+			mDensityInverted = 1.0/density;
+		}
+	}
+
 	/* 
 	 * make object look in the direction of given position
 	 */
 	public void lookAt(double x, double y) {
+		mSpeed = mVelocity.getMagnitude();
 		mVelocity.set(x - getX(), y - getY());
 		mDirection = mVelocity.getDirection();
-		mSpeed = mVelocity.getMagnitude();
 		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
 	}
 	
-	/*
-	 * Set the highest allowed speed of object.
-	 */
-	public void setMaxSpeed(double speed) {
-		mMaxSpeed = speed;
-		mSpeedLimit = true;
-	}
-	
-	public void disableMaxSpeed() {
-		mSpeedLimit = false;
-	}
-
 	public void setAnimation(Animation animation) {
 		super.setAnimation(animation);
 		mCollisionRadius = (double)(Math.min(getWidth(), getHeight()))/2.5;
@@ -199,21 +199,20 @@ public class ActiveObject extends GraphicObject {
 
 		if (!mMovementDisabled) {
 			
-			/* Calculate the total acceleration acting upon our object */
+			/* Calculate the total force acting upon our object */
 			if (mForces.size() > 0) {
-				acceleration.set(0, 0);
-				acceleration.add(mForces);
+
+				final double v = mVelocity.getMagnitude();
+
+				mForcesSum.set(0, 0);
+				mForcesSum.add(mForces);
+				mForcesSum.mulAdd(mVelocity, -v * mDensityInverted);
 			}
 			
 			/* Move the object according to our velocity */
-			mVelocity.mulAdd(acceleration, timeStep.get());
+			mVelocity.mulAdd(mForcesSum, timeStep.get());
 			location.mulAdd(mVelocity, timeStep.get());
-			location.mulAdd(acceleration, -timeStep.getSquared()/2.0);
-
-			if (mSpeedLimit) {
-				/* Limit speed */
-				mVelocity.truncate(mMaxSpeed);
-			}
+			location.mulAdd(mForcesSum, -timeStep.getSquared()/2.0);
 		}
 
 

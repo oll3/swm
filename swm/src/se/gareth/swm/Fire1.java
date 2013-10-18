@@ -18,8 +18,7 @@ public class Fire1 extends HitableObject {
        	setHealthAttributes(0, 1); /* only destroy when our parent is destroyed */
        	setHitScore(0);
        	
-		setVelocity(0.0, 0.0);
-		setMaxSpeed(0.0);
+		disableMovement(true);
 		
 		if (mFireSprite == null) {
 			mFireSprite = new Sprite(BitmapFactory.decodeResource(game.res,

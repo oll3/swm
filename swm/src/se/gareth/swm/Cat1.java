@@ -27,7 +27,6 @@ public class Cat1 extends Creature  {
     	
     	setAnimation(new Animation(mHangingSprite, 16, 0));
 		
-		setMaxSpeed(200);
 		applyForce(game.forces.getGravity());
 		
        	setRotationOffset(0.5f, 0.15f);

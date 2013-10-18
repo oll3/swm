@@ -55,13 +55,11 @@ public class Hen1 extends Creature {
     	mFallingAnimation = new Animation(mFallingSprite.get(level), 16, 0);
     	
     	setAnimation(mFlyingAnimation);
-    	mAcceleration = new Vector2D();
-		setVelocity(Vector2D.DIRECTION_LEFT, mSpeed);
-		setMaxSpeed(mSpeed);
+
+    	mAcceleration = new Vector2D(-mSpeed / 3, -(1450 + mSpeed*2));
 		mChangeForce = false;
 		applyForce(mAcceleration);
 		applyForce(game.forces.getGravity());
-		mAcceleration.set(-mSpeed / 3, -(1450 + mSpeed*2));
 		
 		setBloodStainOffset(0.5, 0.60);
 		
@@ -71,6 +69,8 @@ public class Hen1 extends Creature {
 		/* Set default start position */
 		setPosition(game.getScreenWidth() + getWidth() / 2, 
 					getHeight() / 2 + mRandom.nextInt((game.getPlayfieldHeight() - (int)getHeight())));
+
+		setDensity(100);
 	}
 
 	@Override
@@ -92,14 +92,14 @@ public class Hen1 extends Creature {
 		if (getY() > (game.getPlayfieldHeight() - getHeight())) {
 			if (!mChangeForce) {
 				setAnimation(mFlyingAnimation);
-				mAcceleration.set(-mSpeed / 3, -(1450 + mSpeed*2));
+				mAcceleration.set(-mSpeed / 3, -(1500 + mSpeed*3));
 				mChangeForce = true;
 			}
 		}
 		else if (getY() < getHeight()) {
 			if (!mChangeForce) {
 				setAnimation(mFallingAnimation);
-				mAcceleration.set(-mSpeed / 2, 0.0);
+				mAcceleration.set(-mSpeed / 2, -mSpeed);
 				mChangeForce = true;
 			}
 		}
