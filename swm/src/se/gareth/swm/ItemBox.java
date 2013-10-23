@@ -39,9 +39,10 @@ public class ItemBox extends HitableObject {
 		//applyForce(mGameStage.getWindForce());
 		applyForce(game.forces.getGravity());
 		
-       	mAccelerationForce = new Vector2D(0.0, -7.0);
+       	mAccelerationForce = new Vector2D(0.0, -400.0);
        	applyForce(mAccelerationForce);
-       	
+		
+		setDensity(100);
        	
        	/* Make the box swing a bit while falling */
        	setRotationOffset(0.5f, 0);
