@@ -283,7 +283,7 @@ public class GameStage extends Stage {
 	     * Do drawing 
 	     */
 		if (mBackground != null) {
-			mBackground.draw(canvas);
+			mBackground.drawBackground(canvas);
 		}
 		else {
 			canvas.drawARGB(0xff, 0xff, 0xff, 0xff);
@@ -319,6 +319,10 @@ public class GameStage extends Stage {
 			    canvas.drawColor(Color.argb((int)fade, Color.red(color), Color.green(color), Color.blue(color)));
 			}
 	    }
+	    
+		if (mBackground != null) {
+			mBackground.drawForeground(canvas);
+		}
 	}
 
 
