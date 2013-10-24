@@ -51,7 +51,8 @@ public class Background1 extends Background {
 		}
 	}
 	
-	public void draw(Canvas canvas) {
+	@Override
+	public void drawBackground(Canvas canvas) {
 		
 		canvas.drawColor(backgroundColor);
 		

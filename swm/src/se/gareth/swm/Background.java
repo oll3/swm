@@ -33,7 +33,11 @@ public class Background {
 		
 	}
 	
-	public void draw(Canvas canvas) {
+	public void drawBackground(Canvas canvas) {
+		
+	}
+	
+	public void drawForeground(Canvas canvas) {
 		
 	}
 }
