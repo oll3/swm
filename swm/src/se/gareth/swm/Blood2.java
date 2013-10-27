@@ -29,7 +29,7 @@ public class Blood2 extends ActiveObject {
        	
 		applyForce(game.forces.getGravity());
        	
-       	setDrawOrder(20);
+       	setDrawOrder(10 + mRandom.nextInt(15));
 	}
 	
 	@Override
