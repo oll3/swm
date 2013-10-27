@@ -24,6 +24,10 @@ public class Background {
 	protected void unload() {
 
 	}
+
+	protected void prepare(GameStage gameStage) {
+
+	}
 	
 	protected Bitmap getThumbnail() {
 		return null;

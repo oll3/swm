@@ -39,7 +39,7 @@ public class GameStage extends Stage {
     /*
      * Reset game stage
      */
-    public void setLevel(Level level) {
+    public void setLevel(Level level, Background background) {
     	mCurrentLevel = level;
         mGraphicObjects.clear();
         mGraphicObjectsAdd.clear();
@@ -47,16 +47,14 @@ public class GameStage extends Stage {
         mLevelFinishedTS = 0;
         game.score.setScore(0);
         mBonusBar.reset();
+		mBackground = background;
+		mBackground.prepare(this);
     }
     
     public Level getLevel() {
     	return mCurrentLevel;
     }
     
-    public void setBackground(Background background) {
-    	mBackground = background;
-    }
-
     @Override
     public void activated(Stage previousStage) {
     	
