@@ -1,48 +1,47 @@
 package se.gareth.swm;
 
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.Rect;
 
-public class BonusBar {
+public class BonusBar extends ActiveObject {
 	
 	private static final int BONUS_LEVEL_TIME = 350;
 	private static final int BONUS_LEVELS = 10;
 	private static final float DECREASE_BONYUS_DELAY = 0.01f;
 	private static final float DECREASE_BONUS_SPEED = 0.09f;
 
-	private static Sprite mBonusBarSprite;
 	private final Rect mFrameRect, mBarRect;
-	private final GameBase game;
-	private final Paint mBarPaint;
+	private final Paint mBarPaint, mFramePaint;
 	
 	private long mLastScoreTS;
 	private float mLevelDownSpeed;
 	private float mBonusLevel;
 	
 	public BonusBar(GameBase gameBase) {
-		game = gameBase;
-		
-    	if (mBonusBarSprite == null) {
-    		mBonusBarSprite = new Sprite(BitmapFactory.decodeResource(game.res,
-        			R.drawable.bonusbar_frame), 1);
-    	}
+		super(gameBase);
 		
 		mFrameRect = new Rect();
 		mBarRect = new Rect();
 		
 		mBarPaint = new Paint();
 		mBarPaint.setStyle(Style.FILL);
-		mBarPaint.setColor(Color.rgb(0xfd, 0x59, 0x61));
+		mFramePaint = new Paint();
+		mFramePaint.setStyle(Style.FILL);
+		mFramePaint.setAlpha(128);
+		mBarPaint.setAlpha(128);
 		
-		mFrameRect.top = game.convertPixelToDp(15);
-		mFrameRect.bottom = mFrameRect.top + (int)(mBonusBarSprite.getFrameHeight() + 0.5);
-		mBarRect.top = mFrameRect.top + game.convertPixelToDp(2);
-		mBarRect.bottom = mFrameRect.bottom - game.convertPixelToDp(2);
+		mBarPaint.setColor(Color.BLACK);
 		
+		mFrameRect.top = 0; 
+		mFrameRect.bottom = mFrameRect.top + game.convertPixelToDp(5);
+		mBarRect.top = mFrameRect.top;
+		mBarRect.bottom = mFrameRect.bottom - game.convertPixelToDp(1);
+		
+
+		setDrawOrder(30);
 		reset();
 	}
 	
@@ -51,7 +50,6 @@ public class BonusBar {
 		mBonusLevel = 0;
 		mLevelDownSpeed = 0;
 	}
-	
 	
 	public int calcBonus(int points) {
 		
@@ -84,9 +82,10 @@ public class BonusBar {
 	
 	
 	public void update(final TimeStep timeStep) {
+		super.update(timeStep);
 		
-		mFrameRect.left = game.convertPixelToDp(80);
-		mFrameRect.right = game.getScreenWidth() - mFrameRect.left;
+		mFrameRect.left = 0;
+		mFrameRect.right = game.getScreenWidth();
 
 		
 		if (mBonusLevel > 0.0f) {
@@ -107,13 +106,20 @@ public class BonusBar {
 			barRatio = 1.0f;
 		}
 		
-		mBarRect.left = mFrameRect.left + game.convertPixelToDp(2) + (int)((mFrameRect.right - mFrameRect.left - game.convertPixelToDp(4)) * barRatio);
-		mBarRect.right = mFrameRect.right - game.convertPixelToDp(2);
+		mBarRect.left = mFrameRect.left;
+		mBarRect.right = (int)((mFrameRect.right - mFrameRect.left) * barRatio);
+		
+		if (barRatio < 0.95) {
+			mBarPaint.setColor(Color.rgb(100 - (int)(30 * barRatio), (int)(60 * barRatio) + 128, 50 - (int)(50 * barRatio)));
+		}
+		else {
+			mBarPaint.setColor(Color.rgb(55, 218, 0));
+		}
 	}
 	
 	
 	public void draw(Canvas canvas) {
-		canvas.drawBitmap(mBonusBarSprite.getFrame(0), null, mFrameRect, null);
+		canvas.drawRect(mFrameRect, mFramePaint);
 		canvas.drawRect(mBarRect, mBarPaint);
 	}
 }

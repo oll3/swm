@@ -48,7 +48,6 @@ public class GameStage extends Stage {
         game.score.setScore(0);
         mBonusBar.reset();
 		mBackground = background;
-		mBackground.prepare(this);
     }
     
     public Level getLevel() {
@@ -57,7 +56,8 @@ public class GameStage extends Stage {
     
     @Override
     public void activated(Stage previousStage) {
-    	
+    	mBackground.prepare(this);
+    	addActiveObject(mBonusBar);
     }
     
     @Override
@@ -261,8 +261,6 @@ public class GameStage extends Stage {
     	game.health.update(timeStep);
     	game.score.update(timeStep);
     	
-    	mBonusBar.update(timeStep);
-
     	if (mLevelFinishedTS == 0) {
     		if (mCurrentLevel.hasFailed() || mCurrentLevel.hasFinished()) {
     			mLevelFinishedTS = System.currentTimeMillis();
@@ -291,16 +289,13 @@ public class GameStage extends Stage {
 	    /* Draw health and score icons behind all */
 	    game.health.draw(canvas);
 	    game.score.draw(canvas);
-	    mBonusBar.draw(canvas);
 
 	    Iterator<GraphicObject> aoitr = mGraphicObjects.iterator();
 	    while (aoitr.hasNext()) {
 	    	GraphicObject ao = aoitr.next();
 	    	ao.draw(canvas);
 	    }
-            	
-	    game.itemBar.draw(canvas);
-            	
+
 	    if (mLevelFinishedTS > 0) {
 			long fade = System.currentTimeMillis() - mLevelFinishedTS;
 			fade = (255 * fade) / 1000;
@@ -321,14 +316,16 @@ public class GameStage extends Stage {
 		if (mBackground != null) {
 			mBackground.drawForeground(canvas);
 		}
+		
+		game.itemBar.draw(canvas);		
 	}
 
 
 	@Override
 	public void playfieldSizeChanged(int width, int height) {
     	game.itemBar.setPosition(0, 0.5, height, 0.5);
-    	game.health.setPosition(width, -0.9, 0, 0.5);
-    	game.score.setPosition(0, 0.9, 0, 0.5);
+    	game.health.setPosition(width, -0.9, 0, 0.7);
+    	game.score.setPosition(0, 0.9, 0, 0.7);
 	}
 	
 	@Override
