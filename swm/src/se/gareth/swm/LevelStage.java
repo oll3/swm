@@ -188,8 +188,7 @@ public class LevelStage extends Stage {
 	    	Level level = generateNextLevel();
 	    	
 		    /* Run the level in game stage */
-	    	game.gameStage.setBackground(mCurrentBackground);
-		    game.gameStage.setLevel(level);
+		    game.gameStage.setLevel(level, mCurrentBackground);
 		    game.setStage(game.gameStage);
 	    }
 	    else if (mLevelState == LevelState.StartLevel) {
