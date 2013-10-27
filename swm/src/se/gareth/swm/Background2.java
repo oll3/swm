@@ -21,6 +21,10 @@ public class Background2 extends Background {
 			setFreeStanding(true);
 			disableMovement(true);
 		}
+		
+		public void unload() {
+			mSprite.recycle();
+		}
 	}
 
 	protected final Bitmap mThumbnail;
@@ -52,7 +56,9 @@ public class Background2 extends Background {
 	protected void unload() {
 		mBackground.recycle();
 		mBackground = null;
+		mTree1.unload();
 		mTree1 = null;
+		mTree2.unload();
 		mTree2 = null;
 	}
 	
