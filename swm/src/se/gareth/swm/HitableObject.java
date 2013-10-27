@@ -56,6 +56,7 @@ public class HitableObject extends ActiveObject {
 	private boolean mWasDestroyed;
 	private boolean mMustBeKilled;
 	private boolean mDrawHitArea;
+	private boolean mIsKillable;
 	private final ArrayList<Split> mSplitList;
 	
 	public HitableObject(GameBase gameBase) {
@@ -68,6 +69,7 @@ public class HitableObject extends ActiveObject {
 		mDrawHitArea = false;
 		mMustBeKilled = false;
 		mFreeStanding = true;
+		mIsKillable = true;
 		mSplitList = new ArrayList<Split>();
 	}
 
@@ -78,6 +80,10 @@ public class HitableObject extends ActiveObject {
 	 */
 	public void setFreeStanding(boolean flag) {
 		mFreeStanding = flag;
+	}
+
+	public void setKillable(boolean killable) {
+		mIsKillable = killable;
 	}
 	
 	public boolean isFreeStanding() {
@@ -165,7 +171,7 @@ public class HitableObject extends ActiveObject {
 	 * <= 0 is miss, 1.0 is full hit.
 	 */
 	public double isHit(ActiveObject object) {
-		if (mHitPoints > 0 || mHitsLeft > 0) {
+		if (mHitPoints > 0 || mHitsLeft > 0 || mIsKillable == false) {
 			double r = mHitableRadius + object.mCollisionRadius;
 			double dx = getX() - object.getX();
 			double dy = getY() - object.getY();
