@@ -23,7 +23,7 @@ public class Sprite {
 	
 	private int mFrameWidth, mFrameHeight;
 	private double mFrameOffset;
-	private ArrayList<Bitmap> mFramesList;
+	private final ArrayList<Bitmap> mFramesList;
 	private int mFrames;
 	
 	public Sprite(Bitmap bitmap, int frames) {
@@ -46,6 +46,13 @@ public class Sprite {
 			Canvas frameCanvas = new Canvas(frame);
 			frameCanvas.drawBitmap(bitmap, src, dest, null);
 			mFramesList.add(frame);
+		}
+	}
+	
+	public void recycle() {
+		while (mFramesList.size() > 0) {
+			mFramesList.get(0).recycle();
+			mFramesList.remove(0);
 		}
 	}
 
