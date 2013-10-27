@@ -78,10 +78,4 @@ public class Background2 extends Background {
 			canvas.drawBitmap(mBackground, x, 0, null);
 		}
 	}
-	
-	@Override
-	public void drawForeground(Canvas canvas) {
-		//canvas.drawBitmap(mTree1, game.getScreenWidth()/5 - mTree1.getWidth()/2, 0, null);
-		//canvas.drawBitmap(mTree2, (game.getScreenWidth()/5 * 4) - mTree2.getWidth()/2, 0, null);
-	}
 }

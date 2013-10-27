@@ -312,10 +312,6 @@ public class GameStage extends Stage {
 			    canvas.drawColor(Color.argb((int)fade, Color.red(color), Color.green(color), Color.blue(color)));
 			}
 	    }
-	    
-		if (mBackground != null) {
-			mBackground.drawForeground(canvas);
-		}
 		
 		game.itemBar.draw(canvas);		
 	}

@@ -40,8 +40,4 @@ public class Background {
 	public void drawBackground(Canvas canvas) {
 		
 	}
-	
-	public void drawForeground(Canvas canvas) {
-		
-	}
 }
