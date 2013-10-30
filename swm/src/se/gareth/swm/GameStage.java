@@ -144,26 +144,40 @@ public class GameStage extends Stage {
 				else {
 					int score = 0;
 					
+					game.sounds.play(Sounds.Sound.Miss1);
+					
 					Shot1 shot1 = new Shot1(game);
 					shot1.setPosition(x, y);
 					
-					Iterator<HitableObject> aoitr = mHitableObjects.descendingIterator();
-					while (aoitr.hasNext()) {
+					Iterator<HitableObject> aoitr = mHitableObjects.iterator();
+					while (damagePoints > 0 && aoitr.hasNext()) {
+
 						HitableObject hitableObject = aoitr.next();
+						
+
 						/* Test if shot is a hit */
-						int hitScore = (int)(hitableObject.isHit(shot1) * (double)damagePoints);
-						if (hitScore > 0) {
+						double hit = hitableObject.isHit(shot1);
+
+						if (hit > 0.1) {
+
 							/* Object was hit! */
-							score += hitableObject.handleHit(damagePoints);
-							hits ++;
-							damagePoints /= 2; /* half the damage of shot */
+							int hitPoints = (int)(hit * damagePoints);
+							int objectHitPoints = hitableObject.getHitPoints();
+							score += hitableObject.handleHit(hitPoints);
+							if (score > 0)
+								hits ++;
+							
+							if (objectHitPoints > hitPoints)
+								damagePoints -= hitPoints;
+							else 
+								damagePoints -= objectHitPoints;
 						}
 					}
 		
 		    
 					if (hits == 0) {
 						/* Shot missed */
-						game.sounds.play(Sounds.Sound.Miss1);
+						//game.sounds.play(Sounds.Sound.Miss1);
 						addScore(-100, x, y);
 					}
 					else {
