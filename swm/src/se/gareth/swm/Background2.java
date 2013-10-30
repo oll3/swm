@@ -3,6 +3,7 @@ package se.gareth.swm;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.util.Log;
 
 
 public class Background2 extends Background {
@@ -22,10 +23,29 @@ public class Background2 extends Background {
 			disableMovement(true);
 		}
 		
+		@Override
+		public double isHit(ActiveObject object) {
+			if (containsPos(object.getX(), object.getY())) {
+				
+				double distance = Math.abs(getX() - object.getX());
+				double hit = (getWidth() / 2.0 - distance) * 1.2 / (getWidth() / 2.0);
+				hit = Math.min(1.0, hit);
+				Log.d(null, "Tree was hit: " + hit);
+				return hit;
+			}
+			return 0;
+		}
+		
+		@Override
+		public int getHitPoints() {
+			return 200;
+		}
+		
 		public void unload() {
 			mSprite.recycle();
 		}
 	}
+	
 
 	protected final Bitmap mThumbnail;
 	private Bitmap mBackground;
