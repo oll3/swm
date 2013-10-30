@@ -15,7 +15,7 @@ public class Shot1 extends ActiveObject {
     	}
 
        	setAnimation(new Animation(mShotSprite, 40, 1));
-       	setDrawOrder(20);
+       	setDrawOrder(30);
        	game.gameStage.addActiveObject(this);
 	}
 	
