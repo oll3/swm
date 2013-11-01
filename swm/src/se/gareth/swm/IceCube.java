@@ -13,9 +13,9 @@ public class IceCube extends HitableObject {
 	private long mFreezeTime;
 
 	public IceCube(GameBase gameBase, HitableObject attachTo, long freezeTime) {
-		super(gameBase);
-       	setDrawOrder(100); /* above all objects */
-       	
+		super(gameBase);       	
+		setDrawOrder(attachTo.getDrawOrder() + 1);
+
        	mAttachedTo = attachTo;
     	
        	setHealthAttributes(0, 1); /* only destroy when our parent is destroyed */
