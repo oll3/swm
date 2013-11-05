@@ -220,6 +220,7 @@ public class HitableObject extends ActiveObject {
 			split.setPosition(getX(), getY());
 			split.setVelocity(direction, speed);
 			split.addVelocity(mVelocity);
+			split.setDrawOrder(getDrawOrder());
 			game.gameStage.addActiveObject(split);
 		}
 		wasDestroyed(damage);
