@@ -1,5 +1,6 @@
 package se.gareth.swm;
 
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -13,8 +14,8 @@ public class GameStage extends Stage {
 	    
     /* Active Objects to update and draw each frame */
     private final LinkedList<GraphicObject> mGraphicObjectsAdd;
-    protected final LinkedList<GraphicObject> mGraphicObjects;
-    protected final LinkedList<HitableObject> mHitableObjects;
+    protected final SortedLinkedList<GraphicObject> mGraphicObjects;
+    protected final SortedLinkedList<HitableObject> mHitableObjects;
     
     private final BonusBar mBonusBar;
     
@@ -24,13 +25,26 @@ public class GameStage extends Stage {
     
     private Level mCurrentLevel;
     
+    private class ComparatorGraphicObject implements Comparator<GraphicObject> {
+	    @Override
+	    public int compare(GraphicObject o1, GraphicObject o2) {
+	    	return o1.getDrawOrder() - o2.getDrawOrder();
+	    }
+    }
+    
+    private class ComparatorHitableObject implements Comparator<HitableObject> {
+	    @Override
+	    public int compare(HitableObject o1, HitableObject o2) {
+	    	return o2.getDrawOrder() - o1.getDrawOrder();
+	    }
+    }
     
     public GameStage(GameBase gameBase) {
     	super(gameBase);
     	
-        mGraphicObjects = new LinkedList<GraphicObject>();
+        mGraphicObjects = new SortedLinkedList<GraphicObject>(new ComparatorGraphicObject());
         mGraphicObjectsAdd = new LinkedList<GraphicObject>();  	 
-        mHitableObjects = new LinkedList<HitableObject>();
+        mHitableObjects = new SortedLinkedList<HitableObject>(new ComparatorHitableObject());
         mBackground = null;
         
         mBonusBar = new BonusBar(gameBase);
@@ -201,41 +215,12 @@ public class GameStage extends Stage {
     		}
     		
 	    	/* Insert newly added active objects into the sorted list */
-	    	if (mGraphicObjectsAdd.size() > 0) {
-	
-	    		for (GraphicObject ao: mGraphicObjectsAdd) {
-	    			if (mGraphicObjects.size() > 0) {
-	    				GraphicObject first = mGraphicObjects.get(0);
-	    				GraphicObject last = mGraphicObjects.get(mGraphicObjects.size() - 1);
-		    			last = mGraphicObjects.get(mGraphicObjects.size() - 1);
-	    				if (ao.getDrawOrder() < first.getDrawOrder()) {
-	    					mGraphicObjects.add(0, ao);
-	    				}
-	    				else if (ao.getDrawOrder() >= last.getDrawOrder()) {
-	    					mGraphicObjects.add(ao);
-	    				}
-	    				else {
-	    					int index = 0;
-	        		    	Iterator<GraphicObject> itr = mGraphicObjects.iterator();
-	        		    	while (itr.hasNext()) {
-	        		    		GraphicObject nextObject = itr.next();
-	        		    		if (ao.getDrawOrder() < nextObject.getDrawOrder()) {
-	        		    			mGraphicObjects.add(index, ao);
-	        		    			break;
-	        		    		}
-	        		    		index ++;
-	        		    	}
-	    				}
-	    			}
-	    			else {
-	    				mGraphicObjects.add(ao);
-	    			}
-	    			
-		           	if (ao instanceof HitableObject) {
-		           		mHitableObjects.add((HitableObject)ao);
-		           	}
-	    		}
-	    		mGraphicObjectsAdd.clear();
+	    	while (mGraphicObjectsAdd.size() > 0) {
+	    		final GraphicObject graphicObject = mGraphicObjectsAdd.remove();
+	    		mGraphicObjects.addSort(graphicObject);
+	           	if (graphicObject instanceof HitableObject) {
+	           		mHitableObjects.addSort((HitableObject)graphicObject);
+	           	}
 	    	}
     	}
     	
