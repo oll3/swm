@@ -48,6 +48,7 @@ public class Creature extends HitableObject {
 			blood.setPosition(getX(), getY());
 			blood.setVelocity(direction, speed);
 			blood.addVelocity(mVelocity);
+			blood.setDrawOrder(getDrawOrder());
 			game.gameStage.addActiveObject(blood);
     		useCnt --;
     	}
@@ -72,6 +73,7 @@ public class Creature extends HitableObject {
 				blood.setPosition(x, y);
 				blood.setVelocity(mRandom.nextDouble() * Math.PI * 2, 50);
 				blood.addVelocity(this.mVelocity);
+				blood.setDrawOrder(getDrawOrder());
 				game.gameStage.addActiveObject(blood);
 				mLastDrip = System.currentTimeMillis() + mRandom.nextInt(70) + 10;
 			}
