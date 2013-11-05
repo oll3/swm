@@ -21,6 +21,8 @@ public class Background2 extends Background {
 			setHealthAttributes(0, 0);
 			setFreeStanding(true);
 			disableMovement(true);
+			setDrawOrder(25);
+			setKillable(false);
 		}
 		
 		@Override
@@ -49,7 +51,7 @@ public class Background2 extends Background {
 
 	protected final Bitmap mThumbnail;
 	private Bitmap mBackground;
-	private ForegroundThree mTree1, mTree2;
+	public ForegroundThree tree1, tree2;
 
 	public Background2(GameBase gameBase, int colorParam) {
 		super(gameBase, colorParam);
@@ -61,31 +63,27 @@ public class Background2 extends Background {
 	protected void load() {
 		mBackground = BitmapFactory.decodeResource(game.res, R.drawable.background2_below);
 
-		mTree1 = new ForegroundThree(game, BitmapFactory.decodeResource(game.res, R.drawable.background2_tree1));
-		mTree1.setKillable(false);
-		mTree1.setDrawOrder(25);
-		mTree1.setPosition(game.getScreenWidth()/5, game.getScreenHeight()/2);
+		tree1 = new ForegroundThree(game, BitmapFactory.decodeResource(game.res, R.drawable.background2_tree1));
+		tree1.setPosition(game.getScreenWidth()/5, game.getScreenHeight()/2);
 
-		mTree2 = new ForegroundThree(game, BitmapFactory.decodeResource(game.res, R.drawable.background2_tree2));
-		mTree2.setKillable(false);
-		mTree2.setDrawOrder(25);
-		mTree2.setPosition(game.getScreenWidth()/5 * 4, game.getScreenHeight()/2);
+		tree2 = new ForegroundThree(game, BitmapFactory.decodeResource(game.res, R.drawable.background2_tree2));
+		tree2.setPosition(game.getScreenWidth()/5 * 4, game.getScreenHeight()/2);
 	}
 	
 	@Override
 	protected void unload() {
 		mBackground.recycle();
 		mBackground = null;
-		mTree1.unload();
-		mTree1 = null;
-		mTree2.unload();
-		mTree2 = null;
+		tree1.unload();
+		tree1 = null;
+		tree2.unload();
+		tree2 = null;
 	}
 	
 	@Override
 	public void prepare(GameStage gameStage) {
-		gameStage.addActiveObject(mTree1);
-		gameStage.addActiveObject(mTree2);
+		gameStage.addActiveObject(tree1);
+		gameStage.addActiveObject(tree2);
 	}
 	
 	@Override
