@@ -27,7 +27,7 @@ public class SortedLinkedList<E> extends LinkedList<E> {
 	/*
 	 * Add element to list and keep list sorted
 	 */
-E	public boolean addSort(E newObject) {
+	public boolean addSort(E newObject) {
 		while (size() > 0) {
 			if (mComparator.compare(newObject, getFirst()) < 0) {
 				break;
