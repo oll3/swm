@@ -22,6 +22,7 @@ import android.media.AudioManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Window;
+import android.view.WindowManager;
 
 public class SlaughterWithMaud extends Activity {
 
@@ -43,8 +44,8 @@ public class SlaughterWithMaud extends Activity {
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
         
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
-//                             WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
+                             WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         
         Log.i(TAG, "Application created!");
