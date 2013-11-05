@@ -111,6 +111,7 @@ public class GameBase {
 		creatureTypes.add(Hummingbird1.class);
 		creatureTypes.add(Owl1.class);
 		creatureTypes.add(BirdWithCat.class);
+		creatureTypes.add(Puppy1.class);
 		
 		/* Add all background types to list */
 		backgroundTypes.add(Background1.class);
