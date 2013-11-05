@@ -27,15 +27,11 @@ public class SortedLinkedList<E> extends LinkedList<E> {
 	/*
 	 * Add element to list and keep list sorted
 	 */
-	public boolean addSort(E newObject) {
-		int index = 0;
-		
+E	public boolean addSort(E newObject) {
 		while (size() > 0) {
 			if (mComparator.compare(newObject, getFirst()) < 0) {
-				Log.d(TAG, "Add element at " + index);
 				break;
 			}
-			index ++;
 			mTmpList.add(removeFirst());
 		}
 		
