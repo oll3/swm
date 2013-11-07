@@ -4,43 +4,43 @@ import android.graphics.Canvas;
 
 public class Behavior {
 
-	protected GameBase game;
-	protected boolean done;
-	
-	public Behavior(GameBase gameBase) {
-		game = gameBase;
-		done = false;
-	}
-	
+    protected GameBase game;
+    protected boolean done;
 
-	protected void setDone() {
-		done = true;
-	}
+    public Behavior(GameBase gameBase) {
+        game = gameBase;
+        done = false;
+    }
 
-	public boolean isDone() {
-		return done;
-	}
-	
-	/*
-	 * Called when behavior is added to active object
-	 */
-	public void wasAdded(ActiveObject activeObject) {
-		
-	}
-	
-	
-	/* 
-	 * Can be overridden
-	 */
-	public void update(ActiveObject activeObject, final TimeStep timeStep) {
-		
-	}
-	
 
-	/* 
-	 * Can be overridden
-	 */
-	public void draw(ActiveObject activeObject, Canvas canvas) {
-		
-	}
+    protected void setDone() {
+        done = true;
+    }
+
+    public boolean isDone() {
+        return done;
+    }
+
+    /*
+     * Called when behavior is added to active object
+     */
+    public void wasAdded(ActiveObject activeObject) {
+
+    }
+
+
+    /*
+     * Can be overridden
+     */
+    public void update(ActiveObject activeObject, final TimeStep timeStep) {
+
+    }
+
+
+    /*
+     * Can be overridden
+     */
+    public void draw(ActiveObject activeObject, Canvas canvas) {
+
+    }
 }

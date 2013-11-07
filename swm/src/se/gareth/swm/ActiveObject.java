@@ -7,235 +7,235 @@ import android.graphics.Canvas;
 import android.util.Log;
 
 public class ActiveObject extends GraphicObject {
-	
-	private static final String TAG = ActiveObject.class.getName();
-	
-	/* ID value for active object */
-	public final int id;
-	
-	private static int mIdCnt;
-	
-	/* Random object shared for all active objects */
-	protected static final Random mRandom = new Random();
-	
-	protected double mCollisionRadius; /* The calculated collision radius of the object */
-	
-	/* Velocity of object */
-	protected Vector2D mVelocity;
-	private double mSpeed, mDirection;
 
-	/* Used for calculate sum of all forces acting on the object */
-	private final Vector2D mForcesSum;
+    private static final String TAG = ActiveObject.class.getName();
 
-	/* Decides how much impact the drag has on the object */
-	private double mDensityInverted;
-	
-	/* Is movement enabled/disabled */
-	private boolean mMovementDisabled;
-	
-	/* List of forces which operate on our velocity */
-	private final ArrayList<Vector2D> mForces;
+    /* ID value for active object */
+    public final int id;
 
+    private static int mIdCnt;
 
-	private ArrayList<Behavior> mBehaviorList;
-		
-	public ActiveObject(GameBase gameBase) {
-		super(gameBase);
-		id = mIdCnt;
-		mIdCnt ++;
-		mCollisionRadius = 0.0;
-		mVelocity = new Vector2D();
-		mForcesSum = new Vector2D();
-		mSpeed = 0.0;
-		mDirection = 0.0;
-		mForces = new ArrayList<Vector2D>();
-		mBehaviorList = new ArrayList<Behavior>();
-		mMovementDisabled = false;
-		setDensity(200);
-	}
-		
-	/*
-	 * Apply a force to act upon the objects velocity
-	 */
-	public void applyForce(Vector2D vector) {
-		mForces.add(vector);
-	}
-	
-	public void removeForce(Vector2D vector) {
-		mForces.remove(vector);
-	}
-	
-	public void removeAllForces() {
-		mForces.clear();
-	}
-	
-	public void addBehavior(Behavior behavior) {
-		mBehaviorList.add(behavior);
-		behavior.wasAdded(this);
-	}
-	
-	/*
-	 * Called when a behavior has finished acting on our object
-	 */
-	protected void behaviorFinished(Behavior behavior) {
-		
-	}
-	
-	public void removeBehavior(Behavior behavior) {
-		mBehaviorList.remove(behavior);
-		behaviorFinished(behavior);
-	}
-	
-	public void removeAllBehaviors() {
-		mBehaviorList.clear();
-	}
-		
-	public void setVelocity(double direction, double speed) {
-		mSpeed = speed;
-		mDirection = direction;
-		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
-	}
-	
-	public void addVelocity(Vector2D velocityVector) {
-		mVelocity.add(velocityVector);
-	}
-	
-	/*
-	 * Set speed (without changing the direction)
-	 */
-	public void setSpeed(double speed) {
-		mSpeed = speed;
-		mDirection = mVelocity.getDirection();
-		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
-	}
-	
-	
-	/*
-	 * Disable object from moving
-	 */
-	public void disableMovement(boolean disable) {
-		mMovementDisabled = disable;
-	}
-	
-	/*
-	 * Set direction (without changing the speed)
-	 */
-	public void setDirection(double direction) {
-		mDirection = direction;
-		mSpeed = mVelocity.getMagnitude();
-		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
-	}
-	
+    /* Random object shared for all active objects */
+    protected static final Random mRandom = new Random();
 
-	/*
-	 * Set object density (used for drag calculation).
-	 * The higher the density the lesser the impact of drag is.
-	 */
-	public void setDensity(double density) {
-		if (density > 0) {
-			mDensityInverted = 1.0/density;
-		}
-	}
+    protected double mCollisionRadius; /* The calculated collision radius of the object */
 
-	/* 
-	 * make object look in the direction of given position
-	 */
-	public void lookAt(double x, double y) {
-		mSpeed = mVelocity.getMagnitude();
-		mVelocity.set(x - getX(), y - getY());
-		mDirection = mVelocity.getDirection();
-		mVelocity.setDirectionMagnitude(mDirection, mSpeed);
-	}
-	
-	public void setAnimation(Animation animation) {
-		super.setAnimation(animation);
-		mCollisionRadius = (double)(Math.min(getWidth(), getHeight()))/2.5;
-	}
+    /* Velocity of object */
+    protected Vector2D mVelocity;
+    private double mSpeed, mDirection;
 
-	
-	protected static boolean circleIntersect(double x1, double y1, double r1, double x2, double y2, double r2) {
-	    final double r = r1 + r2;
-	    final double dx = x1 - x2;
-	    final double dy = y1 - y2;
-	    return (r*r) > (dx*dx) + (dy*dy);
-	}
-	
-	public static boolean testCollision(ActiveObject object1, ActiveObject object2) {
-		return circleIntersect(object1.getX(), object1.getY(), object1.mCollisionRadius, 
-				object2.getX(), object2.getY(), object2.mCollisionRadius);
-	}
-	
-	
-	public void handleCollision(ActiveObject object) {
-		/* Do nothing */
-	}
+    /* Used for calculate sum of all forces acting on the object */
+    private final Vector2D mForcesSum;
 
-	
-	/* 
-	 * Called when object is alive (added to list of objects to 
-	 * be updated). Override to detect the event.
- 	 */
-	protected void isAlive() {
-		
-	}
+    /* Decides how much impact the drag has on the object */
+    private double mDensityInverted;
 
-	
-	public void draw(Canvas canvas) {
-		
-		super.draw(canvas);
-		
-		/* Apply behaviors upon object */
-		for (int i = 0; i < mBehaviorList.size(); i ++) {
-			mBehaviorList.get(i).draw(this, canvas);
-		}
-		
-		if (false) {
-			canvas.drawCircle((float)getX(), (float)getY(), (float)mCollisionRadius, mPaint);
-		}
-	}
-		
-	public void update(final TimeStep timeStep) {
-		
+    /* Is movement enabled/disabled */
+    private boolean mMovementDisabled;
 
-		if (!mMovementDisabled) {
-			
-			/* Calculate the total force acting upon our object */
-			if (mForces.size() > 0) {
-
-				final double v = mVelocity.getMagnitude();
-
-				mForcesSum.set(0, 0);
-				mForcesSum.add(mForces);
-				mForcesSum.mulAdd(mVelocity, -v * mDensityInverted);
-			}
-			
-			/* Move the object according to our velocity */
-			mVelocity.mulAdd(mForcesSum, timeStep.get());
-			location.mulAdd(mVelocity, timeStep.get());
-			location.mulAdd(mForcesSum, -timeStep.getSquared()/2.0);
-		}
+    /* List of forces which operate on our velocity */
+    private final ArrayList<Vector2D> mForces;
 
 
-		/* 
-		 * Apply behaviors upon object 
-		 */
-		/* Only run if there are behaviors in list */
-		for (int i = 0; i < mBehaviorList.size(); i ++) {
-			Behavior behavior = mBehaviorList.get(i);
-			behavior.update(this, timeStep);
-			if (behavior.isDone()) {
-				behaviorFinished(behavior);
-				mBehaviorList.remove(i);
-				i --;
-			}
-		}
-		
-		super.update(timeStep);
-	}
+    private ArrayList<Behavior> mBehaviorList;
+
+    public ActiveObject(GameBase gameBase) {
+        super(gameBase);
+        id = mIdCnt;
+        mIdCnt ++;
+        mCollisionRadius = 0.0;
+        mVelocity = new Vector2D();
+        mForcesSum = new Vector2D();
+        mSpeed = 0.0;
+        mDirection = 0.0;
+        mForces = new ArrayList<Vector2D>();
+        mBehaviorList = new ArrayList<Behavior>();
+        mMovementDisabled = false;
+        setDensity(200);
+    }
+
+    /*
+     * Apply a force to act upon the objects velocity
+     */
+    public void applyForce(Vector2D vector) {
+        mForces.add(vector);
+    }
+
+    public void removeForce(Vector2D vector) {
+        mForces.remove(vector);
+    }
+
+    public void removeAllForces() {
+        mForces.clear();
+    }
+
+    public void addBehavior(Behavior behavior) {
+        mBehaviorList.add(behavior);
+        behavior.wasAdded(this);
+    }
+
+    /*
+     * Called when a behavior has finished acting on our object
+     */
+    protected void behaviorFinished(Behavior behavior) {
+
+    }
+
+    public void removeBehavior(Behavior behavior) {
+        mBehaviorList.remove(behavior);
+        behaviorFinished(behavior);
+    }
+
+    public void removeAllBehaviors() {
+        mBehaviorList.clear();
+    }
+
+    public void setVelocity(double direction, double speed) {
+        mSpeed = speed;
+        mDirection = direction;
+        mVelocity.setDirectionMagnitude(mDirection, mSpeed);
+    }
+
+    public void addVelocity(Vector2D velocityVector) {
+        mVelocity.add(velocityVector);
+    }
+
+    /*
+     * Set speed (without changing the direction)
+     */
+    public void setSpeed(double speed) {
+        mSpeed = speed;
+        mDirection = mVelocity.getDirection();
+        mVelocity.setDirectionMagnitude(mDirection, mSpeed);
+    }
 
 
-	@Override
-	public String toString() {
-		return "" + getClass() + " (" + id + ")";
-	}
+    /*
+     * Disable object from moving
+     */
+    public void disableMovement(boolean disable) {
+        mMovementDisabled = disable;
+    }
+
+    /*
+     * Set direction (without changing the speed)
+     */
+    public void setDirection(double direction) {
+        mDirection = direction;
+        mSpeed = mVelocity.getMagnitude();
+        mVelocity.setDirectionMagnitude(mDirection, mSpeed);
+    }
+
+
+    /*
+     * Set object density (used for drag calculation).
+     * The higher the density the lesser the impact of drag is.
+     */
+    public void setDensity(double density) {
+        if (density > 0) {
+            mDensityInverted = 1.0/density;
+        }
+    }
+
+    /*
+     * make object look in the direction of given position
+     */
+    public void lookAt(double x, double y) {
+        mSpeed = mVelocity.getMagnitude();
+        mVelocity.set(x - getX(), y - getY());
+        mDirection = mVelocity.getDirection();
+        mVelocity.setDirectionMagnitude(mDirection, mSpeed);
+    }
+
+    public void setAnimation(Animation animation) {
+        super.setAnimation(animation);
+        mCollisionRadius = (double)(Math.min(getWidth(), getHeight()))/2.5;
+    }
+
+
+    protected static boolean circleIntersect(double x1, double y1, double r1, double x2, double y2, double r2) {
+        final double r = r1 + r2;
+        final double dx = x1 - x2;
+        final double dy = y1 - y2;
+        return (r*r) > (dx*dx) + (dy*dy);
+    }
+
+    public static boolean testCollision(ActiveObject object1, ActiveObject object2) {
+        return circleIntersect(object1.getX(), object1.getY(), object1.mCollisionRadius,
+                               object2.getX(), object2.getY(), object2.mCollisionRadius);
+    }
+
+
+    public void handleCollision(ActiveObject object) {
+        /* Do nothing */
+    }
+
+
+    /*
+     * Called when object is alive (added to list of objects to
+     * be updated). Override to detect the event.
+     */
+    protected void isAlive() {
+
+    }
+
+
+    public void draw(Canvas canvas) {
+
+        super.draw(canvas);
+
+        /* Apply behaviors upon object */
+        for (int i = 0; i < mBehaviorList.size(); i ++) {
+            mBehaviorList.get(i).draw(this, canvas);
+        }
+
+        if (false) {
+            canvas.drawCircle((float)getX(), (float)getY(), (float)mCollisionRadius, mPaint);
+        }
+    }
+
+    public void update(final TimeStep timeStep) {
+
+
+        if (!mMovementDisabled) {
+
+            /* Calculate the total force acting upon our object */
+            if (mForces.size() > 0) {
+
+                final double v = mVelocity.getMagnitude();
+
+                mForcesSum.set(0, 0);
+                mForcesSum.add(mForces);
+                mForcesSum.mulAdd(mVelocity, -v * mDensityInverted);
+            }
+
+            /* Move the object according to our velocity */
+            mVelocity.mulAdd(mForcesSum, timeStep.get());
+            location.mulAdd(mVelocity, timeStep.get());
+            location.mulAdd(mForcesSum, -timeStep.getSquared()/2.0);
+        }
+
+
+        /*
+         * Apply behaviors upon object
+         */
+        /* Only run if there are behaviors in list */
+        for (int i = 0; i < mBehaviorList.size(); i ++) {
+            Behavior behavior = mBehaviorList.get(i);
+            behavior.update(this, timeStep);
+            if (behavior.isDone()) {
+                behaviorFinished(behavior);
+                mBehaviorList.remove(i);
+                i --;
+            }
+        }
+
+        super.update(timeStep);
+    }
+
+
+    @Override
+    public String toString() {
+        return "" + getClass() + " (" + id + ")";
+    }
 }
