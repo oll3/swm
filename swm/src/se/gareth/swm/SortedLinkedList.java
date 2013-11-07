@@ -1,20 +1,18 @@
 package se.gareth.swm;
 
 import java.util.Comparator;
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 import android.util.Log;
 
-public class SortedLinkedList<E> extends LinkedList<E> {
+public class SortedLinkedList<E> extends ArrayList<E> {
 
 	private static final String TAG = SortedLinkedList.class.getName();
 	private static final long serialVersionUID = 1L;
 	
-	private final LinkedList<E> mTmpList;
 	private final Comparator<E> mComparator;
 
 	public SortedLinkedList(Comparator<E> c) {
-		mTmpList = new LinkedList<E>();
 		mComparator = c;
 	}
 
@@ -28,25 +26,29 @@ public class SortedLinkedList<E> extends LinkedList<E> {
 	 * Add element to list and keep list sorted
 	 */
 	public boolean addSort(E newObject) {
-		while (size() > 0) {
-			if (mComparator.compare(newObject, getFirst()) < 0) {
-				break;
-			}
-			mTmpList.add(removeFirst());
-		}
 		
-		mTmpList.add(newObject);
-		super.addAll(0, mTmpList);
-		mTmpList.clear();
+		int i;
+		if (mComparator.compare(newObject, get(size() - 1)) >= 0) {
+			/* Optimize: Add straight to end of array */
+			i = size();
+		}
+		else {
+			for (i = 0; i < size(); i ++) {
+				if (mComparator.compare(newObject, get(i)) < 0) {
+					break;
+				}
+			}
+		}
+		super.add(i, newObject);
 		return true;
 	}
 	
 	@Override
 	public String toString() {
 		String string = "[";
-		for (E obj: this) {
-			string += obj;
-			if (obj != getLast()) {
+		for (int i = 0; i < size(); i ++) {
+			string += get(i);
+			if (i != size()) {
 				string += ",";
 			}
 		}

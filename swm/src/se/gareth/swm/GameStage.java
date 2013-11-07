@@ -1,8 +1,8 @@
 package se.gareth.swm;
 
 import java.util.Comparator;
-import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ArrayList;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -13,7 +13,7 @@ public class GameStage extends Stage {
 	private static final String TAG = GameStage.class.getName();
 	    
     /* Active Objects to update and draw each frame */
-    private final LinkedList<GraphicObject> mGraphicObjectsAdd;
+    private final ArrayList<GraphicObject> mGraphicObjectsAdd;
     protected final SortedLinkedList<GraphicObject> mGraphicObjects;
     protected final SortedLinkedList<HitableObject> mHitableObjects;
     
@@ -43,7 +43,7 @@ public class GameStage extends Stage {
     	super(gameBase);
     	
         mGraphicObjects = new SortedLinkedList<GraphicObject>(new ComparatorGraphicObject());
-        mGraphicObjectsAdd = new LinkedList<GraphicObject>();  	 
+        mGraphicObjectsAdd = new ArrayList<GraphicObject>(50);
         mHitableObjects = new SortedLinkedList<HitableObject>(new ComparatorHitableObject());
         mBackground = null;
         
@@ -79,16 +79,16 @@ public class GameStage extends Stage {
 
     }
     
-    public void addCreature(HitableObject hitableObject) {
+    public void addCreature(final HitableObject hitableObject) {
     	hitableObject.setFreeStanding(false);
     	mGraphicObjectsAdd.add(hitableObject);
     	hitableObject.isAlive();
     	mCurrentLevel.creatureIsAlive(hitableObject);
     }
     
-    public void addActiveObject(ActiveObject ao) {
-    	mGraphicObjectsAdd.add(ao);
-		ao.isAlive();
+    public void addActiveObject(final ActiveObject activeObject) {
+    	mGraphicObjectsAdd.add(activeObject);
+		activeObject.isAlive();
     }
      
 	
@@ -160,13 +160,12 @@ public class GameStage extends Stage {
 					
 					game.sounds.play(Sounds.Sound.Miss1);
 					
-					Shot1 shot1 = new Shot1(game);
+					final Shot1 shot1 = new Shot1(game);
 					shot1.setPosition(x, y);
 					
-					Iterator<HitableObject> aoitr = mHitableObjects.iterator();
-					while (damagePoints > 0 && aoitr.hasNext()) {
+					for (int i = 0; damagePoints > 0 && i < mHitableObjects.size(); i ++) {
 
-						HitableObject hitableObject = aoitr.next();
+						final HitableObject hitableObject = mHitableObjects.get(i);
 						
 
 						/* Test if shot is a hit */
@@ -210,13 +209,13 @@ public class GameStage extends Stage {
     		
         	/* Create a new bird if it's time */
     		if (mCurrentLevel.timeForNextCreature()) {
-    			HitableObject creature = mCurrentLevel.getNext();
+    			final HitableObject creature = mCurrentLevel.getNext();
     			addCreature(creature);
     		}
     		
 	    	/* Insert newly added active objects into the sorted list */
 	    	while (mGraphicObjectsAdd.size() > 0) {
-	    		final GraphicObject graphicObject = mGraphicObjectsAdd.remove();
+	    		final GraphicObject graphicObject = mGraphicObjectsAdd.remove(mGraphicObjectsAdd.size() - 1);
 	    		mGraphicObjects.addSort(graphicObject);
 	           	if (graphicObject instanceof HitableObject) {
 	           		mHitableObjects.addSort((HitableObject)graphicObject);
@@ -225,29 +224,28 @@ public class GameStage extends Stage {
     	}
     	
     	/* Run all graphic objects update() function */
-       	Iterator<GraphicObject> goitr = mGraphicObjects.iterator();
-    	while (goitr.hasNext()) {
-    		GraphicObject graphicObject = goitr.next();
+		for (int i = 0; i < mGraphicObjects.size(); i ++) {
+    		final GraphicObject graphicObject = mGraphicObjects.get(i);
     		graphicObject.update(timeStep);
     	}
 
     	
     	/* Test if an graphic object should be deleted */
-       	goitr = mGraphicObjects.iterator();
-    	while (goitr.hasNext()) {
-    		GraphicObject graphicObject = goitr.next();
+		for (int i = 0; i < mGraphicObjects.size(); i ++) {
+    		final GraphicObject graphicObject = mGraphicObjects.get(i);
     		if (graphicObject.isToBeDeleted() == true) {
     			
     			if (graphicObject instanceof HitableObject) {
-    				HitableObject hitableObject = (HitableObject)graphicObject;
+    				final HitableObject hitableObject = (HitableObject)graphicObject;
     				
     				if (hitableObject.isFreeStanding() == false) {
     					mCurrentLevel.addFinishedObject(hitableObject);
     				}
 			    	mHitableObjects.remove(hitableObject);
     			}
-    			
-    			goitr.remove();
+
+				mGraphicObjects.remove(i);
+				i --;
 				//Log.d(TAG, "Deleted graphic object " + graphicObject);
     		}
     	}
@@ -289,10 +287,9 @@ public class GameStage extends Stage {
 	    game.health.draw(canvas);
 	    game.score.draw(canvas);
 
-	    Iterator<GraphicObject> aoitr = mGraphicObjects.iterator();
-	    while (aoitr.hasNext()) {
-	    	GraphicObject ao = aoitr.next();
-	    	ao.draw(canvas);
+		for (int i = 0; i < mGraphicObjects.size(); i ++) {
+	    	final GraphicObject graphicObject = mGraphicObjects.get(i);
+	    	graphicObject.draw(canvas);
 	    }
 
 	    if (mLevelFinishedTS > 0) {
