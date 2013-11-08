@@ -21,7 +21,7 @@ public class ActiveObject extends GraphicObject {
     protected double mCollisionRadius; /* The calculated collision radius of the object */
 
     /* Velocity of object */
-    protected Vector2D mVelocity;
+    protected final Vector2D mVelocity;
     private double mSpeed, mDirection;
 
     /* Used for calculate sum of all forces acting on the object */
