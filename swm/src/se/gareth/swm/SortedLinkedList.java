@@ -27,19 +27,24 @@ public class SortedLinkedList<E> extends ArrayList<E> {
 	 */
 	public boolean addSort(E newObject) {
 		
-		int i;
-		if (mComparator.compare(newObject, get(size() - 1)) >= 0) {
-			/* Optimize: Add straight to end of array */
-			i = size();
-		}
-		else {
-			for (i = 0; i < size(); i ++) {
-				if (mComparator.compare(newObject, get(i)) < 0) {
-					break;
+		if (size() > 0) {
+			int i = 0;
+			if (mComparator.compare(newObject, get(size() - 1)) >= 0) {
+				/* Optimize: Add straight to end of array */
+				i = size();
+			}
+			else {
+				for (i = 0; i < size(); i ++) {
+					if (mComparator.compare(newObject, get(i)) < 0) {
+						break;
+					}
 				}
 			}
+			super.add(i, newObject);
 		}
-		super.add(i, newObject);
+		else {
+			super.add(newObject);
+		}
 		return true;
 	}
 	
