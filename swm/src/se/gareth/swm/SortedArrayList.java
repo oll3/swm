@@ -3,16 +3,14 @@ package se.gareth.swm;
 import java.util.Comparator;
 import java.util.ArrayList;
 
-import android.util.Log;
+public class SortedArrayList<E> extends ArrayList<E> {
 
-public class SortedLinkedList<E> extends ArrayList<E> {
-
-	private static final String TAG = SortedLinkedList.class.getName();
+	private static final String TAG = SortedArrayList.class.getName();
 	private static final long serialVersionUID = 1L;
 	
 	private final Comparator<E> mComparator;
 
-	public SortedLinkedList(Comparator<E> c) {
+	public SortedArrayList(Comparator<E> c) {
 		mComparator = c;
 	}
 
@@ -31,7 +29,7 @@ public class SortedLinkedList<E> extends ArrayList<E> {
 			int i = 0;
 			if (mComparator.compare(newObject, get(size() - 1)) >= 0) {
 				/* Optimize: Add straight to end of array */
-				i = size();
+				super.add(newObject);
 			}
 			else {
 				for (i = 0; i < size(); i ++) {
@@ -39,8 +37,8 @@ public class SortedLinkedList<E> extends ArrayList<E> {
 						break;
 					}
 				}
+				super.add(i, newObject);
 			}
-			super.add(i, newObject);
 		}
 		else {
 			super.add(newObject);

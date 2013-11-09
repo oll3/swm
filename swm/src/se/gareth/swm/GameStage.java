@@ -14,8 +14,8 @@ public class GameStage extends Stage {
 
     /* Active Objects to update and draw each frame */
     private final ArrayList<GraphicObject> mGraphicObjectsAdd;
-    protected final SortedLinkedList<GraphicObject> mGraphicObjects;
-    protected final SortedLinkedList<HitableObject> mHitableObjects;
+    protected final SortedArrayList<GraphicObject> mGraphicObjects;
+    protected final SortedArrayList<HitableObject> mHitableObjects;
 
     private final BonusBar mBonusBar;
 
@@ -42,9 +42,9 @@ public class GameStage extends Stage {
     public GameStage(GameBase gameBase) {
         super(gameBase);
 
-        mGraphicObjects = new SortedLinkedList<GraphicObject>(new ComparatorGraphicObject());
+        mGraphicObjects = new SortedArrayList<GraphicObject>(new ComparatorGraphicObject());
         mGraphicObjectsAdd = new ArrayList<GraphicObject>(50);
-        mHitableObjects = new SortedLinkedList<HitableObject>(new ComparatorHitableObject());
+        mHitableObjects = new SortedArrayList<HitableObject>(new ComparatorHitableObject());
         mBackground = null;
 
         mBonusBar = new BonusBar(gameBase);
