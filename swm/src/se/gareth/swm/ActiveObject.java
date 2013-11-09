@@ -27,6 +27,14 @@ public class ActiveObject extends GraphicObject {
     /* Used for calculate sum of all forces acting on the object */
     private final Vector2D mForcesSum;
 
+    /* Location and velocity before last update */
+    protected final Vector2D mLastLocation;
+    protected final Vector2D mLastVelocity;
+
+
+    /* Collision ID (object collides with other objects with same ID) */
+    protected int mCollisionId;
+
     /* Decides how much impact the drag has on the object */
     private double mDensityInverted;
 
@@ -46,6 +54,9 @@ public class ActiveObject extends GraphicObject {
         mCollisionRadius = 0.0;
         mVelocity = new Vector2D();
         mForcesSum = new Vector2D();
+        mLastLocation = new Vector2D();
+        mLastVelocity = new Vector2D();
+        mCollisionId = 0;
         mSpeed = 0.0;
         mDirection = 0.0;
         mForces = new ArrayList<Vector2D>();
@@ -170,6 +181,15 @@ public class ActiveObject extends GraphicObject {
         /* Do nothing */
     }
 
+    /* Set collision ID. Object will collide with other objects with same ID (if ID != 0) */
+    public void setCollisionId(int id) {
+        mCollisionId = id;
+    }
+
+    /* Get collision ID */
+    public int getCollisionId() {
+        return mCollisionId;
+    }
 
     /*
      * Called when object is alive (added to list of objects to
@@ -196,6 +216,9 @@ public class ActiveObject extends GraphicObject {
 
     public void update(final TimeStep timeStep) {
 
+        /* Save current location and velocity */
+        mLastLocation.set(location);
+        mLastVelocity.set(mVelocity);
 
         if (!mMovementDisabled) {
 

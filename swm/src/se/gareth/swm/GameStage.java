@@ -16,6 +16,7 @@ public class GameStage extends Stage {
     private final ArrayList<GraphicObject> mGraphicObjectsAdd;
     protected final SortedArrayList<GraphicObject> mGraphicObjects;
     protected final SortedArrayList<HitableObject> mHitableObjects;
+    private final ArrayList<ActiveObject> mCollisionObjects;
 
     private final BonusBar mBonusBar;
 
@@ -45,6 +46,7 @@ public class GameStage extends Stage {
         mGraphicObjects = new SortedArrayList<GraphicObject>(new ComparatorGraphicObject());
         mGraphicObjectsAdd = new ArrayList<GraphicObject>(50);
         mHitableObjects = new SortedArrayList<HitableObject>(new ComparatorHitableObject());
+        mCollisionObjects = new ArrayList<ActiveObject>(50);
         mBackground = null;
 
         mBonusBar = new BonusBar(gameBase);
@@ -58,6 +60,7 @@ public class GameStage extends Stage {
         mGraphicObjects.clear();
         mGraphicObjectsAdd.clear();
         mHitableObjects.clear();
+        mCollisionObjects.clear();
         mLevelFinishedTS = 0;
         game.score.setScore(0);
         mBonusBar.reset();
@@ -201,6 +204,29 @@ public class GameStage extends Stage {
             }
         }
     }
+    
+    private void collisionTest(final TimeStep timeStep) {
+        
+        for (int i = 0; i < mCollisionObjects.size(); i ++) {
+        	final ActiveObject activeObject1 = mCollisionObjects.get(i);
+            final int collisionId1 = activeObject1.getCollisionId();
+            if (collisionId1 > 0) {
+            	for (int j = (i + 1); j < mCollisionObjects.size(); j ++) {
+                    final ActiveObject activeObject2 = mCollisionObjects.get(j);
+                    final int collisionId2 = activeObject2.getCollisionId();
+                    
+                    if (collisionId2 == collisionId1) {
+                        /* Test objects for collision */
+                        if (ActiveObject.testCollision(activeObject1, activeObject2) == true) {
+                            activeObject1.handleCollision(activeObject2);
+                            activeObject2.handleCollision(activeObject1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 
     @Override
     public void update(final TimeStep timeStep) {
@@ -219,6 +245,12 @@ public class GameStage extends Stage {
                 mGraphicObjects.addSort(graphicObject);
                 if (graphicObject instanceof HitableObject) {
                     mHitableObjects.addSort((HitableObject)graphicObject);
+                }
+                if (graphicObject instanceof ActiveObject) {
+                	final ActiveObject activeObject = (ActiveObject)graphicObject;
+                	if (activeObject.getCollisionId() > 0) {
+                		mCollisionObjects.add(activeObject);
+                	}
                 }
             }
         }
@@ -243,12 +275,19 @@ public class GameStage extends Stage {
                     }
                     mHitableObjects.remove(hitableObject);
                 }
+                if (graphicObject instanceof ActiveObject) {
+                    final ActiveObject activeObject = (ActiveObject)graphicObject;
+                    if (activeObject.getCollisionId() > 0) {
+                    	mCollisionObjects.remove(activeObject);
+                    }
+                }
 
                 mGraphicObjects.remove(i);
                 i --;
-                //Log.d(TAG, "Deleted graphic object " + graphicObject);
             }
         }
+
+        collisionTest(timeStep);
 
         if (mBackground != null) {
             mBackground.update(timeStep);
