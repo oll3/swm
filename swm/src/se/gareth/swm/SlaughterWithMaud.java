@@ -87,6 +87,17 @@ public class SlaughterWithMaud extends Activity {
     	
     }
     
+    
+	@Override
+	public void onBackPressed() {
+		if (mGameView.getStage() == mGameView.game.gameStage) {
+			mGameView.getStage().onPause();
+		}
+		else {
+			finish();
+		}
+	}
+    
     /**
      * Notification that something is about to happen, to give the Activity a
      * chance to save state.
