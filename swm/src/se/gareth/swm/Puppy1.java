@@ -21,15 +21,15 @@ public class Puppy1 extends Creature {
 
     private static int colorList[] = {
         Color.rgb(0xff, 0x1e, 0x00),
-        Color.rgb(0xff, 0x1e, 0x00),
-        Color.rgb(0xff, 0x1e, 0x00),
-        Color.rgb(0xff, 0x1e, 0x00),
-        Color.rgb(0xff, 0x1e, 0x00)
+        Color.rgb(0xdf, 0x15, 0x00),
+        Color.rgb(0xcf, 0x0e, 0x00),
+        Color.rgb(0xaf, 0x05, 0x00),
+        Color.rgb(0x8f, 0x00, 0x00)
     };
 
     public Puppy1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
-        super(gameBase, 400, 40 + level * 10);
+        super(gameBase, 500 + level * 100, 50 + level * 10);
         mSpeed = game.calcHorizonalSpeed(level * 50);
         if (mSlidingSprite == null) {
             mSlidingSprite = new ArrayList<Sprite>();
@@ -60,6 +60,14 @@ public class Puppy1 extends Creature {
         setDrawOrder(27);
         applyForce(game.forces.getGravity());
         applyForce(new Vector2D(0, -1400.0));
+        setCollisionId(11);
+    }
+    
+    @Override
+    public void handleCollision(ActiveObject activeObject) {
+    	if (activeObject.getY() > getY()) {
+    		setSpeed(0);
+    	}
     }
 
     @Override
