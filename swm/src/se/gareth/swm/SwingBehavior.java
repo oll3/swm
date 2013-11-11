@@ -28,36 +28,40 @@ public class SwingBehavior extends Behavior {
 	@Override
 	public void update(ActiveObject activeObject, final TimeStep timeStep) {
 
-		
-		if (mLimitRotation) {
-			mRotationSpeed = 7 * (mRotationLimit - Math.abs(mRotation)) + 20;
-			
-			if (mDirectionLeft) {
-				mRotation += mRotationSpeed * timeStep.get();
-				
-				if (mRotation > mRotationLimit) {
-					mDirectionLeft = false;
-					mRotation = mRotationLimit;
-				}
-			}
-			else {
-				mRotation -= mRotationSpeed * timeStep.get();
-				
-				if (mRotation < -mRotationLimit) {
-					mDirectionLeft = true;
-					mRotation = -mRotationLimit;
-				}
-			}
-		}
+        if (activeObject.movementIsDisabled() == true) {
+
+        }
 		else {
-			if (mDirectionLeft) {
-				mRotation += mRotationSpeed * timeStep.get();
-			}
-			else {
-				mRotation -= mRotationSpeed * timeStep.get();
-			}
-		}
+            if (mLimitRotation) {
+                mRotationSpeed = 7 * (mRotationLimit - Math.abs(mRotation)) + 20;
+			
+                if (mDirectionLeft) {
+                    mRotation += mRotationSpeed * timeStep.get();
+				
+                    if (mRotation > mRotationLimit) {
+                        mDirectionLeft = false;
+                        mRotation = mRotationLimit;
+                    }
+                }
+                else {
+                    mRotation -= mRotationSpeed * timeStep.get();
+				
+                    if (mRotation < -mRotationLimit) {
+                        mDirectionLeft = true;
+                        mRotation = -mRotationLimit;
+                    }
+                }
+            }
+            else {
+                if (mDirectionLeft) {
+                    mRotation += mRotationSpeed * timeStep.get();
+                }
+                else {
+                    mRotation -= mRotationSpeed * timeStep.get();
+                }
+            }
 		
-		activeObject.setRotation(mRotation);
+            activeObject.setRotation(mRotation);
+        }
 	}
 }
