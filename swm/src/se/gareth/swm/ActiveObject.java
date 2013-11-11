@@ -128,6 +128,15 @@ public class ActiveObject extends GraphicObject {
         mMovementDisabled = disable;
     }
 
+
+    /*
+     * Get movement disable flag
+     */
+    public boolean movementIsDisabled() {
+        return mMovementDisabled;
+    }
+
+
     /*
      * Set direction (without changing the speed)
      */
