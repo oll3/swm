@@ -824,6 +824,22 @@
        y1="1133.2858"
        x2="387.62259"
        y2="796.23834" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4225">
+      <rect
+         inkscape:export-ydpi="45"
+         inkscape:export-xdpi="45"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/background1_thumbnail.png"
+         y="-390.26218"
+         x="871.27905"
+         height="350"
+         width="700"
+         id="rect4227"
+         style="opacity:0.45258622;fill:#008000;fill-opacity:1;stroke:none"
+         ry="20"
+         rx="20" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -832,16 +848,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.69999999"
-     inkscape:cx="459.24378"
-     inkscape:cy="1125.732"
+     inkscape:zoom="0.98994948"
+     inkscape:cx="1213.7546"
+     inkscape:cy="1314.3394"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="1020"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="980"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata2904">
@@ -950,5 +966,59 @@
        id="path3890"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="szsssccccssssssszsscs" />
+    <g
+       id="g3442"
+       transform="translate(31.817531,0)"
+       clip-path="url(#clipPath4225)"
+       inkscape:export-xdpi="45"
+       inkscape:export-ydpi="45"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable/background1_thumbnail.png">
+      <rect
+         style="fill:#2eb1f2;fill-opacity:1;stroke:none"
+         id="rect3419"
+         width="700"
+         height="350"
+         x="871.27899"
+         y="-390.26218"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/background1_thumbnail.png"
+         inkscape:export-xdpi="45"
+         inkscape:export-ydpi="45" />
+      <path
+         sodipodi:nodetypes="zszzzcszzzzccccsz"
+         inkscape:connector-curvature="0"
+         id="path3421"
+         d="m 1486.3161,-261.62128 c -7.9002,-0.12558 -26.2145,-23.0475 -45.4879,-22.24891 -25.8723,1.07201 -26.3891,133.54272 -49.6485,134.19029 -23.2595,0.64756 -28.1812,-151.10197 -59.0697,-152.35152 -30.8885,-1.24958 -49.7316,76.96782 -65.017,77.5255 -15.2854,0.55769 -26.7645,-55.8404 -51.3384,-30.71837 -17.0778,19.55582 -19.413,75.72347 -32.8916,76.05115 -20.8208,0.50619 -25.8088,-81.98959 -49.9491,-109.31677 -24.1403,-27.32717 -35.9731,41.94673 -58.1253,52.4319 -22.1522,10.48519 -63.5821,99.33988 -90.01719,98.02244 -26.4352,-1.31745 -45.0679,-31.56328 -60.672,-71.28587 -15.6041,-39.72253 -25.4949,-138.56484 -52.8204,-139.74282 l 0,399.956543 699.99999,0 0,-399.956543 c -24.0246,-1.55186 -30.2925,38.85146 -39.3556,58.68418 -16.4701,36.0411 -37.7071,28.88437 -45.6073,28.7588 z"
+         style="fill:#206aa3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/background_below.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/background_below.png"
+         style="fill:#4277c9;fill-opacity:1;stroke:none"
+         d="m 1486.3161,-184.1705 c -7.9002,-0.12521 -26.2145,-22.98035 -45.4879,-22.18409 -25.8723,1.06887 -26.3891,133.153663 -49.6485,133.799353 -23.2595,0.64568 -28.1812,-150.661753 -59.0697,-151.907673 -30.8885,-1.24593 -49.7316,76.74359 -65.017,77.29963 -15.2854,0.55607 -26.7645,-55.67772 -51.3384,-30.62886 -17.0778,19.49885 -19.413,75.50286 -32.8916,75.82958 -20.8208,0.50473 -25.8088,-81.75073 -49.9491,-108.99829 -24.1403,-27.24756 -35.9731,41.82453 -58.1253,52.27915 -22.1522,10.45463 -63.5821,99.050473 -90.01719,97.736863 -26.4352,-1.31359 -45.0679,-31.471322 -60.672,-71.078163 -15.6041,-39.60684 -25.4949,-138.1612 -52.8204,-139.33574 l 0,322.251023 699.99999,0 0,-322.251023 c -24.0246,-1.54733 -30.2925,38.73829 -39.3556,58.51321 -16.4701,35.93611 -37.7071,28.80023 -45.6073,28.67503 z"
+         id="path3423"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zszzzcszzzzccccsz" />
+      <path
+         sodipodi:nodetypes="szsssccccssssssszsscs"
+         inkscape:connector-curvature="0"
+         id="path3425"
+         d="m 1079.9684,-143.71761 c -27.2438,-0.0339 -8.4375,10.96272 -51.632,29.35854 -43.19439,18.395919 -53.16949,55.002119 -64.27839,55.760279 -13.2961,0.90781 -18.7613,-34.92097 -26.5924,-50.102969 -3.6939,-7.16121 -11.3945,-11.17121 -25.3834,-22.89764 -9.5005,-7.96399 -20.3619,-25.98364 -40.8032,-25.79241 l 0,441.6728 699.99999,0 0,-441.6728 c -23.2753,0 -40.8951,13.85726 -52.3124,23.63681 -14.8787,12.74453 -13.5569,33.49945 -35.9883,40.691809 -10.8277,3.47175 -36.9278,53.32226 -47.2658,26.91184 -7.5196,-19.2101 -15.8213,-25.81836 -31.8623,-36.562769 -12.2485,-8.20415 -7.0636,-50.8049 -26.4566,-50.68017 -25.2846,0.16257 -23.437,21.66835 -41.7623,23.03875 -14.3412,1.0724 -19.6783,-51.53278 -45.6501,-63.23613 -17.4854,-7.87922 -44.2562,18.29086 -49.6579,27.79758 -5.4018,9.50684 -10.9227,32.51791 -21.7862,45.02117 -12.5804,14.47909 -28.9821,32.492549 -43.2688,42.771609 -10.2464,7.3721 -27.7532,5.53247 -36.3368,5.2318 -39.3598,-5.03487 -29.1993,-70.911149 -58.9631,-70.948099 z"
+         style="fill:#2a9f44;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/background_bottom.png"
+         inkscape:export-xdpi="180.06345"
+         inkscape:export-ydpi="180.06345" />
+      <path
+         inkscape:export-ydpi="180.06345"
+         inkscape:export-xdpi="180.06345"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/background_bottom.png"
+         style="fill:#34b655;fill-opacity:1;stroke:none"
+         d="m 1079.9684,-89.137716 c -27.2438,-0.03666 -8.4375,11.856181 -51.632,31.751336 -43.19439,19.895242 -53.16949,59.4849544 -64.27839,60.304885 -13.2961,0.9818208 -18.7613,-37.767121 -26.5924,-54.186498 -3.6939,-7.744859 -11.3945,-12.081697 -25.3834,-24.763865 -9.5005,-8.613079 -20.3619,-28.101392 -40.8032,-27.894552 l 0,388.2074 699.99999,0 0,-388.2074 c -23.2753,0 -40.8951,14.986652 -52.3124,25.563275 -14.8787,13.783236 -13.5569,36.229732 -35.9883,44.008301 -10.8277,3.754708 -36.9278,57.668192 -47.2658,29.105234 -7.5196,-20.775779 -15.8213,-27.922643 -31.8623,-39.542743 -12.2485,-8.872801 -7.0636,-54.945638 -26.4566,-54.810753 -25.2846,0.175831 -23.437,23.434385 -41.7623,24.916476 -14.3412,1.159804 -19.6783,-55.73285 -45.6501,-68.39007 -17.4854,-8.52139 -44.2562,19.78163 -49.6579,30.06319 -5.4018,10.28166 -10.9227,35.16821 -21.7862,48.690523 -12.5804,15.659178 -28.9821,35.140777 -43.2688,46.257622 -10.2464,7.972947 -27.7532,5.98336 -36.3368,5.658196 -39.3598,-5.445238 -29.1993,-76.690596 -58.9631,-76.730557 z"
+         id="path3427"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="szsssccccssssssszsscs" />
+    </g>
   </g>
 </svg>
