@@ -116,6 +116,7 @@ public class GameBase {
         /* Add all background types to list */
         backgroundTypes.add(Background1.class);
         backgroundTypes.add(Background2.class);
+        backgroundTypes.add(Background3.class);
 
         setPlayfieldSize(view.mWidth, view.mHeight);
 
