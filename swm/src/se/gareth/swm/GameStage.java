@@ -88,6 +88,10 @@ public class GameStage extends Stage {
         hitableObject.isAlive();
         mCurrentLevel.creatureIsAlive(hitableObject);
     }
+    
+    public void addGraphicObject(final GraphicObject graphicObject) {
+    	mGraphicObjectsAdd.add(graphicObject);
+    }
 
     public void addActiveObject(final ActiveObject activeObject) {
         mGraphicObjectsAdd.add(activeObject);
