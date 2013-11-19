@@ -95,14 +95,14 @@ public class Hen1 extends Creature {
         if (getY() > (game.getPlayfieldHeight() - getHeight())) {
             if (!mChangeForce) {
                 setAnimation(mFlyingAnimation);
-                mAcceleration.set(-mSpeed / 3, -(1500 + mSpeed*3));
+                mAcceleration.set(-mSpeed / 2, -(1500 + mSpeed*3));
                 mChangeForce = true;
             }
         }
         else if (getY() < getHeight()) {
             if (!mChangeForce) {
                 setAnimation(mFallingAnimation);
-                mAcceleration.set(-mSpeed / 2, -mSpeed);
+                mAcceleration.set(-mSpeed, -mSpeed);
                 mChangeForce = true;
             }
         }
