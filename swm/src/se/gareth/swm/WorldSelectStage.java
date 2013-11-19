@@ -70,7 +70,7 @@ public class WorldSelectStage extends Stage {
         for (WorldDescriptor worldDescriptor: mWorldList) {
             mWorldIconList.add(new WorldIcon(gameBase, worldDescriptor));
         }
-        mScrollPosition = 0;
+        mScrollPosition = game.settings.getInt("WorldSelectScrollPosition", 0);
         mTouchScrollId = -1;
 
         //game.settingsEditor.clear();
@@ -198,6 +198,13 @@ public class WorldSelectStage extends Stage {
                                game.settings.getInt(wd.getKey() + "CurrentLevel", 1) - 1);
             areaIndex ++;
         }
+    }
+
+    @Override
+    public void onPause() {
+        /* Store current scroll position */
+        game.settingsEditor.putInt("WorldSelectScrollPosition", mScrollPosition);
+        game.settingsEditor.commit();
     }
 
 
