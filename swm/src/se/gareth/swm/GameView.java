@@ -148,6 +148,8 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
                 mCurrentStage.deactivated(mNextStage);
             mCurrentStage = mNextStage;
             mNextStage = null;
+            
+            System.gc();
 
             /* Ensure stage aware of the screen size */
             mCurrentStage.playfieldSizeChanged(game.getScreenWidth(), game.getScreenHeight());
