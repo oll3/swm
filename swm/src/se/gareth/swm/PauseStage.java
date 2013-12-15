@@ -13,7 +13,6 @@ public class PauseStage extends Stage {
     private final TextDrawable mPauseText;
     private final TextDrawable mInfoText;
 
-
     public PauseStage(GameBase gameBase) {
         super(gameBase);
 
@@ -45,6 +44,7 @@ public class PauseStage extends Stage {
     @Override
     public void draw(Canvas canvas) {
         canvas.drawColor(game.res.getColor(R.color.NormalBackground));
+        game.drawWorldBackground(canvas);
         mPauseText.draw(canvas);
         mInfoText.draw(canvas);
     }
