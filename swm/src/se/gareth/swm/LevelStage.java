@@ -41,6 +41,7 @@ public class LevelStage extends Stage {
     private final RightArrow mNextArrow;
 
     private Background mCurrentBackground;
+    private Level mLastLevel;
 
     public LevelStage(GameBase gameBase) {
         super(gameBase);
@@ -73,6 +74,8 @@ public class LevelStage extends Stage {
 
         mExitArrow = new LeftArrow(gameBase, "Menu");
         mNextArrow = new RightArrow(gameBase, "Next");
+        
+        mLastLevel = null;
     }
 
     public WorldDescriptor getWorldDescriptor() {
@@ -205,8 +208,7 @@ public class LevelStage extends Stage {
          */
 
         /* Clear screen */
-        Level level = game.gameStage.getLevel();
-        if (level != null && level.hasFailed())
+        if (mLastLevel != null && mLastLevel.hasFailed())
             canvas.drawColor(game.res.getColor(R.color.FailColor));
         else
             canvas.drawColor(game.res.getColor(R.color.NormalBackground));
@@ -238,18 +240,19 @@ public class LevelStage extends Stage {
 
         if (mLevelState == LevelState.StartLevel) {
             /* Do nothing if level is set to start at activation (first run of world) */
+        	mLastLevel = null;
             return ;
         }
-
-        Level level = game.gameStage.getLevel();
-        int levelScore = level.getScore();
+        
+        mLastLevel = game.gameStage.getLevel();
+        int levelScore = mLastLevel.getScore();
         int hitPoints = 0;
         int bonusPoints = 0;
         int lostPoints = 0;
 
         mNextArrow.show();
 
-        if (level.hasFailed()){
+        if (mLastLevel.hasFailed()){
             game.health.addLifes(-1);
 
             mLevelText.setText("Level " + (mLevelValue) + " - Failed");
@@ -266,12 +269,12 @@ public class LevelStage extends Stage {
                 game.itemBar.reset();
             }
         }
-        else if (level.hasFinished()) {
+        else if (mLastLevel.hasFinished()) {
             /* Level was successfully finished */
-            mTotalScore += level.getScore();
-            hitPoints = level.getHitPoints();
-            bonusPoints = level.getBonusPoints();
-            lostPoints = level.getLostPoints();
+            mTotalScore += mLastLevel.getScore();
+            hitPoints = mLastLevel.getHitPoints();
+            bonusPoints = mLastLevel.getBonusPoints();
+            lostPoints = mLastLevel.getLostPoints();
 
             if (mLevelValue >= mWorldDescriptor.getNumLevels()) {
                 /* World finished */
