@@ -31,7 +31,7 @@ public class WorldIcon extends Button {
         mWorldNameText.setOutline(game.res.getDimension(R.dimen.SmallFontOutline),
                                   game.res.getColor(R.color.NormalOutlineColor));
         mWorldNameText.setColor(game.res.getColor(R.color.LightFontColor));
-        mWorldNameText.setTextAlign(TextDrawable.Align.LEFT);
+        mWorldNameText.setTextAlign(TextDrawable.Align.CENTER);
         mWorldNameText.setText(worldDescriptor.getName());
 
         mHighScoreText = new TextDrawable(gameBase.gameView.font);
@@ -111,9 +111,9 @@ public class WorldIcon extends Button {
     @Override
     public void update(final TimeStep timeStep) {
         super.update(timeStep);
-        mWorldNameText.setPosition(getX(-0.45), getTop() + mWorldNameText.getHeight() / 1.6);
+        mWorldNameText.setPosition(getX(-0.15), getTop() + mWorldNameText.getHeight() / 1.4);
         mLevelsText.setPosition(getX(-0.15), getY(0.1));
-        mHighScoreText.setPosition(getX(0.35), getY(0.1));
+        mHighScoreText.setPosition(getX(0.348), getY(0.1));
     }
 
     @Override
@@ -125,7 +125,7 @@ public class WorldIcon extends Button {
                 if (mMapThumbnail != null) {
 
                     mThumbnailRect.set((float)getX(-0.47), (float)getY(-0.36),
-                                       (float)getX(0.18), (float)getY(0.40));
+                                       (float)getX(0.18), (float)getY(0.4));
                     canvas.drawBitmap(mMapThumbnail, null, mThumbnailRect, mMapPaint);
                 }
                 mHighScoreText.draw(canvas);

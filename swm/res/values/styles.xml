@@ -5,11 +5,11 @@
     
     <dimen name="ItemBarHeight">42dp</dimen>
     
-    <dimen name="SmallFontSize">20sp</dimen>
-    <dimen name="NormalFontSize">24sp</dimen>
-    <dimen name="BigFontSize">28sp</dimen>
-    <dimen name="HugeFontSize">48sp</dimen>
-    <dimen name="HeadingFontSize">34sp</dimen>
+    <dimen name="SmallFontSize">16sp</dimen>
+    <dimen name="NormalFontSize">20sp</dimen>
+    <dimen name="BigFontSize">24sp</dimen>
+    <dimen name="HugeFontSize">32sp</dimen>
+    <dimen name="HeadingFontSize">28sp</dimen>
 
     <dimen name="SmallFontOutline">2sp</dimen>
     <dimen name="NormalFontOutline">2sp</dimen>

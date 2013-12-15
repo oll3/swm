@@ -357,6 +357,86 @@
        y1="70.724884"
        x2="193.9493"
        y2="732.60669" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12860">
+      <rect
+         ry="13.333201"
+         rx="13.3332"
+         y="-68.854019"
+         x="1055.1045"
+         height="41.000011"
+         width="40.970737"
+         id="rect12862"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter4163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.0935179"
+         id="feGaussianBlur4165" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4175">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.0935179"
+         id="feGaussianBlur4177" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4201"
+       x="-0.020741948"
+       width="1.0414839"
+       y="-0.12802787"
+       height="1.2560557">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.5470037"
+         id="feGaussianBlur4203" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4213"
+       x="-0.02074197"
+       width="1.0414839"
+       y="-0.128028"
+       height="1.256056">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.5470053"
+         id="feGaussianBlur4215" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4231">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.84084282"
+         id="feGaussianBlur4233" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4246">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.0800882"
+         id="feGaussianBlur4248" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4275">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.8851541"
+         id="feGaussianBlur4277" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -365,14 +445,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="347.11136"
-     inkscape:cy="1257.0393"
+     inkscape:zoom="1"
+     inkscape:cx="482.88501"
+     inkscape:cy="684.56619"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="989"
+     inkscape:window-height="980"
      inkscape:window-x="0"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
@@ -394,15 +474,6 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Background">
-    <path
-       sodipodi:nodetypes="ssccsssssscsss"
-       inkscape:export-ydpi="180"
-       inkscape:export-xdpi="180"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
-       inkscape:connector-curvature="0"
-       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m -179.99981,-371.90626 c -6.97152,0 -12.59394,5.80321 -12.59394,12.99891 l 0,23.07534 0,66.88196 0,23.07534 c 0,7.19569 5.62242,12.96846 12.59394,12.96846 l 409.84162,0 c 6.97153,0 12.56445,-5.77277 12.56445,-12.96846 l 0,-89.9573 c 0,-7.1957 -5.59292,-12.99891 -12.56445,-12.99891 l -115.69789,0 0,-10.07643 c 0,-7.1957 -5.59292,-12.99891 -12.56444,-12.99891 z"
-       id="path4169" />
     <rect
        style="fill:#82a0f1;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect2816"
@@ -707,13 +778,6 @@
              style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.11776888;stroke-opacity:1" /></flowRegion><flowPara
            style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:1.11776888;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
            id="flowPara8609">4</flowPara></flowRoot>    </g>
-    <rect
-       y="13.790762"
-       x="499.51849"
-       height="59.716423"
-       width="366.19574"
-       id="rect8686"
-       style="fill:#fd7b81;fill-opacity:1;stroke:#000000;stroke-width:1.49999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <flowRoot
        transform="matrix(0.74471069,0,0,0.75419132,450.98569,475.00607)"
        style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Sans"
@@ -1233,128 +1297,16 @@
          id="path5244" />
     </g>
     <g
-       id="g5263"
-       transform="matrix(1.1117318,0,0,1.1379305,-8.8871402,-39.397813)"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/arrow_up.png"
-       inkscape:export-xdpi="179.83246"
-       inkscape:export-ydpi="179.83246">
-      <path
-         id="path5246"
-         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.88907379;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
-         d="m 195.53272,271.89599 c 0,-3.95415 -45.20601,-1.30887 -39.68,-3.3338 5.52597,-2.02493 54.12434,-12.41731 89.03117,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="zzzzzzzz" />
-      <path
-         style="fill:#fd7b81;fill-opacity:1;stroke:none"
-         d="m 244.86855,256.16372 c -34.90683,0 -83.48599,10.36048 -89.01196,12.38542 -5.52601,2.02492 39.68184,-0.59348 39.68184,3.36067 0,2.88513 -1.4e-4,5.81537 0,8.45834 7.60732,0.607 15.74175,0.94401 24.21456,0.94401 41.87026,0 75.79719,-8.02056 75.79719,-17.9362 0,-0.91005 -0.27315,-1.80457 -0.82593,-2.68099 -15.98023,-2.47033 -34.28611,-4.53125 -49.8557,-4.53125 z"
-         id="path5248"
-         inkscape:connector-curvature="0" />
-      <path
-         sodipodi:nodetypes="zzzzzzzz"
-         inkscape:connector-curvature="0"
-         d="m 195.53272,271.89599 c 0,-3.95415 -45.20601,-1.30887 -39.68,-3.3338 5.52597,-2.02493 54.12434,-12.41731 89.03117,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
-         style="fill:none;stroke:#000000;stroke-width:0.88907379;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
-         id="path5250" />
-    </g>
-    <g
-       id="g5258"
-       transform="matrix(1.1117318,0,0,1.1379271,-23.037184,-71.066191)"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/arrow_down.png"
-       inkscape:export-xdpi="90.010338"
-       inkscape:export-ydpi="90.010338">
-      <path
-         sodipodi:nodetypes="zzzzzzzz"
-         inkscape:connector-curvature="0"
-         d="m 208.26066,498.99531 c 0,3.95416 -45.20602,1.30887 -39.68001,3.33379 5.52597,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
-         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.8890751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
-         id="path5252" />
-      <path
-         style="fill:#fd7b81;fill-opacity:1;stroke:none"
-         d="m 257.61561,485.76527 c -24.67531,-0.0174 -49.36766,0.5032 -49.36766,1.6237 0,2.24099 0,7.63828 0,11.59245 0,1.4828 -6.34819,2.0446 -14.00315,2.26562 -0.0473,0.008 -0.10246,-0.008 -0.15017,0 -0.41427,0.0668 -0.83083,0.12957 -1.27643,0.1888 l 0,0.30209 c 11.42012,2.8741 26.20915,4.60677 42.34733,4.60677 36.19527,0 65.54823,-8.69185 65.54823,-19.44662 0,-0.10965 0.006,-0.23063 0,-0.33984 -8.82479,-0.52433 -25.85907,-0.78084 -43.09815,-0.79297 z"
-         id="path5254"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path5256"
-         style="fill:none;stroke:#000000;stroke-width:0.8890751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
-         d="m 208.26066,498.99531 c 0,3.95416 -45.20602,1.30887 -39.68001,3.33379 5.52597,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="zzzzzzzz" />
-    </g>
-    <rect
-       inkscape:export-ydpi="135"
-       inkscape:export-xdpi="135"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect5206"
-       width="239.00002"
-       height="149"
-       x="11.402308"
-       y="305.86887"
-       rx="13.333201"
-       ry="13.3332" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path5208"
-       d="m 38.635548,305.56505 c -14.83527,0 -26.73687,10.69417 -26.73687,23.95444 l 0,101.0911 c 0,0.32039 0.049,0.63641 0.0627,0.95377 23.80663,9.78226 53.07274,15.59567 84.72952,15.59567 79.805612,0 144.479512,-36.68675 144.479512,-81.90522 0,-23.54696 -17.54364,-44.75332 -45.62841,-59.68976 l -156.906512,0 z"
-       style="fill:#fd7b81;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
-    <rect
-       ry="13.3332"
-       rx="13.333201"
-       y="305.86887"
-       x="11.402308"
-       height="149"
-       width="239.00002"
-       id="rect5236"
-       style="fill:none;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
-    <rect
-       ry="13.3332"
-       rx="13.333201"
-       y="305.86887"
-       x="270.2034"
-       height="149"
-       width="239.00002"
-       id="rect5268"
-       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
-    <path
-       inkscape:export-ydpi="135"
-       inkscape:export-xdpi="135"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       style="fill:#fd7b81;fill-opacity:1;stroke:none"
-       d="m 297.43663,305.56505 c -14.83527,0 -26.73687,10.69417 -26.73687,23.95444 l 0,101.0911 c 0,0.32039 0.049,0.63641 0.0627,0.95377 23.80663,9.78226 53.07274,15.59567 84.72952,15.59567 79.80561,0 144.47951,-36.68675 144.47951,-81.90522 0,-23.54696 -17.54364,-44.75332 -45.62841,-59.68976 l -156.90651,0 z"
-       id="path5270"
-       inkscape:connector-curvature="0" />
-    <rect
-       inkscape:export-ydpi="135"
-       inkscape:export-xdpi="135"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect5272"
-       width="239.00002"
-       height="149"
-       x="270.2034"
-       y="305.86887"
-       rx="13.333201"
-       ry="13.3332" />
-    <g
-       inkscape:export-ydpi="179.99191"
-       inkscape:export-xdpi="179.99191"
+       inkscape:export-ydpi="180.10524"
+       inkscape:export-xdpi="180.10524"
        inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/arrow_left.png"
        id="g5292"
-       transform="matrix(1.2898545,0,0,1.2790719,38.824172,-538.94119)">
+       transform="matrix(1.2608711,0,0,1.2325655,493.88512,-669.8248)">
       <path
          sodipodi:nodetypes="zzzzzzzz"
          inkscape:connector-curvature="0"
          d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
-         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.77853447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.80214942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          id="path5294" />
       <path
          inkscape:connector-curvature="0"
@@ -1363,51 +1315,59 @@
          style="fill:#fd7b81;fill-opacity:1;stroke:none" />
       <path
          id="path5298"
-         style="fill:none;stroke:#000000;stroke-width:0.77853447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:0.80214942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          d="m -29.784821,858.08594 c -9.40817,0 -3.1142,10.85956 -7.93214,9.53207 -4.81794,-1.32747 -29.54464,-13.00194 -29.54464,-21.38738 0,-8.38544 24.72617,-20.05975 29.54464,-21.38738 4.8185,-1.32763 -1.47612,9.50691 7.93199,9.52034 9.40814,0.0134 22.6458098,0.0119 27.6473198,0.0119 5.00151,0 5.33201,23.71035 0,23.71035 -5.33201,0 -18.2389998,1.2e-4 -27.6471698,1.2e-4 z"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="zzzzzzzz" />
     </g>
-    <rect
-       rx="13.3332"
-       ry="13.3332"
-       y="303.60803"
-       x="627.66962"
-       height="159.00002"
-       width="359"
-       id="rect3661"
-       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+    <g
+       id="g4250"
+       transform="matrix(0.99889601,0,0,0.99999997,0.50058919,0.04334677)"
        inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <path
-       id="path3663"
-       d="m 648.15088,303.63141 c -11.34901,0 -20.50179,9.49662 -20.50179,21.33406 l 0,110.7768 c 21.6389,14.40101 50.12377,23.18703 81.47906,23.18703 l 129.25264,0 c 67.94389,0 122.6268,-40.95341 122.6268,-91.8466 0,-24.65919 -12.87862,-46.98208 -33.84962,-63.45129 l -279.00709,0 z"
-       style="fill:#fd7b81;fill-opacity:1;stroke:none"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.99998981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect3707"
-       width="359"
-       height="159.00002"
-       x="627.66962"
-       y="303.60803"
-       ry="13.3332"
-       rx="13.3332"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
+       inkscape:export-xdpi="179.96484"
+       inkscape:export-ydpi="179.96484">
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:1.00054228;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect3661"
+         width="359"
+         height="159.00002"
+         x="465.39545"
+         y="430.79684"
+         ry="13.3332"
+         rx="13.3332" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
+         inkscape:connector-curvature="0"
+         style="fill:#fd7b81;fill-opacity:1;stroke:none"
+         d="m 485.87671,430.82023 c -11.34901,0 -20.50179,9.49662 -20.50179,21.33406 l 0,110.7768 c 21.6389,14.40101 50.12377,23.18703 81.47906,23.18703 l 129.25264,0 c 67.94389,0 122.6268,-40.95341 122.6268,-91.8466 0,-24.65919 -12.87862,-46.98208 -33.84962,-63.45129 l -279.00709,0 z"
+         id="path3663" />
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
+         rx="13.3332"
+         ry="13.3332"
+         y="430.79684"
+         x="465.39545"
+         height="159.00002"
+         width="359"
+         id="rect3707"
+         style="fill:none;stroke:#000000;stroke-width:1.00054228;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
     <g
        id="g4037"
        inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/arrow_right.png"
-       inkscape:export-xdpi="180.01854"
-       inkscape:export-ydpi="180.01854">
+       inkscape:export-xdpi="180.01933"
+       inkscape:export-ydpi="180.01933"
+       transform="matrix(0.97752972,0,0,0.96364032,458.65252,-150.47702)">
       <path
          id="path3253"
-         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:1.03032243;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          d="m 113.72687,558.61242 c 12.13517,0 4.01687,13.89016 10.23131,12.19221 6.21444,-1.69793 38.10829,-16.63042 38.10829,-27.356 0,-10.72558 -31.89316,-25.65786 -38.10829,-27.356 -6.21516,-1.69813 1.90398,12.16002 -10.23111,12.1772 -12.13513,0.0171 -29.209803,0.0152 -35.661023,0.0152 -6.45122,0 -6.877517,30.32725 0,30.32725 6.877517,0 23.525653,1.5e-4 35.660823,1.5e-4 z"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="zzzzzzzz" />
@@ -1415,193 +1375,36 @@
          sodipodi:nodetypes="zzzzzzzz"
          inkscape:connector-curvature="0"
          d="m 113.72687,558.61242 c 12.13517,0 4.01687,13.89016 10.23131,12.19221 6.21444,-1.69793 38.10829,-16.63042 38.10829,-27.356 0,-10.72558 -31.89316,-25.65786 -38.10829,-27.356 -6.21516,-1.69813 1.90398,12.16002 -10.23111,12.1772 -12.13513,0.0171 -29.209803,0.0152 -35.661023,0.0152 -6.45122,0 -6.877517,30.32725 0,30.32725 6.877517,0 23.525653,1.5e-4 35.660823,1.5e-4 z"
-         style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:1.03032243;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          id="path3257" />
       <path
          id="path3262"
-         d="M 122.9375 515.9375 C 118.66392 516.06085 125.0954 528.26514 113.71875 528.28125 C 101.58362 528.29835 84.51372 528.28125 78.0625 528.28125 C 74.355925 528.28125 72.642457 538.29388 73.15625 546.8125 C 80.11925 548.46207 87.748983 549.375 95.75 549.375 C 119.84088 549.375 140.55066 541.09567 149.8125 529.25 C 140.10871 522.65163 127.62084 517.0916 123.96875 516.09375 C 123.5803 515.98762 123.22241 515.92928 122.9375 515.9375 z "
-         style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+         d="m 122.9375,515.9375 c -4.27358,0.12335 2.1579,12.32764 -9.21875,12.34375 -12.13513,0.0171 -29.20503,0 -35.65625,0 -3.706575,0 -5.420043,10.01263 -4.90625,18.53125 6.963,1.64957 14.592733,2.5625 22.59375,2.5625 24.09088,0 44.80066,-8.27933 54.0625,-20.125 -9.70379,-6.59837 -22.19166,-12.1584 -25.84375,-13.15625 -0.38845,-0.10613 -0.74634,-0.16447 -1.03125,-0.15625 z"
+         style="fill:#fd7b81;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
       <path
          id="path4035"
-         style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:1.03032243;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          d="m 113.72687,558.61242 c 12.13517,0 4.01687,13.89016 10.23131,12.19221 6.21444,-1.69793 38.10829,-16.63042 38.10829,-27.356 0,-10.72558 -31.89316,-25.65786 -38.10829,-27.356 -6.21516,-1.69813 1.90398,12.16002 -10.23111,12.1772 -12.13513,0.0171 -29.209803,0.0152 -35.661023,0.0152 -6.45122,0 -6.877517,30.32725 0,30.32725 6.877517,0 23.525653,1.5e-4 35.660823,1.5e-4 z"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="zzzzzzzz" />
     </g>
-    <rect
-       style="fill:#fd2b35;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-       id="rect3256"
-       width="297"
-       height="17"
-       x="220.47551"
-       y="430.92709"
-       transform="matrix(0.84584227,-0.53343309,0.53343309,0.84584227,0,0)" />
-    <rect
-       transform="matrix(-0.84584227,-0.53343309,-0.53343309,0.84584227,0,0)"
-       y="-152.11533"
-       x="-704.03015"
-       height="17"
-       width="297"
-       id="rect4036"
-       style="fill:#fd2b35;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        id="path4051"
        d="m 165.87802,656.66066 -4.47196,7.05492 56.15311,35.35132 -56.15311,35.33598 4.47196,7.07027 59.53398,-37.4678 59.53398,37.4678 4.47197,-7.07027 -56.15312,-35.33598 56.15312,-35.35132 -4.47197,-7.05492 -59.53398,37.46779 -59.53398,-37.46779 z"
        style="fill:#fd2b35;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4055"
-       d="m -333.1528,290.70404 -9.0479,14.05787 113.61176,70.44212 -113.61176,70.41158 9.0479,14.08843 120.4521,-74.6595 120.452101,74.6595 9.047899,-14.08843 -113.61177,-70.41158 113.61177,-70.44212 -9.047899,-14.05787 -120.452101,74.65949 -120.4521,-74.65949 z"
-       style="fill:#fc303a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1" />
-    <path
-       style="fill:#ffffff;fill-opacity:0.16744186;stroke:none"
-       d="M 24.75 305.875 C 17.363406 305.875 11.40625 311.80091 11.40625 319.1875 L 11.40625 340.375 L 250.40625 340.375 L 250.40625 319.1875 C 250.40625 311.80091 244.44909 305.875 237.0625 305.875 L 24.75 305.875 z "
-       id="rect3275"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
-    <rect
-       inkscape:export-ydpi="135"
-       inkscape:export-xdpi="135"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect3269"
-       width="487.00003"
-       height="93.5"
-       x="-192.58707"
-       y="-4.631155"
-       rx="13.3332"
-       ry="13.3332" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path3271"
-       d="m -137.09505,-4.821786 c -30.2292,0 -54.48057,6.71078 -54.48057,15.03182 l 0,63.436368 c 0,0.20105 0.0998,0.39935 0.12776,0.5985 48.50975,6.13853 108.144021,9.78655 172.649741,9.78655 162.616429,0 294.399629,-23.02155 294.399629,-51.396898 0,-14.77612 -35.74804,-28.08347 -92.97501,-37.45634 l -319.72168,0 z"
-       style="fill:#fd7b81;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
-    <rect
-       ry="13.3332"
-       rx="13.3332"
-       y="-4.631155"
-       x="-192.58707"
-       height="93.5"
-       width="487.00003"
-       id="rect3273"
-       style="fill:none;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
-    <rect
-       ry="10"
-       rx="10"
-       y="8.3688374"
-       x="123.51063"
-       height="67.5"
-       width="163.5"
-       id="rect4055"
-       style="opacity:0.64628821000000003;fill:#fababc;fill-opacity:1;stroke:none;stroke-opacity:1" />
-    <rect
-       style="opacity:0.64628821000000003;fill:#fababc;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
-       id="rect4076"
-       width="299"
-       height="67.5"
-       x="-184.48936"
-       y="8.3688374"
-       rx="10"
-       ry="10" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#ffffff;fill-opacity:0.16744187;stroke:none"
-       d="m -165.38902,-4.627296 c -15.05136,0 -27.18998,3.71863 -27.18998,8.35382 l 0,13.29552 486.99991,0 0,-13.29552 c 0,-4.63519 -12.13852,-8.35382 -27.18988,-8.35382 l -432.62005,0 z"
-       id="path3275"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/world_icon.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
-    <flowRoot
-       transform="matrix(0.56673213,0,0,0.56711439,-299.07633,-117.6729)"
-       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1;font-family:Sans"
-       id="flowRoot4057"
-       xml:space="preserve"><flowRegion
-         style="stroke-width:1.17592645"
-         id="flowRegion4059"><rect
-           style="font-size:32px;fill:#8affff;fill-opacity:1;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1"
-           y="198.07648"
-           x="87.85714"
-           height="112.56889"
-           width="414.84024"
-           id="rect4061" /></flowRegion><flowPara
-         id="flowPara4063"
-         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;stroke:#000000;stroke-width:1.17592645;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">Area 1</flowPara></flowRoot>    <rect
-       ry="13.333201"
-       rx="13.3332"
-       y="-144.68246"
-       x="-192.58707"
-       height="119.00002"
-       width="487.00003"
-       id="rect4098"
-       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <path
-       inkscape:export-ydpi="180"
-       inkscape:export-xdpi="180"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
-       style="fill:#fd7b81;fill-opacity:1;stroke:none"
-       d="m -137.09505,-144.92508 c -30.2292,0 -54.48057,8.54099 -54.48057,19.13141 l 0,80.737201 c 0,0.255882 0.0998,0.508264 0.12776,0.761727 48.50975,7.812676 108.144021,12.455611 172.649741,12.455611 162.616429,0 294.399629,-29.300157 294.399629,-65.414242 0,-18.805977 -35.74804,-35.742597 -92.97501,-47.671707 l -319.72168,0 z"
-       id="path4100"
-       inkscape:connector-curvature="0" />
-    <rect
-       inkscape:export-ydpi="180"
-       inkscape:export-xdpi="180"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
-       style="fill:none;stroke:#000000;stroke-width:0.99998999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4102"
-       width="487.00003"
-       height="119.00002"
-       x="-192.23938"
-       y="-144.68246"
-       rx="13.3332"
-       ry="13.333201" />
-    <rect
-       style="opacity:0.64628822;fill:#fababc;fill-opacity:1;stroke:none"
-       id="rect4104"
-       width="163.5"
-       height="85.909096"
-       x="123.51063"
-       y="-128.13701"
-       rx="10"
-       ry="10" />
-    <rect
-       ry="10"
-       rx="10"
-       y="-128.13701"
-       x="-184.48936"
-       height="85.909096"
-       width="299"
-       id="rect4106"
-       style="opacity:0.64628822;fill:#fababc;fill-opacity:1;stroke:none" />
-    <path
-       inkscape:export-ydpi="180"
-       inkscape:export-xdpi="180"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
-       id="path4108"
-       d="m -165.38902,-144.67755 c -15.05136,0 -27.18998,4.7328 -27.18998,10.63214 l 0,16.92157 486.99991,0 0,-16.92157 c 0,-5.89934 -12.13852,-10.63214 -27.18988,-10.63214 l -432.62005,0 z"
-       style="fill:#ffffff;fill-opacity:0.16744187;stroke:none"
-       inkscape:connector-curvature="0" />
     <g
-       inkscape:export-ydpi="179.83246"
-       inkscape:export-xdpi="179.83246"
+       inkscape:export-ydpi="179.83406"
+       inkscape:export-xdpi="179.83406"
        inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/arrow_up.png"
-       transform="matrix(1.1117318,0,0,1.1379305,-221.33288,-494.03088)"
+       transform="matrix(1.1117318,0,0,1.1379204,-45.335493,12.039571)"
        id="g4118">
       <path
          sodipodi:nodetypes="zzzzzzzz"
          inkscape:connector-curvature="0"
          d="m 195.53272,271.89599 c 0,-3.95415 -45.20601,-1.30887 -39.68,-3.3338 5.52597,-2.02493 54.12434,-12.41731 89.03117,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
-         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.88907379;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.88907778;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          id="path4120" />
       <path
          inkscape:connector-curvature="0"
@@ -1610,20 +1413,20 @@
          style="fill:#fd7b81;fill-opacity:1;stroke:none" />
       <path
          id="path4124"
-         style="fill:none;stroke:#000000;stroke-width:0.88907379;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:0.88907778;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          d="m 195.53272,271.89599 c 0,-3.95415 -45.20601,-1.30887 -39.68,-3.3338 5.52597,-2.02493 54.12434,-12.41731 89.03117,-12.41731 34.90683,0 83.50453,10.39216 89.03119,12.41731 5.52664,2.02517 -39.57529,-0.6204 -39.63118,3.33374 -0.0559,3.95415 -0.0496,9.51781 -0.0496,11.61988 0,2.10209 -98.70123,2.241 -98.70123,0 0,-2.24098 -5.2e-4,-7.66566 -5.2e-4,-11.61982 z"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="zzzzzzzz" />
     </g>
     <g
-       inkscape:export-ydpi="90.010338"
-       inkscape:export-xdpi="90.010338"
+       inkscape:export-ydpi="90.010826"
+       inkscape:export-xdpi="90.010826"
        inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/arrow_down.png"
-       transform="matrix(1.1117318,0,0,1.1379271,-235.48292,-440.13934)"
+       transform="matrix(1.1117318,0,0,1.1379203,-59.485542,-174.06838)"
        id="g4126">
       <path
          id="path4128"
-         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.8890751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.88907772;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          d="m 208.26066,498.99531 c 0,3.95416 -45.20602,1.30887 -39.68001,3.33379 5.52597,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="zzzzzzzz" />
@@ -1636,101 +1439,9 @@
          sodipodi:nodetypes="zzzzzzzz"
          inkscape:connector-curvature="0"
          d="m 208.26066,498.99531 c 0,3.95416 -45.20602,1.30887 -39.68001,3.33379 5.52597,2.02494 54.12436,12.41732 89.03117,12.41732 34.90683,0 83.50454,-10.39216 89.03119,-12.41732 5.52663,-2.02516 -39.57528,0.62041 -39.63118,-3.33373 -0.0557,-3.95415 -0.0496,-9.51781 -0.0496,-11.61989 0,-2.10208 -98.70123,-2.24099 -98.70123,0 0,2.24099 -5.2e-4,7.66567 -5.2e-4,11.61983 z"
-         style="fill:none;stroke:#000000;stroke-width:0.8890751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:0.88907772;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          id="path4132" />
     </g>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4178"
-       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Sans"
-       transform="matrix(0.74471069,0,0,0.75419132,21.650565,-139.47833)"><flowRegion
-         style="stroke-width:0.88954884"
-         id="flowRegion4180"><rect
-           id="rect4182"
-           width="322.63519"
-           height="82.298775"
-           x="87.85714"
-           y="198.07648"
-           style="font-size:32px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1" /></flowRegion><flowPara
-         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
-         id="flowPara4184">0/10</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.74471069,0,0,0.75419132,23.150565,-99.97833)"
-       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Sans"
-       id="flowRoot4186"
-       xml:space="preserve"><flowRegion
-         id="flowRegion4188"
-         style="stroke-width:0.88954884"><rect
-           style="font-size:32px;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1"
-           y="198.07648"
-           x="87.85714"
-           height="82.298775"
-           width="322.63519"
-           id="rect4190" /></flowRegion><flowPara
-         id="flowPara4192"
-         style="font-size:26.68673515px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#fedadb;fill-opacity:1;stroke:#000000;stroke-width:0.88954884;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">Score 56104</flowPara></flowRoot>    <rect
-       inkscape:export-ydpi="180"
-       inkscape:export-xdpi="180"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
-       style="fill:#595961;fill-opacity:1;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect3294"
-       width="487.00034"
-       height="119.00002"
-       x="334.41293"
-       y="-146.80379"
-       rx="13.3332"
-       ry="13.333201" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path3296"
-       d="m 389.90498,-147.0464 c -30.22921,0 -54.4806,8.54099 -54.4806,19.13141 l 0,80.737201 c 0,0.255882 0.0998,0.508264 0.12776,0.761727 48.50978,7.812676 108.14409,12.455611 172.64984,12.455611 162.61653,0 294.39981,-29.300157 294.39981,-65.414242 0,-18.805977 -35.74806,-35.742597 -92.97506,-47.671707 l -319.72188,0 z"
-       style="fill:#7b7b81;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <rect
-       ry="13.333201"
-       rx="13.3332"
-       y="-146.80379"
-       x="334.76062"
-       height="119.00002"
-       width="487.00034"
-       id="rect3298"
-       style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <rect
-       ry="10"
-       rx="10"
-       y="-130.25833"
-       x="650.5108"
-       height="85.909096"
-       width="163.50009"
-       id="rect3302"
-       style="opacity:0.64628822;fill:#bababc;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <rect
-       style="opacity:0.64628822;fill:#bababc;fill-opacity:1;stroke:none"
-       id="rect3304"
-       width="299.00018"
-       height="85.909096"
-       x="342.51062"
-       y="-130.25833"
-       rx="10"
-       ry="10"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#ffffff;fill-opacity:0.16744187;stroke:none"
-       d="m 361.611,-146.79887 c -15.05137,0 -27.19,4.7328 -27.19,10.63214 l 0,16.92157 487.0002,0 0,-16.92157 c 0,-5.89934 -12.13852,-10.63214 -27.18989,-10.63214 l -432.62031,0 z"
-       id="path3306"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3300"
@@ -1760,76 +1471,141 @@
            id="rect3313" /></flowRegion><flowPara
          id="flowPara3315"
          style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;stroke:#000000;stroke-width:1.5085851;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold">HIT POINTS                   100</flowPara></flowRoot>    <path
-       style="fill:#fd7b81;fill-opacity:1;stroke:none"
-       d="m -96.561264,-371.90626 c -37.420726,4.2738 -70.270196,10.87812 -96.032486,19.17871 l 0,16.89554 0,66.88196 0,4.90122 c 46.65879,15.03344 116.582735,24.59746 194.7489264,24.59746 140.4771136,0 227.8341036,-30.85725 227.8341036,-68.9216 0,-15.11258 -17.96033,-29.09759 -48.39967,-40.45795 l -67.44569,0 0,-10.07643 c 0,-5.96797 -3.85302,-10.97591 -9.14314,-12.51183 -1.37926,-0.16547 -2.73715,-0.3281 -4.12917,-0.48708 z"
-       id="path4115"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180"
-       sodipodi:nodetypes="cccccssccsccc" />
-    <path
-       style="fill:#fea0a4;fill-opacity:1;stroke:none;opacity:0.75"
-       d="m 125.75312,-334.24609 99.96713,0 c 5.54119,0 10.00215,4.46 10.00215,10 l 0,66.77855 c 0,5.54 -4.46096,10 -10.00215,10 l -99.96713,0 c -5.54119,0 -10.00215,-4.46 -10.00215,-10 l 0,-66.77855 c 0,-5.54 4.46096,-10 10.00215,-10 z"
-       id="rect3312"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssssssss"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <path
        style="fill:#fea0a9;fill-opacity:1;stroke:none"
-       d="m -177.62332,-493.96875 c -5.22242,0 -9.42675,4.46 -9.42675,10 l 0,78 c 0,5.54 4.20433,10 9.42675,10 l 277.146502,0 c 5.222428,0 9.426748,-4.46 9.426748,-10 l 0,-78 c 0,-5.54 -4.20432,-10 -9.426748,-10 l -277.146502,0 z m 6.62818,7.5 263.919596,0 c 4.972942,0 8.955414,3.77671 8.955414,8.46875 l 0,66.0625 c 0,4.69204 -3.982472,8.46875 -8.955414,8.46875 l -263.919596,0 c -4.97293,0 -8.98486,-3.77671 -8.98486,-8.46875 l 0,-66.0625 c 0,-4.69204 4.01193,-8.46875 8.98486,-8.46875 z"
+       d="m 64.37668,24.03125 c -5.22242,0 -9.42675,4.46 -9.42675,10 l 0,78 c 0,5.54 4.20433,10 9.42675,10 l 277.1465,0 c 5.22243,0 9.42675,-4.46 9.42675,-10 l 0,-78 c 0,-5.54 -4.20432,-10 -9.42675,-10 l -277.1465,0 z m 6.62818,7.5 263.9196,0 c 4.97294,0 8.95541,3.77671 8.95541,8.46875 l 0,66.0625 c 0,4.69204 -3.98247,8.46875 -8.95541,8.46875 l -263.9196,0 c -4.97293,0 -8.98486,-3.77671 -8.98486,-8.46875 L 62.02,40 c 0,-4.69204 4.01193,-8.46875 8.98486,-8.46875 z"
        id="rect4099"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_tnframe.png"
        inkscape:export-xdpi="180"
        inkscape:export-ydpi="180" />
-    <path
-       id="path4151"
-       d="m -179.99981,-371.90626 c -6.97152,0 -12.59394,5.80321 -12.59394,12.99891 l 0,23.07534 0,66.88196 0,23.07534 c 0,7.19569 5.62242,12.96846 12.59394,12.96846 l 409.84162,0 c 6.97153,0 12.56445,-5.77277 12.56445,-12.96846 l 0,-89.9573 c 0,-7.1957 -5.59292,-12.99891 -12.56445,-12.99891 l -115.69789,0 0,-10.07643 c 0,-7.1957 -5.59292,-12.99891 -12.56444,-12.99891 z"
-       style="fill:none;stroke:#000000;stroke-width:0.99999011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:connector-curvature="0"
+    <g
+       id="g4106"
        inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
        inkscape:export-xdpi="180"
        inkscape:export-ydpi="180"
-       sodipodi:nodetypes="ssccsssssscsss" />
-    <path
-       id="path4171"
-       d="m 354.00018,-371.90626 c -6.97152,0 -12.59394,5.80321 -12.59394,12.99891 l 0,23.07534 0,66.88196 0,23.07534 c 0,7.19569 5.62242,12.96846 12.59394,12.96846 l 409.84162,0 c 6.97153,0 12.56445,-5.77277 12.56445,-12.96846 l 0,-89.9573 c 0,-7.1957 -5.59292,-12.99891 -12.56445,-12.99891 l -115.69789,0 0,-10.07643 c 0,-7.1957 -5.59292,-12.99891 -12.56444,-12.99891 z"
-       style="fill:#595961;fill-opacity:1;stroke:#000000;stroke-width:0.99999011000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+       transform="matrix(1.0293423,0,0,0.99999999,181.64399,506.07268)">
+      <path
+         id="path4169"
+         d="m -183.50896,-331.90626 c -5.02899,0 -9.08479,4.13322 -9.08479,9.25822 l 0,16.43496 0,47.63535 0,16.43495 c 0,5.12498 4.0558,9.23653 9.08479,9.23653 l 295.64427,0 c 5.029,0 9.06352,-4.11155 9.06352,-9.23653 l 0,-64.0703 c 0,-5.12501 -4.03452,-9.25822 -9.06352,-9.25822 l -83.460087,0 0,-7.17674 c 0,-5.125 -4.034521,-9.25822 -9.063513,-9.25822 z"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.98563445;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/world_icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         sodipodi:nodetypes="ssccsssssscsss" />
+      <path
+         sodipodi:nodetypes="cccccssccsccc"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/world_icon.png"
+         inkscape:connector-curvature="0"
+         id="path4115"
+         d="m -123.31954,-331.90626 c -26.9939,3.04393 -50.69027,7.74773 -69.27421,13.65966 l 0,12.03352 0,47.63535 0,3.4908 c 33.65789,10.70727 84.09838,17.51904 140.484522,17.51904 101.334885,0 164.350918,-21.97746 164.350918,-49.08804 0,-10.76363 -12.955903,-20.72418 -34.913694,-28.81537 l -48.652773,0 0,-7.17674 c 0,-4.25057 -2.779424,-7.81737 -6.595516,-8.9113 -0.994947,-0.11786 -1.974477,-0.23369 -2.978628,-0.34692 z"
+         style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/world_icon.png"
+         sodipodi:nodetypes="sssssssss"
+         inkscape:connector-curvature="0"
+         id="rect3312"
+         d="m 37.049661,-305.08355 72.112509,0 c 3.99721,0 7.21518,3.17654 7.21518,7.12231 l 0,47.5617 c 0,3.94576 -3.21797,7.1223 -7.21518,7.1223 l -72.112509,0 c -3.997205,0 -7.215173,-3.17654 -7.215173,-7.1223 l 0,-47.5617 c 0,-3.94577 3.217968,-7.12231 7.215173,-7.12231 z"
+         style="opacity:0.75;fill:#fea0a4;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ssccsssssscsss"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/world_icon.png"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.98563445;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -183.50896,-331.90626 c -5.02899,0 -9.08479,4.13322 -9.08479,9.25822 l 0,16.43496 0,47.63535 0,16.43495 c 0,5.12498 4.0558,9.23653 9.08479,9.23653 l 295.64427,0 c 5.029,0 9.06352,-4.11155 9.06352,-9.23653 l 0,-64.0703 c 0,-5.12501 -4.03452,-9.25822 -9.06352,-9.25822 l -83.460087,0 0,-7.17674 c 0,-5.125 -4.034521,-9.25822 -9.063513,-9.25822 z"
+         id="path4151" />
+    </g>
+    <g
+       id="g4112"
+       transform="matrix(1.0293421,0,0,1,170.34142,506.07268)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon_disabled.png"
        inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180"
-       sodipodi:nodetypes="ssccsssssscsss" />
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:nodetypes="ssccsssssscsss"
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+         inkscape:connector-curvature="0"
+         style="fill:#595961;fill-opacity:1;stroke:#000000;stroke-width:0.98563445;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 201.69847,-331.90626 c -5.02899,0 -9.08479,4.13322 -9.08479,9.25822 l 0,16.43496 0,47.63535 0,16.43495 c 0,5.12498 4.0558,9.23653 9.08479,9.23653 l 295.64427,0 c 5.029,0 9.06352,-4.11155 9.06352,-9.23653 l 0,-64.0703 c 0,-5.12501 -4.03452,-9.25822 -9.06352,-9.25822 l -83.46009,0 0,-7.17674 c 0,-5.125 -4.03452,-9.25822 -9.06351,-9.25822 z"
+         id="path4171" />
+      <path
+         style="fill:#7b7b81;fill-opacity:1;stroke:none"
+         d="m 261.88788,-331.90626 c -26.99389,3.04393 -50.69026,7.74773 -69.2742,13.65966 l 0,12.03352 0,47.63535 0,3.4908 c 33.65789,10.70727 84.09838,17.51904 140.48452,17.51904 101.33489,0 164.35092,-21.97746 164.35092,-49.08804 0,-10.76363 -12.9559,-20.72418 -34.91369,-28.81537 l -48.65278,0 0,-7.17674 c 0,-4.25057 -2.77942,-7.81737 -6.59551,-8.9113 -0.99495,-0.11786 -1.97448,-0.23369 -2.97863,-0.34692 z"
+         id="path4173"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180"
+         sodipodi:nodetypes="cccccssccsccc" />
+      <path
+         style="opacity:0.75;fill:#bababc;fill-opacity:1;stroke:none"
+         d="m 422.25709,-305.08355 72.11251,0 c 3.99721,0 7.21518,3.17654 7.21518,7.12231 l 0,47.5617 c 0,3.94576 -3.21797,7.1223 -7.21518,7.1223 l -72.11251,0 c -3.99721,0 -7.21517,-3.17654 -7.21517,-7.1223 l 0,-47.5617 c 0,-3.94577 3.21796,-7.12231 7.21517,-7.12231 z"
+         id="path4175"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sssssssss"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         id="path4177"
+         d="m 201.69847,-331.90626 c -5.02899,0 -9.08479,4.13322 -9.08479,9.25822 l 0,16.43496 0,47.63535 0,16.43495 c 0,5.12498 4.0558,9.23653 9.08479,9.23653 l 295.64427,0 c 5.029,0 9.06352,-4.11155 9.06352,-9.23653 l 0,-64.0703 c 0,-5.12501 -4.03452,-9.25822 -9.06352,-9.25822 l -83.46009,0 0,-7.17674 c 0,-5.125 -4.03452,-9.25822 -9.06351,-9.25822 z"
+         style="fill:none;stroke:#000000;stroke-width:0.98563445;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180"
+         sodipodi:nodetypes="ssccsssssscsss" />
+    </g>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/small_button1.png"
+       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect12842"
+       width="42.969337"
+       height="43.000011"
+       x="475.10449"
+       y="37.145988"
+       rx="13.3332"
+       ry="13.333201" />
     <path
-       sodipodi:nodetypes="cccccssccsccc"
-       inkscape:export-ydpi="180"
-       inkscape:export-xdpi="180"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
        inkscape:connector-curvature="0"
-       id="path4173"
-       d="m 437.43872,-371.90626 c -37.42072,4.2738 -70.27019,10.87812 -96.03248,19.17871 l 0,16.89554 0,66.88196 0,4.90122 c 46.65879,15.03344 116.58273,24.59746 194.74892,24.59746 140.47712,0 227.83411,-30.85725 227.83411,-68.9216 0,-15.11258 -17.96033,-29.09759 -48.39967,-40.45795 l -67.44569,0 0,-10.07643 c 0,-5.96797 -3.85302,-10.97591 -9.14314,-12.51183 -1.37926,-0.16547 -2.73715,-0.3281 -4.12917,-0.48708 z"
-       style="fill:#7b7b81;fill-opacity:1;stroke:none" />
+       id="path12844"
+       d="m 1058.4768,-69.114391 c -2.3144,0 -4.1711,2.542153 -4.1711,5.694304 l 0,24.030753 c 0,0.07616 0.01,0.15128 0.01,0.226722 3.7139,2.325377 8.2795,3.707308 13.2182,3.707308 12.4501,0 22.5396,-8.720947 22.5396,-19.470001 0,-5.597443 -2.7369,-10.638486 -7.1183,-14.189086 l -24.4782,0 z"
+       style="fill:#fd7b81;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/small_button1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       clip-path="url(#clipPath12860)"
+       transform="matrix(1.0487812,0,0,1.0487805,-631.4693,109.35873)" />
+    <rect
+       ry="13.333201"
+       rx="13.3332"
+       y="37.145988"
+       x="475.13513"
+       height="43.000011"
+       width="42.969337"
+       id="rect12846"
+       style="fill:none;stroke:#000000;stroke-width:0.99999005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/small_button1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       inkscape:export-ydpi="180"
-       inkscape:export-xdpi="180"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
-       sodipodi:nodetypes="sssssssss"
+       style="opacity:0.52244897;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 465.00002,560.25431 359.00001,0"
+       id="path4279"
        inkscape:connector-curvature="0"
-       id="path4175"
-       d="m 659.75311,-334.24609 99.96713,0 c 5.54119,0 10.00215,4.46 10.00215,10 l 0,66.77855 c 0,5.54 -4.46096,10 -10.00215,10 l -99.96713,0 c -5.54119,0 -10.00215,-4.46 -10.00215,-10 l 0,-66.77855 c 0,-5.54 4.46096,-10 10.00215,-10 z"
-       style="opacity:0.75000000000000000;fill:#bababc;fill-opacity:1;stroke:none" />
-    <path
-       sodipodi:nodetypes="ssccsssssscsss"
-       inkscape:export-ydpi="180"
-       inkscape:export-xdpi="180"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/world_icon.png"
-       inkscape:connector-curvature="0"
-       style="fill:none;stroke:#000000;stroke-width:0.99999011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 354.00018,-371.90626 c -6.97152,0 -12.59394,5.80321 -12.59394,12.99891 l 0,23.07534 0,66.88196 0,23.07534 c 0,7.19569 5.62242,12.96846 12.59394,12.96846 l 409.84162,0 c 6.97153,0 12.56445,-5.77277 12.56445,-12.96846 l 0,-89.9573 c 0,-7.1957 -5.59292,-12.99891 -12.56445,-12.99891 l -115.69789,0 0,-10.07643 c 0,-7.1957 -5.59292,-12.99891 -12.56444,-12.99891 z"
-       id="path4177" />
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
+       inkscape:export-xdpi="179.96484"
+       inkscape:export-ydpi="179.96484" />
   </g>
   <g
      inkscape:label="Layer 1"
@@ -1840,11 +1616,11 @@
        id="rect3914"
        width="30"
        height="50"
-       x="599.62189"
-       y="-532.49994" />
+       x="607.62189"
+       y="103.50006" />
     <rect
-       y="-582.49994"
-       x="599.62189"
+       y="53.500061"
+       x="607.62189"
        height="50"
        width="30"
        id="rect4426"
@@ -1854,11 +1630,11 @@
        id="rect4428"
        width="30"
        height="50"
-       x="599.62189"
-       y="-632.49994" />
+       x="607.62189"
+       y="3.5000608" />
     <rect
-       y="-632.49994"
-       x="569.62189"
+       y="3.5000608"
+       x="577.62189"
        height="50"
        width="30"
        id="rect4430"
@@ -1868,25 +1644,25 @@
        id="rect4432"
        width="30"
        height="50"
-       x="629.62189"
-       y="-632.49994" />
+       x="637.62189"
+       y="3.5000608" />
     <rect
        style="fill:#70d892;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect4434"
        width="30"
        height="50"
-       x="569.62189"
-       y="-582.49994" />
+       x="577.62189"
+       y="53.500061" />
     <rect
-       y="-582.49994"
-       x="629.62189"
+       y="53.500061"
+       x="637.62189"
        height="50"
        width="30"
        id="rect4436"
        style="fill:#36c263;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <rect
-       y="-532.49994"
-       x="629.62189"
+       y="103.50006"
+       x="637.62189"
        height="50"
        width="30"
        id="rect4440"
@@ -1896,11 +1672,11 @@
        id="rect4442"
        width="30"
        height="50"
-       x="569.62189"
-       y="-532.49994" />
+       x="577.62189"
+       y="103.50006" />
     <rect
-       y="-632.49994"
-       x="659.62189"
+       y="3.5000608"
+       x="667.62189"
        height="50"
        width="30"
        id="rect4444"
@@ -1910,32 +1686,32 @@
        id="rect4446"
        width="30"
        height="50"
-       x="659.62189"
-       y="-582.49994" />
+       x="667.62189"
+       y="53.500061" />
     <rect
        style="fill:#fd030f;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect4448"
        width="30"
        height="50"
-       x="659.62189"
-       y="-532.49994" />
+       x="667.62189"
+       y="103.50006" />
     <rect
        style="fill:#903108;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect4450"
        width="30"
        height="50"
-       x="689.62195"
-       y="-632.49994" />
+       x="697.62195"
+       y="3.5000608" />
     <rect
-       y="-582.49994"
-       x="689.62195"
+       y="53.500061"
+       x="697.62195"
        height="50"
        width="30"
        id="rect4452"
        style="fill:#248443;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <rect
-       y="-532.49994"
-       x="689.62195"
+       y="103.50006"
+       x="697.62195"
        height="50"
        width="30"
        id="rect4454"

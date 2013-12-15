@@ -2,7 +2,6 @@ package se.gareth.swm;
 
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.Paint;
 
 public class LevelScoreTable extends GraphicObject {
 	
@@ -167,9 +166,6 @@ public class LevelScoreTable extends GraphicObject {
 			mBonusScoreCounter.draw(canvas);
 			mLostScoreCounter.draw(canvas);
 			mTotalScoreCounter.draw(canvas);
-			
-			canvas.drawLine((float)getLeft(), (float)(getY(0.31)), 
-							(float)getRight(), (float)(getY(0.31)), new Paint());
 		}
 	}
 }
