@@ -71,6 +71,7 @@ public class Bat1 extends Creature {
     	childBat.setAnimation(new Animation(mSmallBatFlyingSprite, 24, 0));
     	childBat.setPosition(x, y);
     	childBat.mIsChildBat = true;
+    	childBat.setHealthAttributes(80, 0);
     	childBat.mVelocity.set(childBat.mAcceleration.getX() * 3, childBat.mAcceleration.getY() * 3);
     	game.gameStage.addCreature(childBat);
     }
