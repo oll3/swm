@@ -73,13 +73,18 @@ public class GameStage extends Stage {
 
     @Override
     public void activated(Stage previousStage) {
-        mBackground.prepare(this);
-        addActiveObject(mBonusBar);
+    	if (previousStage != game.pauseStage) {
+	    	mBackground.load();
+	        mBackground.prepare(this);
+	        addActiveObject(mBonusBar);
+    	}
     }
 
     @Override
     public void deactivated(Stage nextStage) {
-
+    	if (nextStage != game.pauseStage) {
+    		mBackground.unload();
+    	}
     }
 
     public void addCreature(final HitableObject hitableObject) {

@@ -88,12 +88,7 @@ public class LevelStage extends Stage {
         int lifes = mWorldDescriptor.getHealth();
         game.itemBar.reset();
 
-        if (mCurrentBackground != null) {
-            mCurrentBackground.unload();
-        }
-
         mCurrentBackground = mWorldDescriptor.getBackground();
-        mCurrentBackground.load();
 
         /* Load the state of where player stopped playing this world */
 
