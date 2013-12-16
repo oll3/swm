@@ -1,7 +1,11 @@
 package se.gareth.swm;
 
 import android.graphics.Canvas;
-import android.util.Log;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.text.Layout.Alignment;
+import android.text.StaticLayout;
+import android.text.TextPaint;
 
 import java.util.LinkedList;
 
@@ -9,8 +13,12 @@ import java.util.LinkedList;
 public class HelpStage extends Stage {
 
 
+	private final LeftArrow mExitArrow;
     private final TextDrawable mHelpText;
     private final TextDrawable mInfoText;
+    private StaticLayout mTextLayout;
+    
+    private final TextPaint mTextPaint;
 
     private static final String mHelpString = "Make sure no creatures gets past your sight unnoticed, \nall animals should treated equally. " + 
     		"Let any creature escape your aim and you have lost the level and will have to replay it.\nNormally you have 3 retries in total for an area." +
@@ -39,20 +47,44 @@ public class HelpStage extends Stage {
 		mInfoText.setTextAlign(TextDrawable.Align.LEFT);
 		
 		mInfoText.setText(mHelpString);
+		
+		mTextPaint = new TextPaint();
+		mTextPaint.setAntiAlias(true);
+    	mTextPaint.setTypeface(game.gameView.font);
+    	mTextPaint.setTextSize(game.res.getDimension(R.dimen.NormalFontSize));
+    	mTextPaint.setColor(game.res.getColor(R.color.LightFontColor));
+    	
+    	mExitArrow = new LeftArrow(gameBase, "Back");
     }
 
     @Override
     public void update(final TimeStep timeStep) {
-
+    	mExitArrow.update(timeStep);
     }
 
     
     @Override
     public void draw(Canvas canvas) {
+    	
         canvas.drawColor(game.res.getColor(R.color.NormalBackground));
         game.drawWorldBackground(canvas);
-		//mHelpText.draw(canvas);
-		//mInfoText.draw(canvas);
+        
+        
+        canvas.save();
+        
+        canvas.translate(game.getScreenWidth()*0.05f, 30);
+        mTextPaint.setStyle(Paint.Style.STROKE);
+        mTextPaint.setStrokeWidth(3);
+        mTextPaint.setColor(Color.rgb(0, 0, 0));
+        mTextLayout.draw(canvas);
+        
+        mTextPaint.setStrokeWidth(1);
+        mTextPaint.setStyle(Paint.Style.FILL); 
+        mTextPaint.setColor(game.res.getColor(R.color.LightFontColor));
+        mTextLayout.draw(canvas);
+        canvas.restore();
+        
+        mExitArrow.draw(canvas);
     }
     
 
@@ -61,16 +93,19 @@ public class HelpStage extends Stage {
      */
     @Override
     public void activated(Stage previousStage) {
-
-	
+    	mTextLayout = new StaticLayout(mHelpString, mTextPaint, (int)(game.getScreenWidth()*0.95), Alignment.ALIGN_NORMAL, 1.0f, 0.0f, false);
     }
-
+    
+    @Override
+    public void deactivated(Stage nextStage) {
+    	mTextLayout = null;
+    }
 
     @Override
     public void onTouch(LinkedList<TouchEvent> touchEventList) {
     	
     	for (TouchEvent touchEvent: touchEventList) {
-	    	if (touchEvent.type == TouchEvent.TouchType.Up) {
+    		if (mExitArrow.wasPressed(touchEvent)) {
 	    		game.setStage(game.worldSelectStage);
 	    		break;
 	    	}
@@ -81,6 +116,7 @@ public class HelpStage extends Stage {
     public void playfieldSizeChanged(int width, int height) {
     	mHelpText.setPosition(50, 50);
     	mInfoText.setPosition(width/2, height/2 + 30);
+    	mExitArrow.setPosition(mExitArrow.getWidth() / 1.75, height - mExitArrow.getHeight() / 1.5);
     }
 };
 
