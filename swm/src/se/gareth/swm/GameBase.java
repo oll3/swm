@@ -14,6 +14,10 @@ import android.util.DisplayMetrics;
 public class GameBase {
 
     private static final String TAG = GameBase.class.getName();
+    
+    /* If this values is increased all previous settings will be reset
+     * on a device with a lower value from before. */
+    private static final int RESET_LEVEL = 1;
 
     class Forces {
 
@@ -119,6 +123,14 @@ public class GameBase {
         backgroundTypes.add(Background2.class);
         backgroundTypes.add(Background3.class);
 
+        
+        int gameResetLevel = settings.getInt("ResetLevel", 0);
+        if (gameResetLevel < RESET_LEVEL) {
+            settingsEditor.clear();
+            settingsEditor.putInt("ResetLevel", RESET_LEVEL);
+            settingsEditor.commit();
+        }
+        
         setPlayfieldSize(view.mWidth, view.mHeight);
 
         worldSelectStage = new WorldSelectStage(this);
