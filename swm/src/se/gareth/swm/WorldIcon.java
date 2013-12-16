@@ -105,7 +105,12 @@ public class WorldIcon extends Button {
         mWorldNameText.setAlpha(alpha);
         mHighScoreText.setAlpha(alpha);
         mLevelsText.setAlpha((int)((double)alpha * 0.5));
-        mMapPaint.setAlpha((int)((double)alpha * 0.75));
+        if (this.isEnable()) {
+        	mMapPaint.setAlpha((int)((double)alpha * 0.75));
+        }
+        else {
+        	mMapPaint.setAlpha((int)((double)alpha * 0.15));
+        }
     }
 
     @Override
@@ -120,14 +125,16 @@ public class WorldIcon extends Button {
     public void draw(Canvas canvas) {
         super.draw(canvas);
         if (mVisible) {
-
+        	
+            mThumbnailRect.set((float)getX(-0.47), (float)getY(-0.36),
+                    (float)getX(0.18), (float)getY(0.4));
+            
+            if (mMapThumbnail != null) {
+                canvas.drawBitmap(mMapThumbnail, null, mThumbnailRect, mMapPaint);
+            }
+        	
+            
             if (this.isEnable()) {
-                if (mMapThumbnail != null) {
-
-                    mThumbnailRect.set((float)getX(-0.47), (float)getY(-0.36),
-                                       (float)getX(0.18), (float)getY(0.4));
-                    canvas.drawBitmap(mMapThumbnail, null, mThumbnailRect, mMapPaint);
-                }
                 mHighScoreText.draw(canvas);
                 mLevelsText.draw(canvas);
             }
