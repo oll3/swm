@@ -12,7 +12,7 @@ import android.graphics.Color;
 public class Hen1 extends Creature {
 
     private static ArrayList<Sprite> mFlyingSprite, mFallingSprite;
-    private Vector2D mAcceleration;
+    private final Vector2D mAcceleration;
 
     private Animation mFlyingAnimation, mFallingAnimation;
     private static ArrayList<LinkedList<Sprite>> mSplittedSpriteList;
@@ -29,7 +29,7 @@ public class Hen1 extends Creature {
     public Hen1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
         super(gameBase, 200 + 50 * level, 20 + 10 * level);
-        mSpeed = game.calcHorizonalSpeed(270 + 90 * level);
+        mSpeed = game.calcHorizonalSpeed(400 + 150 * level);
 
 
         if (mFlyingSprite == null) {

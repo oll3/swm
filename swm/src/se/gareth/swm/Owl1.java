@@ -31,7 +31,7 @@ public class Owl1 extends Creature {
     public Owl1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
         super(gameBase, 100 + 100 * level, 25 + level * 5);
-        mSpeed = game.calcHorizonalSpeed(700 + level * 100);
+        mSpeed = game.calcHorizonalSpeed(700 + level * 200);
 
         if (mFlyingSprite == null) {
             mFlyingSprite = new ArrayList<Sprite>();

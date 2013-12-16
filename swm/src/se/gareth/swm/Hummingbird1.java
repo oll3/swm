@@ -102,7 +102,7 @@ public class Hummingbird1 extends Creature {
             else if (y > game.getPlayfieldHeight() - getHeight() / 2)
                 y = game.getPlayfieldHeight() - getHeight() / 2;
 
-            mMoveToBehavior = new MoveToBehavior(game, x, y, 1200.0 + mSpeed);
+            mMoveToBehavior = new MoveToBehavior(game, x, y, 1200.0 - mSpeed/2);
             addBehavior(mMoveToBehavior);
         }
 
