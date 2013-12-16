@@ -45,6 +45,7 @@ public class GameBase {
     public final GameStage gameStage;
     public final LevelStage levelStage;
     public final PauseStage pauseStage;
+    public final HelpStage helpStage;
     public final WorldSelectStage worldSelectStage;
     public final Resources res;
     public final Forces forces;
@@ -95,7 +96,8 @@ public class GameBase {
         /* Create the pause stage */
         pauseStage = new PauseStage(this);
 
-
+        helpStage = new HelpStage(this);
+        
         sounds = new Sounds(this);
 
         itemTypes = new ArrayList<Class<? extends ItemBaseObject>>();

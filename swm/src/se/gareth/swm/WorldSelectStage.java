@@ -28,8 +28,8 @@ public class WorldSelectStage extends Stage {
     private int mTouchScrollId;
     private double mTouchScrollStart;
     private double mTouchScrollY;
-
-    //  private Bitmap mBackground;
+    
+    private final SmallButton mHelpButton;
 
     public WorldSelectStage(GameBase gameBase) {
         super(gameBase);
@@ -41,8 +41,6 @@ public class WorldSelectStage extends Stage {
 
         mVersionText = new TextDrawable(gameBase.gameView.font);
         mVersionText.setTextSize(game.res.getDimension(R.dimen.SmallFontSize) * 0.75, false);
-        //      mVersionText.setOutline(game.res.getDimension(R.dimen.NormalFontOutline) * 0.3f,
-        //              game.res.getColor(R.color.NormalOutlineColor));
         mVersionText.setColor(game.res.getColor(R.color.LightFontColor));
         mVersionText.setTextAlign(TextDrawable.Align.RIGHT);
         Context context =  game.gameView.getContext();
@@ -72,9 +70,8 @@ public class WorldSelectStage extends Stage {
         }
         mScrollPosition = game.settings.getInt("WorldSelectScrollPosition", 0);
         mTouchScrollId = -1;
-
-        //game.settingsEditor.clear();
-        //game.settingsEditor.commit();
+        
+        mHelpButton = new SmallButton(gameBase, "?");
     }
 
 
@@ -152,14 +149,13 @@ public class WorldSelectStage extends Stage {
         mExitArrow.update(timeStep);
         mScrollUpArrow.update(timeStep);
         mScrollDownArrow.update(timeStep);
+    	mHelpButton.update(timeStep);
     }
 
 
     @Override
     public void draw(Canvas canvas) {
-
-        //      if (mBackground != null)
-        //          canvas.drawBitmap(mBackground, 0, 0, null);
+    	
         canvas.drawColor(game.res.getColor(R.color.NormalBackground));
         game.drawWorldBackground(canvas);
 
@@ -172,6 +168,7 @@ public class WorldSelectStage extends Stage {
         mScrollDownArrow.draw(canvas);
         mScrollUpArrow.draw(canvas);
         mExitArrow.draw(canvas);
+		mHelpButton.draw(canvas);
     }
 
 
@@ -179,8 +176,6 @@ public class WorldSelectStage extends Stage {
     public void activated(Stage previousStage) {
         int lastAreaCleared = -1;
         int areaIndex = 0;
-
-        //mBackground = BitmapFactory.decodeResource(game.res, R.drawable.world_background1);
 
         for (WorldIcon worldIcon: mWorldIconList) {
 
@@ -220,6 +215,9 @@ public class WorldSelectStage extends Stage {
             else if (mScrollDownArrow.wasPressed(touchEvent)) {
                 mScrollPosition += 1;
             }
+            else if (mHelpButton.wasPressed(touchEvent)) {
+            	game.setStage(game.helpStage);
+            }
 
             else if (mExitArrow.wasPressed(touchEvent)) {
                 Activity activity = (Activity)game.gameView.getContext();
@@ -231,7 +229,6 @@ public class WorldSelectStage extends Stage {
                     if (worldIcon.getAlpha() == 255 && worldIcon.wasPressed(touchEvent)) {
                         game.levelStage.setWorld(worldIcon.getDescriptor());
                         game.setStage(game.levelStage);
-                        //mBackground = null;
                         return ;
                     }
                 }
@@ -257,5 +254,6 @@ public class WorldSelectStage extends Stage {
         mExitArrow.setPosition(mExitArrow.getWidth() / 1.75, height - mExitArrow.getHeight() / 1.5);
         mScrollUpArrow.setPosition(width/2, mExitArrow.getHeight() / 1.5);
         mScrollDownArrow.setPosition(width/2, height - mExitArrow.getHeight() / 1.5);
+    	mHelpButton.setPosition(width - mHelpButton.getWidth() / 1.5, height - mHelpButton.getHeight() / 1.5);
     }
 }
