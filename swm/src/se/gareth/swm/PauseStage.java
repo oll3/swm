@@ -10,8 +10,10 @@ public class PauseStage extends Stage {
 
     private static final String TAG = PauseStage.class.getName();
 
-    private final TextDrawable mPauseText;
-    private final TextDrawable mInfoText;
+    private final TextDrawable mPauseText, mInfoText;
+    
+    private final LeftArrow mMenuArrow;
+    private int mExitCounter;
 
     public PauseStage(GameBase gameBase) {
         super(gameBase);
@@ -22,22 +24,22 @@ public class PauseStage extends Stage {
                               game.res.getColor(R.color.NormalOutlineColor));
         mPauseText.setTextAlign(TextDrawable.Align.CENTER);
         mPauseText.setColor(game.res.getColor(R.color.HeadingFontColor));
-
         mPauseText.setText("Pause");
-
+        
         mInfoText = new TextDrawable(gameBase.gameView.font);
         mInfoText.setTextSize(game.res.getDimension(R.dimen.NormalFontSize), false);
         mInfoText.setColor(game.res.getColor(R.color.HeadingFontColor));
         mInfoText.setOutline(game.res.getDimension(R.dimen.NormalFontOutline),
                              game.res.getColor(R.color.NormalOutlineColor));
         mInfoText.setTextAlign(TextDrawable.Align.CENTER);
-
         mInfoText.setText("Touch to continue");
+
+        mMenuArrow = new LeftArrow(gameBase, "Menu");
     }
 
     @Override
     public void update(final TimeStep timeStep) {
-
+        mMenuArrow.update(timeStep);
     }
 
 
@@ -47,6 +49,7 @@ public class PauseStage extends Stage {
         game.drawWorldBackground(canvas);
         mPauseText.draw(canvas);
         mInfoText.draw(canvas);
+        mMenuArrow.draw(canvas);
     }
 
 
@@ -55,8 +58,8 @@ public class PauseStage extends Stage {
      */
     @Override
     public void activated(Stage previousStage) {
-
-
+    	mMenuArrow.setText("Menu");
+    	mExitCounter = 0;
     }
 
 
@@ -64,10 +67,22 @@ public class PauseStage extends Stage {
     public void onTouch(LinkedList<TouchEvent> touchEventList) {
 
         for (TouchEvent touchEvent: touchEventList) {
-            if (touchEvent.type == TouchEvent.TouchType.Up) {
+        	
+        	if (mMenuArrow.wasPressed(touchEvent)) {
+        		if (mExitCounter > 0) {
+        			game.setStage(game.worldSelectStage);
+        			punishExit();
+        		}
+        		else {
+        			mMenuArrow.setText("Sure?");
+        			mExitCounter ++;
+        		}
+        		break;
+        	}
+        	else if (touchEvent.type == TouchEvent.TouchType.Up) {
                 game.setStage(game.gameStage);
                 break;
-            }
+        	}
         }
     }
 
@@ -75,6 +90,21 @@ public class PauseStage extends Stage {
     public void playfieldSizeChanged(int width, int height) {
         mPauseText.setPosition(width/2, height/2 - 30);
         mInfoText.setPosition(width/2, height/2 + 30);
+        mMenuArrow.setPosition(mMenuArrow.getWidth() / 1.75, height - mMenuArrow.getHeight() / 1.5);
+    }
+    
+    private void punishExit() {
+        WorldDescriptor worldDescriptor = game.levelStage.getWorldDescriptor();
+        if (worldDescriptor != null) {
+	        if (game.health.getLifes() > 1) {
+	            game.settingsEditor.putInt(worldDescriptor.getKey() + "CurrentHealth", game.health.getLifes() - 1);
+	        }
+	        else {
+	            Log.d(TAG, "Area failed as player run out of extra lifes upon stopping activity");
+	            game.settingsEditor.putBoolean(worldDescriptor.getKey() + "AreaFailed", true);
+	        }
+	        game.settingsEditor.commit();
+        }
     }
 
     @Override
@@ -84,14 +114,7 @@ public class PauseStage extends Stage {
         WorldDescriptor worldDescriptor = game.levelStage.getWorldDescriptor();
         if (worldDescriptor != null) {
             Log.i(TAG, "Actvity stopped in middle of a level.");
-            if (game.health.getLifes() > 1) {
-                game.settingsEditor.putInt(worldDescriptor.getKey() + "CurrentHealth", game.health.getLifes() - 1);
-            }
-            else {
-                Log.d(TAG, "Area failed as player run out of extra lifes upon stopping activity");
-                game.settingsEditor.putBoolean(worldDescriptor.getKey() + "AreaFailed", true);
-            }
-            game.settingsEditor.commit();
+            punishExit();
         }
     }
 };
