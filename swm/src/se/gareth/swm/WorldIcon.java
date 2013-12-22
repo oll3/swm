@@ -35,17 +35,13 @@ public class WorldIcon extends Button {
         mWorldNameText.setText(worldDescriptor.getName());
 
         mHighScoreText = new TextDrawable(gameBase.gameView.font);
-        mHighScoreText.setTextSize(game.res.getDimension(R.dimen.HeadingFontSize), false);
-        //mHighScoreText.setOutline(game.res.getDimension(R.dimen.SmallFontOutline),
-        //      game.res.getColor(R.color.NormalOutlineColor));
+        mHighScoreText.setTextSize(game.res.getDimension(R.dimen.NormalFontSize), false);
         mHighScoreText.setColor(Color.rgb(0xfe, 0xda, 0xdb));
         mHighScoreText.setTextAlign(TextDrawable.Align.CENTER);
 
 
         mLevelsText = new TextDrawable(gameBase.gameView.font);
         mLevelsText.setTextSize(game.res.getDimension(R.dimen.HugeFontSize), false);
-        //mLevelsText.setOutline(game.res.getDimension(R.dimen.NormalFontOutline),
-        //      game.res.getColor(R.color.GreyFontColor));
         mLevelsText.setColor(game.res.getColor(R.color.LightFontColor));
         mLevelsText.setTextAlign(TextDrawable.Align.CENTER);
 
