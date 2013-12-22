@@ -100,7 +100,7 @@ public class PauseStage extends Stage {
 	            game.settingsEditor.putInt(worldDescriptor.getKey() + "CurrentHealth", game.health.getLifes() - 1);
 	        }
 	        else {
-	            Log.d(TAG, "Area failed as player run out of extra lifes upon stopping activity");
+	            SLog.d(TAG, "Area failed as player run out of extra lifes upon stopping activity");
 	            game.settingsEditor.putBoolean(worldDescriptor.getKey() + "AreaFailed", true);
 	        }
 	        game.settingsEditor.commit();
@@ -113,7 +113,7 @@ public class PauseStage extends Stage {
          * to stop players from restarting at the same level without being punished*/
         WorldDescriptor worldDescriptor = game.levelStage.getWorldDescriptor();
         if (worldDescriptor != null) {
-            Log.i(TAG, "Actvity stopped in middle of a level.");
+            SLog.i(TAG, "Actvity stopped in middle of a level.");
             punishExit();
         }
     }

@@ -1,9 +1,6 @@
 package se.gareth.swm;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-
-import android.util.Log;
 
 public class Vector2D {
 

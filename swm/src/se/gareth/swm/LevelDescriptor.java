@@ -2,8 +2,6 @@ package se.gareth.swm;
 
 import java.util.ArrayList;
 
-import android.util.Log;
-
 public class LevelDescriptor {
 
     private static final String TAG = LevelDescriptor.class.getName();
@@ -43,7 +41,7 @@ public class LevelDescriptor {
         this.creaturesAlive = creaturesAlive;
         this.creaturesAliveMinInterval = creaturesAliveMinInterval;
         this.creaturesAliveMaxInterval = creaturesAliveMaxInterval;
-        Log.d(TAG, "Level name=" +", type=" + type + " created");
+        SLog.d(TAG, "Level name=" +", type=" + type + " created");
     }
 
     public void setDesctiption(String text) {
@@ -52,7 +50,7 @@ public class LevelDescriptor {
 
     public void addHitable(String hitableType, int hitableLevel, double hitableChance, int hitableCopies, boolean hitableMustBeKilled) {
         hitableList.add(new Hitable(hitableType, hitableLevel, hitableChance, hitableCopies, hitableMustBeKilled));
-        Log.d(TAG, "New Hitable=" + hitableType +", level=" + hitableLevel + ", chance=" + hitableChance + ", copies=" + hitableCopies);
+        SLog.d(TAG, "New Hitable=" + hitableType +", level=" + hitableLevel + ", chance=" + hitableChance + ", copies=" + hitableCopies);
     }
 
 }

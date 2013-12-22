@@ -61,7 +61,7 @@ public class WorldParser extends DefaultHandler {
                                                      Color.green(backgroundColor), Color.blue(backgroundColor));
                     }
                     catch (NumberFormatException e) {
-                        Log.w(TAG, "Invalid format of background color");
+                        SLog.w(TAG, "Invalid format of background color");
                         backgroundColor = 0xffffffff;
                     }
                 }
@@ -176,11 +176,11 @@ public class WorldParser extends DefaultHandler {
             inStream.setByteStream(worldFile);
             xr.parse(inStream);
 
-            Log.w(TAG, "Done");
+            SLog.w(TAG, "Done");
             return xmlParser.getWorldList();
         }
         catch (Exception e) {
-            Log.w(TAG, e);
+            SLog.pe(TAG, e.getMessage(), e);
             return null;
         }
     }

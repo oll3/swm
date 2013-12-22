@@ -1,6 +1,5 @@
 package se.gareth.swm;
 
-import android.util.Log;
 
 public class GameThread extends Thread {
 
@@ -29,7 +28,7 @@ public class GameThread extends Thread {
         mRun = 0;
         mEndInFrames = 0;
 
-        Log.i(TAG, "Thread created!");
+        SLog.i(TAG, "Thread created!");
     }
 
 
@@ -38,12 +37,12 @@ public class GameThread extends Thread {
      */
     public void end(int endInFrames) {
         if (mRun != 0) {
-            Log.d(TAG, "Ending thread...");
+            SLog.d(TAG, "Ending thread...");
             mEndInFrames = endInFrames;
             mRun = 0;
             try {
                 this.join();
-                Log.d(TAG, "Thread joined");
+                SLog.d(TAG, "Thread joined");
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -53,7 +52,7 @@ public class GameThread extends Thread {
     @Override
     public void start() {
         if (mRun == 0) {
-            Log.d(TAG, "Starting thread (" + this.getState() + ")...");
+            SLog.d(TAG, "Starting thread (" + this.getState() + ")...");
             mRun = 1;
             super.start();
         }
@@ -62,7 +61,7 @@ public class GameThread extends Thread {
     @Override
     public void run() {
 
-        Log.d(TAG, "THREAD RUNNING!");
+        SLog.d(TAG, "THREAD RUNNING!");
 
         while (mRun != 0 || mEndInFrames > 0) {
 
@@ -72,7 +71,7 @@ public class GameThread extends Thread {
 
             if (System.currentTimeMillis() > (mFpsTimeStamp + 1000)) {
                 mFpsTimeStamp = System.currentTimeMillis();
-                Log.w(TAG, "FPS: " + mFpsCount);
+                SLog.w(TAG, "FPS: " + mFpsCount);
                 mFpsCount = 0;
             }
 
@@ -81,7 +80,7 @@ public class GameThread extends Thread {
             }
         }
 
-        Log.w(TAG, "THREAD EXITED!");
+        SLog.w(TAG, "THREAD EXITED!");
     }
 
 }

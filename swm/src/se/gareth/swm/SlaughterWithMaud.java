@@ -20,7 +20,6 @@ import android.app.Activity;
 import android.content.res.Configuration;
 import android.media.AudioManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -48,28 +47,28 @@ public class SlaughterWithMaud extends Activity {
                              WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         
-        Log.i(TAG, "Application created!");
+        SLog.i(TAG, "Application created!");
 
         setContentView(R.layout.activity_main); //R.layout.main);
         mGameView = (GameView) findViewById(R.id.game);
 
         if (savedInstanceState == null) {
-            Log.i(TAG, "New game started.");
+            SLog.i(TAG, "New game started.");
         } else {
-            Log.i(TAG, "Game Resumed.");
+            SLog.i(TAG, "Game Resumed.");
         }
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i(TAG, "Pause called.");
+        SLog.i(TAG, "Pause called.");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i(TAG, "Stop called.");
+        SLog.i(TAG, "Stop called.");
         mGameView.onStop();
         finish();
     }
@@ -77,13 +76,13 @@ public class SlaughterWithMaud extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i(TAG, "Resume called.");
+        SLog.i(TAG, "Resume called.");
     }
 
     @Override
 	public void onConfigurationChanged(Configuration newConfig) {
     	super.onConfigurationChanged(newConfig);
-        Log.i(TAG, "Configuration changed.");
+        SLog.i(TAG, "Configuration changed.");
     	
     }
     

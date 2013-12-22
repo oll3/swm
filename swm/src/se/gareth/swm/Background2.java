@@ -32,7 +32,7 @@ public class Background2 extends Background {
                 double distance = Math.abs(getX() - object.getX());
                 double hit = (getWidth() / 2.0 - distance) * 1.2 / (getWidth() / 2.0);
                 hit = Math.min(1.0, hit);
-                Log.d(null, "Tree was hit: " + hit);
+                SLog.d(null, "Tree was hit: " + hit);
                 return hit;
             }
             return 0;

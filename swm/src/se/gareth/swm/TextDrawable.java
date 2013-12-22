@@ -121,7 +121,7 @@ public class TextDrawable extends Drawable {
         mSize.bottom = (int)(mFontMetrics.bottom + 0.5f);
         mSize.top = (int)(mFontMetrics.top - 4.5f);
 
-        //Log.d(TAG, "Text top=" + mFontMetrics.top + ", bottom=" + mFontMetrics.bottom + ", ascent=" + mFontMetrics.ascent + ", bottom=" + mFontMetrics.descent);
+        //SLog.d(TAG, "Text top=" + mFontMetrics.top + ", bottom=" + mFontMetrics.bottom + ", ascent=" + mFontMetrics.ascent + ", bottom=" + mFontMetrics.descent);
         //mSize.bottom = (int)(mFontMetrics.bottom + 0.5f);
         //mSize.top = (int)(mFontMetrics.top - 0.5f);
 

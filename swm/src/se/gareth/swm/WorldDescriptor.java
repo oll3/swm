@@ -3,7 +3,6 @@ package se.gareth.swm;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 
-import android.util.Log;
 
 public class WorldDescriptor {
 
@@ -33,7 +32,7 @@ public class WorldDescriptor {
         levelList = new ArrayList<LevelDescriptor>();
         mKey = key;
         mHealth = 3;
-        Log.d(TAG, "World=" + mName + " created");
+        SLog.d(TAG, "World=" + mName + " created");
         mBackground = null;
     }
 
@@ -48,15 +47,15 @@ public class WorldDescriptor {
                 try {
                     mBackground = backgroundClass.getConstructor(GameBase.class, int.class).newInstance(game, colorParam);
                 } catch (IllegalArgumentException e) {
-                    Log.e(TAG, e.getMessage(), e);
+                    SLog.pe(TAG, e.getMessage(), e);
                 } catch (InstantiationException e) {
-                    Log.e(TAG, e.getMessage(), e);
+                    SLog.pe(TAG, e.getMessage(), e);
                 } catch (IllegalAccessException e) {
-                    Log.e(TAG, e.getMessage(), e);
+                    SLog.pe(TAG, e.getMessage(), e);
                 } catch (InvocationTargetException e) {
-                    Log.e(TAG, e.getMessage(), e);
+                    SLog.pe(TAG, e.getMessage(), e);
                 } catch (NoSuchMethodException e) {
-                    Log.e(TAG, e.getMessage(), e);
+                    SLog.pe(TAG, e.getMessage(), e);
                 }
                 break;
             }

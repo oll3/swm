@@ -1,7 +1,5 @@
 package se.gareth.swm;
 
-import android.util.Log;
-
 public class WobbleBehavior extends Behavior {
 
     private static final String TAG = WobbleBehavior.class.getName();
@@ -21,7 +19,7 @@ public class WobbleBehavior extends Behavior {
     @Override
     public void wasAdded(ActiveObject activeObject) {
         mChangeDirectionTime = System.currentTimeMillis() + (mRange / 2);
-        Log.d(TAG, "Added wobble behavior to " + activeObject);
+        SLog.d(TAG, "Added wobble behavior to " + activeObject);
     }
 
     @Override
@@ -33,7 +31,7 @@ public class WobbleBehavior extends Behavior {
             mFrameCnt = 0;
             mForce.invert();
             mChangeDirectionTime = System.currentTimeMillis() + mRange;
-            Log.d(TAG, "Force now " + mForce);
+            SLog.d(TAG, "Force now " + mForce);
         }
     }
 }

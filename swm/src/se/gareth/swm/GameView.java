@@ -69,7 +69,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
 
         mLoadingText.setText("Loading...");
 
-        Log.d(TAG, "Object created!");
+        SLog.d(TAG, "Object created!");
     }
 
     public void setStage(Stage stage) {
@@ -212,7 +212,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
             game.setPlayfieldSize(width, height);
         }
 
-        Log.d(TAG, "Surface changed (" + width + ", " + height + ")");
+        SLog.d(TAG, "Surface changed (" + width + ", " + height + ")");
     }
 
     /*
@@ -221,7 +221,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
      */
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
-        Log.d(TAG, "Surface created");
+        SLog.d(TAG, "Surface created");
     }
 
     /*
@@ -234,7 +234,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
         synchronized (this) {
             endThread(0);
         }
-        Log.d(TAG, "Surface destroyed!");
+        SLog.d(TAG, "Surface destroyed!");
     }
 
 
@@ -262,7 +262,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
             else {
                 endThread(0);
             }
-            Log.d(TAG, "End thread");
+            SLog.d(TAG, "End thread");
         }
     }
 
@@ -291,11 +291,11 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
         super.onWindowFocusChanged(hasWindowFocus);
 
         if (hasWindowFocus == false) {
-            Log.d(TAG, "Lost Focus!");
+            SLog.d(TAG, "Lost Focus!");
             pause();
         }
         else {
-            Log.d(TAG, "Got Focus!");
+            SLog.d(TAG, "Got Focus!");
             resume();
         }
     }

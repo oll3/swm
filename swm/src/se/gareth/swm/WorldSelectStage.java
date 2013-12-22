@@ -49,20 +49,20 @@ public class WorldSelectStage extends Stage {
             pkgInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), 0);
             mVersionText.setText("v " + pkgInfo.versionName);
         } catch (NameNotFoundException e) {
-            Log.e(TAG, e.getMessage(), e);
+            SLog.pe(TAG, e.getMessage(), e);
         }
 
         mVersionText.setAlpha(200);
 
-        Log.i(TAG, "Parse world file...");
+        SLog.i(TAG, "Parse world file...");
         try {
             AssetManager assets = game.gameView.getContext().getAssets();
             InputStream worldInput = assets.open("World1.xml");
             mWorldList = WorldParser.parseXML(gameBase, worldInput);
-            Log.i(TAG, "Parsed world file!");
+            SLog.i(TAG, "Parsed world file!");
         }
         catch (Exception e) {
-            Log.w(TAG, e);
+        	SLog.pe(TAG, e.getMessage(), e);
         }
 
         for (WorldDescriptor worldDescriptor: mWorldList) {

@@ -5,7 +5,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.Random;
 
 import android.graphics.Canvas;
-import android.util.Log;
 
 import java.util.LinkedList;
 
@@ -121,17 +120,17 @@ public class LevelStage extends Stage {
                         try {
                             ItemBaseObject itemObject = itemClass.getConstructor(GameBase.class).newInstance(game);
                             game.itemBar.addItem(itemObject, true);
-                            Log.i(TAG, "Restored item " + itemTypeName);
+                            SLog.i(TAG, "Restored item " + itemTypeName);
                         } catch (NoSuchMethodException e) {
-                            Log.e(TAG, e.getMessage(), e);
+                            SLog.pe(TAG, e.getMessage(), e);
                         } catch (IllegalArgumentException e) {
-                            Log.e(TAG, e.getMessage(), e);
+                            SLog.pe(TAG, e.getMessage(), e);
                         } catch (InstantiationException e) {
-                            Log.e(TAG, e.getMessage(), e);
+                            SLog.pe(TAG, e.getMessage(), e);
                         } catch (IllegalAccessException e) {
-                            Log.e(TAG, e.getMessage(), e);
+                            SLog.pe(TAG, e.getMessage(), e);
                         } catch (InvocationTargetException e) {
-                            Log.e(TAG, e.getMessage(), e);
+                            SLog.pe(TAG, e.getMessage(), e);
                         }
                     }
                 }
@@ -164,15 +163,15 @@ public class LevelStage extends Stage {
               try {
               mCurrentBackground = backgroundClass.getConstructor(GameBase.class, int.class).newInstance(game, mWorldDescriptor.getBackgroundColor());
               } catch (IllegalArgumentException e) {
-              Log.e(TAG, e.getMessage(), e);
+              SLog.e(TAG, e.getMessage(), e);
               } catch (InstantiationException e) {
-              Log.e(TAG, e.getMessage(), e);
+              SLog.e(TAG, e.getMessage(), e);
               } catch (IllegalAccessException e) {
-              Log.e(TAG, e.getMessage(), e);
+              SLog.e(TAG, e.getMessage(), e);
               } catch (InvocationTargetException e) {
-              Log.e(TAG, e.getMessage(), e);
+              SLog.e(TAG, e.getMessage(), e);
               } catch (NoSuchMethodException e) {
-              Log.e(TAG, e.getMessage(), e);
+              SLog.e(TAG, e.getMessage(), e);
               }
               break;
               }
@@ -345,7 +344,7 @@ public class LevelStage extends Stage {
                     try {
                         for (Class<? extends Creature> creatureClass: game.creatureTypes) {
                             if (creatureClass.getSimpleName().equalsIgnoreCase(hitableDesc.type)) {
-                                Log.d(TAG, "Create creature " + hitableDesc.type + " (level " + hitableDesc.level + ")...");
+                                SLog.d(TAG, "Create creature " + hitableDesc.type + " (level " + hitableDesc.level + ")...");
                                 Constructor<? extends Creature> creatureConstructor = creatureClass.getConstructor(GameBase.class, int.class);
                                 int creatureLevel = hitableDesc.level - 1;
                                 hitableObject = creatureConstructor.newInstance(game, creatureLevel);
@@ -354,22 +353,22 @@ public class LevelStage extends Stage {
 
                         for (Class<? extends ItemBaseObject> itemClass: game.itemTypes) {
                             if (itemClass.getSimpleName().equalsIgnoreCase(hitableDesc.type)) {
-                                Log.d(TAG, "Create item " + hitableDesc.type + "...");
+                                SLog.d(TAG, "Create item " + hitableDesc.type + "...");
                                 Constructor<? extends ItemBaseObject> itemConstructor = itemClass.getConstructor(GameBase.class);
                                 ItemBaseObject itemObject = itemConstructor.newInstance(game);
                                 hitableObject = new ItemBox(game, game.getScreenWidth() / 2, 0, itemObject);
                             }
                         }
                     } catch (NoSuchMethodException e) {
-                        Log.e(TAG, e.getMessage(), e);
+                        SLog.pe(TAG, e.getMessage(), e);
                     } catch (IllegalArgumentException e) {
-                        Log.e(TAG, e.getMessage(), e);
+                        SLog.pe(TAG, e.getMessage(), e);
                     } catch (InstantiationException e) {
-                        Log.e(TAG, e.getMessage(), e);
+                        SLog.pe(TAG, e.getMessage(), e);
                     } catch (IllegalAccessException e) {
-                        Log.e(TAG, e.getMessage(), e);
+                        SLog.pe(TAG, e.getMessage(), e);
                     } catch (InvocationTargetException e) {
-                        Log.e(TAG, e.getMessage(), e);
+                        SLog.pe(TAG, e.getMessage(), e);
                     }
                 }
 

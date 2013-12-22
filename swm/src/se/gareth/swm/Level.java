@@ -89,11 +89,11 @@ public class Level {
 
     public void creatureIsAlive(HitableObject object) {
         mCreaturesAlive ++;
-        //Log.d(TAG, "Creature " + object + " is now alive (alive now: " + mCreaturesAlive + ")");
+        //SLog.d(TAG, "Creature " + object + " is now alive (alive now: " + mCreaturesAlive + ")");
     }
 
     public void addObject(HitableObject object, int timeToNext) {
-        Log.d(TAG, "Added object " + object +" to level");
+        SLog.d(TAG, "Added object " + object +" to level");
         mTotalObjects ++;
         HitableObjectContainer aoHolder = new HitableObjectContainer(object, timeToNext);
         mObjectList.add(aoHolder);
@@ -146,24 +146,24 @@ public class Level {
             /* Object was shot by player */
             mKillList.add(object);
             mKills ++;
-            Log.d(TAG, "Object " + object +" destroyed");
+            SLog.d(TAG, "Object " + object +" destroyed");
         }
         else {
             /* Object wasn't shot by player, but got away */
-            Log.d(TAG, "Object " + object +" survived (mustBeKilled=" + object.mustBeKilled() + ")");
+            SLog.d(TAG, "Object " + object +" survived (mustBeKilled=" + object.mustBeKilled() + ")");
             if (object.mustBeKilled()) {
                 /* Object was supposed to be shot. Level failed. */
                 mFailed = true;
-                Log.d(TAG, "Level failed");
+                SLog.d(TAG, "Level failed");
             }
         }
         mCreaturesAlive --;
-        //Log.d(TAG, "Creature " + object + " is now dead (alive now: " + mCreaturesAlive + ")");
+        //SLog.d(TAG, "Creature " + object + " is now dead (alive now: " + mCreaturesAlive + ")");
         mTotalFinished ++;
-        //Log.d(TAG, "TotalObjects=" + mTotalObjects + ", TotalFinished=" + mTotalFinished + ", mCreaturesAlive=" + mCreaturesAlive);
+        //SLog.d(TAG, "TotalObjects=" + mTotalObjects + ", TotalFinished=" + mTotalFinished + ", mCreaturesAlive=" + mCreaturesAlive);
         if (mCreaturesAlive == 0 && mTotalFinished >= mTotalObjects && !mFailed) {
             mFinished = true;
-            Log.d(TAG, "Level successfully finished");
+            SLog.d(TAG, "Level successfully finished");
         }
     }
 

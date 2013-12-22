@@ -5,10 +5,7 @@ import java.util.ArrayList;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.RectF;
-import android.util.Log;
 import android.util.DisplayMetrics;
 
 public class GameBase {

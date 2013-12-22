@@ -8,7 +8,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Rect;
-import android.util.Log;
 
 
 public class Sprite {
@@ -94,7 +93,7 @@ public class Sprite {
 
 		/* Calculate inSampleSize */
 		options.inSampleSize = calculateInSampleSize(options, fitWidth, fitHeight);
-		/* Log.d(TAG, "Load bitmap scaled to " + reqWidth + " x " + reqHeight + " (sample size=" + options.inSampleSize + ")"); */
+		/* SLog.d(TAG, "Load bitmap scaled to " + reqWidth + " x " + reqHeight + " (sample size=" + options.inSampleSize + ")"); */
 
 		/* Decode bitmap with inSampleSize set */
 		options.inJustDecodeBounds = false;

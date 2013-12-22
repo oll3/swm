@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
-import android.util.Log;
 
 public class GameStage extends Stage {
 
