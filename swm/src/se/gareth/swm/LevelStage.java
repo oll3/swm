@@ -262,7 +262,7 @@ public class LevelStage extends Stage {
 
             if (game.health.getLifes() <= 0) {
                 /* End of game */
-                mLevelText.setText("Game Over");
+                mLevelText.setText("Level " + (mLevelValue) + " - Game Over");
                 mNextArrow.hide();
                 mLevelValue = 1;
                 game.settingsEditor.putBoolean(mWorldDescriptor.getKey() + "AreaFailed", true);
