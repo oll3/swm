@@ -14,7 +14,7 @@
         android:hardwareAccelerated="true" 
         android:anyDensity="true" 
         android:installLocation="auto" 
-        android:allowBackup="true">
+        android:allowBackup="true" android:largeHeap="true">
             
         <activity android:name="SlaughterWithMaud" android:label="@string/title_activity_main" android:screenOrientation="landscape">
             <intent-filter>
