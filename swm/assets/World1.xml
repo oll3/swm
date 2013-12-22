@@ -20,7 +20,7 @@
 
 	        <!-- Chance of gaining items on this level -->
 			
-			<Hitable type="BombItem" chance="0.5" mustBeKilled="false"/>
+			<Hitable type="FreezeItem" chance="0.7" mustBeKilled="false"/>
 			<Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
 		</Level>
 	    
@@ -32,7 +32,7 @@
 	
 	        <!-- Chance of gaining items on this level -->
 			
-            <Hitable type="BombItem" chance="0.5" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.7" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
 		</Level>
 		
@@ -45,7 +45,7 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.5" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.6" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
         
@@ -59,7 +59,7 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.6" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
 
@@ -74,8 +74,7 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.5" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
         
@@ -90,8 +89,7 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.5" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
         
@@ -106,8 +104,7 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.4" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
         
@@ -122,8 +119,7 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.4" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
         
@@ -139,7 +135,6 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
             <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
@@ -155,7 +150,6 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
             <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
@@ -171,8 +165,7 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.2" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
 		
@@ -187,8 +180,7 @@
             
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.2" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
         
@@ -203,7 +195,6 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
             <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
@@ -219,7 +210,6 @@
     
             <!-- Chance of gaining items on this level -->
             
-            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
             <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
             <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
         </Level>
@@ -289,157 +279,377 @@
 	
 	<World name="KNOCK ON WOOD MAUD" health="3" background="Background2" backgroundColor="0xc05041">
         
-        <Level creaturesAlive="5" creaturesAliveMinInterval="100" creaturesAliveMaxInterval="2000">
+	    <Level creaturesAlive="5" creaturesAliveMinInterval="1000" creaturesAliveMaxInterval="2000">
+	        
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="2" copies="6"/>
+            
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.5" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.5" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        <Level>
             
             <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="2" copies="6"/>
+            <Hitable type="Puppy1" level="1" copies="1"/>
             
-            <Hitable type="Puppy1" level="1" copies="4"/>
             
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.5" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="2" copies="6"/>
+            <Hitable type="Hummingbird1" level="2" copies="3"/>
+            <Hitable type="Puppy1" level="1" copies="2"/> 
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.4" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.4" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
             <Hitable type="Bird1" level="2" copies="8"/>
-            <Hitable type="Hummingbird1" level="1" copies="2"/>
-            
-            <!-- Chance of gaining items on this level -->
-            
-            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
-        </Level>
-        
-        <Level>
-    
-            <!-- Creatures on this level -->
-            
-            <Hitable type="Puppy1" level="1" copies="6"/>
-            
-            <Hitable type="Bird1" level="1" copies="9"/>
-            <Hitable type="Hummingbird1" level="1" copies="3"/>
-            <Hitable type="Owl1" level="1" copies="1"/>
-            
-            
-            <!-- Chance of gaining items on this level -->
-            
-            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
-        </Level>
-        
-        <Level>
-    
-            <!-- Creatures on this level -->
-            
-            <Hitable type="Puppy1" level="1" copies="2"/>
-            <Hitable type="Puppy1" level="2" copies="4"/>
-            
-            <Hitable type="Bird1" level="2" copies="10"/>
-            <Hitable type="Hen1" level="1" copies="1"/>
-            <Hitable type="Hummingbird1" level="1" copies="3"/>
-            <Hitable type="Owl1" level="1" copies="1"/>
-
-            <!-- Chance of gaining items on this level -->
-            
-            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
-        </Level>
-        
-        <Level>
-    
-            <!-- Creatures on this level -->
-            
-            <Hitable type="Puppy1" level="1" copies="8"/>
-            
-            <Hitable type="Bird1" level="2" copies="12"/>
-            <Hitable type="Hen1" level="2" copies="1"/>
-            <Hitable type="Hummingbird1" level="2" copies="3"/>
-            <Hitable type="Owl1" level="1" copies="1"/>
-
-
-            <!-- Chance of gaining items on this level -->
-            
-            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
-        </Level>
-        
-        <Level>
-    
-            <!-- Creatures on this level -->
-            
-            <Hitable type="Puppy1" level="1" copies="3"/>
-            <Hitable type="Puppy1" level="2" copies="5"/>
-            
-            <Hitable type="Bird1" level="2" copies="14"/>
-            <Hitable type="Hen1" level="2" copies="2"/>
-            <Hitable type="Hummingbird1" level="2" copies="3"/>
-            <Hitable type="Owl1" level="1" copies="2"/>
-            
-
-            <!-- Chance of gaining items on this level -->
-            
-            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
-        </Level>
-        
-        <Level>
-    
-            <!-- Creatures on this level -->
-            
-            <Hitable type="Puppy1" level="2" copies="4"/>
-            <Hitable type="Puppy1" level="3" copies="4"/>
-            
-            <Hitable type="Bird1" level="2" copies="14"/>
-            <Hitable type="Hen1" level="2" copies="4"/>
             <Hitable type="Hummingbird1" level="2" copies="4"/>
-            <Hitable type="Owl1" level="1" copies="3"/>
+            <Hitable type="Puppy1" level="1" copies="3"/>
 
-            
             <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.4" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
             
-            <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
         </Level>
         
-        <Level>
-    
-            <!-- Creatures on this level -->
+        
+        <Level creaturesAlive="6" creaturesAliveMinInterval="800" creaturesAliveMaxInterval="2000">
             
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="2" copies="6"/>
+            <Hitable type="Hummingbird1" level="2" copies="3"/>
+            <Hitable type="Puppy1" level="1" copies="3"/>
+            <Hitable type="Owl1" level="2" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.4" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="2" copies="6"/>
+            <Hitable type="Hummingbird1" level="2" copies="3"/>
+            <Hitable type="Puppy1" level="1" copies="3"/>
+            <Hitable type="Owl1" level="2" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.4" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="3" copies="6"/>
+            <Hitable type="Hummingbird1" level="3" copies="3"/>
+            <Hitable type="Puppy1" level="2" copies="4"/>
+            <Hitable type="Owl1" level="3" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.4" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.4" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="3" copies="8"/>
+            <Hitable type="Hummingbird1" level="3" copies="4"/>
+            <Hitable type="Puppy1" level="2" copies="4"/>
+            <Hitable type="Owl1" level="3" copies="3"/>
+            <Hitable type="Hen1" level="3" copies="1"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="3" copies="8"/>
+            <Hitable type="Hummingbird1" level="3" copies="4"/>
+            <Hitable type="Puppy1" level="2" copies="4"/>
+            <Hitable type="Owl1" level="3" copies="3"/>
+            <Hitable type="Hen1" level="3" copies="1"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level creaturesAlive="7" creaturesAliveMinInterval="600" creaturesAliveMaxInterval="2000">
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="3" copies="7"/>
+            <Hitable type="Hummingbird1" level="3" copies="3"/>
+            <Hitable type="Puppy1" level="2" copies="3"/>
+            <Hitable type="Owl1" level="3" copies="2"/>
+            <Hitable type="Hen1" level="3" copies="1"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="3" copies="9"/>
+            <Hitable type="Hummingbird1" level="3" copies="4"/>
             <Hitable type="Puppy1" level="3" copies="4"/>
-            <Hitable type="Puppy1" level="4" copies="4"/>
-            
-            <Hitable type="Bird1" level="2" copies="15"/>
-            <Hitable type="Hen1" level="2" copies="4"/>
-            <Hitable type="Hummingbird1" level="2" copies="5"/>
-            <Hitable type="Owl1" level="1" copies="4"/>
+            <Hitable type="Owl1" level="3" copies="4"/>
+            <Hitable type="Hen1" level="3" copies="2"/>
 
-            
             <!-- Chance of gaining items on this level -->
-            
             <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
         </Level>
         
         
         <Level>
-    
+            
             <!-- Creatures on this level -->
-            
-            <Hitable type="Puppy1" level="4" copies="4"/>
-            <Hitable type="Puppy1" level="5" copies="4"/>
-            
-            <Hitable type="Bird1" level="2" copies="18"/>
-            <Hitable type="Hen1" level="2" copies="8"/>
-            <Hitable type="Hummingbird1" level="2" copies="8"/>
-            <Hitable type="Owl1" level="1" copies="8"/>
+            <Hitable type="Bird1" level="3" copies="10"/>
+            <Hitable type="Hummingbird1" level="3" copies="5"/>
+            <Hitable type="Puppy1" level="3" copies="4"/>
+            <Hitable type="Owl1" level="3" copies="5"/>
+            <Hitable type="Hen1" level="3" copies="2"/>
 
-            
             <!-- Chance of gaining items on this level -->
-            
             <Hitable type="BombItem" chance="0.1" mustBeKilled="false"/>
             <Hitable type="FreezeItem" chance="0.1" mustBeKilled="false"/>
-            <Hitable type="ExtraLifeItem" chance="0.05" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="4" copies="10"/>
+            <Hitable type="Hummingbird1" level="4" copies="5"/>
+            <Hitable type="Puppy1" level="4" copies="4"/>
+            <Hitable type="Owl1" level="4" copies="5"/>
+            <Hitable type="Hen1" level="4" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.4" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="4" copies="12"/>
+            <Hitable type="Hummingbird1" level="4" copies="5"/>
+            <Hitable type="Puppy1" level="4" copies="4"/>
+            <Hitable type="Owl1" level="4" copies="5"/>
+            <Hitable type="Hen1" level="4" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.4" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level creaturesAlive="8" creaturesAliveMinInterval="600" creaturesAliveMaxInterval="2000">
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="4" copies="10"/>
+            <Hitable type="Hummingbird1" level="4" copies="4"/>
+            <Hitable type="Puppy1" level="4" copies="2"/>
+            <Hitable type="Owl1" level="3" copies="3"/>
+            <Hitable type="Hen1" level="4" copies="1"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.5" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="4" copies="12"/>
+            <Hitable type="Hummingbird1" level="4" copies="5"/>
+            <Hitable type="Puppy1" level="4" copies="4"/>
+            <Hitable type="Owl1" level="3" copies="5"/>
+            <Hitable type="Hen1" level="4" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.5" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="5" copies="10"/>
+            <Hitable type="Hummingbird1" level="4" copies="6"/>
+            <Hitable type="Puppy1" level="4" copies="6"/>
+            <Hitable type="Owl1" level="3" copies="6"/>
+            <Hitable type="Hen1" level="4" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="5" copies="12"/>
+            <Hitable type="Hummingbird1" level="4" copies="7"/>
+            <Hitable type="Puppy1" level="4" copies="6"/>
+            <Hitable type="Owl1" level="3" copies="7"/>
+            <Hitable type="Hen1" level="4" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.3" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level creaturesAlive="9" creaturesAliveMinInterval="500" creaturesAliveMaxInterval="2000">
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="5" copies="12"/>
+            <Hitable type="Hummingbird1" level="4" copies="7"/>
+            <Hitable type="Puppy1" level="4" copies="6"/>
+            <Hitable type="Owl1" level="3" copies="7"/>
+            <Hitable type="Hen1" level="4" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.5" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="5" copies="14"/>
+            <Hitable type="Hummingbird1" level="4" copies="7"/>
+            <Hitable type="Puppy1" level="5" copies="6"/>
+            <Hitable type="Owl1" level="3" copies="7"/>
+            <Hitable type="Hen1" level="4" copies="2"/>
+
+            <!-- Chance of gaining items on this level -->
+            <Hitable type="BombItem" chance="0.2" mustBeKilled="false"/>
+            <Hitable type="FreezeItem" chance="0.5" mustBeKilled="false"/>
+            <Hitable type="ExtraLifeItem" chance="0.1" mustBeKilled="false"/>
+            
+        </Level>
+        
+        
+        <Level creaturesAlive="10" creaturesAliveMinInterval="500" creaturesAliveMaxInterval="2000">
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="5" copies="12"/>
+            <Hitable type="Hummingbird1" level="4" copies="5"/>
+            <Hitable type="Puppy1" level="5" copies="4"/>
+            <Hitable type="Owl1" level="3" copies="5"/>
+            <Hitable type="Hen1" level="4" copies="1"/>
+
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="5" copies="14"/>
+            <Hitable type="Hummingbird1" level="4" copies="7"/>
+            <Hitable type="Puppy1" level="5" copies="6"/>
+            <Hitable type="Owl1" level="4" copies="7"/>
+            <Hitable type="Hen1" level="4" copies="2"/>
+            
+        </Level>
+        
+        
+        <Level creaturesAlive="11" creaturesAliveMinInterval="500" creaturesAliveMaxInterval="2000">
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="2" copies="5"/>
+            <Hitable type="Bird1" level="4" copies="12"/>
+            <Hitable type="Hummingbird1" level="4" copies="5"/>
+            <Hitable type="Puppy1" level="5" copies="4"/>
+            <Hitable type="Owl1" level="4" copies="5"/>
+            <Hitable type="Hen1" level="4" copies="2"/>
+
+        </Level>
+        
+        
+        <Level>
+            
+            <!-- Creatures on this level -->
+            <Hitable type="Bird1" level="2" copies="10"/>
+            <Hitable type="Bird1" level="5" copies="10"/>
+            <Hitable type="Hummingbird1" level="2" copies="7"/>
+            <Hitable type="Puppy1" level="5" copies="8"/>
+            <Hitable type="Owl1" level="4" copies="8"/>
+            <Hitable type="Hen1" level="4" copies="3"/>
+
         </Level>
         
     </World>
