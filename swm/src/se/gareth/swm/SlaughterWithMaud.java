@@ -46,6 +46,10 @@ public class SlaughterWithMaud extends Activity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
                              WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+        if (!BuildConfig.DEBUG) {
+        	/* Disable debugging if release build */
+        	SLog.enable = false;
+        }
         
         SLog.i(TAG, "Application created!");
 
