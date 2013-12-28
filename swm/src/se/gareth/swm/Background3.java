@@ -16,11 +16,17 @@ public class Background3 extends Background {
             super(gameBase);
             mSprite = new Sprite(bitmap, 1);
             setAnimation(new Animation(mSprite, 0, 0));
-
             setDrawOrder(30);
-            setPosition(game.getScreenWidth() / 2, game.getPlayfieldHeight()-mSprite.getFrameHeight()/4);
         }
 
+        @Override
+        public void draw(Canvas canvas) {
+        	for (int x = 0; x < game.getScreenWidth(); x += getWidth() - 1) {
+        		setPosition(getWidth()/2 + x, game.getScreenHeight() - getHeight()/2);
+        		super.draw(canvas);
+        	}
+        }
+        
 
         public void unload() {
             mSprite.recycle();
@@ -70,7 +76,10 @@ public class Background3 extends Background {
 	
 	@Override
 	public void drawBackground(Canvas canvas) {
-		canvas.drawBitmap(mBackgroundBitmap, 0, 0, null);
+		//canvas.drawBitmap(mBackgroundBitmap, 0, 0, null);
+        for (int x = 0; x < game.getScreenWidth(); x += mBackgroundBitmap.getWidth()-1) {
+            canvas.drawBitmap(mBackgroundBitmap, x, 0, null);
+        }
 	}
 	
 }
