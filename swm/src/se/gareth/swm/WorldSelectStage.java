@@ -189,6 +189,10 @@ public class WorldSelectStage extends Stage {
             else if (lastAreaCleared == (areaIndex - 1)) {
                 disableArea = false;
             }
+            
+            if (BuildConfig.DEBUG) {
+            	disableArea = false;
+            }
             worldIcon.setStats(disableArea, highscore,
                                game.settings.getInt(wd.getKey() + "CurrentLevel", 1) - 1);
             areaIndex ++;
