@@ -97,6 +97,7 @@ public class PauseStage extends Stage {
         WorldDescriptor worldDescriptor = game.levelStage.getWorldDescriptor();
         if (worldDescriptor != null) {
 	        if (game.health.getLifes() > 1) {
+	        	game.itemBar.saveItems(worldDescriptor.getKey());
 	            game.settingsEditor.putInt(worldDescriptor.getKey() + "CurrentHealth", game.health.getLifes() - 1);
 	        }
 	        else {
