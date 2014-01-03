@@ -14,7 +14,7 @@
    height="1052.3622047"
    id="svg7583"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="heart_item1.svg">
   <defs
      id="defs7585">
@@ -70,16 +70,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-6.8199146"
-     inkscape:cy="146.17891"
+     inkscape:zoom="5.6"
+     inkscape:cx="49.986432"
+     inkscape:cy="54.122951"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-height="980"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="28"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7588">
@@ -89,6 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -96,27 +97,6 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
-       id="rect8357"
-       width="42"
-       height="42"
-       x="2.8571463"
-       y="1010.3622"
-       rx="3.3939359"
-       ry="3.3939359"
-       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-xhdpi/item_heart1.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path3058"
-       style="fill:url(#radialGradient4565);fill-opacity:1;stroke:#000000;stroke-width:1.2613827;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 23.857661,1043.7173 c 0,0 15.171357,-3.9023 15.367466,-14.7469 0.06283,-3.5916 -2.099475,-7.7966 -7.351848,-9.7335 -5.988025,-1.2847 -7.6735,3.2371 -8.015618,3.2371 -0.342126,0 -2.57509,-4.2227 -8.015626,-3.2371 -6.2478089,2.1364 -7.4147179,5.9117 -7.3518479,9.7335 0.178395,10.8451 15.3674739,14.7469 15.3674739,14.7469 z"
-       sodipodi:nodetypes="cscccsc"
-       inkscape:export-filename="/home/olle/projekt/android_workspace/HappyBirdsMain/res/drawable-xhdpi/item_heart1.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
     <rect
        style="fill:#fd545c;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect3914"
@@ -222,5 +202,50 @@
        width="30"
        id="rect4454"
        style="fill:#d6020c;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/item_heart1.png"
+       ry="3.3939359"
+       rx="3.3939359"
+       y="1008.4857"
+       x="5.1851149"
+       height="42"
+       width="42"
+       id="rect18794-0"
+       style="opacity:0;fill:#c55f5f;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+    <g
+       id="g10834"
+       transform="translate(-41.534583,-4.7894806)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/item_heart1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:connector-curvature="0"
+         id="path18798-7"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:1.00964773;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 67.720209,1046.7704 c 0,0 15.295603,-3.9466 15.493326,-14.9142 0.06334,-3.6322 -2.116667,-7.885 -7.412056,-9.8438 -6.037073,-1.2992 -7.736342,3.2737 -8.08127,3.2737 -0.344928,0 -2.596171,-4.2705 -8.08127,-3.2737 -6.298968,2.1606 -7.475433,5.9787 -7.412048,9.8438 0.179856,10.9681 15.493318,14.9142 15.493318,14.9142 z"
+         sodipodi:nodetypes="cscccsc"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/health_icon1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/health_icon1.png"
+         inkscape:connector-curvature="0"
+         id="path3468"
+         d="m 73.733081,1021.7729 c -4.374333,0.01 -5.708877,3.5131 -6.010686,3.5131 -0.344928,0 -2.587103,-4.2608 -8.072202,-3.264 -6.298967,2.1606 -7.48981,5.9765 -7.426426,9.8416 0.01232,0.7509 0.103937,1.4565 0.248376,2.1426 2.809313,3.0252 7.005777,4.9581 11.72332,4.9581 8.45811,0 15.324765,-6.1747 15.324765,-13.8029 0,-0.3576 -0.02011,-0.7206 -0.04968,-1.0714 -1.003247,-0.8251 -2.219515,-1.5291 -3.675957,-2.068 -0.754632,-0.1624 -1.436612,-0.2498 -2.061516,-0.2491 z"
+         style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/health_icon1.png"
+         sodipodi:nodetypes="cscccsc"
+         d="m 67.720209,1046.7704 c 0,0 15.295603,-3.9466 15.493326,-14.9142 0.06334,-3.6322 -2.116667,-7.885 -7.412056,-9.8438 -6.037073,-1.2992 -7.736342,3.2737 -8.08127,3.2737 -0.344928,0 -2.596171,-4.2705 -8.08127,-3.2737 -6.298968,2.1606 -7.475433,5.9787 -7.412048,9.8438 0.179856,10.9681 15.493318,14.9142 15.493318,14.9142 z"
+         style="fill:none;stroke:#000000;stroke-width:1.00964773;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4243"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>
