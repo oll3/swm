@@ -21,8 +21,8 @@ public class Background3 extends Background {
 
         @Override
         public void draw(Canvas canvas) {
-        	for (int x = 0; x < game.getScreenWidth(); x += getWidth() - 1) {
-        		setPosition(getWidth()/2 + x, game.getScreenHeight() - getHeight()/2);
+        	for (int x = 0; x < game.getScreenWidth(); x += (getWidth() * 2)) {
+        		setPosition(getWidth() + x, game.getScreenHeight() - getHeight()/2);
         		super.draw(canvas);
         	}
         }
@@ -45,7 +45,7 @@ public class Background3 extends Background {
 	
 	@Override
 	protected void load() {
-		mBackgroundBitmap = BitmapFactory.decodeResource(game.res, R.drawable.background3_background);
+		mBackgroundBitmap = BitmapUtil.loadScaledBitmap(game.res, R.drawable.background3_background, true, game.getScreenWidth(), true, game.getScreenHeight());
 		mForeground = new Foreground(game, BitmapFactory.decodeResource(game.res, R.drawable.background3_foreground));
 	}
 	
