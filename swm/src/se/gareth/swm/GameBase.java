@@ -68,7 +68,7 @@ public class GameBase {
         res = gameView.getResources();
         mDisplayMetrics = res.getDisplayMetrics();
 
-        mWorldBackground = Sprite.loadFitBitmap(res, R.drawable.world_background1, view.mWidth, view.mHeight);
+        mWorldBackground = BitmapUtil.loadFitBitmap(res, R.drawable.world_background1, view.mWidth, view.mHeight);
 
         /* Calculate the speed up factor to use in horizontal and vertical movement */
         mSpeedUpX = ((double)view.mWidth / 800.0) / mDisplayMetrics.density;

@@ -109,7 +109,7 @@ class GameView extends SurfaceView implements SurfaceHolder.Callback, GameThread
             synchronized (mSurfaceHolder) {
                 if (mCurrentStage == null) {
                     /* Draw splash screen if no stage is set */
-                    Bitmap splashScreen = Sprite.loadFitBitmap(this.getContext().getResources(), R.drawable.intro_background1, mWidth, mHeight);
+                    Bitmap splashScreen = BitmapUtil.loadFitBitmap(this.getContext().getResources(), R.drawable.intro_background1, mWidth, mHeight);
 
                     canvas.drawColor(getResources().getColor(R.color.NormalBackground));
                     canvas.drawBitmap(splashScreen, 0, 0, null);
