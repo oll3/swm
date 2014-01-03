@@ -61,12 +61,12 @@ public class Background2 extends Background {
 
     @Override
     protected void load() {
-        mBackground = BitmapFactory.decodeResource(game.res, R.drawable.background2_below);
+        mBackground = BitmapUtil.loadScaledBitmap(game.res, R.drawable.background2_below, true, game.getScreenWidth(), true, game.getScreenHeight());
 
-        tree1 = new ForegroundThree(game, BitmapFactory.decodeResource(game.res, R.drawable.background2_tree1));
+        tree1 = new ForegroundThree(game, BitmapUtil.loadScaledBitmap(game.res, R.drawable.background2_tree1, false, 0, true, game.getScreenHeight()));
         tree1.setPosition(game.getScreenWidth()/5, game.getScreenHeight()/2);
 
-        tree2 = new ForegroundThree(game, BitmapFactory.decodeResource(game.res, R.drawable.background2_tree2));
+        tree2 = new ForegroundThree(game, BitmapUtil.loadScaledBitmap(game.res, R.drawable.background2_tree2, false, 0, true, game.getScreenHeight()));
         tree2.setPosition(game.getScreenWidth()/5 * 4, game.getScreenHeight()/2);
     }
 
