@@ -84,6 +84,7 @@ public class GameStage extends Stage {
     	if (nextStage != game.pauseStage) {
     		mBackground.unload();
     	}
+    	game.sounds.stopAll();
     }
 
     public void addCreature(final HitableObject hitableObject) {
