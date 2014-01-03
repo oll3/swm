@@ -5,6 +5,7 @@
     
     <dimen name="ItemBarHeight">42dp</dimen>
     
+    <dimen name="MicroFontSize">8sp</dimen>
     <dimen name="SmallFontSize">16sp</dimen>
     <dimen name="NormalFontSize">20sp</dimen>
     <dimen name="BigFontSize">24sp</dimen>
@@ -27,5 +28,6 @@
     <color name="NormalBackground">#ff2c99dd</color>
 
     <color name="HeadingFontColor">#fffedadb</color>
+    <color name="LightGreenFontColor">#ff8affff</color>
     
 </resources>
