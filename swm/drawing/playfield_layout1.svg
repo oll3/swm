@@ -373,70 +373,6 @@
          inkscape:export-xdpi="180"
          inkscape:export-ydpi="180" />
     </clipPath>
-    <filter
-       inkscape:collect="always"
-       id="filter4163">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="3.0935179"
-         id="feGaussianBlur4165" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4175">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="3.0935179"
-         id="feGaussianBlur4177" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4201"
-       x="-0.020741948"
-       width="1.0414839"
-       y="-0.12802787"
-       height="1.2560557">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.5470037"
-         id="feGaussianBlur4203" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4213"
-       x="-0.02074197"
-       width="1.0414839"
-       y="-0.128028"
-       height="1.256056">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.5470053"
-         id="feGaussianBlur4215" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4231">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.84084282"
-         id="feGaussianBlur4233" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4246">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.0800882"
-         id="feGaussianBlur4248" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4275">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="3.8851541"
-         id="feGaussianBlur4277" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -445,9 +381,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="482.88501"
-     inkscape:cy="684.56619"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="181.62209"
+     inkscape:cy="173.85868"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1178,25 +1114,13 @@
        id="rect8357"
        width="42"
        height="42"
-       x="200.67798"
-       y="874.03094"
+       x="198.91022"
+       y="875.79871"
        rx="3.3939359"
        ry="3.3939359"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
-    <rect
-       style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       id="rect5442-0"
-       width="31.5"
-       height="31.5"
-       x="205.92798"
-       y="879.28094"
-       rx="2.0999999"
-       ry="2.0999999"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/item_icon1.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
     <rect
        ry="13.3332"
        rx="13.333201"
@@ -1221,26 +1145,6 @@
        y="656.72375"
        rx="13.333201"
        ry="13.3332" />
-    <path
-       style="fill:#fd7b81;fill-opacity:1;stroke:none"
-       d="m 208.01716,879.27765 c -1.1634,0 -2.09375,0.93035 -2.09375,2.09375 l 0,24.34375 c 2.76914,1.08123 5.89669,1.6875 9.21875,1.6875 11.22757,0 20.3125,-6.97097 20.3125,-15.5625 0,-5.16575 -3.27924,-9.73323 -8.34375,-12.5625 l -19.09375,0 z"
-       id="path6202"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
-       inkscape:export-xdpi="135"
-       inkscape:export-ydpi="135" />
-    <rect
-       inkscape:export-ydpi="135"
-       inkscape:export-xdpi="135"
-       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
-       ry="2.0999999"
-       rx="2.0999999"
-       y="879.28094"
-       x="205.92798"
-       height="31.5"
-       width="31.5"
-       id="rect6207"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <path
        transform="matrix(0.63043479,0,0,1,-196.33743,-75.660426)"
        d="m 273.29676,963.6203 a 56.922096,23.334522 0 1 1 -113.84419,0 56.922096,23.334522 0 1 1 113.84419,0 z"
@@ -1606,6 +1510,55 @@
        inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-xhdpi/level_scoretable.png"
        inkscape:export-xdpi="179.96484"
        inkscape:export-ydpi="179.96484" />
+    <g
+       id="g11349"
+       transform="translate(-1.7677612,1.7677612)">
+      <rect
+         inkscape:export-ydpi="135"
+         inkscape:export-xdpi="135"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
+         ry="2.0999999"
+         rx="2.0999999"
+         y="879.28094"
+         x="205.92798"
+         height="31.5"
+         width="31.5"
+         id="rect5442-0"
+         style="fill:#fd5961;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+      <path
+         inkscape:export-ydpi="135"
+         inkscape:export-xdpi="135"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
+         inkscape:connector-curvature="0"
+         id="path6202"
+         d="m 208.01716,879.27765 c -1.1634,0 -2.09375,0.93035 -2.09375,2.09375 l 0,24.34375 c 2.76914,1.08123 5.89669,1.6875 9.21875,1.6875 11.22757,0 20.3125,-6.97097 20.3125,-15.5625 0,-5.16575 -3.27924,-9.73323 -8.34375,-12.5625 l -19.09375,0 z"
+         style="fill:#fd7b81;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         id="rect6207"
+         width="31.5"
+         height="31.5"
+         x="205.92798"
+         y="879.28094"
+         rx="2.0999999"
+         ry="2.0999999"
+         inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-hdpi/item_icon1.png"
+         inkscape:export-xdpi="135"
+         inkscape:export-ydpi="135" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#128dff;fill-opacity:1;stroke:#000000;stroke-width:1.25103509000000002;stroke-opacity:1;opacity:1"
+       id="path10839"
+       sodipodi:cx="238.82532"
+       sodipodi:cy="877.35327"
+       sodipodi:rx="8.1317282"
+       sodipodi:ry="8.1317282"
+       d="m 246.95705,877.35327 a 8.1317282,8.1317282 0 1 1 -16.26346,0 8.1317282,8.1317282 0 1 1 16.26346,0 z"
+       transform="matrix(0.79933809,0,0,0.79933808,65.206522,222.93794)"
+       inkscape:export-filename="/home/olle/projekt/android/HappyBirds_trunk/res/drawable-mdpi/item_icon_counter.png"
+       inkscape:export-xdpi="89.914009"
+       inkscape:export-ydpi="89.914009" />
   </g>
   <g
      inkscape:label="Layer 1"

@@ -111,30 +111,7 @@ public class LevelStage extends Stage {
             lifes = game.settings.getInt(worldDescriptor.getKey() + "CurrentHealth", lifes);
             mScoreTable.setScores(0, 0, 0, 0, mTotalScore);
 
-            for (int i = 0; i < game.itemBar.getMaxItems(); i ++) {
-                String itemTypeName = game.settings.getString(worldDescriptor.getKey() + "Item" + i, "");
-
-                for (Class<? extends ItemBaseObject> itemClass: game.itemTypes) {
-                    if (itemClass.getSimpleName().equals(itemTypeName)) {
-                        /* Instance item object */
-                        try {
-                            ItemBaseObject itemObject = itemClass.getConstructor(GameBase.class).newInstance(game);
-                            game.itemBar.addItem(itemObject, true);
-                            SLog.i(TAG, "Restored item " + itemTypeName);
-                        } catch (NoSuchMethodException e) {
-                            SLog.pe(TAG, e.getMessage(), e);
-                        } catch (IllegalArgumentException e) {
-                            SLog.pe(TAG, e.getMessage(), e);
-                        } catch (InstantiationException e) {
-                            SLog.pe(TAG, e.getMessage(), e);
-                        } catch (IllegalAccessException e) {
-                            SLog.pe(TAG, e.getMessage(), e);
-                        } catch (InvocationTargetException e) {
-                            SLog.pe(TAG, e.getMessage(), e);
-                        }
-                    }
-                }
-            }
+            game.itemBar.loadItems(worldDescriptor.getKey());
         }
 
         mHighscore = game.settings.getInt(mWorldDescriptor.getKey() + "Highscore", -1);
@@ -298,15 +275,7 @@ public class LevelStage extends Stage {
         }
 
         /* Save current items in item bar to shared memory so they may be restored later */
-        int itemIndex = 0;
-        for (ItemBaseObject item: game.itemBar.getItemList()) {
-            game.settingsEditor.putString(mWorldDescriptor.getKey() + "Item" + itemIndex, item.getClass().getSimpleName());
-            itemIndex ++;
-        }
-        while (itemIndex < game.itemBar.getMaxItems()) {
-            game.settingsEditor.remove(mWorldDescriptor.getKey() + "Item" + itemIndex);
-            itemIndex ++;
-        }
+        game.itemBar.saveItems(mWorldDescriptor.getKey());
 
         game.settingsEditor.putInt(mWorldDescriptor.getKey() + "CurrentHealth", game.health.getLifes());
         game.settingsEditor.putInt(mWorldDescriptor.getKey() + "CurrentLevel", mLevelValue);
