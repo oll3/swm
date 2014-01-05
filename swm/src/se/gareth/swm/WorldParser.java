@@ -67,6 +67,18 @@ public class WorldParser extends DefaultHandler {
                 }
                 mWorld.setBackground(backgroundName, backgroundColor);
             }
+            
+            String startingHealthString = attributes.getValue("health");
+            if (startingHealthString != null) {
+            	int healthValue = 3;
+                try {
+                    healthValue = Integer.decode(startingHealthString);
+                }
+                catch (NumberFormatException e) {
+                    SLog.w(TAG, "Invalid format of health value");
+                }
+                mWorld.setHealth(healthValue);
+            }
         }
         else if (qName.equalsIgnoreCase("level")) {
             if (mWorld != null) {
