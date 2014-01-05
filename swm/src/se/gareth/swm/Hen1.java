@@ -24,12 +24,18 @@ public class Hen1 extends Creature {
     /* The number of levels supported for this creature */
     protected static final int numLevels = 5;
 
-    private static final int baseColor = Color.rgb(0xe0, 0xe0, 0xd0);
+    private static final int colorList[] = {
+    	Color.rgb(0xe0, 0xe0, 0xd0),
+        Color.rgb(0xc0, 0xc0, 0xb0),
+        Color.rgb(0xa0, 0xa0, 0x90),
+        Color.rgb(0x80, 0x80, 0x70),
+        Color.rgb(0xf5, 0x10, 0x10)
+    };
 
     public Hen1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
-        super(gameBase, 200 + 50 * level, 20 + 10 * level);
-        mSpeed = game.calcHorizonalSpeed(400 + 150 * level);
+        super(gameBase, 200 + 100 * level, 20 + 10 * level);
+        mSpeed = game.calcHorizonalSpeed(400 + 30 * level);
 
 
         if (mFlyingSprite == null) {
@@ -39,7 +45,7 @@ public class Hen1 extends Creature {
                 Bitmap tmpBitmap = BitmapFactory.decodeResource(game.res, R.drawable.hen1_flying);
                 Sprite sprite = new Sprite(Sprite.replaceColor(tmpBitmap,
                                                                Sprite.ColorChannel.GREEN,
-                                                               Sprite.multiplyColor(baseColor, 6.0f / (i + 6))), 8);
+                                                               colorList[i]), 8);
                 mFlyingSprite.add(sprite);
                 mSplittedSpriteList.add(createSplittedSprite(sprite));
             }
@@ -48,7 +54,7 @@ public class Hen1 extends Creature {
             mFallingSprite = new ArrayList<Sprite>();
             for (int i = 0; i < numLevels; i ++) {
                 Bitmap tmpBitmap = BitmapFactory.decodeResource(game.res, R.drawable.hen1_falling);
-                Sprite sprite = new Sprite(Sprite.replaceColor(tmpBitmap, Sprite.ColorChannel.GREEN, Sprite.multiplyColor(baseColor, 6.0f / (i + 6))), 8);
+                Sprite sprite = new Sprite(Sprite.replaceColor(tmpBitmap, Sprite.ColorChannel.GREEN, colorList[i]), 8);
                 mFallingSprite.add(sprite);
             }
         }

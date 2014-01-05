@@ -18,12 +18,19 @@ public class Bird1 extends Creature {
     /* The number of levels supported for this creature */
     protected static final int numLevels = 5;
 
-    private static final int baseColor = Color.rgb(0xfa, 0x90, 0xa0);
-
+    private static final int colorList[] = {
+    	Color.rgb(0xfa, 0x90, 0xa0),
+        Color.rgb(0xf7, 0x4d, 0x67),
+        Color.rgb(0xf4, 0x0c, 0x2f),
+        Color.rgb(0xb2, 0x08, 0x22),
+        Color.rgb(0x6c, 0x05, 0x14)
+    };
+    
+    
     public Bird1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
         super(gameBase, 50 + 10 * level, 5 + level * 5);
-        double speed = game.calcHorizonalSpeed(200 + level * 200);
+        double speed = game.calcHorizonalSpeed(150 + level * 220);
 
         if (mFlyingSprite == null) {
             mFlyingSprite = new ArrayList<Sprite>();
@@ -32,7 +39,7 @@ public class Bird1 extends Creature {
                 Bitmap tmpBitmap = BitmapFactory.decodeResource(game.res, R.drawable.bird1_flying);
                 Sprite sprite = new Sprite(Sprite.replaceColor(tmpBitmap,
                                                                Sprite.ColorChannel.GREEN,
-                                                               Sprite.multiplyColor(baseColor, 6.0f / (i + 6))), 8);
+                                                               colorList[i]), 8);
                 mFlyingSprite.add(sprite);
                 LinkedList<Sprite> splittedSpriteList = createSplittedSprite(sprite);
                 mSplittedSpriteList.add(splittedSpriteList);

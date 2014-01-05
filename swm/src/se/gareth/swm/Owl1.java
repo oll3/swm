@@ -26,7 +26,13 @@ public class Owl1 extends Creature {
     /* The number of levels supported for this creature */
     protected static final int numLevels = 5;
 
-    private static final int baseColor = Color.rgb(0xc8, 0x71, 0x37);
+    private static int colorList[] = {
+    	Color.rgb(0xc8, 0x71, 0x37),
+        Color.rgb(0x9f, 0x5a, 0x2c),
+        Color.rgb(0x7d, 0x47, 0x22),
+        Color.rgb(0x13, 0x11, 0x07),
+        Color.rgb(0x05, 0x05, 0x05)
+    };
 
     public Owl1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
@@ -39,8 +45,7 @@ public class Owl1 extends Creature {
             for (int i = 0; i < numLevels; i ++) {
                 Bitmap tmpBitmap = BitmapFactory.decodeResource(game.res, R.drawable.owl1_flying);
                 Sprite sprite = new Sprite(Sprite.replaceColor(tmpBitmap,
-                                           Sprite.ColorChannel.GREEN,
-                                           Sprite.multiplyColor(baseColor, 6.0f / (i + 10))), 6);
+                                           Sprite.ColorChannel.GREEN, colorList[i]), 6);
             mFlyingSprite.add(sprite);
             LinkedList<Sprite> splittedSpriteList = createSplittedSprite(sprite);
             mSplittedSpriteList.add(splittedSpriteList);
