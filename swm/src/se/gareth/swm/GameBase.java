@@ -7,6 +7,7 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.util.DisplayMetrics;
+import android.util.Log;
 
 public class GameBase {
 
@@ -55,7 +56,6 @@ public class GameBase {
 
     private final DisplayMetrics mDisplayMetrics;
     private int mScreenWidth, mScreenHeight;
-    private double mSpeedUpX, mSpeedUpY;
 
     private final Bitmap mWorldBackground;
 
@@ -69,10 +69,8 @@ public class GameBase {
         mDisplayMetrics = res.getDisplayMetrics();
 
         mWorldBackground = BitmapUtil.loadFitBitmap(res, R.drawable.world_background1, view.mWidth, view.mHeight);
-
-        /* Calculate the speed up factor to use in horizontal and vertical movement */
-        mSpeedUpX = ((double)view.mWidth / 800.0) / mDisplayMetrics.density;
-        mSpeedUpY = ((double)view.mHeight / 480.0) / mDisplayMetrics.density;
+        
+        Log.d(TAG, "mDisplayMetrics.densit = " + mDisplayMetrics.density);
 
         forces = new Forces(new Vector2D(0.0, 1500.0));
 
@@ -146,18 +144,10 @@ public class GameBase {
         mScreenWidth = width;
         mScreenHeight = height;
     }
-
-
-    /* Helper function for calculating horizontal speed */
-    public double calcHorizonalSpeed(double speed) {
-        return speed * mSpeedUpX;
+    
+    public double getSpeedMultiple() {
+        return mDisplayMetrics.density / 2.3;
     }
-
-    /* Helper function for calculating vertical speed */
-    public double calcVerticalSpeed(double speed) {
-        return speed * mSpeedUpY;
-    }
-
 
     public int getScreenWidth() {
         return mScreenWidth;

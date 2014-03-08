@@ -99,7 +99,7 @@ public class ItemBar extends GraphicObject {
             }
             
             if (!direct) {
-               item.addBehavior(new MoveToBehavior(game, x, y, 1000.0));
+               item.addBehavior(new MoveToBehavior(game, x, y, 1500.0));
             }
             else {
                 item.setPosition(x, y);

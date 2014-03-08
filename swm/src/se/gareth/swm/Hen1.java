@@ -35,7 +35,7 @@ public class Hen1 extends Creature {
     public Hen1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
         super(gameBase, 200 + 100 * level, 20 + 10 * level);
-        mSpeed = game.calcHorizonalSpeed(400 + 30 * level);
+        mSpeed = 400 + 30 * level;
 
 
         if (mFlyingSprite == null) {
@@ -101,7 +101,7 @@ public class Hen1 extends Creature {
         if (getY() > (game.getPlayfieldHeight() - getHeight())) {
             if (!mChangeForce) {
                 setAnimation(mFlyingAnimation);
-                mAcceleration.set(-mSpeed / 2, -(1500 + mSpeed*3));
+                mAcceleration.set(-mSpeed / 2, -(game.forces.getGravity().getY() + mSpeed*3));
                 mChangeForce = true;
             }
         }

@@ -30,7 +30,7 @@ public class Puppy1 extends Creature {
     public Puppy1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
         super(gameBase, 500 + level * 100, 50 + level * 10);
-        mSpeed = game.calcHorizonalSpeed(level * 50);
+        mSpeed = level * 50;
         if (mSlidingSprite == null) {
             mSlidingSprite = new ArrayList<Sprite>();
             mSplittedSpriteList = new ArrayList<LinkedList<Sprite>>();

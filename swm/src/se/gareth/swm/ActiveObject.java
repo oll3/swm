@@ -22,6 +22,7 @@ public class ActiveObject extends GraphicObject {
     /* Velocity of object */
     protected final Vector2D mVelocity;
     private double mSpeed, mDirection;
+    private final double mSpeedMultiple;
 
     /* Used for calculate sum of all forces acting on the object */
     private final Vector2D mForcesSum;
@@ -61,6 +62,7 @@ public class ActiveObject extends GraphicObject {
         mForces = new ArrayList<Vector2D>();
         mBehaviorList = new ArrayList<Behavior>();
         mMovementDisabled = false;
+        mSpeedMultiple = game.getSpeedMultiple();
         setDensity(200);
     }
 
@@ -242,8 +244,8 @@ public class ActiveObject extends GraphicObject {
 
             /* Move the object according to our velocity */
             mVelocity.mulAdd(mForcesSum, timeStep.get());
-            location.mulAdd(mVelocity, timeStep.get());
-            location.mulAdd(mForcesSum, -timeStep.getSquared()/2.0);
+            location.mulAdd(mVelocity, timeStep.get() * mSpeedMultiple);
+            location.mulAdd(mForcesSum, -timeStep.getSquared()/2.0 * mSpeedMultiple);
         }
 
 

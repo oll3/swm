@@ -30,7 +30,7 @@ public class Bat1 extends Creature {
     
     public Bat1(GameBase gameBase, int level) {
         super(gameBase, 150 + 80 * level, 50 + level * 10);
-        mSpeed = game.calcHorizonalSpeed(800 + 500 * level);
+        mSpeed = 800 + 500 * level;
         mIsChildBat = false;
         if (mFlyingSprite == null) {
             mFlyingSprite = new ArrayList<Sprite>();

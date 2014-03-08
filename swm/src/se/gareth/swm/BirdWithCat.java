@@ -27,7 +27,7 @@ public class BirdWithCat extends Creature {
     public BirdWithCat(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
         super(gameBase, 50 + 10 * level, 5 + level * 5);
-        mSpeed = game.calcVerticalSpeed(200 + level * 150);
+        mSpeed = 200 + level * 150;
 
         if (mFlyingSprite == null) {
             mFlyingSprite = new ArrayList<Sprite>();

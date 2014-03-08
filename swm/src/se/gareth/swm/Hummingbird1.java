@@ -34,7 +34,7 @@ public class Hummingbird1 extends Creature {
     public Hummingbird1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
         super(gameBase, 100, 20 + level * 10);
-        mSpeed = game.calcHorizonalSpeed(level * 350);
+        mSpeed = level * 350;
         if (mFlyingSprite == null) {
             mFlyingSprite = new ArrayList<Sprite>();
             mSplittedSpriteList = new ArrayList<LinkedList<Sprite>>();

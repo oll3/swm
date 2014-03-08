@@ -37,7 +37,7 @@ public class Owl1 extends Creature {
     public Owl1(GameBase gameBase, int level) {
         /* Can take 100.0 damage, gives 10 points */
         super(gameBase, 100 + 100 * level, 25 + level * 5);
-        mSpeed = game.calcHorizonalSpeed(700 + level * 200);
+        mSpeed = 700 + level * 200;
 
         if (mFlyingSprite == null) {
             mFlyingSprite = new ArrayList<Sprite>();
@@ -55,7 +55,7 @@ public class Owl1 extends Creature {
     setSplittedSprite(mSplittedSpriteList.get(level));
     setAnimation(new Animation(mFlyingSprite.get(level), 16, 0));
 
-    mAcceleration = new Vector2D(game.calcHorizonalSpeed(-400.0), 0);
+    mAcceleration = new Vector2D(-400.0, 0);
     applyForce(mAcceleration);
     setDensity(400);
     mState = State.ShowUp;
@@ -93,7 +93,7 @@ public void update(final TimeStep timeStep) {
     super.update(timeStep);
 
     if (mState == State.ShowUp && (getX() - getWidth()/4) < game.getScreenWidth()) {
-        mAcceleration.set(game.calcHorizonalSpeed(400.0), 0);
+        mAcceleration.set(400.0, 0);
         mState = State.GoBack;
     }
     else if (mState == State.GoBack && (getX() - getWidth() / 2) > game.getScreenWidth()) {
